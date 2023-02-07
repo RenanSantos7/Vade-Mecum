@@ -1,0 +1,27 @@
+p.titart {
+	margin-bottom: -10px;
+	margin-left: 2.1em;
+	color: #0063B1;
+	font-weight: bold;
+	text-indent: 0;
+}
+
+ul.dica {
+	margin: 10px 0 0 50px;
+}
+
+.sinopse {
+	display: block;
+	position: relative;
+	left: 8vw;
+}
+
+.tabdir {
+	background-color: #bce1ff;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	p.titart {
+		color: #2F99EC;
+	}
+}

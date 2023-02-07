@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@keyframes entrada1 {
+  from {top: 800px; opacity: 0;}
+  to {top: 15px; opacity: 1;}
+}
+
+@keyframes entrada2 {
+	from {top: -80px;}
+	to {top: 15px;}
+}
+
+/* CORES */
+
+:root{
+	--fundo1: #f6f6f6;
+	--fundo2: white;
+	--azul1: #0063B1;
+	--azul2: #EDF7FF;
+	--amarelo: #F7630C;
+	--cinza: #777;
+	--cinza1: #eee;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	:root{
+		--fundo1: #323234;
+		--fundo2: #474749;
+		--azul1: #2F99EC;
+		--azul2: #2F353A;
+		--amarelo: #FF9759;
+		--cinza: #aaa;
+	}
+	
+	p,a,li,td,th {color: #fafafa;}
+}
+/* azul */
+#titulo, h2, h4, h6, #menu h1, .artigo {
+	color: var(--azul1);
+}
+
+table {
+	border: thin solid var(--azul1);
+}
+
+table td.cabtab, table th {
+	color:white;
+	background-color: var(--azul1);
+}
+
+blockquote {
+	border-left: 3px solid var(--azul1);
+	background-color:var(--azul2);
+}
+
+/*#menu h1:hover {
+	text-shadow: 0 0 3px #F7630C99;
+}*/
+
+/* amarelo */
+/* a:hover {! text-shadow: 0 0 3px #F7630C99; }*/
+
+.paragrafo {color: var(--amarelo)}
+
+/* cinza */
+blockquote p {color: var(--cinza);}
+del {color:#777;}
+table tr:nth-child(even) {background-color: var(--cinza1);}
+/* ---------- */
+
+body {
+	background-color: var(--fundo1);
+	font-family: "Segoe UI Variable Text","Segoe UI", "Noto Sans", sans;
+}
+
+section, div#corpo {
+	background-color: var(--fundo2);
+	margin: 50px 0;
+	padding: 40px 20px 80px;
+	border: var(--cinza);
+	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+blockquote {
+	font-style: italic;
+	margin-left: 6em;
+	margin-right: 0;
+	padding: 10px;
+	padding-left: 15px;
+}
+
+blockquote p {
+	text-align: justify;
+	text-indent: 0px;
+	line-height: 110%;
+	font-size: 13pt;
+	margin-bottom: 0.3em;
+	margin-top: 0em;
+}
+
+del {
+	font-style: italic;
+}
+
+p, li {
+	text-align: justify;
+	font-size: 15pt;
+	line-height: 150%;
+}
+
+p {
+	text-indent: 2.1em;
+	/* margin-bottom: 0px; */
+}
+
+.alinea {
+	padding-left: 4em;
+	text-indent: 0;
+}
+
+.item {
+	padding-left: 4em;
+	text-indent: 0;
+}
+ 
+.artigo {
+/*	font-family: 'Bitter', Bitter, Cambria, serif;*/
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+.paragrafo {
+	font-weight: bold;
+	font-family: 'Bitter', Bitter, Cambria, serif;
+}
+
+#adct {
+	margin-top: 5em;
+  }
+
+#assinaturas {
+	text-align: center;
+	text-indent: 0pt;
+	margin-top: 55px;
+}
+
+#ementa {
+	font-style: italic;
+	margin-left: 60%;
+	text-indent: 0;
+	line-height: 125%;
+}
+
+#subtit {
+	text-align: center;
+	font-weight: semibold;
+	text-indent: 0;
+	text-transform: uppercase;
+	color: var(--amarelo);
+}
+
+#titulo {
+	font-family: "Segoe UI Variable Display","Segoe UI", "Open Sans", sans;
+	text-align: center;
+	font-size: 48pt;
+	font-weight: 400;
+	text-indent: 0;
+	line-height: 120%;
+	margin-bottom: 40px;
+}
+
+#titulo:before {
+	content: url(../imgs/brastra.png);
+	display: block;
+	margin: 0 auto;
+}
+
+#cont-sum h2 {
+	text-align: left;
+	margin-bottom: .3em;
+}
+
+#cont-sum ul {
+	margin: 0;
+	padding: 0;
+}
+
+#cont-sum li {
+	list-style: none;
+	margin-left: 0;
+}
+
+#sumario ul, li {
+	margin-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Segoe UI Variable Display","Segoe UI", "Open Sans", sans;
+	text-align:center;
+}
+
+h1 {
+	font-size:2.2em;
+	font-weight: 600;
+	color: var(--amarelo);
+}
+
+h2 {
+	font-size:2em;
+	font-weight: 600;
+}
+
+h3 {
+	font-size:1.8em;
+	font-weight: normal;
+	color: var(--amarelo);
+}
+
+h4 {
+	font-size:1.6em;
+	font-weight: normal;
+}
+
+h5 {
+	font-size:1.5em;
+	font-weight: normal;
+	color: var(--amarelo);
+}
+
+h6 {
+	font-size:22px;
+	font-weight: normal;
+}
+
+i.material-icons {
+	display: block;
+	color: var(--azul1);
+	position: fixed;
+	left: 30px;
+	top: 120px;
+	font-size: 2.5em;
+	
+}
+
+table {
+	border-collapse: collapse;
+	margin: 15px auto;
+	min-width: 600px;
+}
+
+p.legtab {
+	text-align: center;
+}
+
+table caption {
+	color:white;
+	font-size: 15pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: var(--azul1);
+	border: 0px solid var(--azul1);
+	text-align: center;
+	padding: 5px 0px;
+}
+
+table td, th {
+	padding: 7px;
+	text-align: center;
+	font-size: 13pt;
+	vertical-align: center;
+	text-align: justify;
+}
+
+table td.cabtab, table th {
+	font-weight: bold;
+	padding-top: 25px;
+	vertical-align: bottom;
+}
+
+ul {
+	margin-left: 40pt;
+	line-height: 150%;
+}
+
+ul.dica{
+	margin-left: 95px;
+	line-height: 1;
+}
+
+ul.dica li {
+	font-size: 13pt;
+	color: #8f8f8f;
+	margin-bottom: 5px;
+}
+
+/*ul li:hover {
+	color: #E26F08;
+}
+
+ul.dica li:hover {
+	color: #E26F08;
+}*/
+
+#copy {
+	display: none;
+}
+
+nav#menu {
+	display: none;
+	/*display: block;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	width: 350px;
+	height:100%;
+	left: -400px;
+	 -webkit-transition-duration: 0.5s;
+	transition: all 0.5s ease;
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+	z-index: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+nav#menu:before {
+	z-index:1000;
+	content: url(../imgs/menub.png);
+	position:fixed;
+	left: 30px;
+	top: 30px;
+	animation: entrada2 0.5s ease-out;
+}
+
+nav#menu:hover:before, nav#menu:focus:before {
+	display: none;
+}
+
+nav#menu:hover, nav#menu:focus,  nav#menu:active  {
+	transform: translateX(400px);
+	padding-right:0;
+	content: none;
+}
+
+nav#menu ul {
+	margin-left: -25px;
+	padding-right: 5px;
+	list-style: none;
+}
+
+nav#menu li {
+	margin-left: -20px;
+	margin-right: -10px;
+	padding: 8px 20px 8px 30px;
+	font-size: 13pt;
+	text-align: left;
+	color: #666;
+}
+
+nav#menu ul li:hover {
+	background-color: #eee;
+	color: black;
+}
+
+nav#menu a {
+	text-decoration: none;
+	height: 25px;
+	color: inherit;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+nav#menu li a:hover {
+	font-weight: normal;
+}
+
+nav#menu h1 {
+	text-align: left;
+	margin: 0px 0px 10px;
+	padding: 40px 0 0 20px;
+	line-height: 1;
+	font-size: 20pt;
+	font-weight: semibold;
+	/*background-image: url(../imgs/bgmenuheader.png);*/
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+	section, #corpo {
+		margin: 50px 15vw 150px;
+		max-width: 1000px;
+		padding: 40px 120px 100px;
+		animation: entrada1 1s ease-in-out;
+	}
+	
+	section:after, div#corpo:after {
+		content: "@ Renan Santos. 2020.";
+		position: fixed;
+		right: -3vw;
+		bottom: 8vh;
+		color: #999;
+		transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg); /* Para Firefox */
+			-webkit-transform: rotate(-90deg); /* Para Chrome */
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Para IE */
+	}
+}
