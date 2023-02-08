@@ -14,7 +14,7 @@
 /* CORES */
 
 :root{
-	--fundo1: #f6f6f6;
+	--fundo1: #f2f2f2;
 	--fundo2: white;
 	--azul1: #0063B1;
 	--azul2: #EDF7FF;
@@ -25,7 +25,7 @@
 
 @media screen and (prefers-color-scheme: dark) {
 	:root{
-		--fundo1: #323234;
+		--fundo1: #303032;
 		--fundo2: #474749;
 		--azul1: #2F99EC;
 		--azul2: #2F353A;
