@@ -106,6 +106,7 @@ blockquote p {
 
 del {
 	font-style: italic;
+	display: none;
 }
 
 p, li {
