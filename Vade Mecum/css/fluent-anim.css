@@ -1,6 +1,6 @@
 article {
   transition: all cubic-bezier(.79,.14,.15,.86) 0.3s;
-  transition-delay: 0.8s;
+  transition-delay: 0.3;
 }
 
 a, li, #list-fav div {
@@ -8,9 +8,22 @@ a, li, #list-fav div {
 }
 
 article:hover {
-  transform: scale(1.2);
+  /*transform: scale(1.2);
   overflow: auto;
-  z-index: 100;
+  z-index: 100;*/
+}
+
+article:hover, #list-fav div:hover {
+  background-color: var(--fundo3);
+  box-shadow: var(--shadow);
+}
+
+section:hover article:not(:hover),
+#list-fav:hover .item-fav:not(:hover) {
+  opacity: .6;
+  filter: brightness(.9);
+  filter: blur(1px);
+  filter: saturate(.6);
 }
 
 a:hover, li:hover {
