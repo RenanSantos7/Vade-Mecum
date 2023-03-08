@@ -21,6 +21,7 @@
 	--amarelo: #F7630C;
 	--cinza: #777;
 	--cinza1: #eee;
+	--indent: 2rem;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -111,28 +112,28 @@ del {
 
 p, li {
 	text-align: justify;
-	font-size: 15pt;
+	font-size: 1.2rem;
 	line-height: 150%;
 }
 
 p {
-	text-indent: 2.1em;
+	text-indent: var(--indent);
 	/* margin-bottom: 0px; */
 }
 
 .alinea {
-	padding-left: 4em;
+	padding-left: 4rem;
 	text-indent: 0;
 }
 
 .item {
-	padding-left: 4em;
+	padding-left: 4rem;
 	text-indent: 0;
 }
  
 .artigo {
 /*	font-family: 'Bitter', Bitter, Cambria, serif;*/
-	font-size: 22pt;
+	font-size: 1.6em;
 	font-weight: bold;
 }
 
@@ -143,12 +144,12 @@ p {
 
 #adct {
 	margin-top: 5em;
-  }
+}
 
 #assinaturas {
 	text-align: center;
-	text-indent: 0pt;
-	margin-top: 55px;
+	text-indent: 0pt; 
+	margin-top: 5rem;
 }
 
 #ementa {
@@ -156,6 +157,7 @@ p {
 	margin-left: 60%;
 	text-indent: 0;
 	line-height: 125%;
+	/*hyphens: auto; */ /*hifenização - não funciona*/
 }
 
 #subtit {
@@ -167,13 +169,12 @@ p {
 }
 
 #titulo {
-	font-family: "Segoe UI Variable Display","Segoe UI", "Open Sans", sans;
 	text-align: center;
-	font-size: 48pt;
+	font-size: 4.5rem;
 	font-weight: 400;
 	text-indent: 0;
 	line-height: 120%;
-	margin-bottom: 40px;
+	margin-bottom: 3rem;
 }
 
 #titulo:before {
@@ -312,6 +313,34 @@ ul.dica li:hover {
 	display: none;
 }
 
+nav#links {
+	margin-left: var(--indent);
+	padding: .3rem;
+	padding-top: 0;
+	border-left: 2px solid var(--azul1);
+	
+	/*background-color: var(--cinza1);
+	border-radius: 1rem;
+	max-width: 25vw;*/
+}
+
+nav#links:before {
+	content: "Links";
+	position: relative;
+	font-variant: small-caps;
+	color: var(--azul1);
+	font-size: 1.5rem;
+	padding-left: 1rem;
+}
+
+nav#links ul {
+	margin-left: 0;
+}
+
+nav#links li {
+	text-align: left;
+}
+
 nav#menu {
 	display: none;
 	/*display: block;
@@ -389,8 +418,6 @@ nav#menu h1 {
 	font-weight: semibold;
 	/*background-image: url(../imgs/bgmenuheader.png);*/
 }
-
-
 
 
 @media only screen and (min-width: 900px) {
