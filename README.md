@@ -9,7 +9,15 @@ Possui também links para páginas de Súmulas do STF e STJ.
 
 ![Página da Constituição Federal](prints/cf.png)Constituição Federal
 
+## Funcionalidades
+- Layout atual e responsivo;
+- Modo escuro;
+- Melhor legibilidade;
+- Facilidade de uso.
+
 ## Funcionalidades pretendidas
 
-- implementação de ações JavaScript para criação de menus laterais de navegações entre as leis;
+- implementação de ações JavaScript para:
+    -  criação de menus laterais de navegações entre as leis;
+    - busca de leis na página inicial.
 - conversão em app Electron.
