@@ -157,7 +157,7 @@ p {
 	margin-left: 60%;
 	text-indent: 0;
 	line-height: 125%;
-	/*hyphens: auto; */ /*hifenização - não funciona*/
+	hyphens: auto;  /*hifenização - não funciona*/
 }
 
 #subtit {
@@ -170,7 +170,7 @@ p {
 
 #titulo {
 	text-align: center;
-	font-size: 4.5rem;
+	font-size: 4.2rem;
 	font-weight: 400;
 	text-indent: 0;
 	line-height: 120%;
@@ -208,35 +208,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size:2.2em;
+	font-size:2.2rem;
 	font-weight: 600;
 	color: var(--amarelo);
 }
 
 h2 {
-	font-size:2em;
+	font-size:2rem;
 	font-weight: 600;
 }
 
 h3 {
-	font-size:1.8em;
+	font-size:1.8rem;
 	font-weight: normal;
 	color: var(--amarelo);
 }
 
 h4 {
-	font-size:1.6em;
+	font-size:1.6rem;
 	font-weight: normal;
 }
 
 h5 {
-	font-size:1.5em;
+	font-size:1.5rem;
 	font-weight: normal;
 	color: var(--amarelo);
 }
 
 h6 {
-	font-size:22px;
+	font-size:1.4rem;
 	font-weight: normal;
 }
 
