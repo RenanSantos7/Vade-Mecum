@@ -1,3 +1,6 @@
 {
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "cSpell.words": [
+        "subalinea"
+    ]
 }
