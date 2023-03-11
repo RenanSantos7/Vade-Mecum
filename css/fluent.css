@@ -79,7 +79,7 @@ footer {
 /* GRID */
 
 #const, #civil {
-  grid-row: 1/span 2; // começa na linha 1 e toma 2 linhas
+  grid-row: 1/span 2; /* começa na linha 1 e toma 2 linhas*/
 }
 
 #adm {
@@ -136,7 +136,7 @@ h2 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1200px) {
   body{
     grid-template-columns: 1fr;
   }
@@ -156,7 +156,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1025px) {
   #fav {
     height: 220px;
   }
