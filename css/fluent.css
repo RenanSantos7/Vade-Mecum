@@ -70,7 +70,7 @@ article {
   overflow: hidden;*/
 }
 
-#copyright {
+footer {
   position: fixed;
   bottom: 2vh;
   left: 1.1vw;
@@ -95,7 +95,6 @@ article {
 #trib {
   grid-row: 3;
 }
-
 
 #outros {
   grid-row: 7/9;
@@ -157,7 +156,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   #fav {
     height: 220px;
   }
@@ -165,7 +164,37 @@ h2 {
   #list-fav{
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 12px;
-  }  
+  }
+
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #const, #civil {
+    grid-row: 1;
+  }
+
+  #adm {
+    grid-row: unset;
+    grid-column-start: unset;
+  }
+  
+  #penal {
+    grid-row: unset;
+    grid-column-start: unset;
+  }
+  
+  #trib {
+    grid-row: unset;
+  }
+  
+  #outros {
+    grid-row: unset;
+    grid-column: unset;
+  }
+  
+  #outros ul {
+    float: initial;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -178,13 +207,12 @@ h2 {
   }
 
   #list-fav{
-    grid-row-start: 2;
+    height: unset;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1vw;
   }
   
   section {
-    grid-row-start: 3;
     grid-template-columns: 1fr;
   }
   #const {
@@ -271,8 +299,12 @@ h2 {
     float: initial;
   }
 
+  main {
+    margin-bottom: 3rem;
+  }
+
   footer {
-    display: none;
+    left: 4vw;
   }
 
 }

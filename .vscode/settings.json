@@ -2,5 +2,8 @@
     "window.autoDetectColorScheme": true,
     "cSpell.words": [
         "subalinea"
+    ],
+    "cSpell.ignoreWords": [
+        "secao"
     ]
 }
