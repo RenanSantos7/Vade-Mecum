@@ -1,4 +1,7 @@
 # Vade Mecum
+
+[viste o site](https://vade-mecum.vercel.app/)
+
 Um projeto de Vade Mecum para estudantes e profissionais de Direito, com as principais legislações brasileiras.
 
 Possui também links para páginas de Súmulas do STF e STJ.
