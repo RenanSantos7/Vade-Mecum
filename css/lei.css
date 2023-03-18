@@ -158,6 +158,7 @@ p {
 	text-indent: 0;
 	line-height: 125%;
 	hyphens: auto;  /*hifenização - não funciona*/
+		-webkit-hyphens: auto;
 }
 
 #subtit {
