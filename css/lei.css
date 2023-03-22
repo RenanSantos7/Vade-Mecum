@@ -408,6 +408,8 @@ nav#menu h1 {
 
 
 @media only screen and (min-width: 900px) {
+	#botao-menu-abrir {display: none;}
+	
 	section, #corpo {
 		margin: 50px 15vw 150px;
 		max-width: 1000px;
