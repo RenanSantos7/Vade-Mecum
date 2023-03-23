@@ -4,16 +4,14 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
-        
+
         {
-            "type": "pwa-msedge",
+            "type": "firefox",
             "request": "launch",
-            "name": "Open L14133.html",
-            "file": "b:\\Usuários\\Renan\\OneDrive\\Pública\\Vade Mecum\\L14133.html",
-        }
-    ]
-}
+            "reAttach": true,
+            "name": "Launch localhost",
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }

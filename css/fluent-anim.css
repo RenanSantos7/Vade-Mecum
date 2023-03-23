@@ -1,10 +1,10 @@
 article {
-  transition: all cubic-bezier(.79,.14,.15,.86) 0.3s;
-  transition-delay: 0.3;
+  transition: all ease-in-out 0.3s;
+  transition-delay: .6s;
 }
 
 a, li, .item-fav {
-  transition: all cubic-bezier(.79,.14,.15,.86) 0.3s;
+  transition: all ease-in-out 0.3s;
 }
 
 article:hover, .item-fav:hover {
