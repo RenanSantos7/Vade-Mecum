@@ -1,10 +1,10 @@
 article {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in 0.3s;
   transition-delay: .6s;
 }
 
 a, li, .item-fav {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in 0.3s;
 }
 
 article:hover, .item-fav:hover {
