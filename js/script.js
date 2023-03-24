@@ -13,11 +13,12 @@ function ocultaMenu() {
 botaoMenuAbrir.addEventListener("click", mostraMenu);
 botaoMenuFechar.addEventListener("click", ocultaMenu);
 
-//var artigos = document.getElementsByClassName("artigo");
+var inputQualArtigo = document.querySelector('#inputQualArtigo').value;
+var testeArtigo = new RegExp("\d+(-\b)?");
 
-// artigos.forEach(artigo => {
-//     artigo.outerHTML
-// });
-
-//Pedir o número para o usuário -> colocar numa variável do tipo número
-//Para ir para o artigo, basta pegar o seu número -1 e usá-lo como índice no array 'artigos'
+//if (Escrever - condição) {
+    //inputQualArtigo deve passar por testeArtigo
+if (inputQualArtigo<10) {
+    var qualArtigo = ". "+inputQualArtigo+"º"
+}
+//}
