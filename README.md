@@ -12,6 +12,8 @@ Possui também links para páginas de Súmulas do STF e STJ.
 
 ![Página da Constituição Federal](prints/cf.png)Constituição Federal
 
+![Página do Código de Processo Civil](prints/cpc.png)CPC no modo escuro com menu lateral
+
 ## Funcionalidades
 - Layout atual e responsivo;
 - Modo escuro;
@@ -21,6 +23,7 @@ Possui também links para páginas de Súmulas do STF e STJ.
 ## Funcionalidades pretendidas
 
 - implementação de ações JavaScript para:
-    -  criação de menus laterais de navegações entre as leis;
+    - criação de menus laterais de navegações entre as leis; ✅
+    - busca por artigo; ⌛
     - busca de leis na página inicial.
 - conversão em app Electron.
