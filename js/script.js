@@ -1,3 +1,5 @@
+// % Menu Lateral
+
 var menu = document.getElementById("menu");
 var botaoMenuAbrir = document.getElementById("botao-menu-abrir");
 var botaoMenuFechar = document.getElementById("botao-menu-fechar")
@@ -13,11 +15,18 @@ function ocultaMenu() {
 botaoMenuAbrir.addEventListener("click", mostraMenu);
 botaoMenuFechar.addEventListener("click", ocultaMenu);
 
-//var artigos = document.getElementsByClassName("artigo");
+// % Procurar Artigo
 
-// artigos.forEach(artigo => {
-//     artigo.outerHTML
-// });
+const artigos = document.querySelectorAll(".artigo");
 
-//Pedir o número para o usuário -> colocar numa variável do tipo número
-//Para ir para o artigo, basta pegar o seu número -1 e usá-lo como índice no array 'artigos'
+artigos.forEach(artigo => {
+    let numeroArtigo = artigo.textContent;
+    numeroArtigo = numeroArtigo.replace(/\./g, "");
+    numeroArtigo = numeroArtigo.replace(/ /g, "");
+    numeroArtigo = numeroArtigo.replace("º", "");
+    numeroArtigo = numeroArtigo.replace(/-/g, "");
+    numeroArtigo = numeroArtigo.toLowerCase();
+    console.log(numeroArtigo)
+    artigo.id = numeroArtigo;
+});
+
