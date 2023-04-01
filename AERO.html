@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel=icon href="imgs/brastra.png">
+	<link rel=stylesheet href="css/lei.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>Código Brasileiro de Aeronáutica</title>
-	<link rel="stylesheet" href="css/lei.css">
-	<link rel="icon" type="image/png" href="imgs/brastra.png">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+	<nav id="menu">
+		<span id="botao-menu-fechar" class="material-symbols-outlined">close</span>		
+		<h1><a href="index.html">Vade Mecum</a></h1>
+		<ul>
+			<li><a target="_blank" href="CF.html">Constituição</a></li>
+			<li><a target="_blank" href="CC.html">Código Civil</a></li>
+			<li><a target="_blank" href="CPC73.html">Código de Processo Civil/73</a></li>
+			<li><a target="_blank" href="CDC.html">Cód. Defesa do Consumidor</a></li>
+			<li><a target="_blank" href="JECC.html">Lei dos Juizados Especiais Cíveis</a></li>
+			<li><a target="_blank" href="LProcEl.html">Lei do Processo Eletrônico</a></li>
+		</ul>
+	</nav>
+	<span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
+
+	<div id="procura-artigo">
+		<label for="numero-artigo">Digite o número do artigo</label>
+		<input type="number" min="1" name="numero-artigo" id="numero-artigo">
+
+		<label for="letra-artigo">Digite a letra (se for o caso)</label>
+		<input type="text" name="letra-artigo" id="letra-artigo">
+
+		<input type="button" value="Pesquisar" id="botao-artigo">
+	</div>
+
 <section>
 <p id="titulo">Código Brasileiro de Aeronáutica</p>
 
@@ -24,7 +49,7 @@ Introdução</h1>
 <h2>CAPÍTULO I<br>
 Disposições Gerais</h2>
 
-<p><span class=artigo>Art. 1º.</span> O Direito Aeronáutico é regulado pelos Tratados, Convenções e Atos Internacionais de que o Brasil seja parte, por este Código e pela legislação complementar.</p>
+<p><a class="artigo">Art. 1º.</a> O Direito Aeronáutico é regulado pelos Tratados, Convenções e Atos Internacionais de que o Brasil seja parte, por este Código e pela legislação complementar.</p>
 
 <p>§ 1º. Os Tratados, Convenções e Atos Internacionais, celebrados por delegação do Poder Executivo e aprovados pelo Congresso Nacional, vigoram a partir da data neles prevista para esse efeito, após o depósito ou troca das respectivas ratificações, podendo, mediante cláusula expressa, autorizar a aplicação provisória de suas disposições pelas autoridades aeronáuticas, nos limites de suas atribuições, a partir da assinatura (artigos 14, 204 a 214).</p>
 
@@ -32,12 +57,12 @@ Disposições Gerais</h2>
 
 <p>§ 3º. A legislação complementar é formada pela regulamentação prevista neste Código, pelas leis especiais, decretos e normas sobre matéria aeronáutica (artigo 12).</p>
 
-<p><span class=artigo>Art. 2º.</span> Para os efeitos deste Código consideram-se autoridades aeronáuticas competentes as do Ministério da Aeronáutica, conforme as atribuições definidas nos respectivos regulamentos.</p>
+<p><a class="artigo">Art. 2º.</a> Para os efeitos deste Código consideram-se autoridades aeronáuticas competentes as do Ministério da Aeronáutica, conforme as atribuições definidas nos respectivos regulamentos.</p>
 
 <h2>CAPÍTULO II<br>
 Disposições de Direito Internacional Privado</h2>
 
-<p><span class=artigo>Art. 3º.</span> Consideram-se situadas no território do Estado de sua nacionalidade:</p>
+<p><a class="artigo">Art. 3º.</a> Consideram-se situadas no território do Estado de sua nacionalidade:</p>
 
 <p>I - as aeronaves militares, bem como as civis de propriedade ou a serviço do Estado, por este diretamente utilizadas (artigo 107, §§ 1º. e 3º.);</p>
 
@@ -45,21 +70,21 @@ Disposições de Direito Internacional Privado</h2>
 
 <p>Parágrafo único. Salvo na hipótese de estar a serviço do Estado, na forma indicada no item I deste artigo, não prevalece a extraterritorialidade em relação à aeronave privada, que se considera sujeita à lei do Estado onde se encontre.</p>
 
-<p><span class=artigo>Art. 4º.</span> Os atos que, originados de aeronave, produzirem efeito no Brasil, regem-se por suas leis, ainda que iniciados no território estrangeiro.</p>
+<p><a class="artigo">Art. 4º.</a> Os atos que, originados de aeronave, produzirem efeito no Brasil, regem-se por suas leis, ainda que iniciados no território estrangeiro.</p>
 
-<p><span class=artigo>Art. 5º.</span> Os atos que, provenientes da aeronave, tiverem início no Território Nacional, regem-se pelas leis brasileiras, respeitadas as leis do Estado em que produzirem efeito.</p>
+<p><a class="artigo">Art. 5º.</a> Os atos que, provenientes da aeronave, tiverem início no Território Nacional, regem-se pelas leis brasileiras, respeitadas as leis do Estado em que produzirem efeito.</p>
 
-<p><span class=artigo>Art. 6º.</span> Os direitos reais e os privilégios de ordem privada sobre aeronaves regem-se pela lei de sua nacionalidade.</p>
+<p><a class="artigo">Art. 6º.</a> Os direitos reais e os privilégios de ordem privada sobre aeronaves regem-se pela lei de sua nacionalidade.</p>
 
-<p><span class=artigo>Art. 7º.</span> As medidas assecuratórias de direito regulam-se pela lei do país onde se encontrar a aeronave.</p>
+<p><a class="artigo">Art. 7º.</a> As medidas assecuratórias de direito regulam-se pela lei do país onde se encontrar a aeronave.</p>
 
-<p><span class=artigo>Art. 8º.</span> As avarias regulam-se pela lei brasileira quando a carga se destinar ao Brasil ou for transportada sob o regime de trânsito aduaneiro (artigo 244, § 6º.).</p>
+<p><a class="artigo">Art. 8º.</a> As avarias regulam-se pela lei brasileira quando a carga se destinar ao Brasil ou for transportada sob o regime de trânsito aduaneiro (artigo 244, § 6º.).</p>
 
-<p><span class=artigo>Art. 9º.</span> A assistência, o salvamento e o abalroamento regem-se pela lei do lugar em que ocorrerem (artigos 23, § 2º, 49 a 65).</p>
+<p><a class="artigo">Art. 9º.</a> A assistência, o salvamento e o abalroamento regem-se pela lei do lugar em que ocorrerem (artigos 23, § 2º, 49 a 65).</p>
 
 <p>Parágrafo único. Quando pelo menos uma das aeronaves envolvidas for brasileira, aplica-se a lei do Brasil à assistência, salvamento e abalroamento ocorridos em região não submetida a qualquer Estado.</p>
 
-<p><span class=artigo>Art. 10.</span> Não terão eficácia no Brasil, em matéria de transporte aéreo, quaisquer disposições de direito estrangeiro, cláusulas constantes de contrato, bilhete de passagem, conhecimento e outros documentos que:</p>
+<p><a class="artigo">Art. 10.</a> Não terão eficácia no Brasil, em matéria de transporte aéreo, quaisquer disposições de direito estrangeiro, cláusulas constantes de contrato, bilhete de passagem, conhecimento e outros documentos que:</p>
 
 <p>I - excluam a competência de foro do lugar de destino;</p>
 
@@ -73,9 +98,9 @@ Do Espaço Aéreo e seu Uso para Fins Aeronáuticos</h1>
 <h2>CAPÍTULO I<br>
 Do Espaço Aéreo Brasileiro</h2>
 
-<p><span class=artigo>Art. 11.</span> O Brasil exerce completa e exclusiva soberania sobre o espaço aéreo acima de seu território e mar territorial.</p>
+<p><a class="artigo">Art. 11.</a> O Brasil exerce completa e exclusiva soberania sobre o espaço aéreo acima de seu território e mar territorial.</p>
 
-<p><span class=artigo>Art. 12.</span> Ressalvadas as atribuições específicas, fixadas em lei, submetem-se às normas (artigo 1º, § 3º.), orientação, coordenação, controle e fiscalização do Ministério da Aeronáutica:</p>
+<p><a class="artigo">Art. 12.</a> Ressalvadas as atribuições específicas, fixadas em lei, submetem-se às normas (artigo 1º, § 3º.), orientação, coordenação, controle e fiscalização do Ministério da Aeronáutica:</p>
 
 <p>I - a navegação aérea;</p>
 
@@ -89,12 +114,12 @@ Do Espaço Aéreo Brasileiro</h2>
 
 <p>VI - os serviços, direta ou indiretamente relacionados ao voo.</p>
 
-<p><span class=artigo>Art. 13.</span> Poderá a autoridade aeronáutica deter a aeronave em voo no espaço aéreo (artigo 18) ou em pouso no território brasileiro (artigos 303 a 311), quando, em caso de flagrante desrespeito às normas de direito aeronáutico (artigos 1º. e 12), de tráfego aéreo (artigos 14, 16, § 3º, 17), ou às condições estabelecidas nas respectivas autorizações (artigos 14, §§ 1º, 3º. e 4º, 15, §§ 1º. e 2º, 19, parágrafo único, 21, 22), coloque em risco a segurança da navegação aérea ou de tráfego aéreo, a ordem pública, a paz interna ou externa.</p>
+<p><a class="artigo">Art. 13.</a> Poderá a autoridade aeronáutica deter a aeronave em voo no espaço aéreo (artigo 18) ou em pouso no território brasileiro (artigos 303 a 311), quando, em caso de flagrante desrespeito às normas de direito aeronáutico (artigos 1º. e 12), de tráfego aéreo (artigos 14, 16, § 3º, 17), ou às condições estabelecidas nas respectivas autorizações (artigos 14, §§ 1º, 3º. e 4º, 15, §§ 1º. e 2º, 19, parágrafo único, 21, 22), coloque em risco a segurança da navegação aérea ou de tráfego aéreo, a ordem pública, a paz interna ou externa.</p>
 
 <h2>CAPÍTULO II<br>
 Do Tráfego Aéreo</h2>
 
-<p><span class=artigo>Art. 14.</span> No tráfego de aeronaves no espaço aéreo brasileiro, observam-se as disposições estabelecidas nos Tratados, Convenções e Atos Internacionais de que o Brasil seja parte (artigo 1º, § 1º.), neste Código (artigo 1º, § 2º.) e na legislação complementar (artigo 1º, § 3º.).</p>
+<p><a class="artigo">Art. 14.</a> No tráfego de aeronaves no espaço aéreo brasileiro, observam-se as disposições estabelecidas nos Tratados, Convenções e Atos Internacionais de que o Brasil seja parte (artigo 1º, § 1º.), neste Código (artigo 1º, § 2º.) e na legislação complementar (artigo 1º, § 3º.).</p>
 
 <p>§ 1º. Nenhuma aeronave militar ou civil a serviço de Estado estrangeiro e por este diretamente utilizada (artigo 3º, I) poderá, sem autorização, voar no espaço aéreo brasileiro ou aterrissar no território subjacente.</p>
 
@@ -108,7 +133,7 @@ Do Tráfego Aéreo</h2>
 
 <p>§ 6º. A operação de aeronave militar ficará sujeita às disposições sobre a proteção ao voo e ao tráfego aéreo, salvo quando se encontrar em missão de guerra ou treinamento em área específica.</p>
 
-<p><span class=artigo>Art. 15.</span> Por questão de segurança da navegação aérea ou por interesse público, é facultado fixar zonas em que se proíbe ou restringe o tráfego aéreo, estabelecer rotas de entrada ou saída, suspender total ou parcialmente o tráfego, assim como o uso de determinada aeronave, ou a realização de certos serviços aéreos.</p>
+<p><a class="artigo">Art. 15.</a> Por questão de segurança da navegação aérea ou por interesse público, é facultado fixar zonas em que se proíbe ou restringe o tráfego aéreo, estabelecer rotas de entrada ou saída, suspender total ou parcialmente o tráfego, assim como o uso de determinada aeronave, ou a realização de certos serviços aéreos.</p>
 
 <p>§ 1º. A prática de esportes aéreos tais como balonismo, volovelismo, asas voadoras e similares, assim como os voos de treinamento, far-se-ão em áreas delimitadas pela autoridade aeronáutica.</p>
 
@@ -124,11 +149,11 @@ Do Tráfego Aéreo</h2>
 
 <p>§ 4º. O prejuízo decorrente do sobrevoo, do pouso de emergência, do lançamento de objetos ou alijamento poderá ensejar responsabilidade.</p>
 
-<p><span class=artigo>Art. 17.</span> É proibido efetuar, com qualquer aeronave, voos de acrobacia ou evolução que possam constituir perigo para os ocupantes do aparelho, para o tráfego aéreo, para instalações ou pessoas na superfície.</p>
+<p><a class="artigo">Art. 17.</a> É proibido efetuar, com qualquer aeronave, voos de acrobacia ou evolução que possam constituir perigo para os ocupantes do aparelho, para o tráfego aéreo, para instalações ou pessoas na superfície.</p>
 
 <p>Parágrafo único. Excetuam-se da proibição, os voos de prova, produção e demonstração quando realizados pelo fabricante ou por unidades especiais, com a observância das normas fixadas pela autoridade aeronáutica.</p>
 
-<p><span class=artigo>Art. 18.</span> O Comandante de aeronave que receber de órgão controlador de voo ordem para pousar deverá dirigir-se, imediatamente, para o aeródromo que lhe for indicado e nele efetuar o pouso.</p>
+<p><a class="artigo">Art. 18.</a> O Comandante de aeronave que receber de órgão controlador de voo ordem para pousar deverá dirigir-se, imediatamente, para o aeródromo que lhe for indicado e nele efetuar o pouso.</p>
 
 <p>§ 1º. Se razões técnicas, a critério do Comandante, impedirem de fazê-lo no aeródromo indicado, deverá ser solicitada ao órgão controlador a determinação de aeródromo alternativo que ofereça melhores condições de segurança.</p>
 
@@ -138,11 +163,11 @@ Do Tráfego Aéreo</h2>
 
 <p>§ 4º. A autoridade aeronáutica que, excedendo suas atribuições e sem motivos relevantes, expedir a ordem de que trata o caput deste artigo, responderá pelo excesso cometido, sendo-lhe aplicada a pena de suspensão por prazo que variará de 30 (trinta) a 90 (noventa) dias, conversíveis em multa.</p>
 
-<p><span class=artigo>Art. 19.</span> Salvo motivo de força maior, as aeronaves só poderão decolar ou pousar em aeródromo cujas características comportarem suas operações.</p>
+<p><a class="artigo">Art. 19.</a> Salvo motivo de força maior, as aeronaves só poderão decolar ou pousar em aeródromo cujas características comportarem suas operações.</p>
 
 <p>Parágrafo único. Os pousos e decolagens deverão ser executados, de acordo com procedimentos estabelecidos, visando à segurança do tráfego, das instalações aeroportuárias e vizinhas, bem como a segurança e bem-estar da população que, de alguma forma, possa ser atingida pelas operações.</p>
 
-<p><span class=artigo>Art. 20.</span> Salvo permissão especial, nenhuma aeronave poderá voar no espaço aéreo brasileiro, aterrissar no território subjacente ou dele decolar, a não ser que tenha:</p>
+<p><a class="artigo">Art. 20.</a> Salvo permissão especial, nenhuma aeronave poderá voar no espaço aéreo brasileiro, aterrissar no território subjacente ou dele decolar, a não ser que tenha:</p>
 
 <p>I - marcas de nacionalidade e matrícula, e esteja munida dos respectivos certificados de matrícula e aeronavegabilidade; (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -152,7 +177,7 @@ Do Tráfego Aéreo</h2>
 
 <p>Parágrafo único. Pode a autoridade de aviação civil, por meio de regulamento, estabelecer as condições para os voos com certificado de aeronavegabilidade especial. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 21.</span> Salvo com autorização especial de órgão competente, nenhuma aeronave poderá transportar explosivos, munições, arma de fogo, material bélico, equipamento destinado a levantamento aerofotogramétrico ou de prospecção, ou ainda quaisquer outros objetos ou substâncias consideradas perigosas para a segurança pública, da própria aeronave ou de seus ocupantes.</p>
+<p><a class="artigo">Art. 21.</a> Salvo com autorização especial de órgão competente, nenhuma aeronave poderá transportar explosivos, munições, arma de fogo, material bélico, equipamento destinado a levantamento aerofotogramétrico ou de prospecção, ou ainda quaisquer outros objetos ou substâncias consideradas perigosas para a segurança pública, da própria aeronave ou de seus ocupantes.</p>
 
 <p>§ 1º. Para fins do disposto no caput, o transporte dos objetos ou das substâncias por aeronaves civis públicas de segurança pública será regulamentado pela autoridade de aviação civil em conjunto com o Ministério da Justiça e Segurança Pública, podendo ser dispensada a autorização especial. (Incluído pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -161,17 +186,17 @@ Do Tráfego Aéreo</h2>
 <h2>CAPÍTULO III<br>
 Entrada e Saída do Espaço Aéreo Brasileiro</h2>
 
-<p><span class=artigo>Art. 22.</span> Toda aeronave proveniente do exterior fará, respectivamente, o primeiro pouso ou a última decolagem em aeroporto internacional.</p>
+<p><a class="artigo">Art. 22.</a> Toda aeronave proveniente do exterior fará, respectivamente, o primeiro pouso ou a última decolagem em aeroporto internacional.</p>
 
 <p>Parágrafo único. A lista de aeroportos internacionais será publicada pela autoridade aeronáutica, e suas denominações somente poderão ser modificadas mediante lei federal, quando houver necessidade técnica dessa alteração.</p>
 
-<p><span class=artigo>Art. 23.</span> A entrada no espaço aéreo brasileiro ou o pouso, no território subjacente, de aeronave militar ou civil a serviço de Estado estrangeiro sujeitar-se-á às condições estabelecidas (artigo 14, § 1º.).</p>
+<p><a class="artigo">Art. 23.</a> A entrada no espaço aéreo brasileiro ou o pouso, no território subjacente, de aeronave militar ou civil a serviço de Estado estrangeiro sujeitar-se-á às condições estabelecidas (artigo 14, § 1º.).</p>
 
 <p>§ 1º. A aeronave estrangeira autorizada a transitar no espaço aéreo brasileiro, sem pousar no território subjacente, deverá seguir a rota determinada. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>§ 2º. A autoridade aeronáutica poderá estabelecer exceções ao regime de entrada de aeronave estrangeira, quando se tratar de operação de busca, assistência e salvamento ou de voos por motivos sanitários ou humanitários.</p>
 
-<p><span class=artigo>Art. 24.</span> Os aeroportos situados na linha fronteiriça do território brasileiro poderão ser autorizados a atender ao tráfego regional, entre os países limítrofes, com serviços de infraestrutura aeronáutica, comuns ou compartilhados por eles.</p>
+<p><a class="artigo">Art. 24.</a> Os aeroportos situados na linha fronteiriça do território brasileiro poderão ser autorizados a atender ao tráfego regional, entre os países limítrofes, com serviços de infraestrutura aeronáutica, comuns ou compartilhados por eles.</p>
 
 <p>Parágrafo único. As aeronaves brasileiras poderão ser autorizadas a utilizar aeroportos situados em países vizinhos, na linha fronteiriça ao Território Nacional, com serviços de infraestrutura aeronáutica comuns ou compartilhados.</p>
 
@@ -181,7 +206,7 @@ Da Infraestrutura Aeronáutica</h1>
 <h2>CAPÍTULO I<br>
 Disposições Gerais</h2>
 
-<p><span class=artigo>Art. 25.</span> Constitui infraestrutura aeronáutica o conjunto de órgãos, instalações ou estruturas terrestres de apoio à navegação aérea, para promover-lhe a segurança, regularidade e eficiência, compreendendo:</p>
+<p><a class="artigo">Art. 25.</a> Constitui infraestrutura aeronáutica o conjunto de órgãos, instalações ou estruturas terrestres de apoio à navegação aérea, para promover-lhe a segurança, regularidade e eficiência, compreendendo:</p>
 
 <p>I - o sistema aeroportuário (artigos 26 a 46);</p>
 
@@ -213,13 +238,13 @@ Do Sistema Aeroportuário</h2>
 <h3>SEÇÃO I<br>
 Dos Aeródromos</h3>
 
-<p><span class=artigo>Art. 26.</span> O sistema aeroportuário é constituído pelo conjunto de aeródromos brasileiros, com todas as pistas de pouso, pistas de táxi, pátio de estacionamento de aeronave, terminal de carga aérea, terminal de passageiros e as respectivas facilidades.</p>
+<p><a class="artigo">Art. 26.</a> O sistema aeroportuário é constituído pelo conjunto de aeródromos brasileiros, com todas as pistas de pouso, pistas de táxi, pátio de estacionamento de aeronave, terminal de carga aérea, terminal de passageiros e as respectivas facilidades.</p>
 
 <p>Parágrafo único. São facilidades: o balizamento diurno e noturno; a iluminação do pátio; serviço contra incêndio especializado e o serviço de remoção de emergência médica; área de pré-embarque, climatização, ônibus, ponte de embarque, sistema de esteiras para despacho de bagagem, carrinhos para passageiros, pontes de desembarque, sistema de ascenso-descenso de passageiros por escadas rolantes, orientação por circuito fechado de televisão, sistema semiautomático anunciador de mensagem, sistema de som, sistema informativo de voo, climatização geral, locais destinados a serviços públicos, locais destinados a apoio comercial, serviço médico, serviço de salvamento aquático especializado e outras, cuja implantação seja autorizada ou determinada pela autoridade aeronáutica.</p>
 
-<p><span class=artigo>Art. 27.</span> Aeródromo é toda área destinada a pouso, decolagem e movimentação de aeronaves.</p>
+<p><a class="artigo">Art. 27.</a> Aeródromo é toda área destinada a pouso, decolagem e movimentação de aeronaves.</p>
 
-<p><span class=artigo>Art. 28.</span> Os aeródromos são classificados em civis e militares.</p>
+<p><a class="artigo">Art. 28.</a> Os aeródromos são classificados em civis e militares.</p>
 
 <p>§ 1º. Aeródromo civil é o destinado ao uso de aeronaves civis.</p>
 
@@ -227,9 +252,9 @@ Dos Aeródromos</h3>
 
 <p>§ 3º. Os aeródromos civis poderão ser utilizados por aeronaves militares, e os aeródromos militares, por aeronaves civis, obedecidas as prescrições estabelecidas pela autoridade aeronáutica.</p>
 
-<p><span class=artigo>Art. 29.</span> Os aeródromos civis são classificados em públicos e privados.</p>
+<p><a class="artigo">Art. 29.</a> Os aeródromos civis são classificados em públicos e privados.</p>
 
-<p><span class=artigo>Art. 30.</span> A utilização de aeródromos civis deve obedecer às previsões regulamentares estabelecidas pela autoridade aeronáutica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 30.</a> A utilização de aeródromos civis deve obedecer às previsões regulamentares estabelecidas pela autoridade aeronáutica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>§ 1º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -237,7 +262,7 @@ Dos Aeródromos</h3>
 
 <p>§ 3º. A autoridade de aviação civil regulamentará as operações de aeronaves em áreas de pouso e de decolagem distintas de aeródromos. (Incluído pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 31.</span> Consideram-se:</p>
+<p><a class="artigo">Art. 31.</a> Consideram-se:</p>
 
 <p>I - Aeroportos os aeródromos públicos, dotados de instalações e facilidades para apoio de operações de aeronaves e de embarque e desembarque de pessoas e cargas;</p>
 
@@ -245,20 +270,20 @@ Dos Aeródromos</h3>
 
 <p>III - Heliportos os helipontos públicos, dotados de instalações e facilidades para apoio de operações de helicópteros e de embarque e desembarque de pessoas e cargas.</p>
 
-<p><span class=artigo>Art. 32.</span> Os aeroportos e heliportos serão classificados por ato administrativo que fixará as características de cada classe.</p>
+<p><a class="artigo">Art. 32.</a> Os aeroportos e heliportos serão classificados por ato administrativo que fixará as características de cada classe.</p>
 
 <p>Parágrafo único. Os aeroportos destinados às aeronaves nacionais ou estrangeiras na realização de serviços internacionais serão classificados como aeroportos internacionais. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 33.</span> Nos aeródromos públicos que forem sede de Unidade Aérea Militar, as esferas de competência das autoridades civis e militares, quanto à respectiva administração, serão definidas em regulamentação especial.</p>
+<p><a class="artigo">Art. 33.</a> Nos aeródromos públicos que forem sede de Unidade Aérea Militar, as esferas de competência das autoridades civis e militares, quanto à respectiva administração, serão definidas em regulamentação especial.</p>
 
 <h3>SEÇÃO II<br>
 Da Construção e Utilização de Aeródromos</h3>
 
-<p><span class=artigo>Art. 34.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 34.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 35.</span> Os aeródromos privados serão construídos, mantidos e operados por seus proprietários, obedecidas as instruções, normas e planos da autoridade aeronáutica (artigo 30).</p>
+<p><a class="artigo">Art. 35.</a> Os aeródromos privados serão construídos, mantidos e operados por seus proprietários, obedecidas as instruções, normas e planos da autoridade aeronáutica (artigo 30).</p>
 
-<p><span class=artigo>Art. 36.</span> Os aeródromos públicos serão construídos, mantidos e explorados:</p>
+<p><a class="artigo">Art. 36.</a> Os aeródromos públicos serão construídos, mantidos e explorados:</p>
 
 <p>I - diretamente, pela União;</p>
 
@@ -268,7 +293,7 @@ Da Construção e Utilização de Aeródromos</h3>
 
 <p>IV - por concessão ou autorização.</p>
 
-<p>§ 1º. A fim de assegurar uniformidade de tratamento em todo o território nacional, a construção, administração e exploração, sujeitam-se às normas, instruções, coordenação e controle da autoridade aeronáutica, ressalvado o disposto no <span class=artigo>art. 36-A.</span> (Redação dada pela Lei nº. 13.097, de 2015)</p>
+<p>§ 1º. A fim de assegurar uniformidade de tratamento em todo o território nacional, a construção, administração e exploração, sujeitam-se às normas, instruções, coordenação e controle da autoridade aeronáutica, ressalvado o disposto no <a class="artigo">art. 36-A.aspan> (Redação dada pela Lei nº. 13.097, de 2015)</p>
 
 <p>§ 2º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -278,22 +303,22 @@ Da Construção e Utilização de Aeródromos</h3>
 
 <p>§ 5 Os aeródromos públicos, enquanto mantida a sua destinação específicas pela União, constituem universidades e patrimônios autônomos, independentes do titular do domínio dos imóveis onde estão situados (artigo 38).</p>
 
-<p><span class=artigo>Art. 36-A.</span> A autoridade de aviação civil poderá expedir regulamento específico para aeródromos situados na área da Amazônia Legal, de forma a adequar suas operações às condições locais, com vistas a promover o fomento regional, a integração social, o atendimento de comunidades isoladas, o acesso à saúde e o apoio a operações de segurança. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 36-A.aspan> A autoridade de aviação civil poderá expedir regulamento específico para aeródromos situados na área da Amazônia Legal, de forma a adequar suas operações às condições locais, com vistas a promover o fomento regional, a integração social, o atendimento de comunidades isoladas, o acesso à saúde e o apoio a operações de segurança. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 37.</span> Os aeródromos públicos poderão ser usados por quaisquer aeronaves, sem distinção de propriedade ou nacionalidade, mediante o ônus da utilização, salvo se, por motivo operacional ou de segurança, houver restrição de uso por determinados tipos de aeronaves ou serviços aéreos.</p>
+<p><a class="artigo">Art. 37.</a> Os aeródromos públicos poderão ser usados por quaisquer aeronaves, sem distinção de propriedade ou nacionalidade, mediante o ônus da utilização, salvo se, por motivo operacional ou de segurança, houver restrição de uso por determinados tipos de aeronaves ou serviços aéreos.</p>
 
 <p>Parágrafo único. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h3>SEÇÃO III<br>
 Do Patrimônio Aeroportuário</h3>
 
-<p><span class=artigo>Art. 38.</span> Os aeroportos constituem universalidades, equiparadas a bens públicos federais, enquanto mantida a sua destinação específica, embora não tenha a União a propriedade de todos os imóveis em que se situam.</p>
+<p><a class="artigo">Art. 38.</a> Os aeroportos constituem universalidades, equiparadas a bens públicos federais, enquanto mantida a sua destinação específica, embora não tenha a União a propriedade de todos os imóveis em que se situam.</p>
 
 <p>§ 1º. Os Estados, Municípios, entidades da Administração Indireta ou particulares poderão contribuir com imóveis ou bens para a construção de aeroportos, mediante a constituição de patrimônio autônomo que será considerado como universalidade.</p>
 
 <p>§ 2º. Quando a União vier a desativar o aeroporto por se tornar desnecessário, o uso dos bens referidos no parágrafo anterior será restituído ao proprietário, com as respectivas acessões.</p>
 
-<p><span class=artigo>Art. 38-A.</span> O operador aeroportua&#769;rio podera&#769; fazer a remoc&#807;a&#771;o de aeronaves, de equipamentos e de outros bens deixados nas a&#769;reas aeroportua&#769;rias sempre que restrinjam a operac&#807;a&#771;o, a ampliac&#807;a&#771;o da capacidade ou o regular funcionamento do aeroporto ou ocasionem riscos sanita&#769;rios ou ambientais. (Incluído pela Lei nº. 13.319, de 2016)</p>
+<p><a class="artigo">Art. 38-A.aspan> O operador aeroportua&#769;rio podera&#769; fazer a remoc&#807;a&#771;o de aeronaves, de equipamentos e de outros bens deixados nas a&#769;reas aeroportua&#769;rias sempre que restrinjam a operac&#807;a&#771;o, a ampliac&#807;a&#771;o da capacidade ou o regular funcionamento do aeroporto ou ocasionem riscos sanita&#769;rios ou ambientais. (Incluído pela Lei nº. 13.319, de 2016)</p>
 
 <p>§ 1º. O disposto no caput aplica-se tambe&#769;m a aeronaves, equipamentos e outros bens integrantes de massa falida, mediante comunicac&#807;a&#771;o ao jui&#769;zo competente. (Incluído pela Lei nº. 13.319, de 2016)</p>
 
@@ -302,7 +327,7 @@ Do Patrimônio Aeroportuário</h3>
 <h3>SEÇÃO IV<br>
 Da Utilização de Áreas Aeroportuárias</h3>
 
-<p><span class=artigo>Art. 39.</span> Os aeroportos compreendem áreas destinadas:</p>
+<p><a class="artigo">Art. 39.</a> Os aeroportos compreendem áreas destinadas:</p>
 
 <p>I - à sua própria administração;</p>
 
@@ -322,7 +347,7 @@ Da Utilização de Áreas Aeroportuárias</h3>
 
 <p>IX - ao comércio apropriado para aeroporto.</p>
 
-<p><span class=artigo>Art. 40.</span> Dispensa-se do regime de concorrência pública a utilização de áreas aeroportuárias pelos prestadores de serviços aéreos, para suas instalações de despacho, escritório, oficina e depósito, ou para abrigo, reparação e abastecimento de aeronaves. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 40.</a> Dispensa-se do regime de concorrência pública a utilização de áreas aeroportuárias pelos prestadores de serviços aéreos, para suas instalações de despacho, escritório, oficina e depósito, ou para abrigo, reparação e abastecimento de aeronaves. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>§ 1º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -334,18 +359,18 @@ Da Utilização de Áreas Aeroportuárias</h3>
 
 <p>§ 5º. Aplica-se o disposto neste artigo às empresas prestadoras de serviços auxiliares. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 41.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 41.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 42.</span> À utilização de áreas aeroportuárias não se aplica a legislação sobre locações urbanas.</p>
+<p><a class="artigo">Art. 42.</a> À utilização de áreas aeroportuárias não se aplica a legislação sobre locações urbanas.</p>
 
 <h3>SEÇÃO V<br>
 Das Zonas de Proteção</h3>
 
-<p><span class=artigo>Art. 43.</span> As propriedades vizinhas dos aeródromos e das instalações de auxílio à navegação aérea estão sujeitas a restrições especiais.</p>
+<p><a class="artigo">Art. 43.</a> As propriedades vizinhas dos aeródromos e das instalações de auxílio à navegação aérea estão sujeitas a restrições especiais.</p>
 
 <p>Parágrafo único. As restrições a que se refere este artigo são relativas ao uso das propriedades quanto a edificações, instalações, culturas agrícolas e objetos de natureza permanente ou temporária, e tudo mais que possa embaraçar as operações de aeronaves ou causar interferência nos sinais dos auxílios à radionavegação ou dificultar a visibilidade de auxílios visuais.</p>
 
-<p><span class=artigo>Art. 44.</span> As restrições de que trata o artigo anterior são as especificadas pela autoridade aeronáutica, mediante aprovação dos seguintes planos, válidos, respectivamente, para cada tipo de auxílio à navegação aérea:</p>
+<p><a class="artigo">Art. 44.</a> As restrições de que trata o artigo anterior são as especificadas pela autoridade aeronáutica, mediante aprovação dos seguintes planos, válidos, respectivamente, para cada tipo de auxílio à navegação aérea:</p>
 
 <p>I - Plano Básico de Zona de Proteção de Aeródromos;</p>
 
@@ -365,13 +390,13 @@ Das Zonas de Proteção</h3>
 
 <p>§ 5º. As restrições especiais estabelecidas aplicam-se a quaisquer bens, quer sejam privados ou públicos.</p>
 
-<p>§ 6º. A responsabilidade pela instalação, operação e manutenção dos equipamentos de sinalização de obstáculos será do proprietário, titular do domínio útil ou possuidor das propriedades a que se refere o <span class=artigo>art. 43.</span> (Incluído pela Lei nº. 13.133, de 2015)</p>
+<p>§ 6º. A responsabilidade pela instalação, operação e manutenção dos equipamentos de sinalização de obstáculos será do proprietário, titular do domínio útil ou possuidor das propriedades a que se refere o <a class="artigo">art. 43.</a> (Incluído pela Lei nº. 13.133, de 2015)</p>
 
 <p>§ 7º. O descumprimento do disposto no § 6º. implicará a cominação de multa diária por infração aos preceitos deste Código, nos termos do art. 289, sem prejuízo da instalação, manutenção ou reparo do equipamento de sinalização pela autoridade competente, a expensas do infrator. (Incluído pela Lei nº. 13.133, de 2015)</p>
 
-<p><span class=artigo>Art. 45.</span> A autoridade aeronáutica poderá embargar a obra ou construção de qualquer natureza que contrarie os Planos Básicos ou os Específicos de cada aeroporto, ou exigir a eliminação dos obstáculos levantados em desacordo com os referidos planos, posteriormente à sua publicação, por conta e risco do infrator, que não poderá reclamar qualquer indenização.</p>
+<p><a class="artigo">Art. 45.</a> A autoridade aeronáutica poderá embargar a obra ou construção de qualquer natureza que contrarie os Planos Básicos ou os Específicos de cada aeroporto, ou exigir a eliminação dos obstáculos levantados em desacordo com os referidos planos, posteriormente à sua publicação, por conta e risco do infrator, que não poderá reclamar qualquer indenização.</p>
 
-<p><span class=artigo>Art. 46.</span> Quando as restrições estabelecidas impuserem demolições de obstáculos levantados antes da publicação dos Planos Básicos ou Específicos, terá o proprietário direito à indenização.</p>
+<p><a class="artigo">Art. 46.</a> Quando as restrições estabelecidas impuserem demolições de obstáculos levantados antes da publicação dos Planos Básicos ou Específicos, terá o proprietário direito à indenização.</p>
 
 <h2>CAPÍTULO III<br>
 Do Sistema de Proteção ao Voo</h2>
@@ -379,7 +404,7 @@ Do Sistema de Proteção ao Voo</h2>
 <h3>SEÇÃO I<br>
 Das Várias Atividades de Proteção ao Voo</h3>
 
-<p><span class=artigo>Art. 47.</span> O Sistema de Proteção ao Voo visa à regularidade, segurança e eficiência do fluxo de tráfego no espaço aéreo, abrangendo as seguintes atividades:</p>
+<p><a class="artigo">Art. 47.</a> O Sistema de Proteção ao Voo visa à regularidade, segurança e eficiência do fluxo de tráfego no espaço aéreo, abrangendo as seguintes atividades:</p>
 
 <p>I - de controle de tráfego aéreo;</p>
 
@@ -397,7 +422,7 @@ Das Várias Atividades de Proteção ao Voo</h3>
 
 <p>VIII - de supervisão de fabricação, reparo, manutenção e distribuição de equipamentos terrestres de auxílio à navegação aérea.</p>
 
-<p><span class=artigo>Art. 48.</span> O serviço de telecomunicações aeronáuticas classifica-se em:</p>
+<p><a class="artigo">Art. 48.</a> O serviço de telecomunicações aeronáuticas classifica-se em:</p>
 
 <p>I - fixo aeronáutico;</p>
 
@@ -420,23 +445,23 @@ Das Várias Atividades de Proteção ao Voo</h3>
 <h3>SEÇÃO II<br>
 Da Coordenação de Busca, Assistência e Salvamento</h3>
 
-<p><span class=artigo>Art. 49.</span> As Atividades de Proteção ao Voo abrangem a coordenação de busca, assistência e salvamento.</p>
+<p><a class="artigo">Art. 49.</a> As Atividades de Proteção ao Voo abrangem a coordenação de busca, assistência e salvamento.</p>
 
-<p><span class=artigo>Art. 50.</span> O Comandante da aeronave é obrigado a prestar assistência a quem se encontrar em perigo de vida no mar, no ar ou em terra, desde que o possa fazer sem perigo para a aeronave, sua tripulação, seus passageiros ou outras pessoas.</p>
+<p><a class="artigo">Art. 50.</a> O Comandante da aeronave é obrigado a prestar assistência a quem se encontrar em perigo de vida no mar, no ar ou em terra, desde que o possa fazer sem perigo para a aeronave, sua tripulação, seus passageiros ou outras pessoas.</p>
 
-<p><span class=artigo>Art. 51.</span> Todo Comandante de navio, no mar, e qualquer pessoa, em terra, são obrigados, desde que o possam fazer sem risco para si ou outras pessoas, a prestar assistência a quem estiver em perigo de vida, em conseqüência de queda ou avaria de aeronave.</p>
+<p><a class="artigo">Art. 51.</a> Todo Comandante de navio, no mar, e qualquer pessoa, em terra, são obrigados, desde que o possam fazer sem risco para si ou outras pessoas, a prestar assistência a quem estiver em perigo de vida, em conseqüência de queda ou avaria de aeronave.</p>
 
-<p><span class=artigo>Art. 52.</span> A assistência poderá consistir em simples informação.</p>
+<p><a class="artigo">Art. 52.</a> A assistência poderá consistir em simples informação.</p>
 
-<p><span class=artigo>Art. 53.</span> A obrigação de prestar socorro, sempre que possível, recai sobre aeronave em voo ou pronta para partir.</p>
+<p><a class="artigo">Art. 53.</a> A obrigação de prestar socorro, sempre que possível, recai sobre aeronave em voo ou pronta para partir.</p>
 
-<p><span class=artigo>Art. 54.</span> Na falta de outros recursos, o órgão do Ministério da Aeronáutica, encarregado de coordenar operações de busca e salvamento, poderá, a seu critério, atribuir a qualquer aeronave, em voo ou pronta para decolar, missão específica nessas operações.</p>
+<p><a class="artigo">Art. 54.</a> Na falta de outros recursos, o órgão do Ministério da Aeronáutica, encarregado de coordenar operações de busca e salvamento, poderá, a seu critério, atribuir a qualquer aeronave, em voo ou pronta para decolar, missão específica nessas operações.</p>
 
-<p><span class=artigo>Art. 55.</span> Cessa a obrigação de assistência desde que o obrigado tenha conhecimento de que foi prestada por outrem ou quando dispensado pelo órgão competente do Ministério da Aeronáutica a que se refere o artigo anterior.</p>
+<p><a class="artigo">Art. 55.</a> Cessa a obrigação de assistência desde que o obrigado tenha conhecimento de que foi prestada por outrem ou quando dispensado pelo órgão competente do Ministério da Aeronáutica a que se refere o artigo anterior.</p>
 
-<p><span class=artigo>Art. 56.</span> A não prestação de assistência por parte do Comandante exonera de responsabilidade o proprietário ou explorador da aeronave, salvo se tenham determinado a não prestação do socorro.</p>
+<p><a class="artigo">Art. 56.</a> A não prestação de assistência por parte do Comandante exonera de responsabilidade o proprietário ou explorador da aeronave, salvo se tenham determinado a não prestação do socorro.</p>
 
-<p><span class=artigo>Art. 57.</span> Toda assistência ou salvamento prestado com resultado útil dará direito à remuneração correspondente ao trabalho e à eficiência do ato, nas seguintes bases:</p>
+<p><a class="artigo">Art. 57.</a> Toda assistência ou salvamento prestado com resultado útil dará direito à remuneração correspondente ao trabalho e à eficiência do ato, nas seguintes bases:</p>
 
 <p>I - considerar-se-ão, em primeiro lugar:</p>
 
@@ -456,13 +481,13 @@ Da Coordenação de Busca, Assistência e Salvamento</h3>
 
 <p>§ 2º. O proprietário ou armador do navio conserva o direito de se prevalecer do abandono, ou da limitação de responsabilidade fixada nas leis e convenções em vigor.</p>
 
-<p><span class=artigo>Art. 58.</span> Todo aquele que, por imprudência, negligência ou transgressão, provocar a movimentação desnecessária de recursos de busca e salvamento ficará obrigado a indenizar a União pelas despesas decorrentes dessa movimentação, mesmo que não tenha havido perigo de vida ou solicitação de socorro.</p>
+<p><a class="artigo">Art. 58.</a> Todo aquele que, por imprudência, negligência ou transgressão, provocar a movimentação desnecessária de recursos de busca e salvamento ficará obrigado a indenizar a União pelas despesas decorrentes dessa movimentação, mesmo que não tenha havido perigo de vida ou solicitação de socorro.</p>
 
-<p><span class=artigo>Art. 59.</span> Prestada assistência voluntária, aquele que a prestou somente terá direito à remuneração se obtiver resultado útil, salvando pessoas ou concorrendo para salvá-las.</p>
+<p><a class="artigo">Art. 59.</a> Prestada assistência voluntária, aquele que a prestou somente terá direito à remuneração se obtiver resultado útil, salvando pessoas ou concorrendo para salvá-las.</p>
 
-<p><span class=artigo>Art. 60.</span> Cabe ao proprietário ou explorador indenizar a quem prestar assistência a passageiro ou tripulante de sua aeronave.</p>
+<p><a class="artigo">Art. 60.</a> Cabe ao proprietário ou explorador indenizar a quem prestar assistência a passageiro ou tripulante de sua aeronave.</p>
 
-<p><span class=artigo>Art. 61.</span> Se o socorro for prestado por diversas aeronaves, embarcações, veículos ou pessoas envolvendo vários interessados, a remuneração será fixada em conjunto pelo Juiz, e distribuída segundo os critérios estabelecidos neste artigo.</p>
+<p><a class="artigo">Art. 61.</a> Se o socorro for prestado por diversas aeronaves, embarcações, veículos ou pessoas envolvendo vários interessados, a remuneração será fixada em conjunto pelo Juiz, e distribuída segundo os critérios estabelecidos neste artigo.</p>
 
 <p>§ 1º. Os interessados devem fazer valer seus direitos à remuneração no prazo de 6 (seis) meses, contado do dia do socorro.</p>
 
@@ -470,19 +495,19 @@ Da Coordenação de Busca, Assistência e Salvamento</h3>
 
 <p>§ 3º. Os interessados que deixarem fluir o prazo estabelecido no § 1º. sem fazer valer seus direitos ou notificar os obrigados, só poderão exercitá-los sobre as importâncias que não tiverem sido distribuídas.</p>
 
-<p><span class=artigo>Art. 62.</span> A remuneração não excederá o valor que os bens recuperados tiverem no final das operações de salvamento.</p>
+<p><a class="artigo">Art. 62.</a> A remuneração não excederá o valor que os bens recuperados tiverem no final das operações de salvamento.</p>
 
-<p><span class=artigo>Art. 63.</span> O pagamento da remuneração será obrigatório para quem usar aeronave sem o consentimento do seu proprietário ou explorador.</p>
+<p><a class="artigo">Art. 63.</a> O pagamento da remuneração será obrigatório para quem usar aeronave sem o consentimento do seu proprietário ou explorador.</p>
 
 <p>Parágrafo único. Provada a negligência do proprietário ou explorador, estes responderão, solidariamente, pela remuneração.</p>
 
-<p><span class=artigo>Art. 64.</span> A remuneração poderá ser reduzida ou suprimida se provado que:</p>
+<p><a class="artigo">Art. 64.</a> A remuneração poderá ser reduzida ou suprimida se provado que:</p>
 
 <p>I - os reclamantes concorreram voluntariamente ou por negligência para agravar a situação de pessoas ou bens a serem socorridos;</p>
 
 <p>II - se, comprovadamente, furtaram ou tornaram-se cúmplices de furto, extravio ou atos fraudulentos.</p>
 
-<p><span class=artigo>Art. 65.</span> O proprietário ou explorador da aeronave que prestou socorro pode reter a carga até ser paga a cota que lhe corresponde da remuneração da assistência ou salvamento, mediante entendimento com o proprietário da mesma ou com a seguradora.</p>
+<p><a class="artigo">Art. 65.</a> O proprietário ou explorador da aeronave que prestou socorro pode reter a carga até ser paga a cota que lhe corresponde da remuneração da assistência ou salvamento, mediante entendimento com o proprietário da mesma ou com a seguradora.</p>
 
 <h2>CAPÍTULO IV<br>
 Do Sistema de Segurança de Voo</h2>
@@ -490,7 +515,7 @@ Do Sistema de Segurança de Voo</h2>
 <h3>SEÇÃO I<br>
 Dos Regulamentos e Requisitos de Segurança de Voo</h3>
 
-<p><span class=artigo>Art. 66.</span> Compete à autoridade aeronáutica promover a segurança de voo, devendo estabelecer os padrões mínimos de segurança:</p>
+<p><a class="artigo">Art. 66.</a> Compete à autoridade aeronáutica promover a segurança de voo, devendo estabelecer os padrões mínimos de segurança:</p>
 
 <p>I - relativos a projetos, materiais, mão-de-obra, construção e desempenho de aeronaves, motores, hélices e demais componentes aeronáuticos; e</p>
 
@@ -500,7 +525,7 @@ Dos Regulamentos e Requisitos de Segurança de Voo</h3>
 
 <p>§ 2º. Os padrões poderão variar em razão do tipo ou destinação do produto aeronáutico.</p>
 
-<p><span class=artigo>Art. 67.</span> Somente poderão ser usadas aeronaves, motores, hélices e demais componentes aeronáuticos que observem os padrões e requisitos previstos nos regulamentos de que trata o art. 66, ressalvada a operação com certificado de aeronavegabilidade especial. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 67.</a> Somente poderão ser usadas aeronaves, motores, hélices e demais componentes aeronáuticos que observem os padrões e requisitos previstos nos regulamentos de que trata o art. 66, ressalvada a operação com certificado de aeronavegabilidade especial. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>§ 1º. Poderá a autoridade aeronáutica, em caráter excepcional, permitir o uso de componentes ainda não homologados, desde que não seja comprometida a segurança de voo.</p>
 
@@ -513,7 +538,7 @@ Dos Regulamentos e Requisitos de Segurança de Voo</h3>
 <h3>SEÇÃO II<br>
 Dos Certificados de Homologação</h3>
 
-<p><span class=artigo>Art. 68.</span> A autoridade aeronáutica emitirá certificado de homologação de tipo de aeronave, motores, hélices e outros produtos aeronáuticos que satisfizerem as exigências e requisitos dos Regulamentos.</p>
+<p><a class="artigo">Art. 68.</a> A autoridade aeronáutica emitirá certificado de homologação de tipo de aeronave, motores, hélices e outros produtos aeronáuticos que satisfizerem as exigências e requisitos dos Regulamentos.</p>
 
 <p>§ 1º. Qualquer pessoa interessada pode requerer o certificado de que trata este artigo, observados os procedimentos regulamentares.</p>
 
@@ -521,11 +546,11 @@ Dos Certificados de Homologação</h3>
 
 <p>§ 3º. O disposto neste artigo aplica-se aos produtos aeronáuticos importados, nos termos estabelecidos pela autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 69.</span> A autoridade aeronáutica emitirá os certificados de homologação de empresa destinada à fabricação de produtos aeronáuticos, desde que o respectivo sistema de fabricação e controle assegure que toda unidade fabricada atenderá ao projeto aprovado.</p>
+<p><a class="artigo">Art. 69.</a> A autoridade aeronáutica emitirá os certificados de homologação de empresa destinada à fabricação de produtos aeronáuticos, desde que o respectivo sistema de fabricação e controle assegure que toda unidade fabricada atenderá ao projeto aprovado.</p>
 
 <p>Parágrafo único. Qualquer interessado em fabricar produto aeronáutico, de tipo já certificado, deverá requerer o certificado de homologação de empresa, na forma do respectivo Regulamento.</p>
 
-<p><span class=artigo>Art. 70.</span> A autoridade aeronáutica emitirá certificados de homologação de empresa destinada à execução de serviços de revisão, reparo e manutenção de aeronave, motores, hélices e outros produtos aeronáuticos.</p>
+<p><a class="artigo">Art. 70.</a> A autoridade aeronáutica emitirá certificados de homologação de empresa destinada à execução de serviços de revisão, reparo e manutenção de aeronave, motores, hélices e outros produtos aeronáuticos.</p>
 
 <p>§ 1º. Qualquer oficina de manutenção de produto aeronáutico deve possuir o certificado de que trata este artigo, obedecido o procedimento regulamentar.</p>
 
@@ -535,7 +560,7 @@ Dos Certificados de Homologação</h3>
 
 <p>§ 4º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 71.</span> Os certificados de homologação, previstos nesta Seção, poderão ser emendados, modificados, suspensos ou cassados sempre que a segurança de voo ou o interesse público o exigir.</p>
+<p><a class="artigo">Art. 71.</a> Os certificados de homologação, previstos nesta Seção, poderão ser emendados, modificados, suspensos ou cassados sempre que a segurança de voo ou o interesse público o exigir.</p>
 
 <p>Parágrafo único. Salvo caso de emergência, o interessado será notificado para, no prazo que lhe for assinado, sanar qualquer irregularidade verificada.</p>
 
@@ -545,7 +570,7 @@ Sistema de Registro Aeronáutico Brasileiro</h2>
 <h3>SEÇÃO I<br>
 Do Registro Aeronáutico Brasileiro</h3>
 
-<p><span class=artigo>Art. 72.</span> O Registro Aeronáutico Brasileiro será público, único e centralizado, e tem como atribuições: (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 72.</a> O Registro Aeronáutico Brasileiro será público, único e centralizado, e tem como atribuições: (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>I - emitir certificados de matrícula, de aeronavegabilidade e de nacionalidade de aeronaves sujeitas à legislação brasileira;</p>
 
@@ -579,13 +604,13 @@ Do Registro Aeronáutico Brasileiro</h3>
 
 <p>§ 3º. Os serviços relativos ao registro ocorrem a pedido do requerente, por meio da apresentação da documentação exigida e do pagamento das taxas correspondentes, nos termos dispostos em regulamentação da autoridade de aviação civil. (Incluído pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 73.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 73.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 74.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 74.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 75.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 75.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 76.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 76.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h3>SEÇÃO II<br>
 (Revogado pela Medida Provisória nº. 1.089, de 2021)</h3>
@@ -598,7 +623,7 @@ SISTEMA DE INVESTIGAÇÃO E PREVENÇÃO DE ACIDENTES AERONÁUTICOS - SIPAER</h2>
 <h3><span class=Ttulo3Char>SEÇÃO I<br>
 </span>Da Investigação SIPAER</h3>
 
-<p><span class=artigo>Art. 86.</span> Compete ao Sistema de Investigação e Prevenção de Acidentes Aeronáuticos planejar, orientar, coordenar, controlar e executar as atividades de investigação e de prevenção de acidentes Aeronáuticos.</p>
+<p><a class="artigo">Art. 86.</a> Compete ao Sistema de Investigação e Prevenção de Acidentes Aeronáuticos planejar, orientar, coordenar, controlar e executar as atividades de investigação e de prevenção de acidentes Aeronáuticos.</p>
 
 <p>§ 1º. (Vetado).</p>
 
@@ -612,29 +637,29 @@ SISTEMA DE INVESTIGAÇÃO E PREVENÇÃO DE ACIDENTES AERONÁUTICOS - SIPAER</h2>
 
 <p>§ 6º. (Vetado).</p>
 
-<p><span class=artigo>Art. 86-A.</span> A investigação de acidentes e incidentes aeronáuticos tem por objetivo único a prevenção de outros acidentes e incidentes por meio da identificação dos fatores que tenham contribuído, direta ou indiretamente, para a ocorrência e da emissão de recomendações de segurança operacional. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 86-A.aspan> A investigação de acidentes e incidentes aeronáuticos tem por objetivo único a prevenção de outros acidentes e incidentes por meio da identificação dos fatores que tenham contribuído, direta ou indiretamente, para a ocorrência e da emissão de recomendações de segurança operacional. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>Parágrafo único. Em qualquer fase da investigação, poderão ser emitidas recomendações de segurança operacional. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 87.</span> A prevenção de acidentes aeronáuticos é da responsabilidade de todas as pessoas, naturais ou jurídicas, envolvidas com a fabricação, manutenção, operação e circulação de aeronaves, bem assim com as atividades de apoio da infraestrutura aeronáutica no território brasileiro.</p>
+<p><a class="artigo">Art. 87.</a> A prevenção de acidentes aeronáuticos é da responsabilidade de todas as pessoas, naturais ou jurídicas, envolvidas com a fabricação, manutenção, operação e circulação de aeronaves, bem assim com as atividades de apoio da infraestrutura aeronáutica no território brasileiro.</p>
 
-<p><span class=artigo>Art. 88.</span> Toda pessoa que tiver conhecimento de qualquer acidente de aviação ou da existência de restos ou despojos de aeronave tem o dever de comunicá-lo à autoridade pública mais próxima e pelo meio mais rápido.</p>
+<p><a class="artigo">Art. 88.</a> Toda pessoa que tiver conhecimento de qualquer acidente de aviação ou da existência de restos ou despojos de aeronave tem o dever de comunicá-lo à autoridade pública mais próxima e pelo meio mais rápido.</p>
 
 <p>Parágrafo único. A autoridade pública que tiver conhecimento do fato ou nele intervier, comunicá-lo-á imediatamente, sob pena de responsabilidade por negligência, à autoridade aeronáutica mais próxima do acidente.</p>
 
-<p><span class=artigo>Art. 88-A.</span> A investigação Sistema de Investigação e Prevenção de Acidentes Aeronáuticos - SIPAER englobará práticas, técnicas, processos, procedimentos e métodos empregados para a identificação de atos, condições ou circunstâncias que, isolada ou conjuntamente, representem risco à integridade de pessoas, aeronaves e outros bens, unicamente em proveito da prevenção de acidentes aeronáuticos, incidentes aeronáuticos e ocorrências de solo. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-A.aspan> A investigação Sistema de Investigação e Prevenção de Acidentes Aeronáuticos - SIPAER englobará práticas, técnicas, processos, procedimentos e métodos empregados para a identificação de atos, condições ou circunstâncias que, isolada ou conjuntamente, representem risco à integridade de pessoas, aeronaves e outros bens, unicamente em proveito da prevenção de acidentes aeronáuticos, incidentes aeronáuticos e ocorrências de solo. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>§ 1º. A investigação SIPAER deverá considerar fatos, hipóteses e precedentes conhecidos na identificação dos possíveis fatores contribuintes para a ocorrência ou o agravamento das consequências de acidentes aeronáuticos, incidentes aeronáuticos e ocorrências de solo. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>§ 2º. A autoridade de investigação SIPAER poderá decidir por não proceder à investigação SIPAER ou interrompê-la, se já em andamento, nos casos em que for constatado ato ilícito doloso relacionado à causalidade do sinistro e em que a investigação não trouxer proveito à prevenção de novos acidentes ou incidentes aeronáuticos, sem prejuízo da comunicação à autoridade policial competente. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-B.</span> A investigação SIPAER de um determinado acidente, incidente aeronáutico ou ocorrência de solo deverá desenvolver-se de forma independente de quaisquer outras investigações sobre o mesmo evento, sendo vedada a participação nestas de qualquer pessoa que esteja participando ou tenha participado da primeira. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-B.aspan> A investigação SIPAER de um determinado acidente, incidente aeronáutico ou ocorrência de solo deverá desenvolver-se de forma independente de quaisquer outras investigações sobre o mesmo evento, sendo vedada a participação nestas de qualquer pessoa que esteja participando ou tenha participado da primeira. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-C.</span> A investigação SIPAER não impedirá a instauração nem suprirá a necessidade de outras investigações, inclusive para fins de prevenção, e, em razão de objetivar a preservação de vidas humanas, por intermédio da segurança do transporte aéreo, terá precedência sobre os procedimentos concomitantes ou não das demais investigações no tocante ao acesso e à guarda de itens de interesse da investigação. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-C.aspan> A investigação SIPAER não impedirá a instauração nem suprirá a necessidade de outras investigações, inclusive para fins de prevenção, e, em razão de objetivar a preservação de vidas humanas, por intermédio da segurança do transporte aéreo, terá precedência sobre os procedimentos concomitantes ou não das demais investigações no tocante ao acesso e à guarda de itens de interesse da investigação. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-D.</span> Se, no curso de investigação SIPAER, forem encontrados indícios de crime, relacionados ou não à cadeia de eventos do acidente, far-se-á a comunicação à autoridade policial competente. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-D.aspan> Se, no curso de investigação SIPAER, forem encontrados indícios de crime, relacionados ou não à cadeia de eventos do acidente, far-se-á a comunicação à autoridade policial competente. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-E.</span> Mediante pedido da autoridade policial ou judicial, a autoridade de investigação SIPAER colocará especialistas à disposição para os exames necessários às diligências sobre o acidente aeronáutico com aeronave civil, desde que: (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-E.aspan> Mediante pedido da autoridade policial ou judicial, a autoridade de investigação SIPAER colocará especialistas à disposição para os exames necessários às diligências sobre o acidente aeronáutico com aeronave civil, desde que: (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>I - não exista, no quadro de pessoal do órgão solicitante, técnico capacitado ou equipamento apropriado para os exames requeridos; (Incluído pela Lei nº. 12.970, de 2014)</p>
 
@@ -649,11 +674,11 @@ SISTEMA DE INVESTIGAÇÃO E PREVENÇÃO DE ACIDENTES AERONÁUTICOS - SIPAER</h2>
 <h3>Seção II<br>
 Da Competência para a Investigação SIPAER</h3>
 
-<p><span class=artigo>Art. 88-F.</span> A investigação de acidente com aeronave de Força Armada será conduzida pelo respectivo Comando Militar e, no caso de aeronave militar estrangeira, pelo Comando da Aeronáutica ou conforme os acordos vigentes. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-F.aspan> A investigação de acidente com aeronave de Força Armada será conduzida pelo respectivo Comando Militar e, no caso de aeronave militar estrangeira, pelo Comando da Aeronáutica ou conforme os acordos vigentes. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>Parágrafo único. (VETADO). (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-G.</span> A investigação SIPAER de acidente com aeronave civil será conduzida pela autoridade de investigação SIPAER, a qual decidirá sobre a composição da comissão de investigação SIPAER, cuja presidência caberá a profissional habilitado e com credencial SIPAER válida. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-G.aspan> A investigação SIPAER de acidente com aeronave civil será conduzida pela autoridade de investigação SIPAER, a qual decidirá sobre a composição da comissão de investigação SIPAER, cuja presidência caberá a profissional habilitado e com credencial SIPAER válida. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>§ 1º. A autoridade de investigação SIPAER requisitará dos órgãos e entidades competentes, com precedência sobre outras requisições, os laudos, autos de exames, inclusive autópsias, e cópias de outros documentos de interesse para a investigação SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
@@ -667,14 +692,14 @@ Da Competência para a Investigação SIPAER</h3>
 
 <p>§ 6º. No intuito de prover celeridade à investigação SIPAER, a prioridade prevista no § 5º. deste artigo será exercida mediante a apresentação de credencial emitida pela autoridade de investigação SIPAER, no aeroporto de embarque, ao representante da empresa requisitada. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-H.</span> A investigação SIPAER de acidente aeronáutico será concluída com a emissão do relatório final, documento que representa o pronunciamento da autoridade de investigação SIPAER sobre os possíveis fatores contribuintes de determinado acidente aeronáutico e apresenta recomendações unicamente em proveito da segurança operacional da atividade aérea. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-H.aspan> A investigação SIPAER de acidente aeronáutico será concluída com a emissão do relatório final, documento que representa o pronunciamento da autoridade de investigação SIPAER sobre os possíveis fatores contribuintes de determinado acidente aeronáutico e apresenta recomendações unicamente em proveito da segurança operacional da atividade aérea. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>Parágrafo único. O relatório final de acidente com aeronave de Força Armada será aprovado pelo comandante do respectivo Comando Militar. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <h3>Seção III<br>
 Do Sigilo Profissional e da Proteção à Informação</h3>
 
-<p><span class=artigo>Art. 88-I.</span> São fontes SIPAER: (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-I.aspan> São fontes SIPAER: (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>I - gravações das comunicações entre os órgãos de controle de tráfego aéreo e suas transcrições; (Incluído pela Lei nº. 12.970, de 2014)</p>
 
@@ -698,16 +723,16 @@ Do Sigilo Profissional e da Proteção à Informação</h3>
 
 <p>§ 4º. Salvo em proveito de investigação SIPAER e de outras atividades de prevenção, será vedado ao profissional do SIPAER revelar suas fontes e respectivos conteúdos, aplicando-se-lhe o disposto no art. 207 do Decreto-Lei no 3.689, de 3 de outubro de 1941 - Código de Processo Penal, e no art. 406 da Lei no 5.869, de 11 de janeiro de 1973 - Código de Processo Civil. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-J.</span> As fontes e informações SIPAER que tiverem seu uso permitido em inquérito ou em processo judicial ou procedimento administrativo estarão protegidas pelo sigilo processual. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-J.aspan> As fontes e informações SIPAER que tiverem seu uso permitido em inquérito ou em processo judicial ou procedimento administrativo estarão protegidas pelo sigilo processual. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-K.</span> Para o uso das fontes SIPAER como prova, nos casos permitidos por esta Lei, o juiz decidirá após oitiva do representante judicial da autoridade SIPAER, que deverá se pronunciar no prazo de 72 (setenta e duas) horas. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-K.aspan> Para o uso das fontes SIPAER como prova, nos casos permitidos por esta Lei, o juiz decidirá após oitiva do representante judicial da autoridade SIPAER, que deverá se pronunciar no prazo de 72 (setenta e duas) horas. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-L.</span> A autoridade SIPAER, ou a quem esta delegar, poderá decidir sobre a conveniência de divulgar, sem prejuízo à prevenção de acidentes e às previsões legais, informações relativas às investigações SIPAER em andamento e às respectivas fontes SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-L.aspan> A autoridade SIPAER, ou a quem esta delegar, poderá decidir sobre a conveniência de divulgar, sem prejuízo à prevenção de acidentes e às previsões legais, informações relativas às investigações SIPAER em andamento e às respectivas fontes SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <h3>Seção IV<br>
 Do Acesso aos Destroços de Aeronave</h3>
 
-<p><span class=artigo>Art. 88-M.</span> A aeronave civil envolvida em acidente, incidente aeronáutico ou ocorrência de solo poderá ser interditada pela autoridade de investigação SIPAER, observando-se que: (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-M.aspan> A aeronave civil envolvida em acidente, incidente aeronáutico ou ocorrência de solo poderá ser interditada pela autoridade de investigação SIPAER, observando-se que: (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>I - o auto de interdição será assinado pela autoridade de investigação SIPAER e, se possível, pelo operador da aeronave ou seu representante; (Incluído pela Lei nº. 12.970, de 2014)</p>
 
@@ -715,13 +740,13 @@ Do Acesso aos Destroços de Aeronave</h3>
 
 <p>III - o operador permanecerá responsável pelo adimplemento de quaisquer obrigações que incidam sobre a aeronave. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-N.</span> Exceto para efeito de salvar vidas, preservação da segurança das pessoas ou preservação de evidências, nenhuma aeronave acidentada, seus destroços ou coisas que por ela eram transportadas podem ser vasculhados ou removidos, a não ser com a autorização da autoridade de investigação SIPAER, que deterá a guarda dos itens de interesse para a investigação até a sua liberação nos termos desta Lei. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-N.aspan> Exceto para efeito de salvar vidas, preservação da segurança das pessoas ou preservação de evidências, nenhuma aeronave acidentada, seus destroços ou coisas que por ela eram transportadas podem ser vasculhados ou removidos, a não ser com a autorização da autoridade de investigação SIPAER, que deterá a guarda dos itens de interesse para a investigação até a sua liberação nos termos desta Lei. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-O.</span> A autoridade policial competente deve isolar e preservar o local do acidente ou incidente aéreo, inclusive a aeronave acidentada e seus destroços, para a coleta de provas, até a liberação da aeronave ou dos destroços tanto pelas autoridades aeronáuticas quanto por eventuais agentes de perícia criminal responsáveis pelas respectivas investigações. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-O.aspan> A autoridade policial competente deve isolar e preservar o local do acidente ou incidente aéreo, inclusive a aeronave acidentada e seus destroços, para a coleta de provas, até a liberação da aeronave ou dos destroços tanto pelas autoridades aeronáuticas quanto por eventuais agentes de perícia criminal responsáveis pelas respectivas investigações. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-P.</span> Em coordenação com a autoridade de investigação SIPAER, ficará assegurado a outros órgãos, inclusive da autoridade de aviação civil e da polícia judiciária, o acesso à aeronave acidentada, aos seus destroços ou a coisas que por ela eram transportadas, somente podendo haver manipulação ou retenção de quaisquer objetos do acidente com anuência da autoridade de investigação SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-P.aspan> Em coordenação com a autoridade de investigação SIPAER, ficará assegurado a outros órgãos, inclusive da autoridade de aviação civil e da polícia judiciária, o acesso à aeronave acidentada, aos seus destroços ou a coisas que por ela eram transportadas, somente podendo haver manipulação ou retenção de quaisquer objetos do acidente com anuência da autoridade de investigação SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-Q.</span> O dever de remoção de aeronave envolvida em acidente, de destroços e de bens transportados, em qualquer parte, será do explorador da aeronave, que arcará com as despesas decorrentes. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-Q.aspan> O dever de remoção de aeronave envolvida em acidente, de destroços e de bens transportados, em qualquer parte, será do explorador da aeronave, que arcará com as despesas decorrentes. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>§ 1º. Nos aeródromos públicos, caso o explorador não providencie tempestivamente a remoção da aeronave ou dos seus destroços, caberá à administração do aeródromo fazê-lo, imputando-se àquele a indenização das despesas. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
@@ -729,7 +754,7 @@ Do Acesso aos Destroços de Aeronave</h3>
 
 <p>§ 3º. Será proibida a venda dos destroços, partes, peças, componentes e motores antes de eles terem sido liberados pela autoridade de investigação SIPAER e, se houver, pelo responsável pela investigação policial, depois de observadas as demais exigências legais e regulamentares. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 88-R.</span> Os interessados na custódia dos destroços deverão habilitar-se perante a autoridade de investigação SIPAER, do início da investigação SIPAER até 90 (noventa) dias após a sua conclusão, por meio de pedido ao juiz da causa, que julgará sobre seu cabimento e interesse. (Incluído pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 88-R.aspan> Os interessados na custódia dos destroços deverão habilitar-se perante a autoridade de investigação SIPAER, do início da investigação SIPAER até 90 (noventa) dias após a sua conclusão, por meio de pedido ao juiz da causa, que julgará sobre seu cabimento e interesse. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
 <p>§ 1º. Caso mais de um interessado habilite-se na forma do caput, os destroços serão encaminhados àquele que primeiro se habilitou, sendo todos os juízos habilitados notificados da decisão de custódia, por meio de comunicação oficial da autoridade de investigação SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
@@ -743,19 +768,19 @@ Do Acesso aos Destroços de Aeronave</h3>
 
 <p>§ 6º. Para a aferição do cumprimento do prazo de manifestação de interesse e da ordem de preferência, será considerada a data de ingresso do pedido judicial no protocolo da autoridade de investigação SIPAER. (Incluído pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 89.</span> (Revogado pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 89.</a> (Revogado pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 90.</span> Sempre que forem acionados os serviços de emergência de aeroporto para a prestação de socorro, o custo das despesas decorrentes será indenizado pelo explorador da aeronave socorrida.</p>
+<p><a class="artigo">Art. 90.</a> Sempre que forem acionados os serviços de emergência de aeroporto para a prestação de socorro, o custo das despesas decorrentes será indenizado pelo explorador da aeronave socorrida.</p>
 
-<p><span class=artigo>Art. 91.</span> (Revogado pela Lei nº. 12.970, de 2014)</p>
-
-<p>Parágrafo único. (Revogado pela Lei nº. 12.970, de 2014)</p>
-
-<p><span class=artigo>Art. 92.</span> (Revogado pela Lei nº. 12.970, de 2014)</p>
+<p><a class="artigo">Art. 91.</a> (Revogado pela Lei nº. 12.970, de 2014)</p>
 
 <p>Parágrafo único. (Revogado pela Lei nº. 12.970, de 2014)</p>
 
-<p><span class=artigo>Art. 93.</span> A correspondência transportada por aeronave acidentada deverá ser entregue, o mais rápido possível, à entidade responsável pelo serviço postal, que fará a devida comunicação à autoridade aduaneira mais próxima, no caso de remessas postais internacionais.</p>
+<p><a class="artigo">Art. 92.</a> (Revogado pela Lei nº. 12.970, de 2014)</p>
+
+<p>Parágrafo único. (Revogado pela Lei nº. 12.970, de 2014)</p>
+
+<p><a class="artigo">Art. 93.</a> A correspondência transportada por aeronave acidentada deverá ser entregue, o mais rápido possível, à entidade responsável pelo serviço postal, que fará a devida comunicação à autoridade aduaneira mais próxima, no caso de remessas postais internacionais.</p>
 
 <h2>CAPÍTULO VII<br>
 Sistema de Facilitação, Segurança da Aviação Civil e Coordenação do Transporte Aéreo</h2>
@@ -763,12 +788,12 @@ Sistema de Facilitação, Segurança da Aviação Civil e Coordenação do Trans
 <h3>SEÇÃO I<br>
 Da Facilitação do Transporte Aéreo</h3>
 
-<p><span class=artigo>Art. 94.</span> O sistema de facilitação do transporte aéreo, vinculado ao Ministério da Aeronáutica, tem por objetivo estudar as normas e recomendações pertinentes da Organização de Aviação Civil Internacional - OACI e propor aos órgãos interessados as medidas adequadas a implementá-las no País, avaliando os resultados e sugerindo as alterações necessárias ao aperfeiçoamento dos serviços aéreos.</p>
+<p><a class="artigo">Art. 94.</a> O sistema de facilitação do transporte aéreo, vinculado ao Ministério da Aeronáutica, tem por objetivo estudar as normas e recomendações pertinentes da Organização de Aviação Civil Internacional - OACI e propor aos órgãos interessados as medidas adequadas a implementá-las no País, avaliando os resultados e sugerindo as alterações necessárias ao aperfeiçoamento dos serviços aéreos.</p>
 
 <h3>SEÇÃO II<br>
 Da Segurança da Aviação Civil</h3>
 
-<p><span class=artigo>Art. 95.</span> O Poder Executivo deverá instituir e regular comissão que tenha os seguintes objetivos: (Redação dada pela Lei nº. 14.047, de 2020)</p>
+<p><a class="artigo">Art. 95.</a> O Poder Executivo deverá instituir e regular comissão que tenha os seguintes objetivos: (Redação dada pela Lei nº. 14.047, de 2020)</p>
 
 <p>I - assessorar os órgãos governamentais, relativamente à política e aos critérios de segurança; e (Incluído pela Lei nº. 14.047, de 2020)</p>
 
@@ -791,7 +816,7 @@ Da Segurança da Aviação Civil</h3>
 <h3>SEÇÃO III<br>
 Da Coordenação do Transporte Aéreo Civil</h3>
 
-<p><span class=artigo>Art. 96.</span> O Poder Executivo regulamentará o órgão do sistema de coordenação do transporte aéreo civil, a fim de:</p>
+<p><a class="artigo">Art. 96.</a> O Poder Executivo regulamentará o órgão do sistema de coordenação do transporte aéreo civil, a fim de:</p>
 
 <p>I - propor medidas visando a:</p>
 
@@ -807,7 +832,7 @@ Sistema de Formação e Adestramento de Pessoal</h2>
 <h3>SEÇÃO I<br>
 Dos Aeroclubes</h3>
 
-<p><span class=artigo>Art. 97.</span> Aeroclube é toda sociedade civil com patrimônio e administração próprios, com serviços locais e regionais, cujos objetivos principais são o ensino e a prática da aviação civil, de turismo e desportiva em todas as suas modalidades, podendo cumprir missões de emergência ou de notório interesse da coletividade.</p>
+<p><a class="artigo">Art. 97.</a> Aeroclube é toda sociedade civil com patrimônio e administração próprios, com serviços locais e regionais, cujos objetivos principais são o ensino e a prática da aviação civil, de turismo e desportiva em todas as suas modalidades, podendo cumprir missões de emergência ou de notório interesse da coletividade.</p>
 
 <p>§ 1º. Os serviços aéreos prestados por aeroclubes abrangem as atividades de:</p>
 
@@ -822,9 +847,9 @@ Dos Aeroclubes</h3>
 <h3>SEÇÃO II<br>
 Da Formação e Adestramento de Pessoal de Aviação Civil</h3>
 
-<p><span class=artigo>Art. 98.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 98.</a> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 99.</span> A formação e o treinamento de pessoal da aviação civil obedecerão aos regulamentos editados pela autoridade aeronáutica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 99.</a> A formação e o treinamento de pessoal da aviação civil obedecerão aos regulamentos editados pela autoridade aeronáutica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Parágrafo único. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -832,28 +857,28 @@ Da Formação e Adestramento de Pessoal de Aviação Civil</h3>
 
 <p>Da Formação e Adestramento de Pessoal Destinado à Infraestrutura Aeronáutica</p>
 
-<p><span class=artigo>Art. 100.</span> Os programas de desenvolvimento de ensino e adestramento de pessoal civil vinculado à infraestrutura aeronáutica compreendem a formação, aperfeiçoamento e especialização de técnicos para todos os elementos indispensáveis, imediata ou mediatamente, à navegação aérea, inclusive à fabricação, revisão e manutenção de produtos aeronáuticos ou relativos à proteção ao (omissão do Diário Oficial).</p>
+<p><a class="artigo">Art. 100.<aspan> Os programas de desenvolvimento de ensino e adestramento de pessoal civil vinculado à infraestrutura aeronáutica compreendem a formação, aperfeiçoamento e especialização de técnicos para todos os elementos indispensáveis, imediata ou mediatamente, à navegação aérea, inclusive à fabricação, revisão e manutenção de produtos aeronáuticos ou relativos à proteção ao (omissão do Diário Oficial).</p>
 
 <p>Parágrafo único. Cabe à autoridade aeronáutica expedir licença ou certificado de controladores de tráfego aéreo e de outros profissionais dos diversos setores de atividades vinculadas à navegação aérea e à infraestrutura aeronáutica.</p>
 
 <h2>CAPÍTULO IX<br>
 Sistema de Indústria Aeronáutica</h2>
 
-<p><span class=artigo>Art. 101.</span> A indústria aeronáutica, constituída de empresas de fabricação, revisão, reparo e manutenção de produto aeronáutico ou relativo à proteção ao voo depende de registro e de homologação (artigos 66 a 71).</p>
+<p><a class="artigo">Art. 101.<aspan> A indústria aeronáutica, constituída de empresas de fabricação, revisão, reparo e manutenção de produto aeronáutico ou relativo à proteção ao voo depende de registro e de homologação (artigos 66 a 71).</p>
 
 <h2>CAPÍTULO X<br>
 Dos Serviços Auxiliares</h2>
 
-<p><span class=artigo>Art. 102.</span> Os serviços auxiliares, conexos à navegação aérea ou à infraestrutura aeronáutica, serão estabelecidos pela autoridade aeronáutica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 102.<aspan> Os serviços auxiliares, conexos à navegação aérea ou à infraestrutura aeronáutica, serão estabelecidos pela autoridade aeronáutica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 103.</span> Os serviços de controle aduaneiro nos aeroportos internacionais serão executados de conformidade com lei específica.</p>
+<p><a class="artigo">Art. 103.<aspan> Os serviços de controle aduaneiro nos aeroportos internacionais serão executados de conformidade com lei específica.</p>
 
-<p><span class=artigo>Art. 104.</span> Todos os equipamentos e serviços de terra utilizados no atendimento de aeronaves, passageiros, bagagem e carga são de responsabilidade dos transportadores ou de prestadores autônomos de serviços auxiliares.</p>
+<p><a class="artigo">Art. 104.<aspan> Todos os equipamentos e serviços de terra utilizados no atendimento de aeronaves, passageiros, bagagem e carga são de responsabilidade dos transportadores ou de prestadores autônomos de serviços auxiliares.</p>
 
 <h2>CAPÍTULO XI<br>
 Sistema de Coordenação da Infraestrutura Aeronáutica</h2>
 
-<p><span class=artigo>Art. 105.</span> Poderá ser instalado órgão ou Comissão com o objetivo de:</p>
+<p><a class="artigo">Art. 105.<aspan> Poderá ser instalado órgão ou Comissão com o objetivo de:</p>
 
 <p>I - promover o planejamento integrado da infraestrutura aeronáutica e sua harmonização com as possibilidades econômico-financeiras do País;</p>
 
@@ -869,13 +894,13 @@ Das Aeronaves</h1>
 <h2>CAPÍTULO I<br>
 Disposições Gerais</h2>
 
-<p><span class=artigo>Art. 106.</span> Considera-se aeronave todo aparelho manobrável em voo, que possa sustentar-se e circular no espaço aéreo, mediante reações aerodinâmicas, apto a transportar pessoas ou coisas.</p>
+<p><a class="artigo">Art. 106.<aspan> Considera-se aeronave todo aparelho manobrável em voo, que possa sustentar-se e circular no espaço aéreo, mediante reações aerodinâmicas, apto a transportar pessoas ou coisas.</p>
 
 <p>§ 1º. A aeronave é bem móvel registrável para o efeito de nacionalidade, de matrícula, de aeronavegabilidade, de transferência por ato entre vivos, de constituição de hipoteca, de publicidade e de cadastramento geral. (Incluído pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>§ 2º. A autoridade de aviação civil poderá estabelecer exceções à obrigatoriedade de registro de que trata o § 1º. (Incluído pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 107.</span> As aeronaves classificam-se em civis e militares.</p>
+<p><a class="artigo">Art. 107.<aspan> As aeronaves classificam-se em civis e militares.</p>
 
 <p>§ 1º. Consideram-se militares as integrantes das Forças Armadas, inclusive as requisitadas na forma da lei, para missões militares (artigo 3º, I).</p>
 
@@ -893,11 +918,11 @@ Da Nacionalidade, Matrícula e Aeronavegabilidade</h2>
 <h3>SEÇÃO I<br>
 Da Nacionalidade e Matrícula</h3>
 
-<p><span class=artigo>Art. 108.</span> A aeronave é considerada da nacionalidade do Estado em que esteja matriculada.</p>
+<p><a class="artigo">Art. 108.<aspan> A aeronave é considerada da nacionalidade do Estado em que esteja matriculada.</p>
 
-<p><span class=artigo>Art. 109.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 109.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 110.</span> A matrícula de aeronave já matriculada em outro Estado pode ser efetuada pelo novo adquirente, mediante a comprovação da transferência da propriedade; ou pelo explorador, mediante o expresso consentimento do titular do domínio.</p>
+<p><a class="artigo">Art. 110.<aspan> A matrícula de aeronave já matriculada em outro Estado pode ser efetuada pelo novo adquirente, mediante a comprovação da transferência da propriedade; ou pelo explorador, mediante o expresso consentimento do titular do domínio.</p>
 
 <p>Parágrafo único. O consentimento do proprietário pode ser manifestado, por meio de mandato especial, em cláusula do respectivo contrato de utilização de aeronave, ou em documento separado.</p>
 
@@ -911,7 +936,7 @@ Da Nacionalidade e Matrícula</h3>
 
 <p>§ 2º. O contrato de compra e venda, a prazo, desde que o vendedor não reserve para si a propriedade, enseja a matrícula definitiva.</p>
 
-<p><span class=artigo>Art. 112.</span> As marcas de nacionalidade e matrícula serão canceladas:</p>
+<p><a class="artigo">Art. 112.<aspan> As marcas de nacionalidade e matrícula serão canceladas:</p>
 
 <p>I - a pedido do proprietário ou explorador quando deva inscrevê-la em outro Estado, desde que não exista proibição legal (artigo 75 e Parágrafo único);</p>
 
@@ -919,12 +944,12 @@ Da Nacionalidade e Matrícula</h3>
 
 <p>III - quando ocorrer o abandono ou perecimento da aeronave.</p>
 
-<p><span class=artigo>Art. 113.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 113.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h3>SEÇÃO II<br>
 Do Certificado de Aeronavegabilidade</h3>
 
-<p><span class=artigo>Art. 114.</span> Nenhuma aeronave poderá ser autorizada para o voo sem a prévia expedição do correspondente certificado de aeronavegabilidade que só será válido durante o prazo estipulado e enquanto observadas as condições obrigatórias nele mencionadas (artigos 20 e 68, § 2º.).</p>
+<p><a class="artigo">Art. 114.<aspan> Nenhuma aeronave poderá ser autorizada para o voo sem a prévia expedição do correspondente certificado de aeronavegabilidade que só será válido durante o prazo estipulado e enquanto observadas as condições obrigatórias nele mencionadas (artigos 20 e 68, § 2º.).</p>
 
 <p>§ 1º. São estabelecidos em regulamento os requisitos, condições e provas necessários à obtenção ou renovação do certificado, assim como o prazo de vigência e casos de suspensão ou cassação.</p>
 
@@ -936,7 +961,7 @@ Da Propriedade e Exploração da Aeronave</h2>
 <h3>SEÇÃO I<br>
 Da Propriedade da Aeronave</h3>
 
-<p><span class=artigo>Art. 115.</span> Adquire-se a propriedade da aeronave:</p>
+<p><a class="artigo">Art. 115.<aspan> Adquire-se a propriedade da aeronave:</p>
 
 <p>I - por construção;</p>
 
@@ -952,11 +977,11 @@ Da Propriedade da Aeronave</h3>
 
 <p>§ 2º. Os títulos translativos da propriedade de aeronave, por ato entre vivos, não transferem o seu domínio, senão da data em que se inscreverem no Registro Aeronáutico Brasileiro.</p>
 
-<p><span class=artigo>Art. 116.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 116.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 117.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 117.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 118.</span> Os projetos de construção de aeronaves por conta do próprio fabricante, os contratos de construção por conta de quem a tenha contratado e as respectivas hipotecas poderão ser inscritos no Registro Aeronáutico Brasileiro. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 118.<aspan> Os projetos de construção de aeronaves por conta do próprio fabricante, os contratos de construção por conta de quem a tenha contratado e as respectivas hipotecas poderão ser inscritos no Registro Aeronáutico Brasileiro. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>§ 1º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -964,9 +989,9 @@ Da Propriedade da Aeronave</h3>
 
 <p>§ 3º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 119.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 119.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 120.</span> Perde-se a propriedade da aeronave pela alienação, renúncia, abandono, perecimento, desapropriação e pelas causas de extinção previstas em lei.</p>
+<p><a class="artigo">Art. 120.<aspan> Perde-se a propriedade da aeronave pela alienação, renúncia, abandono, perecimento, desapropriação e pelas causas de extinção previstas em lei.</p>
 
 <p>§ 1º. Ocorre o abandono da aeronave ou de parte dela quando não for possível determinar sua legítima origem ou quando manifestar-se o proprietário, de modo expresso, no sentido de abandoná-la.</p>
 
@@ -974,16 +999,16 @@ Da Propriedade da Aeronave</h3>
 
 <p>§ 3º. Verificado, em inquérito administrativo, o abandono ou perecimento da aeronave, será cancelada ex officio a respectiva matrícula.</p>
 
-<p><span class=artigo>Art. 121.</span> O contrato que objetive a transferência da propriedade de aeronave ou a constituição sobre ela de direito real poderá ser elaborado por instrumento público ou particular.</p>
+<p><a class="artigo">Art. 121.<aspan> O contrato que objetive a transferência da propriedade de aeronave ou a constituição sobre ela de direito real poderá ser elaborado por instrumento público ou particular.</p>
 
 <p>Parágrafo único. No caso de contrato realizado no exterior aplica-se o disposto no artigo 73, item III.</p>
 
 <h3>SEÇÃO II<br>
 Da Exploração e do Explorador de Aeronave</h3>
 
-<p><span class=artigo>Art. 122.</span> Dá-se a exploração da aeronave quando uma pessoa física ou jurídica, proprietária ou não, a utiliza, legitimamente, por conta própria, com ou sem fins lucrativos.</p>
+<p><a class="artigo">Art. 122.<aspan> Dá-se a exploração da aeronave quando uma pessoa física ou jurídica, proprietária ou não, a utiliza, legitimamente, por conta própria, com ou sem fins lucrativos.</p>
 
-<p><span class=artigo>Art. 123.</span> Considera-se operador ou explorador de aeronave:</p>
+<p><a class="artigo">Art. 123.<aspan> Considera-se operador ou explorador de aeronave:</p>
 
 <p>I - a pessoa natural ou jurídica prestadora de serviços aéreos; (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -993,7 +1018,7 @@ Da Exploração e do Explorador de Aeronave</h3>
 
 <p>IV - o arrendatário que adquiriu a condução técnica da aeronave arrendada e a autoridade sobre a tripulação.</p>
 
-<p><span class=artigo>Art. 124.</span> Quando o nome do explorador estiver inscrito no Registro Aeronáutico Brasileiro, mediante qualquer contrato de utilização, exclui-se o proprietário da aeronave da responsabilidade inerente à exploração da mesma.</p>
+<p><a class="artigo">Art. 124.<aspan> Quando o nome do explorador estiver inscrito no Registro Aeronáutico Brasileiro, mediante qualquer contrato de utilização, exclui-se o proprietário da aeronave da responsabilidade inerente à exploração da mesma.</p>
 
 <p>§ 1º. O proprietário da aeronave será reputado explorador, até prova em contrário, se o nome deste não constar no Registro Aeronáutico Brasileiro.</p>
 
@@ -1005,18 +1030,18 @@ Dos Contratos sobre Aeronave</h2>
 <h3>SEÇÃO I<br>
 Do Contrato de Construção de Aeronave</h3>
 
-<p><span class=artigo>Art. 125.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 125.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 126.</span> O contratante que encomendou a construção da aeronave, uma vez inscrito o seu contrato no Registro Aeronáutico Brasileiro, adquire, originariamente, a propriedade da aeronave, podendo dela dispor e reavê-la do poder de quem quer que injustamente a possua.</p>
+<p><a class="artigo">Art. 126.<aspan> O contratante que encomendou a construção da aeronave, uma vez inscrito o seu contrato no Registro Aeronáutico Brasileiro, adquire, originariamente, a propriedade da aeronave, podendo dela dispor e reavê-la do poder de quem quer que injustamente a possua.</p>
 
 <h3>SEÇÃO II<br>
 Do Arrendamento</h3>
 
-<p><span class=artigo>Art. 127.</span> Dá-se o arrendamento quando uma das partes se obriga a ceder à outra, por tempo determinado, o uso e gozo de aeronave ou de seus motores, mediante certa retribuição.</p>
+<p><a class="artigo">Art. 127.<aspan> Dá-se o arrendamento quando uma das partes se obriga a ceder à outra, por tempo determinado, o uso e gozo de aeronave ou de seus motores, mediante certa retribuição.</p>
 
-<p><span class=artigo>Art. 128.</span> O contrato de arrendamento de aeronave será feito por instrumento público ou particular e inscrito no Registro Aeronáutico Brasileiro. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 128.<aspan> O contrato de arrendamento de aeronave será feito por instrumento público ou particular e inscrito no Registro Aeronáutico Brasileiro. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 129.</span> O arrendador é obrigado:</p>
+<p><a class="artigo">Art. 129.<aspan> O arrendador é obrigado:</p>
 
 <p>I - a entregar ao arrendatário a aeronave ou o motor, no tempo e lugar convencionados, com a documentação necessária para o voo, em condições de servir ao uso a que um ou outro se destina, e a mantê-los nesse estado, pelo tempo do contrato, salvo cláusula expressa em contrário;</p>
 
@@ -1024,7 +1049,7 @@ Do Arrendamento</h3>
 
 <p>Parágrafo único. Pode o arrendador obrigar-se, também, a entregar a aeronave equipada e tripulada, desde que a direção e condução técnica fiquem a cargo do arrendatário.</p>
 
-<p><span class=artigo>Art. 130.</span> O arrendatário é obrigado:</p>
+<p><a class="artigo">Art. 130.<aspan> O arrendatário é obrigado:</p>
 
 <p>I - a fazer uso da coisa arrendada para o destino convencionado e dela cuidar como se sua fosse;</p>
 
@@ -1032,24 +1057,24 @@ Do Arrendamento</h3>
 
 <p>III - a restituir ao arrendador a coisa arrendada, no estado em que a recebeu, ressalvado o desgaste natural decorrente do uso regular.</p>
 
-<p><span class=artigo>Art. 131.</span> A cessão do arrendamento e o subarrendamento só poderão ser realizados por contrato escrito, com o consentimento expresso do arrendador e a inscrição no Registro Aeronáutico Brasileiro.</p>
+<p><a class="artigo">Art. 131.<aspan> A cessão do arrendamento e o subarrendamento só poderão ser realizados por contrato escrito, com o consentimento expresso do arrendador e a inscrição no Registro Aeronáutico Brasileiro.</p>
 
-<p><span class=artigo>Art. 132.</span> A não inscrição do contrato de arrendamento ou de subarrendamento determina que o arrendador, o arrendatário e o subarrendatário, se houver, sejam responsáveis pelos danos e prejuízos causados pela aeronave.</p>
+<p><a class="artigo">Art. 132.<aspan> A não inscrição do contrato de arrendamento ou de subarrendamento determina que o arrendador, o arrendatário e o subarrendatário, se houver, sejam responsáveis pelos danos e prejuízos causados pela aeronave.</p>
 
 <h3>SEÇÃO III<br>
 Do Fretamento</h3>
 
-<p><span class=artigo>Art. 133.</span> Dá-se o fretamento quando uma das partes, chamada fretador, obriga-se para com a outra, chamada afretador, mediante o pagamento por este, do frete, a realizar uma ou mais viagens preestabelecidas ou durante certo período de tempo, reservando-se ao fretador o controle sobre a tripulação e a condução técnica da aeronave.</p>
+<p><a class="artigo">Art. 133.<aspan> Dá-se o fretamento quando uma das partes, chamada fretador, obriga-se para com a outra, chamada afretador, mediante o pagamento por este, do frete, a realizar uma ou mais viagens preestabelecidas ou durante certo período de tempo, reservando-se ao fretador o controle sobre a tripulação e a condução técnica da aeronave.</p>
 
-<p><span class=artigo>Art. 134.</span> O contrato será por instrumento público ou particular, sendo facultada a sua inscrição no Registro Aeronáutico Brasileiro (artigos 123 e 124).</p>
+<p><a class="artigo">Art. 134.<aspan> O contrato será por instrumento público ou particular, sendo facultada a sua inscrição no Registro Aeronáutico Brasileiro (artigos 123 e 124).</p>
 
-<p><span class=artigo>Art. 135.</span> O fretador é obrigado:</p>
+<p><a class="artigo">Art. 135.<aspan> O fretador é obrigado:</p>
 
 <p>I - a colocar à disposição do afretador aeronave equipada e tripulada, com os documentos necessários e em estado de aeronavegabilidade;</p>
 
 <p>II - a realizar as viagens acordadas ou a manter a aeronave à disposição do afretador, durante o tempo convencionado.</p>
 
-<p><span class=artigo>Art. 136.</span> O afretador é obrigado:</p>
+<p><a class="artigo">Art. 136.<aspan> O afretador é obrigado:</p>
 
 <p>I - a limitar o emprego da aeronave ao uso para o qual foi contratada e segundo as condições do contrato;</p>
 
@@ -1058,7 +1083,7 @@ Do Fretamento</h3>
 <h3>SEÇÃO IV<br>
 Do Arrendamento Mercantil de Aeronave</h3>
 
-<p><span class=artigo>Art. 137.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 137.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h2>CAPÍTULO V<br>
 Da Hipoteca e Alienação Fiduciária de Aeronave</h2>
@@ -1066,7 +1091,7 @@ Da Hipoteca e Alienação Fiduciária de Aeronave</h2>
 <h3>SEÇÃO I<br>
 Da Hipoteca Convencional</h3>
 
-<p><span class=artigo>Art. 138.</span> Poderão ser objeto de hipoteca as aeronaves, motores, partes e acessórios de aeronaves, inclusive aquelas em construção.</p>
+<p><a class="artigo">Art. 138.<aspan> Poderão ser objeto de hipoteca as aeronaves, motores, partes e acessórios de aeronaves, inclusive aquelas em construção.</p>
 
 <p>§ 1º. Não pode ser objeto de hipoteca, enquanto não se proceder à matrícula definitiva, a aeronave inscrita e matriculada provisoriamente, salvo se for para garantir o contrato, com base no qual se fez a matrícula provisória.</p>
 
@@ -1078,13 +1103,13 @@ Da Hipoteca Convencional</h3>
 
 <p>§ 5º. Durante o contrato, o credor poderá inspecionar o estado dos bens, objeto da hipoteca.</p>
 
-<p><span class=artigo>Art. 139.</span> Só aquele que pode alienar a aeronave poderá hipotecá-la e só a aeronave que pode ser alienada poderá ser dada em hipoteca.</p>
+<p><a class="artigo">Art. 139.<aspan> Só aquele que pode alienar a aeronave poderá hipotecá-la e só a aeronave que pode ser alienada poderá ser dada em hipoteca.</p>
 
-<p><span class=artigo>Art. 140.</span> A aeronave comum a 2 (dois) ou mais proprietários só poderá ser dada em hipoteca com o consentimento expresso de todos os condôminos.</p>
+<p><a class="artigo">Art. 140.<aspan> A aeronave comum a 2 (dois) ou mais proprietários só poderá ser dada em hipoteca com o consentimento expresso de todos os condôminos.</p>
 
-<p><span class=artigo>Art. 141.</span> A hipoteca constituir-se-á pela inscrição do contrato no Registro Aeronáutico Brasileiro e com a averbação no respectivo certificado de matrícula.</p>
+<p><a class="artigo">Art. 141.<aspan> A hipoteca constituir-se-á pela inscrição do contrato no Registro Aeronáutico Brasileiro e com a averbação no respectivo certificado de matrícula.</p>
 
-<p><span class=artigo>Art. 142.</span> Do contrato de hipoteca deverão constar:</p>
+<p><a class="artigo">Art. 142.<aspan> Do contrato de hipoteca deverão constar:</p>
 
 <p>I - o nome e domicílio das partes contratantes;</p>
 
@@ -1098,7 +1123,7 @@ Da Hipoteca Convencional</h3>
 
 <p>§ 2º. No caso de contrato de hipoteca realizado no exterior, devem ser observadas as indicações previstas no artigo 73, item III.</p>
 
-<p><span class=artigo>Art. 143.</span> O crédito hipotecário aéreo prefere a qualquer outro, com exceção dos resultantes de:</p>
+<p><a class="artigo">Art. 143.<aspan> O crédito hipotecário aéreo prefere a qualquer outro, com exceção dos resultantes de:</p>
 
 <p>I - despesas judiciais, crédito trabalhista, tributário e proveniente de tarifas aeroportuárias;</p>
 
@@ -1115,15 +1140,15 @@ Da Hipoteca Convencional</h3>
 <h3>SEÇÃO II<br>
 Da Hipoteca Legal</h3>
 
-<p><span class=artigo>Art. 144.</span> Será dada em favor da União a hipoteca legal das aeronaves, peças e equipamentos adquiridos no exterior com aval, fiança ou qualquer outra garantia do Tesouro Nacional ou de seus agentes financeiros.</p>
+<p><a class="artigo">Art. 144.<aspan> Será dada em favor da União a hipoteca legal das aeronaves, peças e equipamentos adquiridos no exterior com aval, fiança ou qualquer outra garantia do Tesouro Nacional ou de seus agentes financeiros.</p>
 
-<p><span class=artigo>Art. 145.</span> Os bens mencionados no artigo anterior serão adjudicados à União, se esta o requerer no Juízo Federal, comprovando:</p>
+<p><a class="artigo">Art. 145.<aspan> Os bens mencionados no artigo anterior serão adjudicados à União, se esta o requerer no Juízo Federal, comprovando:</p>
 
 <p>I - a falência, insolvência, liquidação judicial ou extrajudicial, antes de concluído o pagamento do débito garantido pelo Tesouro Nacional ou seus agentes financeiros;</p>
 
 <p>II - a ocorrência dos fatos previstos no artigo 189, I e II deste Código.</p>
 
-<p><span class=artigo>Art. 146.</span> O débito que tenha de ser pago pela União ou seus agentes financeiros, vencido ou vincendo, será cobrado do adquirente ou da massa falida pelos valores despendidos por ocasião do pagamento.</p>
+<p><a class="artigo">Art. 146.<aspan> O débito que tenha de ser pago pela União ou seus agentes financeiros, vencido ou vincendo, será cobrado do adquirente ou da massa falida pelos valores despendidos por ocasião do pagamento.</p>
 
 <p>§ 1º. A conversão da moeda estrangeira, se for o caso, será feita pelo câmbio do dia, observada a legislação complementar pertinente.</p>
 
@@ -1139,14 +1164,14 @@ Da Hipoteca Legal</h3>
 
 <p>§ 7º. Se o preço alcançado no leilão não for superior ao crédito da União, poderá esta optar pela adjudicação a seu favor.</p>
 
-<p><span class=artigo>Art. 147.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 147.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h3>SEÇÃO III<br>
 Da Alienação Fiduciária</h3>
 
-<p><span class=artigo>Art. 148.</span> A alienação fiduciária em garantia transfere ao credor o domínio resolúvel e a posse indireta da aeronave ou de seus equipamentos, independentemente da respectiva tradição, tornando-se o devedor o possuidor direto e depositário com todas as responsabilidades e encargos que lhe incumbem de acordo com a lei civil e penal.</p>
+<p><a class="artigo">Art. 148.<aspan> A alienação fiduciária em garantia transfere ao credor o domínio resolúvel e a posse indireta da aeronave ou de seus equipamentos, independentemente da respectiva tradição, tornando-se o devedor o possuidor direto e depositário com todas as responsabilidades e encargos que lhe incumbem de acordo com a lei civil e penal.</p>
 
-<p><span class=artigo>Art. 149.</span> A alienação fiduciária em garantia de aeronave ou de seus motores deve ser feita por instrumento público ou particular, que conterá:</p>
+<p><a class="artigo">Art. 149.<aspan> A alienação fiduciária em garantia de aeronave ou de seus motores deve ser feita por instrumento público ou particular, que conterá:</p>
 
 <p>I - o valor da dívida, a taxa de juros, as comissões, cuja cobrança seja permitida, a cláusula penal e a estipulação da correção monetária, se houver, com a indicação exata dos índices aplicáveis;</p>
 
@@ -1158,9 +1183,9 @@ Da Alienação Fiduciária</h3>
 
 <p>§ 2º. No caso do parágrafo anterior, o domínio fiduciário transferir-se-á, no ato do registro, sobre as partes componentes, e estender-se-á à aeronave construída, independente de formalidade posterior.</p>
 
-<p><span class=artigo>Art. 150.</span> A alienação fiduciária só tem validade e eficácia após a inscrição no Registro Aeronáutico Brasileiro.</p>
+<p><a class="artigo">Art. 150.<aspan> A alienação fiduciária só tem validade e eficácia após a inscrição no Registro Aeronáutico Brasileiro.</p>
 
-<p><span class=artigo>Art. 151.</span> No caso de inadimplemento da obrigação garantida, o credor fiduciário poderá alienar o objeto da garantia a terceiros e aplicar o respectivo preço no pagamento do seu crédito e das despesas decorrentes da cobrança, entregando ao devedor o saldo, se houver.</p>
+<p><a class="artigo">Art. 151.<aspan> No caso de inadimplemento da obrigação garantida, o credor fiduciário poderá alienar o objeto da garantia a terceiros e aplicar o respectivo preço no pagamento do seu crédito e das despesas decorrentes da cobrança, entregando ao devedor o saldo, se houver.</p>
 
 <p>§ 1º. Se o preço não bastar para pagar o crédito e despesas, o devedor continuará obrigado pelo pagamento do saldo.</p>
 
@@ -1168,7 +1193,7 @@ Da Alienação Fiduciária</h3>
 
 <p>§ 3º. O proprietário fiduciário ou credor poderá proceder à busca e apreensão judicial do bem alienado fiduciáriamente, diante da mora ou inadimplemento do credor.</p>
 
-<p><span class=artigo>Art. 152.</span> No caso de falência, insolvência, liquidação judicial ou extrajudicial do adquirente ou importador, sem o pagamento do débito para com o vendedor, e de ter o Tesouro Nacional ou seus agentes financeiros de pagá-lo, a União terá o direito de receber a quantia despendida com as respectivas despesas e consectários legais, deduzido o valor das aeronaves, peças e equipamentos, objeto da garantia, procedendo-se de conformidade com o disposto em relação à hipoteca legal (artigos 144 e 145).</p>
+<p><a class="artigo">Art. 152.<aspan> No caso de falência, insolvência, liquidação judicial ou extrajudicial do adquirente ou importador, sem o pagamento do débito para com o vendedor, e de ter o Tesouro Nacional ou seus agentes financeiros de pagá-lo, a União terá o direito de receber a quantia despendida com as respectivas despesas e consectários legais, deduzido o valor das aeronaves, peças e equipamentos, objeto da garantia, procedendo-se de conformidade com o disposto em relação à hipoteca legal (artigos 144 e 145).</p>
 
 <h2>CAPÍTULO VI<br>
 Do Sequestro, da Penhora e Apreensão da Aeronave</h2>
@@ -1176,9 +1201,9 @@ Do Sequestro, da Penhora e Apreensão da Aeronave</h2>
 <h3>SEÇÃO I<br>
 Do Sequestro da Aeronave</h3>
 
-<p><span class=artigo>Art. 153.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 153.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 154.</span> Admite-se o sequestro:</p>
+<p><a class="artigo">Art. 154.<aspan> Admite-se o sequestro:</p>
 
 <p>I - em caso de desapossamento da aeronave por meio ilegal;</p>
 
@@ -1189,7 +1214,7 @@ Do Sequestro da Aeronave</h3>
 <h3>SEÇÃO II<br>
 Da Penhora ou Apreensão da Aeronave</h3>
 
-<p><span class=artigo>Art. 155.</span> Toda vez que, sobre aeronave ou seus motores, recair penhora ou apreensão, esta deverá ser averbada no Registro Aeronáutico Brasileiro.</p>
+<p><a class="artigo">Art. 155.<aspan> Toda vez que, sobre aeronave ou seus motores, recair penhora ou apreensão, esta deverá ser averbada no Registro Aeronáutico Brasileiro.</p>
 
 <p>§ 1º. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -1201,7 +1226,7 @@ Da Tripulação</h1>
 <h2>CAPÍTULO I<br>
 Da Composição da Tripulação</h2>
 
-<p><span class=artigo>Art. 156.</span> São tripulantes as pessoas devidamente habilitadas que exercem função a bordo de aeronaves.</p>
+<p><a class="artigo">Art. 156.<aspan> São tripulantes as pessoas devidamente habilitadas que exercem função a bordo de aeronaves.</p>
 
 <p>§ 1º. A função remunerada a bordo de aeronaves, nacionais ou estrangeiras, quando operadas por empresa brasileira no formato de intercâmbio, é privativa de titulares de licenças específicas emitidas pela autoridade de aviação civil brasileira e reservada a brasileiros natos ou naturalizados. (Redação dada pela Lei nº. 13.319, de 2016)</p>
 
@@ -1209,41 +1234,41 @@ Da Composição da Tripulação</h2>
 
 <p>§ 3º. No serviço aéreo internacional poderão ser empregados comissários estrangeiros, contanto que o número não exceda 1/3 (um terço) dos comissários a bordo da mesma aeronave.</p>
 
-<p><span class=artigo>Art. 157.</span> Desde que assegurada a admissão de tripulantes brasileiros em serviços aéreos de determinado país, deve-se promover acordo bilateral de reciprocidade. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 157.<aspan> Desde que assegurada a admissão de tripulantes brasileiros em serviços aéreos de determinado país, deve-se promover acordo bilateral de reciprocidade. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 158.</span> A juízo da autoridade aeronáutica poderão ser admitidos como tripulantes, em caráter provisório, instrutores estrangeiros, na falta de tripulantes brasileiros.</p>
+<p><a class="artigo">Art. 158.<aspan> A juízo da autoridade aeronáutica poderão ser admitidos como tripulantes, em caráter provisório, instrutores estrangeiros, na falta de tripulantes brasileiros.</p>
 
 <p>Parágrafo único. O prazo do contrato de instrutores estrangeiros, de que trata este artigo, não poderá exceder de 6 (seis) meses.</p>
 
-<p><span class=artigo>Art. 159.</span> Na forma da regulamentação pertinente e de acordo com as exigências operacionais, a tripulação constituir-se-á de titulares de licença de voo e certificados de capacidade física e de habilitação técnica, que os credenciem ao exercício das respectivas funções.</p>
+<p><a class="artigo">Art. 159.<aspan> Na forma da regulamentação pertinente e de acordo com as exigências operacionais, a tripulação constituir-se-á de titulares de licença de voo e certificados de capacidade física e de habilitação técnica, que os credenciem ao exercício das respectivas funções.</p>
 
 <h2>CAPÍTULO II<br>
 Das Licenças e Certificados</h2>
 
-<p><span class=artigo>Art. 160.</span> A licença de tripulantes e os certificados de habilitação técnica e de capacidade física serão concedidos pela autoridade de aviação civil, na forma disposta em regulamentação específica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 160.<aspan> A licença de tripulantes e os certificados de habilitação técnica e de capacidade física serão concedidos pela autoridade de aviação civil, na forma disposta em regulamentação específica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Parágrafo único. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 161.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 161.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 162.</span> As prerrogativas decorrentes de licenças e de certificados de habilitações técnicas poderão ser exercidas por seu titular, desde que atendidos os requisitos estabelecidos em regulamentação da autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 162.<aspan> As prerrogativas decorrentes de licenças e de certificados de habilitações técnicas poderão ser exercidas por seu titular, desde que atendidos os requisitos estabelecidos em regulamentação da autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 163.</span> Sempre que o titular de licença apresentar indício comprometedor de sua aptidão técnica ou das condições físicas estabelecidas na regulamentação específica, poderá ser submetido a novos exames técnicos ou de capacidade física, ainda que válidos estejam os respectivos certificados.</p>
+<p><a class="artigo">Art. 163.<aspan> Sempre que o titular de licença apresentar indício comprometedor de sua aptidão técnica ou das condições físicas estabelecidas na regulamentação específica, poderá ser submetido a novos exames técnicos ou de capacidade física, ainda que válidos estejam os respectivos certificados.</p>
 
 <p>Parágrafo único. Do resultado dos exames acima especificados caberá recurso dos interessados à Comissão técnica especializada ou à junta médica.</p>
 
-<p><span class=artigo>Art. 164.</span> Qualquer dos certificados de que tratam os artigos anteriores poderá ser cassado pela autoridade aeronáutica se comprovado, em processo administrativo ou em exame de saúde, que o respectivo titular não possui idoneidade profissional ou não está capacitado para o exercício das funções especificadas em sua licença.</p>
+<p><a class="artigo">Art. 164.<aspan> Qualquer dos certificados de que tratam os artigos anteriores poderá ser cassado pela autoridade aeronáutica se comprovado, em processo administrativo ou em exame de saúde, que o respectivo titular não possui idoneidade profissional ou não está capacitado para o exercício das funções especificadas em sua licença.</p>
 
 <p>Parágrafo único. No caso do presente artigo, aplica-se o disposto no parágrafo único do artigo 163.</p>
 
 <h2>CAPÍTULO III<br>
 Do Comandante de Aeronave</h2>
 
-<p><span class=artigo>Art. 165.</span> Toda aeronave terá a bordo um Comandante, membro da tripulação, designado pelo proprietário ou explorador e que será seu preposto durante a viagem.</p>
+<p><a class="artigo">Art. 165.<aspan> Toda aeronave terá a bordo um Comandante, membro da tripulação, designado pelo proprietário ou explorador e que será seu preposto durante a viagem.</p>
 
 <p>Parágrafo único. O nome do Comandante e dos demais tripulantes constarão do Diário de Bordo.</p>
 
-<p><span class=artigo>Art. 166.</span> O Comandante é responsável pela operação e segurança da aeronave.</p>
+<p><a class="artigo">Art. 166.<aspan> O Comandante é responsável pela operação e segurança da aeronave.</p>
 
 <p>§ 1º. O Comandante será também responsável pela guarda de valores, mercadorias, bagagens despachadas e mala postal, desde que lhe sejam asseguradas pelo proprietário ou explorador condições de verificar a quantidade e estado das mesmas.</p>
 
@@ -1259,7 +1284,7 @@ Do Comandante de Aeronave</h2>
 
 <p>IV - fornecimento de alimentos.</p>
 
-<p><span class=artigo>Art. 167.</span> O Comandante exerce autoridade inerente à função desde o momento em que se apresenta para o voo até o momento em que entrega a aeronave, concluída a viagem.</p>
+<p><a class="artigo">Art. 167.<aspan> O Comandante exerce autoridade inerente à função desde o momento em que se apresenta para o voo até o momento em que entrega a aeronave, concluída a viagem.</p>
 
 <p>Parágrafo único. No caso de pouso forçado, a autoridade do Comandante persiste até que as autoridades competentes assumam a responsabilidade pela aeronave, pessoas e coisas transportadas.</p>
 
@@ -1273,19 +1298,19 @@ Do Comandante de Aeronave</h2>
 
 <p>Parágrafo único. O Comandante e o explorador da aeronave não serão responsáveis por prejuízos ou conseqüências decorrentes de adoção das medidas disciplinares previstas neste artigo, sem excesso de poder.</p>
 
-<p><span class=artigo>Art. 169.</span> Poderá o Comandante, sob sua responsabilidade, adiar ou suspender a partida da aeronave, quando julgar indispensável à segurança do voo.</p>
+<p><a class="artigo">Art. 169.<aspan> Poderá o Comandante, sob sua responsabilidade, adiar ou suspender a partida da aeronave, quando julgar indispensável à segurança do voo.</p>
 
-<p><span class=artigo>Art. 170.</span> O Comandante poderá delegar a outro membro da tripulação as atribuições que lhe competem, menos as que se relacionem com a segurança do voo.</p>
+<p><a class="artigo">Art. 170.<aspan> O Comandante poderá delegar a outro membro da tripulação as atribuições que lhe competem, menos as que se relacionem com a segurança do voo.</p>
 
-<p><span class=artigo>Art. 171.</span> As decisões tomadas pelo Comandante na forma dos artigos 167, 168, 169 e 215, parágrafo único, inclusive em caso de alijamento (artigo 16, § 3º.), serão registradas no Diário de Bordo e, concluída a viagem, imediatamente comunicadas à autoridade aeronáutica.</p>
+<p><a class="artigo">Art. 171.<aspan> As decisões tomadas pelo Comandante na forma dos artigos 167, 168, 169 e 215, parágrafo único, inclusive em caso de alijamento (artigo 16, § 3º.), serão registradas no Diário de Bordo e, concluída a viagem, imediatamente comunicadas à autoridade aeronáutica.</p>
 
 <p>Parágrafo único. No caso de estar a carga sujeita a controle aduaneiro, será o alijamento comunicado à autoridade fazendária mais próxima.</p>
 
-<p><span class=artigo>Art. 172.</span> O responsável pelo preenchimento do Diário de Bordo deve atender aos requisitos estabelecidos em regulamentação da autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 172.<aspan> O responsável pelo preenchimento do Diário de Bordo deve atender aos requisitos estabelecidos em regulamentação da autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Parágrafo único. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 173.</span> O Comandante procederá ao assento, no Diário de Bordo, dos nascimentos e óbitos que ocorrerem durante a viagem, e dele extrairá cópia para os fins de direito.</p>
+<p><a class="artigo">Art. 173.<aspan> O Comandante procederá ao assento, no Diário de Bordo, dos nascimentos e óbitos que ocorrerem durante a viagem, e dele extrairá cópia para os fins de direito.</p>
 
 <p>Parágrafo único. (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -1295,13 +1320,13 @@ Dos Serviços Aéreos</h1>
 <h2>CAPÍTULO I<br>
 Introdução</h2>
 
-<p><span class=artigo>Art. 174.</span> Os serviços aéreos são considerados atividades econômicas de interesse público submetidas à regulação da autoridade de aviação civil, na forma da legislação específica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 174.<aspan> Os serviços aéreos são considerados atividades econômicas de interesse público submetidas à regulação da autoridade de aviação civil, na forma da legislação específica. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Parágrafo único. As normas regulatórias da autoridade de aviação civil disporão sobre os serviços aéreos regulares e não regulares, observados os acordos internacionais dos quais a República Federativa do Brasil seja signatária. (Incluído pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 175.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 175.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 176.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 176.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h2>CAPÍTULO II<br>
 Serviços Aéreos Privados</h2>
@@ -1329,25 +1354,25 @@ Serviços aéreos</h2>
 <h3><a name=titulovicapituloiiisecaoiv.0></a>SEÇÃO IV<br>
 Da Exploração de Serviços Aéreos</h3>
 
-<p><span class=artigo>Art. 192.</span> Os acordos entre exploradores de serviços aéreos que impliquem consórcio, pool, conexão, consolidação ou fusão de serviços ou interesses deverão obedecer ao disposto em regulamentação específica da autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 192.<aspan> Os acordos entre exploradores de serviços aéreos que impliquem consórcio, pool, conexão, consolidação ou fusão de serviços ou interesses deverão obedecer ao disposto em regulamentação específica da autoridade de aviação civil. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 193.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 193.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 194.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 194.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 195.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 195.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 196.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 196.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 197.</span> A fiscalização será exercida pelo pessoal que a autoridade aeronáutica credenciar.</p>
+<p><a class="artigo">Art. 197.<aspan> A fiscalização será exercida pelo pessoal que a autoridade aeronáutica credenciar.</p>
 
 <p>Parágrafo único. Constituem encargos de fiscalização as inspeções e vistorias em aeronaves, serviços aéreos, oficinas, entidades aerodesportivas e instalações aeroportuárias, bem como os exames de proficiência de e aeroviários.</p>
 
-<p><span class=artigo>Art. 198.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 198.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 199.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 199.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 200.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 200.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h2>CAPÍTULO IV</h2>
 
@@ -1359,7 +1384,7 @@ Do Transporte Aéreo </h2>
 <h3><a name=titulovicapitulovsecaoi.0></a>SEÇÃO I<br>
 Do Transporte Aéreo Internacional </h3>
 
-<p><span class=artigo>Art. 203.</span> Os serviços de transporte aéreo internacional podem ser realizados por empresas nacionais ou estrangeiras. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 203.<aspan> Os serviços de transporte aéreo internacional podem ser realizados por empresas nacionais ou estrangeiras. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Parágrafo único. A exploração desses serviços sujeitar-se-á:</p>
 
@@ -1369,11 +1394,11 @@ Do Transporte Aéreo Internacional </h3>
 
 <p>Da Designação de Empresas Brasileiras</p>
 
-<p><span class=artigo>Art. 204.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 204.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Da Designação e Autorização de Empresas Estrangeiras</p>
 
-<p><span class=artigo>Art. 205.</span> Para explorar o serviço de transporte aéreo internacional, a empresa estrangeira deverá obter autorização de operação, conforme o disposto em regulamentação da autoridade de aviação civil, sem prejuízo da aplicação das demais exigências previstas em lei para o funcionamento de empresas estrangeiras no País. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 205.<aspan> Para explorar o serviço de transporte aéreo internacional, a empresa estrangeira deverá obter autorização de operação, conforme o disposto em regulamentação da autoridade de aviação civil, sem prejuízo da aplicação das demais exigências previstas em lei para o funcionamento de empresas estrangeiras no País. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>I - (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -1385,36 +1410,36 @@ Do Transporte Aéreo Internacional </h3>
 
 <p>Da Autorização para Funcionamento</p>
 
-<p><span class=artigo>Art. 206.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 206.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 207.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 207.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 208.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 208.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 209.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 209.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 210.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 210.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 211.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 211.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Da Autorização para Operar</p>
 
-<p><span class=artigo>Art. 212.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 212.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 213.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 213.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Da Autorização de Agência de Empresa Estrangeira que Não Opere Serviços Aéreos no Brasil</p>
 
-<p><span class=artigo>Art. 214.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 214.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h3>SEÇÃO II<br>
 Do Transporte Doméstico</h3>
 
-<p><span class=artigo>Art. 215.</span> Considera-se doméstico e é regido por este Código, todo transporte em que os pontos de partida, intermediários e de destino estejam situados em Território Nacional.</p>
+<p><a class="artigo">Art. 215.<aspan> Considera-se doméstico e é regido por este Código, todo transporte em que os pontos de partida, intermediários e de destino estejam situados em Território Nacional.</p>
 
 <p>Parágrafo único. O transporte não perderá esse caráter se, por motivo de força maior, a aeronave fizer escala em território estrangeiro, estando, porém, em território brasileiro os seus pontos de partida e destino.</p>
 
-<p><span class=artigo>Art. 216.</span> Os serviços aéreos de transporte doméstico são reservados a pessoas jurídicas constituídas sob as leis brasileiras, com sede e administração no País. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 216.<aspan> Os serviços aéreos de transporte doméstico são reservados a pessoas jurídicas constituídas sob as leis brasileiras, com sede e administração no País. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h2>CAPÍTULO VI</h2>
 
@@ -1426,17 +1451,17 @@ Do Contrato de Transporte Aéreo</h1>
 <h2>CAPÍTULO I<br>
 Disposições Gerais</h2>
 
-<p><span class=artigo>Art. 222.</span> Pelo contrato de transporte aéreo, obriga-se o empresário a transportar passageiro, bagagem ou carga, por meio de aeronave, mediante pagamento. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 222.<aspan> Pelo contrato de transporte aéreo, obriga-se o empresário a transportar passageiro, bagagem ou carga, por meio de aeronave, mediante pagamento. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>Parágrafo único. O empresário, como transportador, pode ser pessoa física ou jurídica, proprietário ou explorador da aeronave.</p>
 
-<p><span class=artigo>Art. 223.</span> Considera-se que existe um só contrato de transporte, quando ajustado num único ato jurídico, por meio de um ou mais bilhetes de passagem, ainda que executado, sucessivamente, por mais de um transportador.</p>
+<p><a class="artigo">Art. 223.<aspan> Considera-se que existe um só contrato de transporte, quando ajustado num único ato jurídico, por meio de um ou mais bilhetes de passagem, ainda que executado, sucessivamente, por mais de um transportador.</p>
 
-<p><span class=artigo>Art. 224.</span> Em caso de transporte combinado, aplica-se às aeronaves o disposto neste Código.</p>
+<p><a class="artigo">Art. 224.<aspan> Em caso de transporte combinado, aplica-se às aeronaves o disposto neste Código.</p>
 
-<p><span class=artigo>Art. 225.</span> Considera-se transportador de fato o que realiza todo o transporte ou parte dele, presumidamente autorizado pelo transportador contratual e sem se confundir com ele ou com o transportador sucessivo.</p>
+<p><a class="artigo">Art. 225.<aspan> Considera-se transportador de fato o que realiza todo o transporte ou parte dele, presumidamente autorizado pelo transportador contratual e sem se confundir com ele ou com o transportador sucessivo.</p>
 
-<p><span class=artigo>Art. 226.</span> A falta, irregularidade ou perda do bilhete de passagem, nota de bagagem ou conhecimento de carga não prejudica a existência e eficácia do respectivo contrato.</p>
+<p><a class="artigo">Art. 226.<aspan> A falta, irregularidade ou perda do bilhete de passagem, nota de bagagem ou conhecimento de carga não prejudica a existência e eficácia do respectivo contrato.</p>
 
 <h2>CAPÍTULO II<br>
 Do Contrato de Transporte de Passageiro</h2>
@@ -1444,21 +1469,21 @@ Do Contrato de Transporte de Passageiro</h2>
 <h3>SEÇÃO I<br>
 Do Bilhete de Passagem</h3>
 
-<p><span class=artigo>Art. 227.</span> No transporte de pessoas, o transportador é obrigado a entregar o respectivo bilhete individual ou coletivo de passagem, que deverá indicar o lugar e a data da emissão, os pontos de partida e destino, assim como o nome dos transportadores.</p>
+<p><a class="artigo">Art. 227.<aspan> No transporte de pessoas, o transportador é obrigado a entregar o respectivo bilhete individual ou coletivo de passagem, que deverá indicar o lugar e a data da emissão, os pontos de partida e destino, assim como o nome dos transportadores.</p>
 
-<p><span class=artigo>Art. 228.</span> O bilhete de passagem terá a validade de 1 (um) ano, a partir da data de sua emissão.</p>
+<p><a class="artigo">Art. 228.<aspan> O bilhete de passagem terá a validade de 1 (um) ano, a partir da data de sua emissão.</p>
 
-<p><span class=artigo>Art. 229.</span> O passageiro tem direito ao reembolso do valor já pago do bilhete se o transportador vier a cancelar a viagem.</p>
+<p><a class="artigo">Art. 229.<aspan> O passageiro tem direito ao reembolso do valor já pago do bilhete se o transportador vier a cancelar a viagem.</p>
 
-<p><span class=artigo>Art. 230.</span> Em caso de atraso da partida por mais de 4 (quatro) horas, o transportador providenciará o embarque do passageiro, em voo que ofereça serviço equivalente para o mesmo destino, se houver, ou restituirá, de imediato, se o passageiro o preferir, o valor do bilhete de passagem.</p>
+<p><a class="artigo">Art. 230.<aspan> Em caso de atraso da partida por mais de 4 (quatro) horas, o transportador providenciará o embarque do passageiro, em voo que ofereça serviço equivalente para o mesmo destino, se houver, ou restituirá, de imediato, se o passageiro o preferir, o valor do bilhete de passagem.</p>
 
-<p><span class=artigo>Art. 231.</span> Quando o transporte sofrer interrupção ou atraso em aeroporto de escala por período superior a 4 (quatro) horas, qualquer que seja o motivo, o passageiro poderá optar pelo endosso do bilhete de passagem ou pela imediata devolução do preço.</p>
+<p><a class="artigo">Art. 231.<aspan> Quando o transporte sofrer interrupção ou atraso em aeroporto de escala por período superior a 4 (quatro) horas, qualquer que seja o motivo, o passageiro poderá optar pelo endosso do bilhete de passagem ou pela imediata devolução do preço.</p>
 
 <p>Parágrafo único. Todas as despesas decorrentes da interrupção ou atraso da viagem, inclusive transporte de qualquer espécie, alimentação e hospedagem, correrão por conta do transportador contratual, sem prejuízo da responsabilidade civil.</p>
 
-<p><span class=artigo>Art. 232.</span> A pessoa transportada deve sujeitar-se às normas legais constantes do bilhete ou afixadas à vista dos usuários, abstendo-se de ato que cause incômodo ou prejuízo aos passageiros, danifique a aeronave, impeça ou dificulte a execução normal do serviço.</p>
+<p><a class="artigo">Art. 232.<aspan> A pessoa transportada deve sujeitar-se às normas legais constantes do bilhete ou afixadas à vista dos usuários, abstendo-se de ato que cause incômodo ou prejuízo aos passageiros, danifique a aeronave, impeça ou dificulte a execução normal do serviço.</p>
 
-<p><span class=artigo>Art. 233.</span> A execução do contrato de transporte aéreo de passageiro compreende as operações de embarque e desembarque, além das efetuadas a bordo da aeronave.</p>
+<p><a class="artigo">Art. 233.<aspan> A execução do contrato de transporte aéreo de passageiro compreende as operações de embarque e desembarque, além das efetuadas a bordo da aeronave.</p>
 
 <p>§ 1º. Considera-se operação de embarque a que se realiza desde quando o passageiro, já despachado no aeroporto, transpõe o limite da área destinada ao público em geral e entra na respectiva aeronave, abrangendo o percurso feito a pé, por meios mecânicos ou com a utilização de viaturas.</p>
 
@@ -1467,7 +1492,7 @@ Do Bilhete de Passagem</h3>
 <h3>SEÇÃO II<br>
 Da Nota de Bagagem</h3>
 
-<p><span class=artigo>Art. 234.</span> No contrato de transporte de bagagem, o transportador é obrigado a entregar ao passageiro a nota individual ou coletiva correspondente, em 2 (duas) vias, com a indicação do lugar e data de emissão, pontos de partida e destino, número do bilhete de passagem, quantidade, peso e valor declarado dos volumes.</p>
+<p><a class="artigo">Art. 234.<aspan> No contrato de transporte de bagagem, o transportador é obrigado a entregar ao passageiro a nota individual ou coletiva correspondente, em 2 (duas) vias, com a indicação do lugar e data de emissão, pontos de partida e destino, número do bilhete de passagem, quantidade, peso e valor declarado dos volumes.</p>
 
 <p>§ 1º. A execução do contrato inicia-se com a entrega ao passageiro da respectiva nota e termina com o recebimento da bagagem.</p>
 
@@ -1482,7 +1507,7 @@ Da Nota de Bagagem</h3>
 <h2>CAPÍTULO III<br>
 Do Contrato de Transporte Aéreo de Carga</h2>
 
-<p><span class=artigo>Art. 235.</span> No contrato de transporte aéreo de carga, será emitido o respectivo conhecimento, com as seguintes indicações:</p>
+<p><a class="artigo">Art. 235.<aspan> No contrato de transporte aéreo de carga, será emitido o respectivo conhecimento, com as seguintes indicações:</p>
 
 <p>I - o lugar e data de emissão;</p>
 
@@ -1510,7 +1535,7 @@ Do Contrato de Transporte Aéreo de Carga</h2>
 
 <p>XIII - o prazo de transporte, dentro do qual deverá o transportador entregar a carga no lugar do destino, e o destinatário ou expedidor retirá-la.</p>
 
-<p><span class=artigo>Art. 236.</span> O conhecimento aéreo será feito em 3 (três) vias originais e entregue pelo expedidor com a carga.</p>
+<p><a class="artigo">Art. 236.<aspan> O conhecimento aéreo será feito em 3 (três) vias originais e entregue pelo expedidor com a carga.</p>
 
 <p>§ 1º. A 1ª via, com a indicação &quot;do transportador&quot;, será assinada pelo expedidor.</p>
 
@@ -1518,19 +1543,19 @@ Do Contrato de Transporte Aéreo de Carga</h2>
 
 <p>§ 3º. A 3ª via será assinada pelo transportador e por ele entregue ao expedidor, após aceita a carga.</p>
 
-<p><span class=artigo>Art. 237.</span> Se o transportador, a pedido do expedidor, fizer o conhecimento, considerar-se-á como tendo feito por conta e em nome deste, salvo prova em contrário.</p>
+<p><a class="artigo">Art. 237.<aspan> Se o transportador, a pedido do expedidor, fizer o conhecimento, considerar-se-á como tendo feito por conta e em nome deste, salvo prova em contrário.</p>
 
-<p><span class=artigo>Art. 238.</span> Quando houver mais de um volume, o transportador poderá exigir do expedidor conhecimentos aéreos distintos.</p>
+<p><a class="artigo">Art. 238.<aspan> Quando houver mais de um volume, o transportador poderá exigir do expedidor conhecimentos aéreos distintos.</p>
 
-<p><span class=artigo>Art. 239.</span> Sem prejuízo da responsabilidade penal, o expedidor responde pela exatidão das indicações e declarações constantes do conhecimento aéreo e pelo dano que, em conseqüência de suas declarações ou indicações irregulares, inexatas ou incompletas, vier a sofrer o transportador ou qualquer outra pessoa.</p>
+<p><a class="artigo">Art. 239.<aspan> Sem prejuízo da responsabilidade penal, o expedidor responde pela exatidão das indicações e declarações constantes do conhecimento aéreo e pelo dano que, em conseqüência de suas declarações ou indicações irregulares, inexatas ou incompletas, vier a sofrer o transportador ou qualquer outra pessoa.</p>
 
-<p><span class=artigo>Art. 240.</span> O conhecimento faz presumir, até prova em contrário, a conclusão do contrato, o recebimento da carga e as condições do transporte.</p>
+<p><a class="artigo">Art. 240.<aspan> O conhecimento faz presumir, até prova em contrário, a conclusão do contrato, o recebimento da carga e as condições do transporte.</p>
 
-<p><span class=artigo>Art. 241.</span> As declarações contidas no conhecimento aéreo, relativas a peso, dimensões, acondicionamento da carga e número de volumes, presumem-se verdadeiras até prova em contrário; as referentes à quantidade, volume, valor e estado da carga só farão prova contra o transportador, se este verificar sua exatidão, o que deverá constar do conhecimento.</p>
+<p><a class="artigo">Art. 241.<aspan> As declarações contidas no conhecimento aéreo, relativas a peso, dimensões, acondicionamento da carga e número de volumes, presumem-se verdadeiras até prova em contrário; as referentes à quantidade, volume, valor e estado da carga só farão prova contra o transportador, se este verificar sua exatidão, o que deverá constar do conhecimento.</p>
 
-<p><span class=artigo>Art. 242.</span> O transportador recusará a carga desacompanhada dos documentos exigidos ou cujo transporte e comercialização não sejam permitidos.</p>
+<p><a class="artigo">Art. 242.<aspan> O transportador recusará a carga desacompanhada dos documentos exigidos ou cujo transporte e comercialização não sejam permitidos.</p>
 
-<p><span class=artigo>Art. 243.</span> Ao chegar a carga ao lugar do destino, deverá o transportador avisar ao destinatário para que a retire no prazo de 15 (quinze) dias a contar do aviso, salvo se estabelecido outro prazo no conhecimento.</p>
+<p><a class="artigo">Art. 243.<aspan> Ao chegar a carga ao lugar do destino, deverá o transportador avisar ao destinatário para que a retire no prazo de 15 (quinze) dias a contar do aviso, salvo se estabelecido outro prazo no conhecimento.</p>
 
 <p>§ 1º. Se o destinatário não for encontrado ou não retirar a carga no prazo constante do aviso, o transportador avisará ao expedidor para retirá-la no prazo de 15 (quinze) dias, a partir do aviso, sob pena de ser considerada abandonada.</p>
 
@@ -1538,7 +1563,7 @@ Do Contrato de Transporte Aéreo de Carga</h2>
 
 <p>§ 3º. No caso de a carga estar sujeita a controle aduaneiro, o alijamento a que se refere o § 1º. deste artigo será comunicado imediatamente à autoridade fazendária que jurisdicione o aeroporto do destino da carga.</p>
 
-<p><span class=artigo>Art. 244.</span> Presume-se entregue em bom estado e de conformidade com o documento de transporte a carga que o destinatário haja recebido sem protesto.</p>
+<p><a class="artigo">Art. 244.<aspan> Presume-se entregue em bom estado e de conformidade com o documento de transporte a carga que o destinatário haja recebido sem protesto.</p>
 
 <p>§ 1º. O protesto far-se-á mediante ressalva lançada no documento de transporte ou mediante qualquer comunicação escrita, encaminhada ao transportador.</p>
 
@@ -1552,7 +1577,7 @@ Do Contrato de Transporte Aéreo de Carga</h2>
 
 <p>§ 6º. O dano ou avaria e o extravio de carga importada ou em trânsito aduaneiro serão apurados de acordo com a legislação específica (artigo 8º.).</p>
 
-<p><span class=artigo>Art. 245.</span> A execução do contrato de transporte aéreo de carga inicia-se com o recebimento e persiste durante o período em que se encontra sob a responsabilidade do transportador, seja em aeródromo, a bordo da aeronave ou em qualquer lugar, no caso de aterrissagem forçada, até a entrega final.</p>
+<p><a class="artigo">Art. 245.<aspan> A execução do contrato de transporte aéreo de carga inicia-se com o recebimento e persiste durante o período em que se encontra sob a responsabilidade do transportador, seja em aeródromo, a bordo da aeronave ou em qualquer lugar, no caso de aterrissagem forçada, até a entrega final.</p>
 
 <p>Parágrafo único. O período de execução do transporte aéreo não compreende o transporte terrestre, marítimo ou fluvial, efetuado fora de aeródromo, a menos que hajam sido feitos para proceder ao carregamento, entrega, transbordo ou baldeação de carga (artigo 263).</p>
 
@@ -1565,11 +1590,11 @@ Da Responsabilidade Contratual</h2>
 <h3>SEÇÃO I<br>
 Disposições Gerais</h3>
 
-<p><span class=artigo>Art. 246.</span> A responsabilidade do transportador (artigos 123, 124 e 222, Parágrafo único), por danos ocorridos durante a execução do contrato de transporte (artigos 233, 234, § 1º, 245), está sujeita aos limites estabelecidos neste Título (artigos 257, 260, 262, 269 e 277).</p>
+<p><a class="artigo">Art. 246.<aspan> A responsabilidade do transportador (artigos 123, 124 e 222, Parágrafo único), por danos ocorridos durante a execução do contrato de transporte (artigos 233, 234, § 1º, 245), está sujeita aos limites estabelecidos neste Título (artigos 257, 260, 262, 269 e 277).</p>
 
-<p><span class=artigo>Art. 247.</span> É nula qualquer cláusula tendente a exonerar de responsabilidade o transportador ou a estabelecer limite de indenização inferior ao previsto neste Capítulo, mas a nulidade da cláusula não acarreta a do contrato, que continuará regido por este Código (artigo 10).</p>
+<p><a class="artigo">Art. 247.<aspan> É nula qualquer cláusula tendente a exonerar de responsabilidade o transportador ou a estabelecer limite de indenização inferior ao previsto neste Capítulo, mas a nulidade da cláusula não acarreta a do contrato, que continuará regido por este Código (artigo 10).</p>
 
-<p><span class=artigo>Art. 248.</span> Os limites de indenização, previstos neste Capítulo, não se aplicam se for provado que o dano resultou de dolo ou culpa grave do transportador ou de seus prepostos.</p>
+<p><a class="artigo">Art. 248.<aspan> Os limites de indenização, previstos neste Capítulo, não se aplicam se for provado que o dano resultou de dolo ou culpa grave do transportador ou de seus prepostos.</p>
 
 <p>§ 1º. Para os efeitos deste artigo, ocorre o dolo ou culpa grave quando o transportador ou seus prepostos quiseram o resultado ou assumiram o risco de produzi-lo.</p>
 
@@ -1577,31 +1602,31 @@ Disposições Gerais</h3>
 
 <p>§ 3º. A sentença, no Juízo Criminal, com trânsito em julgado, que haja decidido sobre a existência do ato doloso ou culposo e sua autoria, será prova suficiente.</p>
 
-<p><span class=artigo>Art. 249.</span> Não serão computados nos limites estabelecidos neste Capítulo, honorários e despesas judiciais.</p>
+<p><a class="artigo">Art. 249.<aspan> Não serão computados nos limites estabelecidos neste Capítulo, honorários e despesas judiciais.</p>
 
-<p><span class=artigo>Art. 250.</span> O responsável que pagar a indenização desonera-se em relação a quem a receber (artigos 253 e 281, parágrafo único).</p>
+<p><a class="artigo">Art. 250.<aspan> O responsável que pagar a indenização desonera-se em relação a quem a receber (artigos 253 e 281, parágrafo único).</p>
 
 <p>Parágrafo único. Fica ressalvada a discussão entre aquele que pagou e os demais responsáveis pelo pagamento.</p>
 
-<p><span class=artigo>Art. 251.</span> Na fixação de responsabilidade do transportador por danos a pessoas, carga, equipamento ou instalações postos a bordo da aeronave aplicam-se os limites dos dispositivos deste Capítulo, caso não existam no contrato outras limitações.</p>
+<p><a class="artigo">Art. 251.<aspan> Na fixação de responsabilidade do transportador por danos a pessoas, carga, equipamento ou instalações postos a bordo da aeronave aplicam-se os limites dos dispositivos deste Capítulo, caso não existam no contrato outras limitações.</p>
 
-<p><span class=artigo>Art. 251-A.</span> A indenização por dano extrapatrimonial em decorrência de falha na execução do contrato de transporte fica condicionada à demonstração da efetiva ocorrência do prejuízo e de sua extensão pelo passageiro ou pelo expedidor ou destinatário de carga. (Incluído pela Lei nº. 14.034, de 2020). </p>
+<p><a class="artigo">Art. 251-Aaspan> A indenização por dano extrapatrimonial em decorrência de falha na execução do contrato de transporte fica condicionada à demonstração da efetiva ocorrência do prejuízo e de sua extensão pelo passageiro ou pelo expedidor ou destinatário de carga. (Incluído pela Lei nº. 14.034, de 2020). </p>
 
 <h3>SEÇÃO II<br>
 Do Procedimento Extrajudicial</h3>
 
-<p><span class=artigo>Art. 252.</span> No prazo de 30 (trinta) dias, a partir das datas previstas no artigo 317, I, II, III e IV, deste Código, o interessado deverá habilitar-se ao recebimento da respectiva indenização.</p>
+<p><a class="artigo">Art. 252.<aspan> No prazo de 30 (trinta) dias, a partir das datas previstas no artigo 317, I, II, III e IV, deste Código, o interessado deverá habilitar-se ao recebimento da respectiva indenização.</p>
 
-<p><span class=artigo>Art. 253.</span> Nos 30 (trinta) dias seguintes ao término do prazo previsto no artigo anterior, o responsável deverá efetuar aos habilitados os respectivos pagamentos com recursos próprios ou com os provenientes do seguro (artigo 250).</p>
+<p><a class="artigo">Art. 253.<aspan> Nos 30 (trinta) dias seguintes ao término do prazo previsto no artigo anterior, o responsável deverá efetuar aos habilitados os respectivos pagamentos com recursos próprios ou com os provenientes do seguro (artigo 250).</p>
 
-<p><span class=artigo>Art. 254.</span> Para os que não se habilitarem tempestivamente ou cujo processo esteja na dependência de cumprimento, pelo interessado, de exigências legais, o pagamento a que se refere o artigo anterior deve ocorrer nos 30 (trinta) dias seguintes à satisfação daquelas.</p>
+<p><a class="artigo">Art. 254.<aspan> Para os que não se habilitarem tempestivamente ou cujo processo esteja na dependência de cumprimento, pelo interessado, de exigências legais, o pagamento a que se refere o artigo anterior deve ocorrer nos 30 (trinta) dias seguintes à satisfação daquelas.</p>
 
-<p><span class=artigo>Art. 255.</span> Esgotado o prazo a que se referem os artigos 253 e 254, se não houver o responsável ou a seguradora efetuado o pagamento, poderá o interessado promover, judicialmente, pelo procedimento sumaríssimo (artigo 275, II, letra e, do CPC), a reparação do dano.</p>
+<p><a class="artigo">Art. 255.<aspan> Esgotado o prazo a que se referem os artigos 253 e 254, se não houver o responsável ou a seguradora efetuado o pagamento, poderá o interessado promover, judicialmente, pelo procedimento sumaríssimo (artigo 275, II, letra e, do CPC), a reparação do dano.</p>
 
 <h3>SEÇÃO III<br>
 Da Responsabilidade por Dano a Passageiro</h3>
 
-<p><span class=artigo>Art. 256.</span> O transportador responde pelo dano decorrente:</p>
+<p><a class="artigo">Art. 256.<aspan> O transportador responde pelo dano decorrente:</p>
 
 <p>I - de morte ou lesão de passageiro, causada por acidente ocorrido durante a execução do contrato de transporte aéreo, a bordo de aeronave ou no curso das operações de embarque e desembarque;</p>
 
@@ -1635,33 +1660,33 @@ Da Responsabilidade por Dano a Passageiro</h3>
 
 <p>§ 4º. A previsão constante do inciso II do § 1º. deste artigo não desobriga o transportador de oferecer assistência material ao passageiro, bem como de oferecer as alternativas de reembolso do valor pago pela passagem e por eventuais serviços acessórios ao contrato de transporte, de reacomodação ou de reexecução do serviço por outra modalidade de transporte, inclusive nas hipóteses de atraso e de interrupção do voo por período superior a 4 (quatro) horas de que tratam os arts. 230 e 231 desta Lei. (Incluído pela Lei nº. 14.034, de 2020). </p>
 
-<p><span class=artigo>Art. 257.</span> A responsabilidade do transportador, em relação a cada passageiro e tripulante, limita-se, no caso de morte ou lesão, ao valor correspondente, na data do pagamento, a 3.500 (três mil e quinhentas) Obrigações do Tesouro Nacional - OTN, e, no caso de atraso do transporte, a 150 (cento e cinqüenta) Obrigações do Tesouro Nacional - OTN.</p>
+<p><a class="artigo">Art. 257.<aspan> A responsabilidade do transportador, em relação a cada passageiro e tripulante, limita-se, no caso de morte ou lesão, ao valor correspondente, na data do pagamento, a 3.500 (três mil e quinhentas) Obrigações do Tesouro Nacional - OTN, e, no caso de atraso do transporte, a 150 (cento e cinqüenta) Obrigações do Tesouro Nacional - OTN.</p>
 
 <p>§ 1º. Poderá ser fixado limite maior mediante pacto acessório entre o transportador e o passageiro.</p>
 
 <p>§ 2º. Na indenização que for fixada em forma de renda, o capital par a sua constituição não poderá exceder o maior valor previsto neste artigo.</p>
 
-<p><span class=artigo>Art. 258.</span> No caso de transportes sucessivos, o passageiro ou seu sucessor só terá ação contra o transportador que haja efetuado o transporte no curso do qual ocorrer o acidente ou o atraso.</p>
+<p><a class="artigo">Art. 258.<aspan> No caso de transportes sucessivos, o passageiro ou seu sucessor só terá ação contra o transportador que haja efetuado o transporte no curso do qual ocorrer o acidente ou o atraso.</p>
 
 <p>Parágrafo único. Não se aplica o disposto neste artigo se, por estipulação expressa, o primeiro transportador assumir a responsabilidade por todo o percurso do transporte contratado.</p>
 
-<p><span class=artigo>Art. 259.</span> Quando o transporte aéreo for contratado com um transportador e executado por outro, o passageiro ou sucessores poderão demandar tanto o transportador contratual como o transportador de fato, respondendo ambos solidariamente.</p>
+<p><a class="artigo">Art. 259.<aspan> Quando o transporte aéreo for contratado com um transportador e executado por outro, o passageiro ou sucessores poderão demandar tanto o transportador contratual como o transportador de fato, respondendo ambos solidariamente.</p>
 
 <h3>SEÇÃO IV<br>
 Da Responsabilidade por Danos à Bagagem</h3>
 
-<p><span class=artigo>Art. 260.</span> A responsabilidade do transportador por dano, conseqüente da destruição, perda ou avaria da bagagem despachada ou conservada em mãos do passageiro, ocorrida durante a execução do contrato de transporte aéreo, limita-se ao valor correspondente a 150 (cento e cinqüenta) Obrigações do Tesouro Nacional - OTN, por ocasião do pagamento, em relação a cada passageiro.</p>
+<p><a class="artigo">Art. 260.<aspan> A responsabilidade do transportador por dano, conseqüente da destruição, perda ou avaria da bagagem despachada ou conservada em mãos do passageiro, ocorrida durante a execução do contrato de transporte aéreo, limita-se ao valor correspondente a 150 (cento e cinqüenta) Obrigações do Tesouro Nacional - OTN, por ocasião do pagamento, em relação a cada passageiro.</p>
 
-<p><span class=artigo>Art. 261.</span> Aplica-se, no que couber, o que está disposto na seção relativa à responsabilidade por danos à carga aérea (artigos 262 a 266).</p>
+<p><a class="artigo">Art. 261.<aspan> Aplica-se, no que couber, o que está disposto na seção relativa à responsabilidade por danos à carga aérea (artigos 262 a 266).</p>
 
 <h3>SEÇÃO V<br>
 Da Responsabilidade por Danos à Carga</h3>
 
-<p><span class=artigo>Art. 262.</span> No caso de atraso, perda, destruição ou avaria de carga, ocorrida durante a execução do contrato do transporte aéreo, a responsabilidade do transportador limita-se ao valor correspondente a 3 (três) Obrigações do Tesouro Nacional - OTN por quilo, salvo declaração especial de valor feita pelo expedidor e mediante o pagamento de taxa suplementar, se for o caso (artigos 239, 241 e 244).</p>
+<p><a class="artigo">Art. 262.<aspan> No caso de atraso, perda, destruição ou avaria de carga, ocorrida durante a execução do contrato do transporte aéreo, a responsabilidade do transportador limita-se ao valor correspondente a 3 (três) Obrigações do Tesouro Nacional - OTN por quilo, salvo declaração especial de valor feita pelo expedidor e mediante o pagamento de taxa suplementar, se for o caso (artigos 239, 241 e 244).</p>
 
-<p><span class=artigo>Art. 263.</span> Quando para a execução do contrato de transporte aéreo for usado outro meio de transporte, e houver dúvida sobre onde ocorreu o dano, a responsabilidade do transportador será regida por este Código (artigo 245 e Parágrafo único).</p>
+<p><a class="artigo">Art. 263.<aspan> Quando para a execução do contrato de transporte aéreo for usado outro meio de transporte, e houver dúvida sobre onde ocorreu o dano, a responsabilidade do transportador será regida por este Código (artigo 245 e Parágrafo único).</p>
 
-<p><span class=artigo>Art. 264.</span> O transportador não será responsável se comprovar:</p>
+<p><a class="artigo">Art. 264.<aspan> O transportador não será responsável se comprovar:</p>
 
 <p>I - que o atraso na entrega da carga foi causado pela ocorrência de 1 (um) ou mais dos eventos previstos no § 3º. do art. 256 desta Lei; (Redação dada pela Lei nº. 14.034, de 2020) Produção de efeitos</p>
 
@@ -1675,16 +1700,16 @@ Da Responsabilidade por Danos à Carga</h3>
 
 <p>d) ato de autoridade pública referente à carga.</p>
 
-<p><span class=artigo>Art. 265.</span> A não ser que o dano atinja o valor de todos os volumes, compreendidos pelo conhecimento de transporte aéreo, somente será considerado, para efeito de indenização, o peso dos volumes perdidos, destruídos, avariados ou entregues com atraso.</p>
+<p><a class="artigo">Art. 265.<aspan> A não ser que o dano atinja o valor de todos os volumes, compreendidos pelo conhecimento de transporte aéreo, somente será considerado, para efeito de indenização, o peso dos volumes perdidos, destruídos, avariados ou entregues com atraso.</p>
 
-<p><span class=artigo>Art. 266.</span> Poderá o expedidor propor ação contra o primeiro transportador e contra aquele que haja efetuado o transporte, durante o qual ocorreu o dano, e o destinatário contra este e contra o último transportador.</p>
+<p><a class="artigo">Art. 266.<aspan> Poderá o expedidor propor ação contra o primeiro transportador e contra aquele que haja efetuado o transporte, durante o qual ocorreu o dano, e o destinatário contra este e contra o último transportador.</p>
 
 <p>Parágrafo único. Ocorre a solidariedade entre os transportadores responsáveis perante, respectivamente, o expedidor e o destinatário.</p>
 
 <h2>CAPÍTULO II<br>
 Da Responsabilidade por Danos em Serviços Aéreos Gratuitos</h2>
 
-<p><span class=artigo>Art. 267.</span> Quando não houver contrato de transporte (artigos 222 a 245), a responsabilidade civil por danos ocorridos durante a execução dos serviços aéreos obedecerá ao seguinte:</p>
+<p><a class="artigo">Art. 267.<aspan> Quando não houver contrato de transporte (artigos 222 a 245), a responsabilidade civil por danos ocorridos durante a execução dos serviços aéreos obedecerá ao seguinte:</p>
 
 <p>I - o proprietário da aeronave responde por danos ao pessoal técnico a bordo e às pessoas e bens na superfície, nos limites previstos, respectivamente, nos art. 257 e art. 269, e deverão contratar o seguro de que trata o § 1º. do art. 178; (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
@@ -1699,7 +1724,7 @@ Da Responsabilidade por Danos em Serviços Aéreos Gratuitos</h2>
 <h2>CAPÍTULO III<br>
 Da Responsabilidade para com Terceiros na Superfície</h2>
 
-<p><span class=artigo>Art. 268.</span> O explorador responde pelos danos a terceiros na superfície, causados, diretamente, por aeronave em voo, ou manobra, assim como por pessoa ou coisa dela caída ou projetada.</p>
+<p><a class="artigo">Art. 268.<aspan> O explorador responde pelos danos a terceiros na superfície, causados, diretamente, por aeronave em voo, ou manobra, assim como por pessoa ou coisa dela caída ou projetada.</p>
 
 <p>§ 1º. Prevalece a responsabilidade do explorador quando a aeronave é pilotada por seus prepostos, ainda que exorbitem de suas atribuições.</p>
 
@@ -1719,7 +1744,7 @@ Da Responsabilidade para com Terceiros na Superfície</h2>
 
 <p>§ 5º. Considera-se em manobra a aeronave que estiver sendo movimentada ou rebocada em áreas aeroportuárias.</p>
 
-<p><span class=artigo>Art. 269.</span> A responsabilidade do explorador estará limitada:</p>
+<p><a class="artigo">Art. 269.<aspan> A responsabilidade do explorador estará limitada:</p>
 
 <p>I - para aeronaves com o peso máximo de 1.000kg (mil quilogramas), à importância correspondente a 3.500 (três mil e quinhentas) OTN - Obrigações do Tesouro Nacional;</p>
 
@@ -1727,19 +1752,19 @@ Da Responsabilidade para com Terceiros na Superfície</h2>
 
 <p>Parágrafo único. Entende-se por peso da aeronave o autorizado para decolagem pelo certificado de aeronavegabilidade ou documento equivalente.</p>
 
-<p><span class=artigo>Art. 270.</span> O explorador da aeronave pagará aos prejudicados habilitados 30% (trinta por cento) da quantia máxima, a que estará obrigado, nos termos do artigo anterior, dentro de 60 (sessenta) dias a partir da ocorrência do fato (artigos 252 e 253).</p>
+<p><a class="artigo">Art. 270.<aspan> O explorador da aeronave pagará aos prejudicados habilitados 30% (trinta por cento) da quantia máxima, a que estará obrigado, nos termos do artigo anterior, dentro de 60 (sessenta) dias a partir da ocorrência do fato (artigos 252 e 253).</p>
 
 <p>§ 1º. Exime-se do dever de efetuar o pagamento o explorador que houver proposto ação para isentar-se de responsabilidade sob a alegação de culpa predominante ou exclusiva do prejudicado.</p>
 
 <p>2º. O saldo de 70% (setenta por cento) será rateado entre todos os prejudicados habilitados, quando após o decurso de 90 (noventa) dias do fato, não pender qualquer processo de habilitação ou ação de reparação do dano (artigos 254 e 255).</p>
 
-<p><span class=artigo>Art. 271.</span> Quando a importância total das indenizações fixadas exceder ao limite de responsabilidade estabelecido neste Capítulo, serão aplicadas as regras seguintes:</p>
+<p><a class="artigo">Art. 271.<aspan> Quando a importância total das indenizações fixadas exceder ao limite de responsabilidade estabelecido neste Capítulo, serão aplicadas as regras seguintes:</p>
 
 <p>I - havendo apenas danos pessoais ou apenas danos materiais, as indenizações serão reduzidas proporcionalmente aos respectivos montantes;</p>
 
 <p>II - havendo danos pessoais e materiais, metade da importância correspondente ao limite máximo de indenização será destinada a cobrir cada espécie de dano; se houver saldo, será ele utilizado para complementar indenizações que não tenham podido ser pagas em seu montante integral.</p>
 
-<p><span class=artigo>Art. 272.</span> Nenhum efeito terão os dispositivos deste Capítulo sobre o limite de responsabilidade quando:</p>
+<p><a class="artigo">Art. 272.<aspan> Nenhum efeito terão os dispositivos deste Capítulo sobre o limite de responsabilidade quando:</p>
 
 <p>I - o dano resultar de dolo ou culpa grave do explorador ou de seus prepostos;</p>
 
@@ -1750,15 +1775,15 @@ Da Responsabilidade para com Terceiros na Superfície</h2>
 <h2>CAPÍTULO IV<br>
 Da Responsabilidade por Abalroamento</h2>
 
-<p><span class=artigo>Art. 273.</span> Consideram-se provenientes de abalroamento os danos produzidos pela colisão de 2 (duas) ou mais aeronaves, em voo ou em manobra na superfície, e os produzidos às pessoas ou coisas a bordo, por outra aeronave em voo.</p>
+<p><a class="artigo">Art. 273.<aspan> Consideram-se provenientes de abalroamento os danos produzidos pela colisão de 2 (duas) ou mais aeronaves, em voo ou em manobra na superfície, e os produzidos às pessoas ou coisas a bordo, por outra aeronave em voo.</p>
 
-<p><span class=artigo>Art. 274.</span> A responsabilidade pela reparação dos danos resultantes do abalroamento cabe ao explorador ou proprietário da aeronave causadora, quer a utilize pessoalmente, quer por preposto.</p>
+<p><a class="artigo">Art. 274.<aspan> A responsabilidade pela reparação dos danos resultantes do abalroamento cabe ao explorador ou proprietário da aeronave causadora, quer a utilize pessoalmente, quer por preposto.</p>
 
-<p><span class=artigo>Art. 275.</span> No abalroamento em que haja culpa concorrente, a responsabilidade dos exploradores é solidária, mas proporcional à gravidade da falta.</p>
+<p><a class="artigo">Art. 275.<aspan> No abalroamento em que haja culpa concorrente, a responsabilidade dos exploradores é solidária, mas proporcional à gravidade da falta.</p>
 
 <p>Parágrafo único. Não se podendo determinar a proporcionalidade, responde cada um dos exploradores em partes iguais.</p>
 
-<p><span class=artigo>Art. 276.</span> Constituem danos de abalroamento, sujeitos à indenização:</p>
+<p><a class="artigo">Art. 276.<aspan> Constituem danos de abalroamento, sujeitos à indenização:</p>
 
 <p>I - os causados a pessoas e coisas a bordo das aeronaves envolvidas;</p>
 
@@ -1770,7 +1795,7 @@ Da Responsabilidade por Abalroamento</h2>
 
 <p>Parágrafo único. Incluem-se no ressarcimento dos danos as despesas, inclusive judiciais, assumidas pelo explorador da aeronave abalroada, em conseqüência do evento danoso.</p>
 
-<p><span class=artigo>Art. 277.</span> A indenização pelos danos causados em conseqüência do abalroamento não excederá:</p>
+<p><a class="artigo">Art. 277.<aspan> A indenização pelos danos causados em conseqüência do abalroamento não excederá:</p>
 
 <p>I - aos limites fixados nos artigos 257, 260 e 262, relativos a pessoas e coisas a bordo, elevados ao dobro;</p>
 
@@ -1780,7 +1805,7 @@ Da Responsabilidade por Abalroamento</h2>
 
 <p>IV - ao décimo do valor real da aeronave abalroada imediatamente anterior ao evento, em virtude da privação de seu uso normal.</p>
 
-<p><span class=artigo>Art. 278.</span> Não prevalecerão os limites de indenização fixados no artigo anterior:</p>
+<p><a class="artigo">Art. 278.<aspan> Não prevalecerão os limites de indenização fixados no artigo anterior:</p>
 
 <p>I - se o abalroamento resultar de dolo ou culpa grave específico do explorador ou de seus prepostos;</p>
 
@@ -1788,7 +1813,7 @@ Da Responsabilidade por Abalroamento</h2>
 
 <p>III - se o abalroamento for conseqüência de apossamento ilícito ou uso indevido da aeronave, sem negligência do explorador ou de seus prepostos, os quais, neste caso, ficarão eximidos de responsabilidade.</p>
 
-<p><span class=artigo>Art. 279.</span> O explorador de cada aeronave será responsável, nas condições e limites previstos neste Código, pelos danos causados:</p>
+<p><a class="artigo">Art. 279.<aspan> O explorador de cada aeronave será responsável, nas condições e limites previstos neste Código, pelos danos causados:</p>
 
 <p>I - pela colisão de 2 (duas) ou mais aeronaves;</p>
 
@@ -1799,7 +1824,7 @@ Da Responsabilidade por Abalroamento</h2>
 <h2>CAPÍTULO V<br>
 Da Responsabilidade do Construtor Aeronáutico e das Entidades de Infraestrutura Aeronáutica</h2>
 
-<p><span class=artigo>Art. 280.</span> Aplicam-se, conforme o caso, os limites estabelecidos nos artigos 257, 260, 262, 269 e 277, à eventual responsabilidade:</p>
+<p><a class="artigo">Art. 280.<aspan> Aplicam-se, conforme o caso, os limites estabelecidos nos artigos 257, 260, 262, 269 e 277, à eventual responsabilidade:</p>
 
 <p>I - do construtor de produto aeronáutico brasileiro, em relação à culpa pelos danos decorrentes de defeitos de fabricação;</p>
 
@@ -1808,7 +1833,7 @@ Da Responsabilidade do Construtor Aeronáutico e das Entidades de Infraestrutura
 <h2>CAPÍTULO VI<br>
 Da Garantia de Responsabilidade</h2>
 
-<p><span class=artigo>Art. 281.</span> Todo explorador é obrigado a contratar o seguro para garantir eventual indenização de riscos futuros em relação:</p>
+<p><a class="artigo">Art. 281.<aspan> Todo explorador é obrigado a contratar o seguro para garantir eventual indenização de riscos futuros em relação:</p>
 
 <p>I - aos danos previstos neste Título, com os limites de responsabilidade civil nele estabelecidos (artigos 257, 260, 262, 269 e 277) ou contratados (§ 1º. do artigo 257 e parágrafo único do artigo 262);</p>
 
@@ -1820,26 +1845,26 @@ Da Garantia de Responsabilidade</h2>
 
 <p>Parágrafo único. O recebimento do seguro exime o transportador da responsabilidade (artigo 250).</p>
 
-<p><span class=artigo>Art. 282.</span> Exigir-se-á do explorador de aeronave estrangeira, para a eventual reparação de danos a pessoas ou bens no espaço aéreo ou no território brasileiro:</p>
+<p><a class="artigo">Art. 282.<aspan> Exigir-se-á do explorador de aeronave estrangeira, para a eventual reparação de danos a pessoas ou bens no espaço aéreo ou no território brasileiro:</p>
 
 <p>a) apresentação de garantias iguais ou equivalentes às exigidas de aeronaves brasileiras;</p>
 
 <p>b) o cumprimento das normas estabelecidas em Convenções ou Acordos Internacionais, quando aplicáveis.</p>
 
-<p><span class=artigo>Art. 283.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 283.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 284.</span> Os seguros obrigatórios, cuja expiração ocorrer após o inicio do voo, consideram-se prorrogados até o seu término.</p>
+<p><a class="artigo">Art. 284.<aspan> Os seguros obrigatórios, cuja expiração ocorrer após o inicio do voo, consideram-se prorrogados até o seu término.</p>
 
-<p><span class=artigo>Art. 285.</span> Sob pena de nulidade da cláusula, nas apólices de seguro de vida ou de seguro de acidente, não poderá haver exclusão de riscos resultantes do transporte aéreo.</p>
+<p><a class="artigo">Art. 285.<aspan> Sob pena de nulidade da cláusula, nas apólices de seguro de vida ou de seguro de acidente, não poderá haver exclusão de riscos resultantes do transporte aéreo.</p>
 
 <p>Parágrafo único. Em se tratando de transporte aéreo, as apólices de seguro de vida ou de seguro de acidentes não poderão conter cláusulas que apresentem taxas ou sobretaxas maiores que as cobradas para os transportes terrestres.</p>
 
-<p><span class=artigo>Art. 286.</span> Aquele que tiver direito à reparação do dano poderá exercer, nos limites da indenização que lhe couber, direito próprio sobre a garantia prestada pelo responsável (artigos 250 e 281, Parágrafo único).</p>
+<p><a class="artigo">Art. 286.<aspan> Aquele que tiver direito à reparação do dano poderá exercer, nos limites da indenização que lhe couber, direito próprio sobre a garantia prestada pelo responsável (artigos 250 e 281, Parágrafo único).</p>
 
 <h2>CAPÍTULO VII<br>
 Da Responsabilidade Civil no Transporte Aéreo Internacional</h2>
 
-<p><span class=artigo>Art. 287.</span> Para efeito de limite de responsabilidade civil no transporte aéreo internacional, as quantias estabelecidas nas Convenções Internacionais de que o Brasil faça parte serão convertidas em moeda nacional, na forma de regulamento expedido pelo Poder Executivo.</p>
+<p><a class="artigo">Art. 287.<aspan> Para efeito de limite de responsabilidade civil no transporte aéreo internacional, as quantias estabelecidas nas Convenções Internacionais de que o Brasil faça parte serão convertidas em moeda nacional, na forma de regulamento expedido pelo Poder Executivo.</p>
 
 <h1>TÍTULO IX<br>
 Das Infrações e Providências Administrativas</h1>
@@ -1847,7 +1872,7 @@ Das Infrações e Providências Administrativas</h1>
 <h2>CAPÍTULO I<br>
 Dos Órgãos Administrativos Competentes</h2>
 
-<p><span class=artigo>Art. 288.</span> O Poder Executivo criará órgão com a finalidade de apuração e julgamento das infrações previstas neste Código e na legislação complementar, especialmente as relativas a tarifas e condições de transporte, bem como de conhecimento dos respectivos recursos.</p>
+<p><a class="artigo">Art. 288.<aspan> O Poder Executivo criará órgão com a finalidade de apuração e julgamento das infrações previstas neste Código e na legislação complementar, especialmente as relativas a tarifas e condições de transporte, bem como de conhecimento dos respectivos recursos.</p>
 
 <p>§ 1º. A competência, organização e funcionamento do órgão a ser criado, assim como o procedimento dos respectivos processos, serão fixados em regulamento.</p>
 
@@ -1856,7 +1881,7 @@ Dos Órgãos Administrativos Competentes</h2>
 <h2>CAPÍTULO II<br>
 Das Providências Administrativas</h2>
 
-<p><span class=artigo>Art. 289.</span> Na infração aos preceitos deste Código ou da legislação complementar, a autoridade aeronáutica poderá tomar as seguintes providências administrativas:</p>
+<p><a class="artigo">Art. 289.<aspan> Na infração aos preceitos deste Código ou da legislação complementar, a autoridade aeronáutica poderá tomar as seguintes providências administrativas:</p>
 
 <p>I - multa;</p>
 
@@ -1868,31 +1893,31 @@ Das Providências Administrativas</h2>
 
 <p>V - (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 290.</span> A autoridade aeronáutica poderá requisitar o auxílio da força policial para obter a detenção dos presumidos infratores ou da aeronave que ponha em perigo a segurança pública, pessoas ou coisas, nos limites do que dispõe este Código.</p>
+<p><a class="artigo">Art. 290.<aspan> A autoridade aeronáutica poderá requisitar o auxílio da força policial para obter a detenção dos presumidos infratores ou da aeronave que ponha em perigo a segurança pública, pessoas ou coisas, nos limites do que dispõe este Código.</p>
 
-<p><span class=artigo>Art. 291.</span> Toda vez que se verifique a ocorrência de infração prevista neste Código ou na legislação complementar, a autoridade aeronáutica lavrará o respectivo auto, remetendo-o à autoridade ou ao órgão competente para a apuração, julgamento ou providência administrativa cabível.</p>
+<p><a class="artigo">Art. 291.<aspan> Toda vez que se verifique a ocorrência de infração prevista neste Código ou na legislação complementar, a autoridade aeronáutica lavrará o respectivo auto, remetendo-o à autoridade ou ao órgão competente para a apuração, julgamento ou providência administrativa cabível.</p>
 
 <p>§ 1º. Quando a infração constituir crime, a autoridade levará, imediatamente, o fato ao conhecimento da autoridade policial ou judicial competente.</p>
 
 <p>§ 2º. Tratando-se de crime em que se deva deter membros de tripulação de aeronave que realize serviço aéreo, a autoridade aeronáutica, concomitantemente à providência prevista no § 1º, deverá tomar as medidas que possibilitem a continuação do voo. (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
-<p><span class=artigo>Art. 292.</span> É assegurado o direito à ampla defesa e a recurso a quem responder a procedimentos instaurados para a apuração e julgamento das infrações às normas previstas neste Código e em normas regulamentares.</p>
+<p><a class="artigo">Art. 292.<aspan> É assegurado o direito à ampla defesa e a recurso a quem responder a procedimentos instaurados para a apuração e julgamento das infrações às normas previstas neste Código e em normas regulamentares.</p>
 
 <p>§ 1º. O mesmo direito será assegurado no caso de providências administrativas necessárias à apuração de fatos irregulares ou delituosos.</p>
 
 <p>§ 2º. O procedimento será sumário, com efeito suspensivo.</p>
 
-<p><span class=artigo>Art. 293.</span> A aplicação das providências ou penalidades administrativas, previstas neste Título, não prejudicará nem impedirá a imposição, por outras autoridades, de penalidades cabíveis.</p>
+<p><a class="artigo">Art. 293.<aspan> A aplicação das providências ou penalidades administrativas, previstas neste Título, não prejudicará nem impedirá a imposição, por outras autoridades, de penalidades cabíveis.</p>
 
-<p><span class=artigo>Art. 294.</span> Será solidária a responsabilidade de quem cumprir ordem exorbitante ou indevida do proprietário ou explorador de aeronave, que resulte em infração deste Código.</p>
+<p><a class="artigo">Art. 294.<aspan> Será solidária a responsabilidade de quem cumprir ordem exorbitante ou indevida do proprietário ou explorador de aeronave, que resulte em infração deste Código.</p>
 
-<p><span class=artigo>Art. 295.</span> A multa será imposta de acordo com a gravidade da infração, podendo ser acrescida da suspensão de qualquer dos certificados ou da autorização ou permissão.</p>
+<p><a class="artigo">Art. 295.<aspan> A multa será imposta de acordo com a gravidade da infração, podendo ser acrescida da suspensão de qualquer dos certificados ou da autorização ou permissão.</p>
 
-<p><span class=artigo>Art. 296.</span> A suspensão será aplicada para período não superior a 180 (cento e oitenta) dias, podendo ser prorrogada uma vez por igual período.</p>
+<p><a class="artigo">Art. 296.<aspan> A suspensão será aplicada para período não superior a 180 (cento e oitenta) dias, podendo ser prorrogada uma vez por igual período.</p>
 
-<p><span class=artigo>Art. 297.</span> A pessoa jurídica empregadora responderá solidariamente com seus prepostos, agentes, empregados ou intermediários, pelas infrações por eles cometidas no exercício das respectivas funções.</p>
+<p><a class="artigo">Art. 297.<aspan> A pessoa jurídica empregadora responderá solidariamente com seus prepostos, agentes, empregados ou intermediários, pelas infrações por eles cometidas no exercício das respectivas funções.</p>
 
-<p><span class=artigo>Art. 298.</span> A empresa estrangeira de transporte aéreo que opere no País será sujeita à multa e, na hipótese de reincidência, à suspensão ou cassação da autorização de funcionamento no caso de não atender:</p>
+<p><a class="artigo">Art. 298.<aspan> A empresa estrangeira de transporte aéreo que opere no País será sujeita à multa e, na hipótese de reincidência, à suspensão ou cassação da autorização de funcionamento no caso de não atender:</p>
 
 <p>I - aos requisitos prescritos pelas leis e regulamentos normalmente aplicados, no que se refere ao funcionamento de empresas de transporte aéreo;</p>
 
@@ -1923,7 +1948,7 @@ Das Providências Administrativas</h2>
 <h2>CAPÍTULO III<br>
 Das Infrações</h2>
 
-<p>&nbsp;<span class=artigo>Art. 299.</span> Será aplicada multa de até mil valores de referência, ou de suspensão ou cassação de quaisquer certificados de matrícula, de habilitação, de autorização ou de homologação expedidos segundo as regras deste Código, nos seguintes casos: (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
+<p>&nbsp;<a class="artigo">Art. 299.<aspan> Será aplicada multa de até mil valores de referência, ou de suspensão ou cassação de quaisquer certificados de matrícula, de habilitação, de autorização ou de homologação expedidos segundo as regras deste Código, nos seguintes casos: (Redação dada pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <p>I - procedimento ou prática, no exercício das funções, que revelem falta de idoneidade profissional para o exercício das prerrogativas dos certificados de habilitação técnica;</p>
 
@@ -1943,11 +1968,11 @@ Das Infrações</h2>
 
 <p>IX - atraso no pagamento de preços específicos pela utilização de áreas aeroportuárias, fora do prazo estabelecido no respectivo instrumento.</p>
 
-<p><span class=artigo>Art. 300.</span> A cassação dependerá de inquérito administrativo no curso do qual será assegurada defesa ao infrator.</p>
+<p><a class="artigo">Art. 300.<aspan> A cassação dependerá de inquérito administrativo no curso do qual será assegurada defesa ao infrator.</p>
 
-<p><span class=artigo>Art. 301.</span> A suspensão poderá ser por prazo até 180 (cento e oitenta) dias, prorrogáveis por igual período.</p>
+<p><a class="artigo">Art. 301.<aspan> A suspensão poderá ser por prazo até 180 (cento e oitenta) dias, prorrogáveis por igual período.</p>
 
-<p><span class=artigo>Art. 302.</span> A multa será aplicada pela prática das seguintes infrações:</p>
+<p><a class="artigo">Art. 302.<aspan> A multa será aplicada pela prática das seguintes infrações:</p>
 
 <p>I - infrações referentes ao uso das aeronaves:</p>
 
@@ -2156,7 +2181,7 @@ Das Infrações</h2>
 <h2>CAPÍTULO IV<br>
 Da Detenção, Interdição e Apreensão de Aeronave</h2>
 
-<p><span class=artigo>Art. 303.</span> A aeronave poderá ser detida por autoridades aeronáuticas, fazendárias ou da Polícia Federal, nos seguintes casos:</p>
+<p><a class="artigo">Art. 303.<aspan> A aeronave poderá ser detida por autoridades aeronáuticas, fazendárias ou da Polícia Federal, nos seguintes casos:</p>
 
 <p>I - se voar no espaço aéreo brasileiro com infração das convenções ou atos internacionais, ou das autorizações para tal fim;</p>
 
@@ -2174,13 +2199,13 @@ Da Detenção, Interdição e Apreensão de Aeronave</h2>
 
 <p>§ 3º. A autoridade mencionada no § 1º. responderá por seus atos quando agir com excesso de poder ou com espírito emulatório. (Renumerado do § 2º. para § 3º. com nova redação pela Lei nº. 9.614, de 1998) (Regulamento)</p>
 
-<p><span class=artigo>Art. 304.</span> Quando, no caso do item IV, do artigo anterior, for constatada a existência de material proibido, explosivo ou apetrechos de guerra, sem autorização, ou contrariando os termos da que foi outorgada, pondo em risco a segurança pública ou a paz entre as Nações, a autoridade aeronáutica poderá reter o material de que trata este artigo e liberar a aeronave se, por força de lei, não houver necessidade de apreendê-la.</p>
+<p><a class="artigo">Art. 304.<aspan> Quando, no caso do item IV, do artigo anterior, for constatada a existência de material proibido, explosivo ou apetrechos de guerra, sem autorização, ou contrariando os termos da que foi outorgada, pondo em risco a segurança pública ou a paz entre as Nações, a autoridade aeronáutica poderá reter o material de que trata este artigo e liberar a aeronave se, por força de lei, não houver necessidade de apreendê-la.</p>
 
 <p>§ 1º. Se a aeronave for estrangeira e a carga não puser em risco a segurança pública ou a paz entre as Nações, poderá a autoridade aeronáutica fazer a aeronave retornar ao país de origem pela rota e prazo determinados, sem a retenção da carga.</p>
 
 <p>§ 2º. Embora estrangeira a aeronave, se a carga puser em risco a segurança pública e a paz entre os povos, poderá a autoridade aeronáutica reter o material bélico e fazer retornar a aeronave na forma do disposto no parágrafo anterior.</p>
 
-<p><span class=artigo>Art. 305.</span> A aeronave pode ser interditada:</p>
+<p><a class="artigo">Art. 305.<aspan> A aeronave pode ser interditada:</p>
 
 <p>I - nos casos do artigo 302, I, alíneas a até n; II, alíneas c, d, g e j; III, alíneas a, e, f e g; e V, alíneas a a e;</p>
 
@@ -2190,26 +2215,26 @@ Da Detenção, Interdição e Apreensão de Aeronave</h2>
 
 <p>§ 2º. Será entregue ao responsável pela aeronave cópia do auto a que se refere o parágrafo anterior.</p>
 
-<p><span class=artigo>Art. 306.</span> A aeronave interditada não será impedida de funcionar, para efeito de manutenção.</p>
+<p><a class="artigo">Art. 306.<aspan> A aeronave interditada não será impedida de funcionar, para efeito de manutenção.</p>
 
-<p><span class=artigo>Art. 307.</span> A autoridade aeronáutica poderá interditar a aeronave, por prazo não superior a 15 (quinze) dias, mediante requisição da autoridade aduaneira, de Polícia ou de saúde.</p>
+<p><a class="artigo">Art. 307.<aspan> A autoridade aeronáutica poderá interditar a aeronave, por prazo não superior a 15 (quinze) dias, mediante requisição da autoridade aduaneira, de Polícia ou de saúde.</p>
 
 <p>Parágrafo único. A requisição deverá ser motivada, de modo a demonstrar justo receio de que haja lesão grave e de difícil reparação a direitos do Poder Público ou de terceiros; ou que haja perigo à ordem pública, à saúde ou às instituições.</p>
 
-<p><span class=artigo>Art. 308.</span> A apreensão da aeronave dar-se-á para preservar a eficácia da detenção ou interdição, e consistirá em mantê-la estacionada, com ou sem remoção para hangar, área de estacionamento, oficina ou lugar seguro (artigos 155 e 309).</p>
+<p><a class="artigo">Art. 308.<aspan> A apreensão da aeronave dar-se-á para preservar a eficácia da detenção ou interdição, e consistirá em mantê-la estacionada, com ou sem remoção para hangar, área de estacionamento, oficina ou lugar seguro (artigos 155 e 309).</p>
 
-<p><span class=artigo>Art. 309.</span> A apreensão de aeronave só se dará em cumprimento à ordem judicial, ressalvadas outras hipóteses de apreensão previstas nesta Lei.</p>
+<p><a class="artigo">Art. 309.<aspan> A apreensão de aeronave só se dará em cumprimento à ordem judicial, ressalvadas outras hipóteses de apreensão previstas nesta Lei.</p>
 
-<p><span class=artigo>Art. 310.</span> Satisfeitas as exigências legais, a aeronave detida, interditada ou apreendida será imediatamente liberada.</p>
+<p><a class="artigo">Art. 310.<aspan> Satisfeitas as exigências legais, a aeronave detida, interditada ou apreendida será imediatamente liberada.</p>
 
-<p><span class=artigo>Art. 311.</span> Em qualquer dos casos previstos neste Capítulo, o proprietário ou explorador da aeronave não terá direito à indenização.</p>
+<p><a class="artigo">Art. 311.<aspan> Em qualquer dos casos previstos neste Capítulo, o proprietário ou explorador da aeronave não terá direito à indenização.</p>
 
 <h2>CAPÍTULO V<br>
 Da Custódia e Guarda de Aeronave</h2>
 
-<p><span class=artigo>Art. 312.</span> Em qualquer inquérito ou processo administrativo ou judicial, a custódia, guarda ou depósito de aeronave far-se-á de conformidade com o disposto neste Capítulo.</p>
+<p><a class="artigo">Art. 312.<aspan> Em qualquer inquérito ou processo administrativo ou judicial, a custódia, guarda ou depósito de aeronave far-se-á de conformidade com o disposto neste Capítulo.</p>
 
-<p><span class=artigo>Art. 313.</span> O explorador ou o proprietário de aeronaves entregues em depósito ou a guarda de autoridade aeronáutica responde pelas despesas correspondentes.</p>
+<p><a class="artigo">Art. 313.<aspan> O explorador ou o proprietário de aeronaves entregues em depósito ou a guarda de autoridade aeronáutica responde pelas despesas correspondentes.</p>
 
 <p>§ 1º. Incluem-se no disposto neste artigo:</p>
 
@@ -2225,7 +2250,7 @@ Da Custódia e Guarda de Aeronave</h2>
 
 <p>§ 3º. No caso do parágrafo anterior, caberá ação regressiva contra o Poder Público cuja autoridade houver agido com excesso de poder ou com espírito emulatório.</p>
 
-<p><span class=artigo>Art. 314.</span> O depósito não excederá o prazo de 2 (dois) anos.</p>
+<p><a class="artigo">Art. 314.<aspan> O depósito não excederá o prazo de 2 (dois) anos.</p>
 
 <p>§ 1º. Se, no prazo estabelecido neste artigo não for autorizada a entrega da aeronave, a autoridade aeronáutica poderá efetuar a venda pública pelo valor correspondente, para ocorrer às despesas com o depósito.</p>
 
@@ -2233,14 +2258,14 @@ Da Custódia e Guarda de Aeronave</h2>
 
 <p>§ 3º. O disposto neste artigo não se aplica ao depósito decorrente de processo administrativo de natureza fiscal.</p>
 
-<p><span class=artigo>Art. 315.</span> Será obrigatório o seguro da aeronave entregue ao depósito, a cargo do explorador ou proprietário.</p>
+<p><a class="artigo">Art. 315.<aspan> Será obrigatório o seguro da aeronave entregue ao depósito, a cargo do explorador ou proprietário.</p>
 
 <h1>TÍTULO X<br>
 Dos Prazos Extintivos</h1>
 
-<p><span class=artigo>Art. 316.</span> Prescreve em 6 (seis) meses, contados da tradição da aeronave, a ação para haver abatimento do preço da aeronave adquirida com vício oculto, ou para rescindir o contrato e reaver o preço pago, acrescido de perdas e danos.</p>
+<p><a class="artigo">Art. 316.<aspan> Prescreve em 6 (seis) meses, contados da tradição da aeronave, a ação para haver abatimento do preço da aeronave adquirida com vício oculto, ou para rescindir o contrato e reaver o preço pago, acrescido de perdas e danos.</p>
 
-<p><span class=artigo>Art. 317.</span> Prescreve em 2 (dois) anos a ação:</p>
+<p><a class="artigo">Art. 317.<aspan> Prescreve em 2 (dois) anos a ação:</p>
 
 <p>I - por danos causados a passageiros, bagagem ou carga transportada, a contar da data em que se verificou o dano, da data da chegada ou do dia em que devia chegar a aeronave ao ponto de destino, ou da interrupção do transporte;</p>
 
@@ -2264,22 +2289,22 @@ Dos Prazos Extintivos</h1>
 
 <p>Parágrafo único. Os prazos de decadência e de prescrição, relativamente à matéria tributária, permanecem regidos pela legislação específica.</p>
 
-<p><span class=artigo>Art. 318.</span> Se o interessado provar que não teve conhecimento do dano ou da identidade do responsável, o prazo começará a correr da data em que tiver conhecimento, mas não poderá ultrapassar de 3 (três) anos a partir do evento.</p>
+<p><a class="artigo">Art. 318.<aspan> Se o interessado provar que não teve conhecimento do dano ou da identidade do responsável, o prazo começará a correr da data em que tiver conhecimento, mas não poderá ultrapassar de 3 (três) anos a partir do evento.</p>
 
-<p><span class=artigo>Art. 319.</span> As providências administrativas previstas neste Código prescrevem em 2 (dois) anos, a partir da data da ocorrência do ato ou fato que as autorizar, e seus efeitos, ainda no caso de suspensão, não poderão exceder esse prazo.</p>
+<p><a class="artigo">Art. 319.<aspan> As providências administrativas previstas neste Código prescrevem em 2 (dois) anos, a partir da data da ocorrência do ato ou fato que as autorizar, e seus efeitos, ainda no caso de suspensão, não poderão exceder esse prazo.</p>
 
 <p>Parágrafo único. O disposto no caput deste artigo não se aplica aos prazos definidos no Código Tributário Nacional.</p>
 
-<p><span class=artigo>Art. 320.</span> A intervenção e liquidação extrajudicial deverão encerrar-se no prazo de 2 (dois) anos.</p>
+<p><a class="artigo">Art. 320.<aspan> A intervenção e liquidação extrajudicial deverão encerrar-se no prazo de 2 (dois) anos.</p>
 
 <p>Parágrafo único. Ao término do prazo de 2 (dois) anos, a partir do primeiro ato, qualquer interessado ou membro do Ministério Público, poderá requerer a imediata venda dos bens em leilão público e o rateio do produto entre os credores, observadas as preferências e privilégios especiais.</p>
 
-<p><span class=artigo>Art. 321.</span> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
+<p><a class="artigo">Art. 321.<aspan> (Revogado pela Medida Provisória nº. 1.089, de 2021)</p>
 
 <h1>TÍTULO XI<br>
 Disposições Finais e Transitórias</h1>
 
-<p><span class=artigo>Art. 322.</span> Fica autorizado o Ministério da Aeronáutica a instalar uma Junta de Julgamento da Aeronáutica com a competência de julgar, administrativamente, as infrações e demais questões dispostas neste Código, e mencionadas no seu artigo 1º, (vetado).</p>
+<p><a class="artigo">Art. 322.<aspan> Fica autorizado o Ministério da Aeronáutica a instalar uma Junta de Julgamento da Aeronáutica com a competência de julgar, administrativamente, as infrações e demais questões dispostas neste Código, e mencionadas no seu artigo 1º, (vetado).</p>
 
 <p>§ 1º. (vetado).</p>
 
@@ -2289,9 +2314,9 @@ Disposições Finais e Transitórias</h1>
 
 <p>§ 4º. O Poder Executivo, através de decreto, regulamentará a organização e o funcionamento da Junta de Julgamento da Aeronáutica.</p>
 
-<p><span class=artigo>Art. 323.</span> Este Código entra em vigor na data de sua publicação.</p>
+<p><a class="artigo">Art. 323.<aspan> Este Código entra em vigor na data de sua publicação.</p>
 
-<p><span class=artigo>Art. 324.</span> Ficam revogados o Decreto-Lei nº. 32, de 18 de novembro de 1966, o Decreto-Lei nº. 234, de 28 de fevereiro de 1967, a Lei nº. 5.448, de 4 de junho de 1968, a Lei nº. 5.710, de 7 de outubro de 1971, a Lei nº. 6.298, de 15 de dezembro de 1975, a Lei nº. 6.350, de 7 de julho de 1976, a Lei nº. 6.833, de 30 de setembro de 1980, a Lei nº. 6.997, de 7 de junho de 1982, e demais disposições em contrário.</p>
+<p><a class="artigo">Art. 324.<aspan> Ficam revogados o Decreto-Lei nº. 32, de 18 de novembro de 1966, o Decreto-Lei nº. 234, de 28 de fevereiro de 1967, a Lei nº. 5.448, de 4 de junho de 1968, a Lei nº. 5.710, de 7 de outubro de 1971, a Lei nº. 6.298, de 15 de dezembro de 1975, a Lei nº. 6.350, de 7 de julho de 1976, a Lei nº. 6.833, de 30 de setembro de 1980, a Lei nº. 6.997, de 7 de junho de 1982, e demais disposições em contrário.</p>
 
 <p>Brasília, 19 de dezembro de 1986. 165º. da Independência e 98º. da República.</p>
 
