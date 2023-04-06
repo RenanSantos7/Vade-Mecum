@@ -11,7 +11,7 @@
 </head>
 <body>
 	<nav id="menu">
-		<span id="botao-menu-fechar" class="material-symbols-outlined">close</span>		
+		<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>		
 		<h2><a href="index.html">Vade Mecum</a></h2>		<ul>
 			<li><a target="_blank" href="CF.html">Constituição</a></li>
 			<li><a target="_blank" href="CC.html">Código Civil</a></li>
@@ -24,7 +24,8 @@
 	<span id="botao-menu-abrir" class="material-symbols-outlined botoes-laterais">menu</span>
 	<span id="botao-pesquisa-abrir" class="material-symbols-outlined botoes-laterais">search</span>
 
-	<div id="procura-artigo">
+	<section id="procura-artigo">
+		<span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
 		<h2>Pesquisar artigo</h2>
 		<label id="label-numero" for="numero-artigo">Digite o número do artigo</label>
 		<input id="numero-artigo" type="number" min="1" name="numero-artigo">
@@ -33,9 +34,12 @@
 		<input type="text" name="letra-artigo" id="letra-artigo"> -->
 
 		<input id="botao-artigo" type="button" value="Pesquisar">
-	</div>
 
-<section>
+		<div class="linha-horizontal"></div>
+		<section id="resultados-pesquisa"></section>
+	</section>
+
+<section id="corpo">
 <p id="titulo">Código Brasileiro de Aeronáutica</p>
 
 <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/l7565compilado.htm">Lei nº 7.565, de 19 de dezembro de 1986.</a></p>

@@ -10,16 +10,16 @@ body {
   padding: 10px;
 }
 
-/* POSICIONAMENTO e TAMANHOS */
+/* % POSICIONAMENTO e TAMANHOS */
 
 header {
-  /*! background-color: aquamarine; */
+  /* background-color: aquamarine; */
   height: 100vh;
   z-index: 1;
 }
 
 header h1 {
-  /*! background: red; */
+  /* background: red; */
   position: fixed;
   top: 50px;
   left: 2vw;
@@ -27,7 +27,7 @@ header h1 {
 }
 
 main {
-  /*! background-color: yellow; */
+  /* background-color: yellow; */
   z-index: 1;
 }
 
@@ -66,8 +66,6 @@ section {
 article {
   padding: 0% 7% 5% 5%;
   border-radius: 12px;
-  /*max-height: 400px;
-  overflow: hidden;*/
 }
 
 footer {
@@ -76,7 +74,7 @@ footer {
   left: 1.1vw;
 }
 
-/* GRID */
+/*% GRID */
 
 #const, #civil {
   grid-row: 1/span 2; /* começa na linha 1 e toma 2 linhas*/
@@ -105,7 +103,7 @@ footer {
   float: left;
 }
 
-/* TEXTO */
+/*% TEXTO */
 
 a {
   text-decoration: none;

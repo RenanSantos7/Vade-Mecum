@@ -1,6 +1,6 @@
 article {
   transition: all ease-in 0.3s;
-  transition-delay: .6s;
+  transition-delay: 1s;
 }
 
 a, li, .item-fav {
@@ -12,7 +12,7 @@ article:hover, .item-fav:hover {
   box-shadow: var(--shadow);
 }
 
-section:hover article:not(:hover), 
+#corpo:hover article:not(:hover), 
 #list-fav:hover .item-fav:not(:hover){
   opacity: .6;
   filter: brightness(.9);

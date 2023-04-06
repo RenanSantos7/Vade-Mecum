@@ -159,7 +159,7 @@ ul.dica li {
 /* % ESTRUTURA */
 /* ? Estrutura base */
 
-section, div#corpo {
+#corpo {
 	background-color: var(--fundo2);
 	margin: 50px 0;
 	padding: 40px 20px 80px;
@@ -334,7 +334,7 @@ td.cabtab, th {
 	left: 10vh;
 }
 
-#botao-menu-fechar {
+.menu-fechar {
 	font-size: 2rem;
 	position: absolute;
 	right: 15px;
@@ -384,12 +384,13 @@ nav#menu h2 {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	gap: 20px;
-	padding-left: 2rem;
+	gap: 35px;
+	padding: 0 2rem;
 	background-color: var(--fundo2);
 	position: fixed;
 	top: 0;
-	width: 450px;
+	width: 35vw;
+	max-width: 400px;
 	height:100vh;
 	left: -500px;
 	transition: all 0.5s ease;
@@ -399,10 +400,15 @@ nav#menu h2 {
 	overflow-x: hidden;
 }
 
+#procura-artigo h2 {
+	margin-bottom: 0;
+}
+
 #label-numero {
 	grid-row: 1;
 	grid-column: 1/3;
 	font-size: .9rem;
+	margin-bottom: -10px;
 }
 
 #numero-artigo {
@@ -413,6 +419,7 @@ nav#menu h2 {
 	border: 1px solid var(--cinza);
 	border-radius: 8px;
 	padding: .5rem;
+	width: 150px;
 }
 
 #botao-artigo {
@@ -421,24 +428,45 @@ nav#menu h2 {
 	border-radius: 12px;
 	padding: .5rem .8rem;
 	color: white;
+	cursor: pointer;
 }
 
 #botao-artigo:disabled {
 	filter: opacity(0.5);
 }
 
+.linha-horizontal {
+	background-color: var(--cinza);
+	height: 1px;
+	width: 100%;
+}
+
+#resultados-pesquisa {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin-top: 25px;
+}
+
+.resultado-pesquisa {
+	border: 1px solid var(--cinza);
+	padding: 1rem;
+	border-radius: 18px;
+}
+
+
 /* % MEDIA QUERIES */
 
 @media only screen and (min-width: 900px) {
 	
-	section, #corpo {
+	#corpo {
 		margin: 50px 15vw 150px;
 		max-width: 1000px;
 		padding: 40px 120px 100px;
 		animation: entrada1 1s ease-in-out;
 	}
 	
-	section:after, div#corpo:after {
+	#corpo:after {
 		content: "@ Renan Santos. 2020.";
 		position: fixed;
 		right: -5vw;

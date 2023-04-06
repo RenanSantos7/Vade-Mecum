@@ -1,9 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" type="image/png" href="imgs/brastra.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel=icon href="imgs/brastra.png">
+	<link rel=stylesheet href="css/lei.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>Lei do Inquilinato</title>
-	<link rel="stylesheet" href="css/lei.css">
 	<style>
 		.subali {padding-left: 5em;text-indent: -1em;}
 	</style>
@@ -13,6 +17,7 @@
 
 <nav id=menu>
  	<ul>
+		<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>
 		<h2><a href="index.html">Vade Mecum</a></h2> 		<li><a target="_blank" href="CF.html">Constituição</a></li>
  		<li><a target="_blank" href="CPC73.html">Código de Processo Civil/73</a></li>
  		<li><a target="_blank" href="CPC.html">Novo Código de Processo Civil</a></li>
@@ -22,7 +27,25 @@
 	</ul>
 </nav>
 
-<section>
+<span id="botao-menu-abrir" class="material-symbols-outlined botoes-laterais">menu</span>
+<span id="botao-pesquisa-abrir" class="material-symbols-outlined botoes-laterais">search</span>
+
+<section id="procura-artigo">
+	<span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
+	<h2>Pesquisar artigo</h2>
+	<label id="label-numero" for="numero-artigo">Digite o número do artigo</label>
+	<input id="numero-artigo" type="number" min="1" name="numero-artigo">
+
+	<!-- <label for="letra-artigo">Digite a letra (se for o caso)</label>
+	<input type="text" name="letra-artigo" id="letra-artigo"> -->
+
+	<input id="botao-artigo" type="button" value="Pesquisar">
+
+	<div class="linha-horizontal"></div>
+	<section id="resultados-pesquisa"></section>
+</section>
+
+<section id="corpo">
 <p id="titulo">Lei do Inquilinato</p>
 
 <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/L8245compilado.htm">LEI Nº. 8.245, DE 18 DE OUTUBRO DE 1991.</a></p>
@@ -40,7 +63,7 @@ Disposições Gerais</h2>
 <h3>SEÇÃO I<br>
 Da locação em geral</h3>
 
-<p><span class=artigo>Art. 1º.</span> A locação de imóvel urbano regula-se pelo disposto nesta lei:</p>
+<p><a class="artigo">Art. 1º.</a> A locação de imóvel urbano regula-se pelo disposto nesta lei:</p>
 
 <p>Parágrafo único. Continuam regulados pelo Código Civil e pelas leis especiais:</p>
 
@@ -56,37 +79,37 @@ Da locação em geral</h3>
 
 <p class=alinea>b) o arrendamento mercantil, em qualquer de suas modalidades.</p>
 
-<p><span class=artigo>Art. 2º.</span> Havendo mais de um locador ou mais de um locatário, entende-se que são solidários se o contrário não se estipulou.</p>
+<p><a class=artigo>Art. 2º.</a> Havendo mais de um locador ou mais de um locatário, entende-se que são solidários se o contrário não se estipulou.</p>
 
 <p>Parágrafo único. Os ocupantes de habitações coletivas multifamiliares presumem-se locatários ou sublocatários.</p>
 
-<p><span class=artigo>Art. 3º.</span> O contrato de locação pode ser ajustado por qualquer prazo, dependendo de vênia conjugal, se igual ou superior a dez anos.</p>
+<p><a class=artigo>Art. 3º.</a> O contrato de locação pode ser ajustado por qualquer prazo, dependendo de vênia conjugal, se igual ou superior a dez anos.</p>
 
 <p>Parágrafo único. Ausente a vênia conjugal, o cônjuge não estará obrigado a observar o prazo excedente.</p>
 
-<p><span class=artigo>Art. 4º.</span> Durante o prazo estipulado para a duração do contrato, não poderá o locador reaver o imóvel alugado. Com exceção ao que estipula o <a href="#54-ap2">§ 2º do art. 54-A</a>, o locatário, todavia, poderá devolvê-lo, pagando a multa pactuada, proporcional ao período de cumprimento do contrato, ou, na sua falta, a que for judicialmente estipulada.</p>
+<p><a class=artigo>Art. 4º.</a> Durante o prazo estipulado para a duração do contrato, não poderá o locador reaver o imóvel alugado. Com exceção ao que estipula o <a href="#54-ap2">§ 2º do art. 54-A</a>, o locatário, todavia, poderá devolvê-lo, pagando a multa pactuada, proporcional ao período de cumprimento do contrato, ou, na sua falta, a que for judicialmente estipulada.</p>
 
 <p>Parágrafo único. O locatário ficará dispensado da multa se a devolução do imóvel decorrer de transferência, pelo seu empregador, privado ou público, para prestar serviços em localidades diversas daquela do início do contrato, e se notificar, por escrito, o locador com prazo de, no mínimo, trinta dias de antecedência.</p>
 
-<p><span class=artigo>Art. 5º.</span> Seja qual for o fundamento do término da locação, a ação do locador para reaver o imóvel é a de despejo.</p>
+<p><a class=artigo>Art. 5º.</a> Seja qual for o fundamento do término da locação, a ação do locador para reaver o imóvel é a de despejo.</p>
 
 <p>Parágrafo único. O disposto neste artigo não se aplica se a locação termina em decorrência de desapropriação, com a imissão do expropriante na posse do imóvel.</p>
 
-<p><span class=artigo>Art. 6º.</span> O locatário poderá denunciar a locação por prazo indeterminado mediante aviso por escrito ao locador, com antecedência mínima de trinta dias.</p>
+<p><a class=artigo>Art. 6º.</a> O locatário poderá denunciar a locação por prazo indeterminado mediante aviso por escrito ao locador, com antecedência mínima de trinta dias.</p>
 
 <p>Parágrafo único. Na ausência do aviso, o locador poderá exigir quantia correspondente a um mês de aluguel e encargos, vigentes quando da resilição.</p>
 
-<p><span class=artigo>Art. 7º.</span> Nos casos de extinção de usufruto ou de fideicomisso, a locação celebrada pelo usufrutuário ou fiduciário poderá ser denunciada, com o prazo de trinta dias para a desocupação, salvo se tiver havido aquiescência escrita do nuproprietário ou do fideicomissário, ou se a propriedade estiver consolidada em mãos do usufrutuário ou do fiduciário.</p>
+<p><a class=artigo>Art. 7º.</a> Nos casos de extinção de usufruto ou de fideicomisso, a locação celebrada pelo usufrutuário ou fiduciário poderá ser denunciada, com o prazo de trinta dias para a desocupação, salvo se tiver havido aquiescência escrita do nuproprietário ou do fideicomissário, ou se a propriedade estiver consolidada em mãos do usufrutuário ou do fiduciário.</p>
 
 <p>Parágrafo único. A denúncia deverá ser exercitada no prazo de noventa dias contados da extinção do fideicomisso ou da averbação da extinção do usufruto, presumindo-se, após esse prazo, a concordância na manutenção da locação.</p>
 
-<p><span class=artigo>Art. 8º.</span> Se o imóvel for alienado durante a locação, o adquirente poderá denunciar o contrato, com o prazo de noventa dias para a desocupação, salvo se a locação for por tempo determinado e o contrato contiver cláusula de vigência em caso de alienação e estiver averbado junto à matrícula do imóvel.</p>
+<p><a class=artigo>Art. 8º.</a> Se o imóvel for alienado durante a locação, o adquirente poderá denunciar o contrato, com o prazo de noventa dias para a desocupação, salvo se a locação for por tempo determinado e o contrato contiver cláusula de vigência em caso de alienação e estiver averbado junto à matrícula do imóvel.</p>
 
 <p>§ 1º Idêntico direito terá o promissário comprador e o promissário cessionário, em caráter irrevogável, com imissão na posse do imóvel e título registrado junto à matrícula do mesmo.</p>
 
 <p>§ 2º A denúncia deverá ser exercitada no prazo de noventa dias contados do registro da venda ou do compromisso, presumindo-se, após esse prazo, a concordância na manutenção da locação.</p>
 
-<p><span class=artigo>Art. 9º.</span> A locação também poderá ser desfeita:</p>
+<p><a class=artigo>Art. 9º.</a> A locação também poderá ser desfeita:</p>
 
 <p>I – por mútuo acordo;</p>
 
@@ -96,21 +119,21 @@ Da locação em geral</h3>
 
 <p>IV – para a realização de reparações urgentes determinadas pelo Poder Público, que não possam ser normalmente executadas com a permanência do locatário no imóvel ou, podendo, ele se recuse a consenti–las.</p>
 
-<p><span class=artigo>Art. 10.</span> Morrendo o locador, a locação transmite-se aos herdeiros.</p>
+<p><a class=artigo>Art. 10.</a> Morrendo o locador, a locação transmite-se aos herdeiros.</p>
 
-<p><span class=artigo>Art. 11.</span> Morrendo o locatário, ficarão sub-rogados nos seus direitos e obrigações:</p>
+<p><a class=artigo>Art. 11.</a> Morrendo o locatário, ficarão sub-rogados nos seus direitos e obrigações:</p>
 
 <p>I – nas locações com finalidade residencial, o cônjuge sobrevivente ou o companheiro e, sucessivamente, os herdeiros necessários e as pessoas que viviam na dependência econômica do de cujus , desde que residentes no imóvel;</p>
 
 <p>II – nas locações com finalidade não residencial, o espólio e, se for o caso, seu sucessor no negócio.</p>
 
-<p><span class=artigo>Art. 12.</span> Em casos de separação de fato, separação judicial, divórcio ou dissolução da união estável, a locação residencial prosseguirá automaticamente com o cônjuge ou companheiro que permanecer no imóvel.</p>
+<p><a class=artigo>Art. 12.</a> Em casos de separação de fato, separação judicial, divórcio ou dissolução da união estável, a locação residencial prosseguirá automaticamente com o cônjuge ou companheiro que permanecer no imóvel.</p>
 
 <p>§ 1º. Nas hipóteses previstas neste artigo e no art. 11, a sub-rogação será comunicada por escrito ao locador e ao fiador, se esta for a modalidade de garantia locatícia.</p>
 
 <p>§ 2º. O fiador poderá exonerar-se das suas responsabilidades no prazo de 30 (trinta) dias contado do recebimento da comunicação oferecida pelo sub-rogado, ficando responsável pelos efeitos da fiança durante 120 (cento e vinte) dias após a notificação ao locador.</p>
 
-<p><span class=artigo>Art. 13.</span> A cessão da locação, a sublocação e o empréstimo do imóvel, total ou parcialmente, dependem do consentimento prévio e escrito do locador.</p>
+<p><a class=artigo>Art. 13.</a> A cessão da locação, a sublocação e o empréstimo do imóvel, total ou parcialmente, dependem do consentimento prévio e escrito do locador.</p>
 
 <p>§ 1º Não se presume o consentimento pela simples demora do locador em manifestar formalmente a sua oposição.</p>
 
@@ -121,33 +144,33 @@ Da locação em geral</h3>
 <h3>SEÇÃO II<br>
 Das sublocações</h3>
 
-<p><span class=artigo>Art. 14.</span> Aplicam-se às sublocações, no que couber, as disposições relativas às locações.</p>
+<p><a class=artigo>Art. 14.</a> Aplicam-se às sublocações, no que couber, as disposições relativas às locações.</p>
 
-<p><span class=artigo>Art. 15.</span> Rescindida ou finda a locação, qualquer que seja sua causa, resolvem-se as sublocações, assegurado o direito de indenização do sublocatário contra o sublocador.</p>
+<p><a class=artigo>Art. 15.</a> Rescindida ou finda a locação, qualquer que seja sua causa, resolvem-se as sublocações, assegurado o direito de indenização do sublocatário contra o sublocador.</p>
 
-<p><span class=artigo>Art. 16.</span> O sublocatário responde subsidiariamente ao locador pela importância que dever ao sublocador, quando este for demandado e, ainda, pelos aluguéis que se vencerem durante a lide.</p>
+<p><a class=artigo>Art. 16.</a> O sublocatário responde subsidiariamente ao locador pela importância que dever ao sublocador, quando este for demandado e, ainda, pelos aluguéis que se vencerem durante a lide.</p>
 
 <h3>SEÇÃO III<br>
 Do aluguel</h3>
 
-<p><span class=artigo>Art. 17.</span> É livre a convenção do aluguel, vedada a sua estipulação em moeda estrangeira e a sua vinculação à variação cambial ou ao salário mínimo.</p>
+<p><a class=artigo>Art. 17.</a> É livre a convenção do aluguel, vedada a sua estipulação em moeda estrangeira e a sua vinculação à variação cambial ou ao salário mínimo.</p>
 
 <p>Parágrafo único. Nas locações residenciais serão observadas os critérios de reajustes previstos na legislação específica.</p>
 
-<p><span class=artigo>Art. 18.</span> É lícito às partes fixar, de comum acordo, novo valor para o aluguel, bem como inserir ou modificar cláusula de reajuste.</p>
+<p><a class=artigo>Art. 18.</a> É lícito às partes fixar, de comum acordo, novo valor para o aluguel, bem como inserir ou modificar cláusula de reajuste.</p>
 
-<p><span class=artigo>Art. 19.</span> Não havendo acordo, o locador ou locatário, após três anos de vigência do contrato ou do acordo anteriormente realizado, poderão pedir revisão judicial do aluguel, a fim de ajustá-lo ao preço de mercado.</p>
+<p><a class=artigo>Art. 19.</a> Não havendo acordo, o locador ou locatário, após três anos de vigência do contrato ou do acordo anteriormente realizado, poderão pedir revisão judicial do aluguel, a fim de ajustá-lo ao preço de mercado.</p>
 
-<p><span class=artigo>Art. 20.</span> Salvo as hipóteses do art. 42 e da locação para temporada, o locador não poderá exigir o pagamento antecipado do aluguel.</p>
+<p><a class=artigo>Art. 20.</a> Salvo as hipóteses do art. 42 e da locação para temporada, o locador não poderá exigir o pagamento antecipado do aluguel.</p>
 
-<p><span class=artigo>Art. 21.</span> O aluguel da sublocação não poderá exceder o da locação; nas habitações coletivas multifamiliares, a soma dos aluguéis não poderá ser superior ao dobro do valor da locação.</p>
+<p><a class=artigo>Art. 21.</a> O aluguel da sublocação não poderá exceder o da locação; nas habitações coletivas multifamiliares, a soma dos aluguéis não poderá ser superior ao dobro do valor da locação.</p>
 
 <p>Parágrafo único. O descumprimento deste artigo autoriza o sublocatário a reduzir o aluguel até os limites nele estabelecidos.</p>
 
 <h3>SEÇÃO IV<br>
 Dos deveres do locador e do locatário</h3>
 
-<p><span class=artigo>Art. 22.</span> O locador é obrigado a:</p>
+<p><a class=artigo>Art. 22.</a> O locador é obrigado a:</p>
 
 <p>I – entregar ao locatário o imóvel alugado em estado de servir ao uso a que se destina;</p>
 
@@ -185,7 +208,7 @@ Dos deveres do locador e do locatário</h3>
 
 <p class=alinea>g) constituição de fundo de reserva.</p>
 
-<p><span class=artigo>Art. 23.</span> O locatário é obrigado a:</p>
+<p><a class=artigo>Art. 23.</a> O locatário é obrigado a:</p>
 
 <p>I – pagar pontualmente o aluguel e os encargos da locação, legal ou contratualmente exigíveis, no prazo estipulado ou, em sua falta, até o sexto dia útil do mês seguinte ao vencido, no imóvel locado, quando outro local não tiver sido indicado no contrato;</p>
 
@@ -235,7 +258,7 @@ Dos deveres do locador e do locatário</h3>
 
 <p>§ 3º No edifício constituído por unidades imobiliárias autônomas, de propriedade da mesma pessoa, os locatários ficam obrigados ao pagamento das despesas referidas no § 1º deste artigo, desde que comprovadas.</p>
 
-<p><span class=artigo>Art. 24.</span> Nos imóveis utilizados como habitação coletiva multifamiliar, os locatários ou sublocatários poderão depositar judicialmente o aluguel e encargos se a construção for considerada em condições precárias pelo Poder Público.</p>
+<p><a class=artigo>Art. 24.</a> Nos imóveis utilizados como habitação coletiva multifamiliar, os locatários ou sublocatários poderão depositar judicialmente o aluguel e encargos se a construção for considerada em condições precárias pelo Poder Público.</p>
 
 <p>§ 1º O levantamento dos depósitos somente será deferido com a comunicação, pela autoridade pública, da regularização do imóvel.</p>
 
@@ -243,52 +266,52 @@ Dos deveres do locador e do locatário</h3>
 
 <p>§ 3º Os depósitos efetuados em juízo pelos locatários e sublocatários poderão ser levantados, mediante ordem judicial, para realização das obras ou serviços necessários à regularização do imóvel.</p>
 
-<p><span class=artigo>Art. 25.</span> Atribuída ao locatário a responsabilidade pelo pagamento dos tributos, encargos e despesas ordinárias de condomínio, o locador poderá cobrar tais verbas juntamente com o aluguel do mês a que se refiram.</p>
+<p><a class=artigo>Art. 25.</a> Atribuída ao locatário a responsabilidade pelo pagamento dos tributos, encargos e despesas ordinárias de condomínio, o locador poderá cobrar tais verbas juntamente com o aluguel do mês a que se refiram.</p>
 
 <p>Parágrafo único. Se o locador antecipar os pagamentos, a ele pertencerão as vantagens daí advindas, salvo se o locatário reembolsá-lo integralmente.</p>
 
-<p><span class=artigo>Art. 26.</span> Necessitando o imóvel de reparos urgentes, cuja realização incumba ao locador, o locatário é obrigado a <span class=GramE>consentI – los.</p>
+<p><a class=artigo>Art. 26.</a> Necessitando o imóvel de reparos urgentes, cuja realização incumba ao locador, o locatário é obrigado a <span class=GramE>consentI – los.</p>
 
 <p>Parágrafo único. Se os reparos durarem mais de dez dias, o locatário terá direito ao abatimento do aluguel, proporcional ao período excedente; se mais de trinta dias, poderá resilir o contrato.</p>
 
 <h3>SEÇÃO V<br>
 Do direito de preferência</h3>
 
-<p><span class=artigo>Art. 27.</span> No caso de venda, promessa de venda, cessão ou promessa de cessão de direitos ou dação em pagamento, o locatário tem preferência para adquirir o imóvel locado, em igualdade de condições com terceiros, devendo o locador dar-lhe conhecimento do negócio mediante notificação judicial, extrajudicial ou outro meio de ciência inequívoca.</p>
+<p><a class=artigo>Art. 27.</a> No caso de venda, promessa de venda, cessão ou promessa de cessão de direitos ou dação em pagamento, o locatário tem preferência para adquirir o imóvel locado, em igualdade de condições com terceiros, devendo o locador dar-lhe conhecimento do negócio mediante notificação judicial, extrajudicial ou outro meio de ciência inequívoca.</p>
 
 <p>Parágrafo único. A comunicação deverá conter todas as condições do negócio e, em especial, o preço, a forma de pagamento, a existência de ônus reais, bem como o local e horário em que pode ser examinada a documentação pertinente.</p>
 
-<p><span class=artigo>Art. 28.</span> O direito de preferência do locatário caducará se não manifestada, de maneira inequívoca, sua aceitação integral à proposta, no prazo de trinta dias.</p>
+<p><a class=artigo>Art. 28.</a> O direito de preferência do locatário caducará se não manifestada, de maneira inequívoca, sua aceitação integral à proposta, no prazo de trinta dias.</p>
 
-<p><span class=artigo>Art. 29.</span> Ocorrendo aceitação da proposta, pelo locatário, a posterior desistência do negócio pelo locador acarreta, a este, responsabilidade pelos prejuízos ocasionados, inclusive lucros cessantes.</p>
+<p><a class=artigo>Art. 29.</a> Ocorrendo aceitação da proposta, pelo locatário, a posterior desistência do negócio pelo locador acarreta, a este, responsabilidade pelos prejuízos ocasionados, inclusive lucros cessantes.</p>
 
-<p><span class=artigo>Art. 30.</span> Estando o imóvel sublocado em sua totalidade, caberá a preferência ao sublocatário e, em seguida, ao locatário. Se forem vários os sublocatários, a preferência caberá a todos, em comum, ou a qualquer deles, se um só for o interessado.</p>
+<p><a class=artigo>Art. 30.</a> Estando o imóvel sublocado em sua totalidade, caberá a preferência ao sublocatário e, em seguida, ao locatário. Se forem vários os sublocatários, a preferência caberá a todos, em comum, ou a qualquer deles, se um só for o interessado.</p>
 
 <p>Parágrafo único. Havendo pluralidade de pretendentes, caberá a preferência ao locatário mais antigo, e, se da mesma data, ao mais idoso.</p>
 
-<p><span class=artigo>Art. 31.</span> Em se tratando de alienação de mais de uma unidade imobiliária, o direito de preferência incidirá sobre a totalidade dos bens objeto da alienação.</p>
+<p><a class=artigo>Art. 31.</a> Em se tratando de alienação de mais de uma unidade imobiliária, o direito de preferência incidirá sobre a totalidade dos bens objeto da alienação.</p>
 
-<p><span class=artigo>Art. 32.</span> O direito de preferência não alcança os casos de perda da propriedade ou venda por decisão judicial, permuta, doação, integralização de capital, cisão, fusão e incorporação.</p>
+<p><a class=artigo>Art. 32.</a> O direito de preferência não alcança os casos de perda da propriedade ou venda por decisão judicial, permuta, doação, integralização de capital, cisão, fusão e incorporação.</p>
 
 <p>Parágrafo único. Nos contratos firmados a partir de 1º. de outubro de 2001, o direito de preferência de que trata este artigo não alcançará também os casos de constituição da propriedade fiduciária e de perda da propriedade ou venda por quaisquer formas de realização de garantia, inclusive mediante leilão extrajudicial, devendo essa condição constar expressamente em cláusula contratual específica, destacando-se das demais por sua apresentação gráfica.</p>
 
-<p><span class=artigo>Art. 33.</span> O locatário preterido no seu direito de preferência poderá reclamar do alienante as perdas e danos ou, depositando o preço e demais despesas do ato de transferência, haver para si o imóvel locado, se o requerer no prazo de seis meses, a contar do registro do ato no cartório de imóveis, desde que o contrato de locação esteja averbado pelo menos trinta dias antes da alienação junto à matrícula do imóvel.</p>
+<p><a class=artigo>Art. 33.</a> O locatário preterido no seu direito de preferência poderá reclamar do alienante as perdas e danos ou, depositando o preço e demais despesas do ato de transferência, haver para si o imóvel locado, se o requerer no prazo de seis meses, a contar do registro do ato no cartório de imóveis, desde que o contrato de locação esteja averbado pelo menos trinta dias antes da alienação junto à matrícula do imóvel.</p>
 
 <p>Parágrafo único. A averbação far-se-á à vista de qualquer das vias do contrato de locação desde que subscrito também por duas testemunhas.</p>
 
-<p><span class=artigo>Art. 34.</span> Havendo condomínio no imóvel, a preferência do condômino terá prioridade sobre a do locatário.</p>
+<p><a class=artigo>Art. 34.</a> Havendo condomínio no imóvel, a preferência do condômino terá prioridade sobre a do locatário.</p>
 
 <h3>SEÇÃO VI<br>
 Das benfeitorias</h3>
 
-<p><span class=artigo>Art. 35.</span> Salvo expressa disposição contratual em contrário, as benfeitorias necessárias introduzidas pelo locatário, ainda que não autorizadas pelo locador, bem como as úteis, desde que autorizadas, serão indenizáveis e permitem o exercício do direito de retenção.</p>
+<p><a class=artigo>Art. 35.</a> Salvo expressa disposição contratual em contrário, as benfeitorias necessárias introduzidas pelo locatário, ainda que não autorizadas pelo locador, bem como as úteis, desde que autorizadas, serão indenizáveis e permitem o exercício do direito de retenção.</p>
 
-<p><span class=artigo>Art. 36.</span> As benfeitorias voluptuárias não serão indenizáveis, podendo ser levantadas pelo locatário, finda a locação, desde que sua retirada não afete a estrutura e a substância do imóvel.</p>
+<p><a class=artigo>Art. 36.</a> As benfeitorias voluptuárias não serão indenizáveis, podendo ser levantadas pelo locatário, finda a locação, desde que sua retirada não afete a estrutura e a substância do imóvel.</p>
 
 <h3>SEÇÃO VII<br>
 Das garantias locatícias</h3>
 
-<p><span class=artigo>Art. 37.</span> No contrato de locação, pode o locador exigir do locatário as seguintes modalidades de garantia:</p>
+<p><a class=artigo>Art. 37.</a> No contrato de locação, pode o locador exigir do locatário as seguintes modalidades de garantia:</p>
 
 <p>I – caução;</p>
 
@@ -300,7 +323,7 @@ Das garantias locatícias</h3>
 
 <p>Parágrafo único. É vedada, sob pena de nulidade, mais de uma das modalidades de garantia num mesmo contrato de locação.</p>
 
-<p><span class=artigo>Art. 38.</span> A caução poderá ser em bens móveis ou imóveis.</p>
+<p><a class=artigo>Art. 38.</a> A caução poderá ser em bens móveis ou imóveis.</p>
 
 <p>§ 1º A caução em bens móveis deverá ser registrada em cartório de títulos e documentos; a em bens imóveis deverá ser averbada à margem da respectiva matrícula.</p>
 
@@ -308,9 +331,9 @@ Das garantias locatícias</h3>
 
 <p>§ 3º A caução em títulos e ações deverá ser substituída, no prazo de trinta dias, em caso de concordata, falência ou liquidação das sociedades emissoras.</p>
 
-<p><span class=artigo>Art. 39.</span> Salvo disposição contratual em contrário, qualquer das garantias da locação se estende até a efetiva devolução do imóvel, ainda que prorrogada a locação por prazo indeterminado, por força desta Lei.</p>
+<p><a class=artigo>Art. 39.</a> Salvo disposição contratual em contrário, qualquer das garantias da locação se estende até a efetiva devolução do imóvel, ainda que prorrogada a locação por prazo indeterminado, por força desta Lei.</p>
 
-<p><span class=artigo>Art. 40.</span> O locador poderá exigir novo fiador ou a substituição da modalidade de garantia, nos seguintes casos:</p>
+<p><a class=artigo>Art. 40.</a> O locador poderá exigir novo fiador ou a substituição da modalidade de garantia, nos seguintes casos:</p>
 
 <p>I – morte do fiador;</p>
 
@@ -334,14 +357,14 @@ Das garantias locatícias</h3>
 
 <p>Parágrafo único. O locador poderá notificar o locatário para apresentar nova garantia locatícia no prazo de 30 (trinta) dias, sob pena de desfazimento da locação.</p>
 
-<p><span class=artigo>Art. 41.</span> O seguro de fiança locatícia abrangerá a totalidade das obrigações do locatário.</p>
+<p><a class=artigo>Art. 41.</a> O seguro de fiança locatícia abrangerá a totalidade das obrigações do locatário.</p>
 
-<p><span class=artigo>Art. 42.</span> Não estando a locação garantida por qualquer das modalidades, o locador poderá exigir do locatário o pagamento do aluguel e encargos até o sexto dia útil do mês vincendo.</p>
+<p><a class=artigo>Art. 42.</a> Não estando a locação garantida por qualquer das modalidades, o locador poderá exigir do locatário o pagamento do aluguel e encargos até o sexto dia útil do mês vincendo.</p>
 
 <h3>SEÇÃO VIII<br>
 Das penalidades criminais e civis</h3>
 
-<p><span class=artigo>Art. 43.</span> Constitui contravenção penal, punível com prisão simples de cinco dias a seis meses ou multa de três a doze meses do valor do último aluguel atualizado, revertida em favor do locatário:</p>
+<p><a class=artigo>Art. 43.</a> Constitui contravenção penal, punível com prisão simples de cinco dias a seis meses ou multa de três a doze meses do valor do último aluguel atualizado, revertida em favor do locatário:</p>
 
 <p>I – exigir, por motivo de locação ou sublocação, quantia ou valor além do aluguel e encargos permitidos;</p>
 
@@ -349,7 +372,7 @@ Das penalidades criminais e civis</h3>
 
 <p>III – cobrar antecipadamente o aluguel, salvo a hipótese do art. 42 e da locação para temporada.</p>
 
-<p><span class=artigo>Art. 44.</span> Constitui crime de ação pública, punível com detenção de três meses a um ano, que poderá ser substituída pela prestação de serviços à comunidade:</p>
+<p><a class=artigo>Art. 44.</a> Constitui crime de ação pública, punível com detenção de três meses a um ano, que poderá ser substituída pela prestação de serviços à comunidade:</p>
 
 <p>I – recusar-se o locador ou sublocador, nas habitações coletivas multifamiliares, a fornecer recibo discriminado do aluguel e encargos;</p>
 
@@ -364,7 +387,7 @@ Das penalidades criminais e civis</h3>
 <h3>SEÇÃO IX<br>
 Das nulidades</h3>
 
-<p><span class=artigo>Art. 45.</span> São nulas de pleno direito as cláusulas do contrato de locação que visem a elidir os objetivos da presente lei, notadamente as que proíbam a prorrogação prevista no art. 47, ou que afastem o direito à renovação, na hipótese do art. 51, ou que imponham obrigações pecuniárias para tanto.</p>
+<p><a class=artigo>Art. 45.</a> São nulas de pleno direito as cláusulas do contrato de locação que visem a elidir os objetivos da presente lei, notadamente as que proíbam a prorrogação prevista no art. 47, ou que afastem o direito à renovação, na hipótese do art. 51, ou que imponham obrigações pecuniárias para tanto.</p>
 
 <h2>CAPÍTULO II<br>
 Das Disposições Especiais</h2>
@@ -372,13 +395,13 @@ Das Disposições Especiais</h2>
 <h3>SEÇÃO I<br>
 Da locação residencial</h3>
 
-<p><span class=artigo>Art. 46.</span> Nas locações ajustadas por escrito e por prazo igual ou superior a trinta meses, a resolução do contrato ocorrerá findo o prazo estipulado, independentemente de notificação ou aviso.</p>
+<p><a class=artigo>Art. 46.</a> Nas locações ajustadas por escrito e por prazo igual ou superior a trinta meses, a resolução do contrato ocorrerá findo o prazo estipulado, independentemente de notificação ou aviso.</p>
 
 <p>§ 1º Findo o prazo ajustado, se o locatário continuar na posse do imóvel alugado por mais de trinta dias sem oposição do locador, presumir-se-á prorrogada a locação por prazo indeterminado, mantidas as demais cláusulas e condições do contrato.</p>
 
 <p>§ 2º Ocorrendo a prorrogação, o locador poderá denunciar o contrato a qualquer tempo, concedido o prazo de trinta dias para desocupação.</p>
 
-<p><span class=artigo>Art. 47.</span> Quando ajustada verbalmente ou por escrito e como prazo inferior a trinta meses, findo o prazo estabelecido, a locação prorroga-se automaticamente, por prazo indeterminado, somente podendo ser retomado o imóvel:</p>
+<p><a class=artigo>Art. 47.</a> Quando ajustada verbalmente ou por escrito e como prazo inferior a trinta meses, findo o prazo estabelecido, a locação prorroga-se automaticamente, por prazo indeterminado, somente podendo ser retomado o imóvel:</p>
 
 <p>I – Nos casos do art. 9º;</p>
 
@@ -401,20 +424,20 @@ Da locação residencial</h3>
 <h3>SEÇÃO II<br>
 Da locação para temporada</h3>
 
-<p><span class=artigo>Art. 48.</span> Considera-se locação para temporada aquela destinada à residência temporária do locatário, para prática de lazer, realização de cursos, tratamento de saúde, feitura de obras em seu imóvel, e outros fatos que decorrem tão-somente de determinado tempo, e contratada por prazo não superior a noventa dias, esteja ou não mobiliado o imóvel.</p>
+<p><a class=artigo>Art. 48.</a> Considera-se locação para temporada aquela destinada à residência temporária do locatário, para prática de lazer, realização de cursos, tratamento de saúde, feitura de obras em seu imóvel, e outros fatos que decorrem tão-somente de determinado tempo, e contratada por prazo não superior a noventa dias, esteja ou não mobiliado o imóvel.</p>
 
 <p>Parágrafo único. No caso de a locação envolver imóvel mobiliado, constará do contrato, obrigatoriamente, a descrição dos móveis e utensílios que o guarnecem, bem como o estado em que se encontram.</p>
 
-<p><span class=artigo>Art. 49.</span> O locador poderá receber de uma só vez e antecipadamente os aluguéis e encargos, bem como exigir qualquer das modalidades de garantia previstas no art. 37 para atender as demais obrigações do contrato.</p>
+<p><a class=artigo>Art. 49.</a> O locador poderá receber de uma só vez e antecipadamente os aluguéis e encargos, bem como exigir qualquer das modalidades de garantia previstas no art. 37 para atender as demais obrigações do contrato.</p>
 
-<p><span class=artigo>Art. 50.</span> Findo o prazo ajustado, se o locatário permanecer no imóvel sem oposição do locador por mais de trinta dias, presumir-se-á prorrogada a locação por tempo indeterminado, não mais sendo exigível o pagamento antecipado do aluguel e dos encargos.</p>
+<p><a class=artigo>Art. 50.</a> Findo o prazo ajustado, se o locatário permanecer no imóvel sem oposição do locador por mais de trinta dias, presumir-se-á prorrogada a locação por tempo indeterminado, não mais sendo exigível o pagamento antecipado do aluguel e dos encargos.</p>
 
 <p>Parágrafo único. Ocorrendo a prorrogação, o locador somente poderá denunciar o contrato após trinta meses de seu início ou nas hipóteses do art. 47.</p>
 
 <h3>SEÇÃO III<br>
 Da locação não residencial</h3>
 
-<p><span class=artigo>Art. 51.</span> Nas locações de imóveis destinados ao comércio, o locatário terá direito a renovação do contrato, por igual prazo, desde que, cumulativamente:</p>
+<p><a class=artigo>Art. 51.</a> Nas locações de imóveis destinados ao comércio, o locatário terá direito a renovação do contrato, por igual prazo, desde que, cumulativamente:</p>
 
 <p>I – o contrato a renovar tenha sido celebrado por escrito e com prazo determinado;</p>
 
@@ -432,7 +455,7 @@ Da locação não residencial</h3>
 
 <p>§ 5º Do direito a renovação decai aquele que não propuser a ação no interregno de um ano, no máximo, até seis meses, no mínimo, anteriores à data da finalização do prazo do contrato em vigor.</p>
 
-<p><span class=artigo>Art. 52.</span> O locador não estará obrigado a renovar o contrato se:</p>
+<p><a class=artigo>Art. 52.</a> O locador não estará obrigado a renovar o contrato se:</p>
 
 <p>I – por determinação do Poder Público, tiver que realizar no imóvel obras que importarem na sua radical transformação; ou para fazer modificações de tal natureza que aumente o valor do negócio ou da propriedade;</p>
 
@@ -450,7 +473,7 @@ Da locação não residencial</h3>
 
 <p>II – se o proprietário, promissário comprador ou promissário cessionário, em caráter irrevogável e imitido na posse, com título registrado, que haja quitado o preço da promessa ou que, não o tendo feito, seja autorizado pelo proprietário, pedir o imóvel para demolição, edificação, licenciada ou reforma que venha a resultar em aumento mínimo de cinqüenta por cento da área útil.</p>
 
-<p><span class=artigo>Art. 54.</span> Nas relações entre lojistas e empreendedores de shopping center , prevalecerão as condições livremente pactuadas nos contratos de locação respectivos e as disposições procedimentais previstas nesta lei.</p>
+<p><a class=artigo>Art. 54.</a> Nas relações entre lojistas e empreendedores de shopping center , prevalecerão as condições livremente pactuadas nos contratos de locação respectivos e as disposições procedimentais previstas nesta lei.</p>
 
 <p>§ 1º O empreendedor não poderá cobrar do locatário em shopping center :</p>
 
@@ -468,13 +491,13 @@ Da locação não residencial</h3>
 
 <p>§ 3º. (VETADO). (Incluído pela Lei nº 12.744, de 2012)</p>
 
-<p><span class=artigo>Art. 55.</span> Considera-se locação não residencial quando o locatário for pessoa jurídica e o imóvel, destinar-se ao uso de seus titulares, diretores, sócios, gerentes, executivos ou empregados.</p>
+<p><a class=artigo>Art. 55.</a> Considera-se locação não residencial quando o locatário for pessoa jurídica e o imóvel, destinar-se ao uso de seus titulares, diretores, sócios, gerentes, executivos ou empregados.</p>
 
-<p><span class=artigo>Art. 56.</span> Nos demais casos de locação não residencial, o contrato por prazo determinado cessa, de pleno direito, findo o prazo estipulado, independentemente de notificação ou aviso.</p>
+<p><a class=artigo>Art. 56.</a> Nos demais casos de locação não residencial, o contrato por prazo determinado cessa, de pleno direito, findo o prazo estipulado, independentemente de notificação ou aviso.</p>
 
 <p>Parágrafo único. Findo o prazo estipulado, se o locatário permanecer no imóvel por mais de trinta dias sem oposição do locador, presumir-se-á prorrogada a locação nas condições ajustadas, mas sem prazo determinado.</p>
 
-<p><span class=artigo>Art. 57.</span> O contrato de locação por prazo indeterminado pode ser denunciado por escrito, pelo locador, concedidos ao locatário trinta dias para a desocupação.</p>
+<p><a class=artigo>Art. 57.</a> O contrato de locação por prazo indeterminado pode ser denunciado por escrito, pelo locador, concedidos ao locatário trinta dias para a desocupação.</p>
 
 <h1>TÍTULO II<br>
 Dos Procedimentos</h1>
@@ -482,7 +505,7 @@ Dos Procedimentos</h1>
 <h2>CAPÍTULO I<br>
 Das Disposições Gerais</h2>
 
-<p><span class=artigo>Art. 58.</span> Ressalvados os casos previstos no parágrafo único do art. 1º, nas ações de despejo, consignação em pagamento de aluguel e acessório da locação, revisionais de aluguel e renovatórias de locação, observar-se-á o seguinte:</p>
+<p><a class=artigo>Art. 58.</a> Ressalvados os casos previstos no parágrafo único do art. 1º, nas ações de despejo, consignação em pagamento de aluguel e acessório da locação, revisionais de aluguel e renovatórias de locação, observar-se-á o seguinte:</p>
 
 <p>I – os processos tramitam durante as férias forenses e não se suspendem pela superveniência delas;</p>
 
@@ -497,7 +520,7 @@ Das Disposições Gerais</h2>
 <h2>CAPÍTULO II <br>
 Das Ações de Despejo</h2>
 
-<p><span class=artigo>Art. 59.</span> Com as modificações constantes deste capítulo, as ações de despejo terão o rito ordinário.</p>
+<p><a class=artigo>Art. 59.</a> Com as modificações constantes deste capítulo, as ações de despejo terão o rito ordinário.</p>
 
 <p>§ 1º Conceder-se-á liminar para desocupação em quinze dias, independentemente da audiência da parte contrária e desde que prestada a caução no valor equivalente a três meses de aluguel, nas ações que tiverem por fundamento exclusivo:</p>
 
@@ -523,11 +546,11 @@ Das Ações de Despejo</h2>
 
 <p>§ 3º. No caso do inciso IX do § 1º. deste artigo, poderá o locatário evitar a rescisão da locação e elidir a liminar de desocupação se, dentro dos 15 (quinze) dias concedidos para a desocupação do imóvel e independentemente de cálculo, efetuar depósito judicial que contemple a totalidade dos valores devidos, na forma prevista no inciso II do art. 62.</p>
 
-<p><span class=artigo>Art. 60.</span> Nas ações de despejo fundadas no inciso IV do art. 9º, inciso IV do art. 47 e inciso II do art. 53, a petição inicial deverá ser instruída com prova da propriedade do imóvel ou do compromisso registrado.</p>
+<p><a class=artigo>Art. 60.</a> Nas ações de despejo fundadas no inciso IV do art. 9º, inciso IV do art. 47 e inciso II do art. 53, a petição inicial deverá ser instruída com prova da propriedade do imóvel ou do compromisso registrado.</p>
 
 <p>Art. 61 Nas ações fundadas no § 2º do art. 46 e nos incisos III e IV do art. 47, se o locatário, no prazo da contestação, manifestar sua concordância com a desocupação do imóvel, o juiz acolherá o pedido fixando prazo de seis meses para a desocupação, contados da citação, impondo ao vencido a responsabilidade pelas custas e honorários advocatícios de vinte por cento sobre o valor dado à causa. Se a desocupação ocorrer dentro do prazo fixado, o réu ficará isento dessa responsabilidade; caso contrário, será expedido mandado de despejo.</p>
 
-<p><span class=artigo>Art. 62.</span> Nas ações de despejo fundadas na falta de pagamento de aluguel e acessórios da locação, de aluguel provisório, de diferenças de aluguéis, ou somente de quaisquer dos acessórios da locação, observar-se-á o seguinte:</p>
+<p><a class=artigo>Art. 62.</a> Nas ações de despejo fundadas na falta de pagamento de aluguel e acessórios da locação, de aluguel provisório, de diferenças de aluguéis, ou somente de quaisquer dos acessórios da locação, observar-se-á o seguinte:</p>
 
 <p>I – o pedido de rescisão da locação poderá ser cumulado com o pedido de cobrança dos aluguéis e acessórios da locação; nesta hipótese, citar-se-á o locatário para responder ao pedido de rescisão e o locatário e os fiadores para responderem ao pedido de cobrança, devendo ser apresentado, com a inicial, cálculo discriminado do valor do débito;</p>
 
@@ -551,7 +574,7 @@ Das Ações de Despejo</h2>
 
 <p>Parágrafo único. Não se admitirá a emenda da mora se o locatário já houver utilizado essa faculdade nos 24 (vinte e quatro) meses imediatamente anteriores à propositura da ação.</p>
 
-<p><span class=artigo>Art. 63.</span> Julgada procedente a ação de despejo, o juiz determinará a expedição de mandado de despejo, que conterá o prazo de 30 (trinta) dias para a desocupação voluntária, ressalvado o disposto nos parágrafos seguintes.</p>
+<p><a class=artigo>Art. 63.</a> Julgada procedente a ação de despejo, o juiz determinará a expedição de mandado de despejo, que conterá o prazo de 30 (trinta) dias para a desocupação voluntária, ressalvado o disposto nos parágrafos seguintes.</p>
 
 <p>§ 1º O prazo será de quinze dias se:</p>
 
@@ -565,24 +588,24 @@ Das Ações de Despejo</h2>
 
 <p>§ 4° A sentença que decretar o despejo fixará o valor da caução para o caso de ser executada provisoriamente.</p>
 
-<p><span class=artigo>Art. 64.</span> Salvo nas hipóteses das ações fundadas no art. 9º., a execução provisória do despejo dependerá de caução não inferior a 6 (seis) meses nem superior a 12 (doze) meses do aluguel, atualizado até a data da prestação da caução.</p>
+<p><a class=artigo>Art. 64.</a> Salvo nas hipóteses das ações fundadas no art. 9º., a execução provisória do despejo dependerá de caução não inferior a 6 (seis) meses nem superior a 12 (doze) meses do aluguel, atualizado até a data da prestação da caução.</p>
 
 <p>§ 1° A caução poderá ser real ou fidejussória e será prestada nos autos da execução provisória.</p>
 
 <p>§ 2° Ocorrendo a reforma da sentença ou da decisão que concedeu liminarmente o despejo, o valor da caução reverterá em favor do réu, como indenização mínima das perdas e danos, podendo este reclamar, em ação própria, a diferença pelo que a exceder.</p>
 
-<p><span class=artigo>Art. 65.</span> Findo o prazo assinado para a desocupação, contado da data da notificação, será efetuado o despejo, se necessário com emprego de força, inclusive arrombamento.</p>
+<p><a class=artigo>Art. 65.</a> Findo o prazo assinado para a desocupação, contado da data da notificação, será efetuado o despejo, se necessário com emprego de força, inclusive arrombamento.</p>
 
 <p>§ 1º Os móveis e utensílios serão entregues à guarda de depositário, se não os quiser retirar o despejado.</p>
 
 <p>§ 2º O despejo não poderá ser executado até o trigésimo dia seguinte ao do falecimento do cônjuge, ascendente, descendente ou irmão de qualquer das pessoas que habitem o imóvel.</p>
 
-<p><span class=artigo>Art. 66.</span> Quando o imóvel for abandonado após ajuizada a ação, o locador poderá imitir-se na posse do imóvel.</p>
+<p><a class=artigo>Art. 66.</a> Quando o imóvel for abandonado após ajuizada a ação, o locador poderá imitir-se na posse do imóvel.</p>
 
 <h2>CAPÍTULO III<br>
 Da Ação de Consignação de Aluguel e Acessórios da Locação</h2>
 
-<p><span class=artigo>Art. 67.</span> Na ação que objetivar o pagamento dos aluguéis e acessórios da locação mediante consignação, será observado o seguinte:</p>
+<p><a class=artigo>Art. 67.</a> Na ação que objetivar o pagamento dos aluguéis e acessórios da locação mediante consignação, será observado o seguinte:</p>
 
 <p>I – a petição inicial, além dos requisitos exigidos pelo art. 282 do Código de Processo Civil, deverá especificar os aluguéis e acessórios da locação com indicação dos respectivos valores;</p>
 
@@ -613,7 +636,7 @@ Da Ação de Consignação de Aluguel e Acessórios da Locação</h2>
 <h2>CAPÍTULO IV<br>
 Da Ação Revisional de Aluguel</h2>
 
-<p><span class=artigo>Art. 68.</span> Na ação revisional de aluguel, que terá o rito sumário, observar-se-á o seguinte:</p>
+<p><a class=artigo>Art. 68.</a> Na ação revisional de aluguel, que terá o rito sumário, observar-se-á o seguinte:</p>
 
 <p>I – além dos requisitos exigidos pelos arts. 276 e 282 do Código de Processo Civil, a petição inicial deverá indicar o valor do aluguel cuja fixação é pretendida;</p>
 
@@ -633,18 +656,18 @@ Da Ação Revisional de Aluguel</h2>
 
 <p>§ 2º No curso da ação de revisão, o aluguel provisório será reajustado na periodicidade pactuada ou na fixada em lei.</p>
 
-<p><span class=artigo>Art. 69.</span> O aluguel fixado na sentença retroage à citação, e as diferenças devidas durante a ação de revisão, descontados os alugueres provisórios satisfeitos, serão pagas corrigidas, exigíveis a partir do trânsito em julgado da decisão que fixar o novo aluguel.</p>
+<p><a class=artigo>Art. 69.</a> O aluguel fixado na sentença retroage à citação, e as diferenças devidas durante a ação de revisão, descontados os alugueres provisórios satisfeitos, serão pagas corrigidas, exigíveis a partir do trânsito em julgado da decisão que fixar o novo aluguel.</p>
 
 <p>§ 1º Se pedido pelo locador, ou sublocador, a sentença poderá estabelecer periodicidade de reajustamento do aluguel diversa daquela prevista no contrato revisando, bem como adotar outro indexador para reajustamento do aluguel.</p>
 
 <p>§ 2º A execução das diferenças será feita nos autos da ação de revisão.</p>
 
-<p><span class=artigo>Art. 70.</span> Na ação de revisão do aluguel, o juiz poderá homologar acordo de desocupação, que será executado mediante expedição de mandado de despejo.</p>
+<p><a class=artigo>Art. 70.</a> Na ação de revisão do aluguel, o juiz poderá homologar acordo de desocupação, que será executado mediante expedição de mandado de despejo.</p>
 
 <h2>CAPÍTULO V<br>
 Da Ação Renovatória</h2>
 
-<p><span class=artigo>Art. 71.</span> Além dos demais requisitos exigidos no art. 282 do Código de Processo Civil, a petição inicial da ação renovatória deverá ser instruída com:</p>
+<p><a class=artigo>Art. 71.</a> Além dos demais requisitos exigidos no art. 282 do Código de Processo Civil, a petição inicial da ação renovatória deverá ser instruída com:</p>
 
 <p>I – prova do preenchimento dos requisitos dos incisos I, II e III do art. 51;</p>
 
@@ -662,7 +685,7 @@ Da Ação Renovatória</h2>
 
 <p>Parágrafo único. Proposta a ação pelo sublocatário do imóvel ou de parte dele, serão citados o sublocador e o locador, como litisconsortes, salvo se, em virtude de locação originária ou renovada, o sublocador dispuser de prazo que admita renovar a sublocação; na primeira hipótese, procedente a ação, o proprietário ficará diretamente obrigado à renovação.</p>
 
-<p><span class=artigo>Art. 72.</span> A contestação do locador, além da defesa de direito que possa caber, ficará adstrita, quanto à matéria de fato, ao seguinte:</p>
+<p><a class=artigo>Art. 72.</a> A contestação do locador, além da defesa de direito que possa caber, ficará adstrita, quanto à matéria de fato, ao seguinte:</p>
 
 <p>I – não preencher o autor os requisitos estabelecidos nesta lei;</p>
 
@@ -682,9 +705,9 @@ Da Ação Renovatória</h2>
 
 <p>§ 5º Se pedido pelo locador, ou sublocador, a sentença poderá estabelecer periodicidade de reajustamento do aluguel diversa daquela prevista no contrato renovando, bem como adotar outro indexador para reajustamento do aluguel.</p>
 
-<p><span class=artigo>Art. 73.</span> Renovada a locação, as diferenças dos aluguéis vencidos serão executadas nos próprios autos da ação e pagas de uma só vez.</p>
+<p><a class=artigo>Art. 73.</a> Renovada a locação, as diferenças dos aluguéis vencidos serão executadas nos próprios autos da ação e pagas de uma só vez.</p>
 
-<p><span class=artigo>Art. 74.</span> Não sendo renovada a locação, o juiz determinará a expedição de mandado de despejo, que conterá o prazo de 30 (trinta) dias para a desocupação voluntária, se houver pedido na contestação.</p>
+<p><a class=artigo>Art. 74.</a> Não sendo renovada a locação, o juiz determinará a expedição de mandado de despejo, que conterá o prazo de 30 (trinta) dias para a desocupação voluntária, se houver pedido na contestação.</p>
 
 <p>§ 1º. (VETADO)</p>
 
@@ -692,24 +715,24 @@ Da Ação Renovatória</h2>
 
 <p>§ 3º. (VETADO)</p>
 
-<p><span class=artigo>Art. 75.</span> Na hipótese do inciso III do art. 72, a sentença fixará desde logo a indenização devida ao locatário em consequência da não prorrogação da locação, solidariamente devida pelo locador e o proponente.</p>
+<p><a class=artigo>Art. 75.</a> Na hipótese do inciso III do art. 72, a sentença fixará desde logo a indenização devida ao locatário em consequência da não prorrogação da locação, solidariamente devida pelo locador e o proponente.</p>
 
 <h1>TÍTULO III<br>
 Das Disposições Finais e Transitórias</h1>
 
-<p><span class=artigo>Art. 76.</span> Não se aplicam as disposições desta lei aos processos em curso.</p>
+<p><a class=artigo>Art. 76.</a> Não se aplicam as disposições desta lei aos processos em curso.</p>
 
-<p><span class=artigo>Art. 77.</span> Todas as locações residenciais que tenham sido celebradas anteriormente à vigência desta lei serão automaticamente prorrogadas por tempo indeterminado, ao término do prazo ajustado no contrato.</p>
+<p><a class=artigo>Art. 77.</a> Todas as locações residenciais que tenham sido celebradas anteriormente à vigência desta lei serão automaticamente prorrogadas por tempo indeterminado, ao término do prazo ajustado no contrato.</p>
 
-<p><span class=artigo>Art. 78.</span> As locações residenciais que tenham sido celebradas anteriormente à vigência desta lei e que já vigorem ou venham a vigorar por prazo indeterminado, poderão ser denunciadas pelo locador, concedido o prazo de doze meses para a desocupação.</p>
+<p><a class=artigo>Art. 78.</a> As locações residenciais que tenham sido celebradas anteriormente à vigência desta lei e que já vigorem ou venham a vigorar por prazo indeterminado, poderão ser denunciadas pelo locador, concedido o prazo de doze meses para a desocupação.</p>
 
 <p>Parágrafo único. Na hipótese de ter havido revisão judicial ou amigável do aluguel, atingindo o preço do mercado, a denúncia somente poderá ser exercitada após vinte e quatro meses da data da revisão, se esta ocorreu nos doze meses anteriores à data da vigência desta lei.</p>
 
-<p><span class=artigo>Art. 79.</span> No que for omissa esta lei aplicam-se as normas do Código Civil e do Código de Processo Civil.</p>
+<p><a class=artigo>Art. 79.</a> No que for omissa esta lei aplicam-se as normas do Código Civil e do Código de Processo Civil.</p>
 
-<p><span class=artigo>Art. 80.</span> Para os fins do inciso I do art. 98 da Constituição Federal, as ações de despejo poderão ser consideradas como causas cíveis de menor complexidade.</p>
+<p><a class=artigo>Art. 80.</a> Para os fins do inciso I do art. 98 da Constituição Federal, as ações de despejo poderão ser consideradas como causas cíveis de menor complexidade.</p>
 
-<p><span class=artigo>Art. 81.</span> O inciso II do art. 167 e o art. 169 da Lei n° 6.015, de 31 de dezembro de 1973, passam a vigorar com as seguintes alterações:</p>
+<p><a class=artigo>Art. 81.</a> O inciso II do art. 167 e o art. 169 da Lei n° 6.015, de 31 de dezembro de 1973, passam a vigorar com as seguintes alterações:</p>
 
 <blockquote>
 	<p>Art. 167. ..........................................................<>
@@ -727,7 +750,7 @@ Das Disposições Finais e Transitórias</h1>
 	<p>III – o registro previsto no n° 3 do inciso I do art. 167, e a averbação prevista no n° 16 do inciso II do art. 167 serão efetuados no cartório onde o imóvel esteja matriculado mediante apresentação de qualquer das vias do contrato, assinado pelas partes e subscrito por duas testemunhas, bastando a coincidência entre o nome de um dos proprietários e o locador.</p>
 </blockquote>
 
-<p><span class=artigo>Art. 82.</span> O art. 3° da Lei n° 8.009, de 29 de março de 1990, passa a vigorar acrescido do seguinte inciso VII:</p>
+<p><a class=artigo>Art. 82.</a> O art. 3° da Lei n° 8.009, de 29 de março de 1990, passa a vigorar acrescido do seguinte inciso VII:</p>
 
 <p>&quot;Art. 3° .................................................................</p>
 
@@ -735,33 +758,33 @@ Das Disposições Finais e Transitórias</h1>
 
 <p><a name=art3vii></a>VII - por obrigação decorrente de fiança concedida em contrato de locação.&quot;</p>
 
-<p><span class=artigo>Art. 83.</span> Ao art. 24 da Lei n° 4.591, de 16 de dezembro de 1964 fica acrescido o seguinte § 4°:</p>
+<p><a class=artigo>Art. 83.</a> Ao art. 24 da Lei n° 4.591, de 16 de dezembro de 1964 fica acrescido o seguinte § 4°:</p>
 
-<p>&quot;<span class=artigo>Art. 24.</span> ...............................................................</p>
+<p>&quot;<a class=artigo>Art. 24.</a> ...............................................................</p>
 
 <p>.............................................................................</p>
 
 <p>4° Nas decisões da assembleia que envolvam despesas ordinárias do condomínio, o locatário poderá votar, caso o condômino locador a ela não compareça.&quot;</p>
 
-<p><span class=artigo>Art. 84.</span> Reputam-se válidos os registros dos contratos de locação de imóveis, realizados até a data da vigência desta lei.</p>
+<p><a class=artigo>Art. 84.</a> Reputam-se válidos os registros dos contratos de locação de imóveis, realizados até a data da vigência desta lei.</p>
 
-<p><span class=artigo>Art. 85.</span> Nas locações residenciais, é livre a convenção do aluguel quanto a preço, periodicidade e indexador de reajustamento, vedada a vinculação à variação do salário mínimo, variação cambial e moeda estrangeira:</p>
+<p><a class=artigo>Art. 85.</a> Nas locações residenciais, é livre a convenção do aluguel quanto a preço, periodicidade e indexador de reajustamento, vedada a vinculação à variação do salário mínimo, variação cambial e moeda estrangeira:</p>
 
 <p>I dos imóveis novos, com habite-se concedido a partir da entrada em vigor desta lei;</p>
 
 <p>II – dos demais imóveis não enquadrados no inciso anterior, em relação aos contratos celebrados, após cinco anos de entrada em vigor desta lei.</p>
 
-<p><span class=artigo>Art. 86.</span> O art. 8° da Lei n° 4.380, de 21 de agosto de 1964 passa a vigorar com a seguinte redação:</p>
+<p><a class=artigo>Art. 86.</a> O art. 8° da Lei n° 4.380, de 21 de agosto de 1964 passa a vigorar com a seguinte redação:</p>
 
 <p>&quot;Art. 8° O sistema financeiro da habitação, destinado a facilitar e promover a construção e a aquisição da casa própria ou moradia, especialmente pelas classes de menor renda da população, será integrado.&quot;</p>
 
-<p><span class=artigo>Art. 87.</span> (Vetado).</p>
+<p><a class=artigo>Art. 87.</a> (Vetado).</p>
 
-<p><span class=artigo>Art. 88.</span> (Vetado).</p>
+<p><a class=artigo>Art. 88.</a> (Vetado).</p>
 
-<p><span class=artigo>Art. 89.</span> Esta lei entrará em vigor sessenta dias após a sua publicação.</p>
+<p><a class=artigo>Art. 89.</a> Esta lei entrará em vigor sessenta dias após a sua publicação.</p>
 
-<p><span class=artigo>Art. 90.</span> Revogam-se as disposições em contrário, especialmente:</p>
+<p><a class=artigo>Art. 90.</a> Revogam-se as disposições em contrário, especialmente:</p>
 
 <p>I – o Decreto n° 24.150, de 20 de abril de 1934;</p>
 
