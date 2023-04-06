@@ -26,7 +26,8 @@ artigos.forEach(artigo => {
     numeroArtigo = numeroArtigo.replace("º", "");
     numeroArtigo = numeroArtigo.replace(/-/g, "");
     numeroArtigo = numeroArtigo.toLowerCase();
-    console.log(numeroArtigo)
     artigo.id = numeroArtigo;
 });
+
+// % MOSTRAR MENU DE PESQUISA DE ARTIGO
 
