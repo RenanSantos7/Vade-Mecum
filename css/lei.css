@@ -9,11 +9,6 @@
 	to {top: 15px;}
 }
 
-@keyframes invalido {
-    from {left: -80px;}
-    to {left: 160px;}
-}
-
 /* % VARIÁVEIS */
 
 :root{
@@ -420,16 +415,12 @@ nav#menu h2 {
 	padding: .5rem;
 }
 
-#numero-artigo:invalid {
-	animation: invalido .6s ease-in-out;
-}
-
 #botao-artigo {
-	background-color: var(--laranja);
+	background-color: var(--azul1);
 	border: none;
 	border-radius: 12px;
 	padding: .5rem .8rem;
-	color: #2b2b2b;
+	color: white;
 }
 
 #botao-artigo:disabled {
