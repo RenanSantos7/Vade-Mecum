@@ -37,6 +37,9 @@
 }
 
 /* % REGRAS GERAIS */
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	background-color: var(--fundo1);
