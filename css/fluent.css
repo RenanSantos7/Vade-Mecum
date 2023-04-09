@@ -57,9 +57,10 @@ header h1 {
   top: 50px;
   left: 2vw;
   width: 10vw;
+  color: var(--azul);
 }
 
-main {
+#conteudo {
   /* background-color: yellow; */
   z-index: 1;
 }
@@ -92,7 +93,7 @@ aside {
   backdrop-filter: blur(8px);
 }
 
-section {
+#corpo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1vw;
@@ -190,7 +191,7 @@ h2 {
     color: var(--azul);
   }
   
-  section {
+  #corpo {
     grid-template-columns: repeat(2, 1fr)
   }
 }
@@ -205,7 +206,7 @@ h2 {
     grid-row-gap: 12px;
   }
 
-  section {
+  #corpo {
     grid-template-columns: repeat(2, 1fr);
   }
   #const, #civil {
@@ -251,7 +252,7 @@ h2 {
     grid-column-gap: 1vw;
   }
   
-  section {
+  #corpo {
     grid-template-columns: 1fr;
   }
   #const {
@@ -338,7 +339,7 @@ h2 {
     float: initial;
   }
 
-  main {
+  #conteudo {
     margin-bottom: 3rem;
   }
 
