@@ -146,7 +146,7 @@ ul.dica{
 
 ul.dica li {
 	font-size: 13pt;
-	color: #8f8f8f;
+	color: var(--cinza);
 	margin-bottom: 5px;
 }
 
