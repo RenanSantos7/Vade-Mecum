@@ -21,8 +21,7 @@
   --fundo2: rgba(56,56,61,0.75);
   --fundo3: rgba(56,56,61,1);
   --cinza: #5b5b5b;
-  --bg: url(
-  "../imgs/darkbg.jpg");
+  --bg: url("../imgs/darkbg.jpg");
   --shadow: 0px 0px 25px rgba(15, 15, 15, 0.65);
   }
 }
@@ -37,9 +36,7 @@ body {
   background-attachment: fixed;  
   background-color: var(--fundo1);
   background-image: var(--bg);
-  display: grid;
-  grid-template-columns: 15vw 80vw;
-  padding: 10px;
+  padding: 10px 25vh;
 }
 
 a:hover, li:hover {
@@ -50,16 +47,15 @@ a:hover, li:hover {
 
 header {
   /* background-color: aquamarine; */
-  height: 100vh;
-  z-index: 1;
+}
+
+header {
+  text-align: center;
+  color: var(--azul);
 }
 
 header h1 {
   /* background: red; */
-  position: fixed;
-  top: 50px;
-  left: 2vw;
-  width: 10vw;
   color: var(--azul);
 }
 
@@ -115,8 +111,8 @@ footer {
   position: fixed;
   bottom: 2vh;
   left: 1.1vw;
-  line-height: 2;
   color: var(--cinza);
+  line-height: 2;
 }
 
 /*% GRID */
@@ -181,21 +177,6 @@ h2 {
 }
 
 @media only screen and (max-width: 1200px) {
-  body{
-    grid-template-columns: 1fr;
-  }
-  
-  header {
-    height: unset;
-  }
-  
-  header h1 {
-    position: unset;
-    width: 100%;
-    text-align: center;
-    color: var(--azul);
-  }
-  
   #corpo {
     grid-template-columns: repeat(2, 1fr)
   }
@@ -349,6 +330,7 @@ h2 {
   }
 
   #copyright {
+    color: #999;
     left: 4vw;
   }
 
