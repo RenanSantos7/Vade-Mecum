@@ -26,4 +26,5 @@ Possui também links para páginas de Súmulas do STF e STJ.
     - criação de menus laterais de navegações entre as leis; ✅
     - busca por artigo; ⌛
     - busca de leis na página inicial.
+    - personalização da seção de favoritos conforme o uso;
 - conversão em app Electron.
