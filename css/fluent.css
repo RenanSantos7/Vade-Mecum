@@ -106,7 +106,7 @@ article {
 footer {
   position: fixed;
   bottom: 2vh;
-  left: 1.1vw;
+  right: 5vw;
   color: var(--cinza);
   line-height: 2;
 }
