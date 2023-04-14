@@ -16,7 +16,8 @@
           "backdrop-filter"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   },
   "browserslist": [
     "defaults",
