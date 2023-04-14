@@ -172,11 +172,13 @@ h2 {
   color: var(--azul);
 }
 
-@media only screen and (width <= 1366px) { /* notebook */
+/* % MEDIA QUERIES */
+
+@media only screen and (width <= 1480px) { /* notebook */
   footer {
-    right: 3dvh;
-  }
-}
+    right: 3vw;
+  }  
+}  
 
 @media only screen and (width <= 1200px) {
   body {
