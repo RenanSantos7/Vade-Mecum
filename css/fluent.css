@@ -107,8 +107,8 @@ article {
 
 footer {
   position: fixed;
-  bottom: 2vh;
-  right: max(5vw, 25px);
+  bottom: 3.5vh;
+  left: 86vw;
   color: var(--cinza);
   display: flex;
   flex-flow: column nowrap;
