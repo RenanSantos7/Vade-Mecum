@@ -30,7 +30,7 @@ const botaoPesquisar = document.querySelector('#botao-artigo');
 const botaoPesquisaFechar = document.querySelector('#botao-pesquisa-fechar');
 const secResultados = document.querySelector('#resultados-pesquisa');
 
-artigos.forEach(artigo => {
+artigos.forEach(artigo => { //atribui um id para cada artigo
     let numeroArtigo = artigo.textContent;
     numeroArtigo = numeroArtigo.replace(/\./g, "");
     numeroArtigo = numeroArtigo.replace(/ /g, "");

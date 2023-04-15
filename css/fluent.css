@@ -36,7 +36,7 @@ body {
   background-attachment: fixed;  
   background-color: var(--fundo1);
   background-image: var(--bg);
-  padding: 10px 15vw;
+  padding: 10px;
 }
 
 a:hover, li:hover {
@@ -64,6 +64,8 @@ main {
   display: flex;
   flex-flow: column nowrap;
   gap: 50px;
+  width: 70vw;
+  margin-inline: auto;
 }
 
 aside {
@@ -106,9 +108,11 @@ article {
 footer {
   position: fixed;
   bottom: 2vh;
-  right: 5vw;
+  right: min(5vw, 42px);
   color: var(--cinza);
-  line-height: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
 }
 
 /*% GRID */
@@ -172,13 +176,7 @@ h2 {
   color: var(--azul);
 }
 
-/* % MEDIA QUERIES */
-
-@media only screen and (width <= 1480px) { /* notebook */
-  footer {
-    right: 3vw;
-  }  
-}  
+/* % MEDIA QUERIES */ 
 
 @media only screen and (width <= 1200px) {
   body {
