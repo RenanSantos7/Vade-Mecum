@@ -39,23 +39,38 @@ body {
   padding: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 a:hover, li:hover {
   color: var(--azul);
 }
 
-/* % POSICIONAMENTO e TAMANHOS */
+h2 {
+  font-weight: 400;
+  color: var(--azul);
+}
 
-/*header {
-   background-color: aquamarine; 
-}*/
+li {
+  list-style: none;
+  font-size: 11pt;
+}
+
+/* % POSICIONAMENTO, TAMANHOS e TEXTO */
+
 
 header {
+  /*background-color: aquamarine;*/
   text-align: center;
   color: var(--azul);
 }
 
 header h1 {
   /* background: red; */
+  font-weight: 400;
+  font-size: 3em;
   color: var(--azul);
 }
 
@@ -66,10 +81,6 @@ main {
   gap: 50px;
   width: 70vw;
   margin-inline: auto;
-}
-
-aside {
-  display: none;
 }
 
 #list-fav {
@@ -85,6 +96,8 @@ aside {
   justify-content: center;
   align-items: center;
   padding: 2vh;
+  text-align: center;
+  font-size: 11pt;
 }
 
 .backfilter  {
@@ -103,6 +116,25 @@ aside {
 article {
   padding: 0% 7% 5% 5%;
   border-radius: 12px;
+}
+
+article h2 {
+  margin: 1.175rem 0;
+  width: 100%;
+}
+
+article ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+article li {
+  line-height: 1.37;
+  margin-bottom: 0.8em;
+}
+
+#outros ul {
+  float: left;
 }
 
 footer {
@@ -138,42 +170,6 @@ footer {
 #outros {
   grid-row: 7/9;
   grid-column: 2/ span 2;
-}
-
-#outros ul {
-  float: left;
-}
-
-/*% TEXTO */
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-header h1 {
-  font-weight: 400;
-  font-size: 3em;
-}
-
-li {
-  list-style: none;
-  font-size: 11pt;
-}
-
-#list-fav div {
-  text-align: center;
-  font-size: 11pt;
-}
-
-article li {
-  line-height: 1.37;
-  margin-bottom: 0.8em;
-}
-
-h2 {
-  font-weight: 400;
-  color: var(--azul);
 }
 
 /* % MEDIA QUERIES */ 
@@ -318,10 +314,6 @@ h2 {
   #outros {
     grid-row: 16;
     grid-column: 1;
-  }
-
-  #outros ul {
-    float: initial;
   }
 
   #conteudo {
