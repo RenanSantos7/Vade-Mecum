@@ -28,6 +28,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -36,7 +38,6 @@ body {
   background-attachment: fixed;  
   background-color: var(--fundo1);
   background-image: var(--bg);
-  padding: 10px;
 }
 
 a {
@@ -51,20 +52,19 @@ a:hover, li:hover {
 h2 {
   font-weight: 400;
   color: var(--azul);
+  margin-bottom: 1em;
 }
 
 li {
   list-style: none;
-  font-size: 11pt;
+  font-size: 1rem;
 }
 
 /* % POSICIONAMENTO, TAMANHOS e TEXTO */
 
-
 header {
   /*background-color: aquamarine;*/
-  text-align: center;
-  color: var(--azul);
+  padding: 50px 0;
 }
 
 header h1 {
@@ -72,19 +72,20 @@ header h1 {
   font-weight: 400;
   font-size: 3em;
   color: var(--azul);
+  text-align: center;
 }
 
 main {
   /* background-color: yellow; */
   display: flex;
   flex-flow: column nowrap;
-  gap: 50px;
+  gap: 35px;
   width: 70vw;
   margin-inline: auto;
 }
 
 #list-fav {
-	display: grid;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 1vw;
 }
@@ -98,6 +99,13 @@ main {
   padding: 2vh;
   text-align: center;
   font-size: 11pt;
+}
+
+.linha-divisoria {
+  width: 100%;
+  height: 1px;
+  background-color: var(--cinza);
+  opacity: .5;
 }
 
 .backfilter  {
@@ -124,8 +132,7 @@ article h2 {
 }
 
 article ul {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-left: 2rem;
 }
 
 article li {
@@ -179,6 +186,10 @@ footer {
     padding: 10px 10vw;
   }
 
+  main {
+    width: 75vw;
+  }
+
   #corpo {
     grid-template-columns: repeat(2, 1fr)
   }
@@ -188,7 +199,7 @@ footer {
   }
 }
 
-@media only screen and (width <= 1025px) {
+ @media only screen and (width <= 1025px) { /* tablet */
   
   #list-fav{
     grid-template-columns: repeat(4, 1fr);
@@ -227,7 +238,11 @@ footer {
   }
 }
 
-@media only screen and (width <= 500px) {
+@media only screen and (width <= 500px) { /* celular*/
+  main {
+    width: 80vw;
+  }
+
   #list-fav{
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
