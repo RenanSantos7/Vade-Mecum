@@ -118,6 +118,11 @@ ul {
 }
 
 /* % REGRAS ESPECIAIS */
+
+#corpo a:hover {
+	border-bottom: 1px dotted;
+}
+
 .alinea {
 	padding-left: 4rem;
 	text-indent: 0;
