@@ -37,6 +37,8 @@
 }
 
 /* % REGRAS GERAIS */
+* {box-sizing: border-box;}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -169,8 +171,9 @@ ul.dica li {
 
 #corpo {
 	background-color: var(--fundo2);
-	margin: 50px 0;
-	padding: 40px 20px 80px;
+	margin: 50px auto;
+	padding: 40px 10vw 80px;
+	width: min(1000px, 90vw);
 	border: var(--cinza);
 	border-radius: 20px;
 }
@@ -326,6 +329,10 @@ td.cabtab, th {
 .material-symbols-outlined {
 	color: var(--cinza);
 	cursor: pointer;
+	background-color: var(--fundo2);
+	padding: 5px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.15);
 }
 
 #botao-menu-abrir {
@@ -465,21 +472,27 @@ nav#menu h2 {
 
 /* % MEDIA QUERIES */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (width > 900px) {
 	
-	#corpo {
-		margin: 50px 15vw 150px;
-		max-width: 1000px;
+	 #corpo {
+		margin: 50px auto 150px;
 		padding: 40px 120px 100px;
 		animation: entrada1 1s ease-in-out;
-	}
+	} 
 	
 	#corpo:after {
 		content: "@ Renan Santos. 2020.";
 		position: fixed;
-		right: -5vw;
+		right: -4vw;
 		bottom: 12vh;
 		color: var(--cinza);
 		transform: rotate(-90deg);
+	}
+
+	.material-symbols-outlined {
+		background-color: unset;
+		padding: 0;
+		border-radius: 0;
+		box-shadow: none;
 	}
 }
