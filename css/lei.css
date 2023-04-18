@@ -12,6 +12,7 @@
 /* % VARIÁVEIS */
 
 :root{
+	/* cores */
 	--fundo1: #f2f2f2;
 	--fundo2: white;
 	--azul1: #0063B1;
@@ -20,7 +21,11 @@
 	--cinza: #777;
 	--cinza1: #eee;
 	--texto: inherit;
+
+	/* medidas */
 	--indent: 1.2rem;
+	--botao-left: 25px;
+	--menu-width: min(100vw, 490px);
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -173,7 +178,7 @@ ul.dica li {
 	background-color: var(--fundo2);
 	margin: 50px auto;
 	padding: 40px 10vw 80px;
-	width: min(1000px, 90vw);
+	width: min(1200px, 95vw);
 	border: var(--cinza);
 	border-radius: 20px;
 }
@@ -338,15 +343,15 @@ td.cabtab, th {
 #botao-menu-abrir {
 	font-size: 3rem;
 	position: fixed;
-	top: 2rem;
-	left: 10vh;
+	top: 50px;
+	left: var(--botao-left);
 }
 
 #botao-pesquisa-abrir {
 	font-size: 3rem;
 	position: fixed;
-	top: 6rem;
-	left: 10vh;
+	top: 120px;
+	left: var(--botao-left);
 }
 
 .menu-fechar {
@@ -361,7 +366,7 @@ nav#menu {
 	background-color: var(--fundo2);
 	position: fixed;
 	top: 0px;
-	width: 25vw;
+	width: var(--menu-width);
 	height:100vh;
 	left: -500px;
 	transition: all 0.5s ease;
@@ -404,9 +409,9 @@ nav#menu h2 {
 	background-color: var(--fundo2);
 	position: fixed;
 	top: 0;
-	width: 35vw;
+	width: var(--menu-width);
 	max-width: 400px;
-	height:100vh;
+	height: 100vh;
 	left: -500px;
 	transition: all 0.5s ease;
 	box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
@@ -473,7 +478,10 @@ nav#menu h2 {
 /* % MEDIA QUERIES */
 
 @media only screen and (width > 900px) {
-	
+	:root {
+		--botao-left: 10vw;
+	}
+
 	 #corpo {
 		margin: 50px auto 150px;
 		padding: 40px 120px 100px;
