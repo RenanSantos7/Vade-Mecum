@@ -188,8 +188,7 @@ nav#links {
 	padding: .3rem;
 	background-color: var(--cinza1);
 	border-radius: 1rem;
-	width: 500px;
-	max-width: 35vw;
+	width: min(75%, 450px);
 }
 
 nav#links:before {
