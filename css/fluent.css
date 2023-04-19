@@ -150,8 +150,9 @@ footer {
   left: 86vw;
   color: var(--cinza);
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column-reverse nowrap;
   gap: 10px;
+  font-size: .9rem;
 }
 
 /*% GRID */
