@@ -55,7 +55,7 @@ botaoPesquisar.addEventListener('click', function() {
 });
 
 function montaResultado(a) {
-    if (a.nodeName = 'span') {
+    if (a.nodeName == 'span') {
         let b = document.createElement('a');
         b.textContent = a.textContent;
         b.classList = a.classList;
