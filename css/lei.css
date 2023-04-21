@@ -478,7 +478,7 @@ nav#menu h2 {
 
 @media only screen and (width > 900px) {
 	:root {
-		--botao-left: 10vw;
+		--botao-left: min(4vw, 120px);
 	}
 
 	 #corpo {
