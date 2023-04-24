@@ -1,7 +1,7 @@
 p.titart {
 	margin-bottom: -10px;
-	margin-left: 2.1em;
-	color: #0063B1;
+	margin-left: var(--indent);
+	color: var(--azul1);
 	font-weight: bold;
 	text-indent: 0;
 }
@@ -18,10 +18,4 @@ ul.dica {
 
 .tabdir {
 	background-color: #bce1ff;
-}
-
-@media screen and (prefers-color-scheme: dark) {
-	p.titart {
-		color: #2F99EC;
-	}
 }
