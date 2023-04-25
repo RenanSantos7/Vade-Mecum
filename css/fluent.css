@@ -240,7 +240,7 @@ footer {
 @media only screen and (width <= 500px) { /* celular*/
   body {
     background-position: top left;
-    background-size: auto 100%;
+    background-size: auto 100dvh;
   }
   
   main {
