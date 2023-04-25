@@ -35,9 +35,7 @@
 body {
   font-family: "Segoe UI Variable Display", "Segoe UI", 'Open Sans', sans;
   color: var(--texto);
-  background-attachment: fixed;  
-  background-color: var(--fundo1);
-  background-image: var(--bg);
+  background: var(--fundo1) var(--bg) no-repeat fixed;
 }
 
 a {
@@ -240,6 +238,11 @@ footer {
 }
 
 @media only screen and (width <= 500px) { /* celular*/
+  body {
+    background-position: top left;
+    background-size: auto 100%;
+  }
+  
   main {
     width: 80vw;
   }
