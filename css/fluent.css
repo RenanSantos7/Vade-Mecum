@@ -36,6 +36,7 @@ body {
   font-family: "Segoe UI Variable Display", "Segoe UI", 'Open Sans', sans;
   color: var(--texto);
   background: var(--fundo1) var(--bg) no-repeat fixed;
+  background-size: cover;
 }
 
 a {
