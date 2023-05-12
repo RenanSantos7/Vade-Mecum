@@ -178,7 +178,7 @@ ul.dica li {
 	background-color: var(--fundo2);
 	margin: 50px auto;
 	padding: 40px 10vw 80px;
-	width: min(1200px, 95vw);
+	width: 95vw;
 	border: var(--cinza);
 	border-radius: 20px;
 }
@@ -483,6 +483,7 @@ nav#menu h2 {
 
 	 #corpo {
 		margin: 50px auto 150px;
+		width: min(1200px, 85vw);
 		padding: 40px 120px 100px;
 		animation: entrada1 1s ease-in-out;
 	} 

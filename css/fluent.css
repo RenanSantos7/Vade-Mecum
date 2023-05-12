@@ -79,7 +79,7 @@ main {
   display: flex;
   flex-flow: column nowrap;
   gap: 35px;
-  width: 70vw;
+  width: min(70vw,1200px);
   margin-inline: auto;
 }
 
@@ -146,7 +146,7 @@ article li {
 footer {
   position: fixed;
   bottom: 3.5vh;
-  left: 86vw;
+  left: min(86vw, 1850px);
   color: var(--cinza);
   display: flex;
   flex-flow: column-reverse nowrap;
