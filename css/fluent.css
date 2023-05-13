@@ -146,7 +146,7 @@ article li {
 footer {
   position: fixed;
   bottom: 3.5vh;
-  left: min(86vw, 1850px);
+  right: 3vw;
   color: var(--cinza);
   display: flex;
   flex-flow: column-reverse nowrap;
@@ -184,10 +184,6 @@ footer {
 @media only screen and (width <= 1200px) {
   body {
     padding: 10px 10vw;
-  }
-
-  main {
-    width: 75vw;
   }
 
   #corpo {
