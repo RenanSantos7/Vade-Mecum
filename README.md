@@ -23,6 +23,7 @@ Tela principal no celular
 - Layout atual e responsivo;
 - Modo escuro;
 - Melhor legibilidade;
+- Adaptado para telas *ultrawide*
 - Facilidade de uso.
 
 ## Funcionalidades pretendidas
