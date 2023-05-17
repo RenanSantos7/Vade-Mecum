@@ -146,7 +146,7 @@ article li {
 footer {
   position: fixed;
   bottom: 3.5vh;
-  left: min(calc(85vw + 15px), calc(15vw + 1215px));
+  left: min(calc(85vw + 15px), calc(50vw + 625px));
   color: var(--cinza);
   display: flex;
   flex-flow: column-reverse nowrap;
