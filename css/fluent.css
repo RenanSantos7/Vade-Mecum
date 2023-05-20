@@ -81,6 +81,7 @@ main {
   gap: 35px;
   width: min(70vw,1200px);
   margin-inline: auto;
+  margin-bottom: 3.5vh;
 }
 
 #list-fav {
