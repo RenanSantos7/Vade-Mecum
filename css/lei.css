@@ -124,6 +124,11 @@ ul {
 	line-height: 150%;
 }
 
+mark {
+	background: none;
+	color: inherit;
+}
+
 /* % REGRAS ESPECIAIS */
 
 #corpo a:hover {
