@@ -1,6 +1,6 @@
 # Vade Mecum
 
-[viste o site](https://vade-mecum.vercel.app/)
+> 📖 [Viste o site](https://vade-mecum.vercel.app/)
 
 Um projeto de Vade Mecum para estudantes e profissionais de Direito, com as principais legislações brasileiras.
 
@@ -28,10 +28,10 @@ Tela principal no celular
 
 ## Funcionalidades pretendidas
 
-- implementação de ações JavaScript para:
-    - criação de menus laterais de navegações entre as leis; ✅
-    - busca por artigo; ⌛
-    - busca de leis na página inicial.
-    - personalização da seção de favoritos conforme o uso;
-    - fazer marcações nas leis
-- conversão em app Electron.
+- [ ] implementação de ações JavaScript para:
+    - [x] ~~criação de menus laterais de navegações entre as leis;~~
+    - [ ] busca por artigo; ⌛
+    - [ ] busca de leis na página inicial.
+    - [ ] personalização da seção de favoritos conforme o uso;
+    - [ ] fazer marcações nas leis
+- [ ] conversão em app Electron.
