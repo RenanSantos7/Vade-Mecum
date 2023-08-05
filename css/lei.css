@@ -12,7 +12,7 @@
 /* % VARIÁVEIS */
 
 :root{
-	/* cores */
+	/** cores */
 	--fundo1: #f2f2f2;
 	--fundo2: white;
 	--azul1: #0063B1;
@@ -22,7 +22,7 @@
 	--cinza1: #eee;
 	--texto: inherit;
 
-	/* medidas */
+	/* * medidas */
 	--indent: 1.2rem;
 	--botao-left: 25px;
 	--menu-width: min(100vw, 490px);
@@ -37,7 +37,7 @@
 		--laranja: #FF9759;
 		--cinza: #aaa;
 		--cinza1: #575757;
-		--texto: #dbdbdb;
+		--texto: #e6e6e6;
 	}
 }
 
@@ -177,7 +177,7 @@ ul.dica li {
 
 
 /* % ESTRUTURA */
-/* ? Estrutura base */
+/* * Estrutura base */
 
 #corpo {
 	background-color: var(--fundo2);
@@ -272,7 +272,7 @@ nav#links li {
 	margin-top: 5rem;
 }
 
-/* ? Outras estrutuas */
+/* * Outras estrutuas */
 
 blockquote {
     font-style: italic;
@@ -330,10 +330,10 @@ table td, th {
 }
 
 td.cabtab, th {
-	font-weight: bold;
+	font-weight: 600;
 	padding-top: 25px;
 	vertical-align: bottom;
-    color: var(--texto);
+    color: white;
     background-color: var(--azul1);
 }
 
