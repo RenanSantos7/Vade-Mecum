@@ -37,7 +37,7 @@
 		--laranja: #FF9759;
 		--cinza: #aaa;
 		--cinza1: #575757;
-		--texto: #fafafa;
+		--texto: #dbdbdb;
 	}
 }
 
@@ -293,7 +293,7 @@ blockquote p {
     color: var(--cinza);
 }
 
-/* ? Tabela */
+/* * Tabela */
 
 table {
 	border: 1px solid var(--azul1);
@@ -317,6 +317,10 @@ table caption {
 	padding: 5px 0px;
 }
 
+tr:nth-child(even) {
+	background-color: var(--cinza1);
+}
+
 table td, th {
 	padding: 7px;
 	text-align: center;
@@ -333,7 +337,7 @@ td.cabtab, th {
     background-color: var(--azul1);
 }
 
-/* ? Paineis laterais */
+/* * Paineis laterais */
 
 .material-symbols-outlined {
 	color: var(--cinza);
@@ -399,6 +403,8 @@ nav#menu h2 {
 	margin: 0px 0px 1.5rem;
 	padding: 40px 0 0 20px;
 }
+
+/* * Procura artigo */
 
 #procura-artigo {
 	display: none;
