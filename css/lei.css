@@ -22,7 +22,7 @@
 	--cinza1: #eee;
 	--texto: inherit;
 
-	/* * medidas */
+	/** medidas */
 	--indent: 1.2rem;
 	--botao-left: 25px;
 	--menu-width: min(100vw, 490px);
