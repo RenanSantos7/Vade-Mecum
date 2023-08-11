@@ -1,6 +1,6 @@
 article {
   transition: all ease-in 0.3s;
-  transition-delay: 1s;
+  transition-delay: .5s;
 }
 
 a, li, .item-fav {
