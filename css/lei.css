@@ -136,15 +136,15 @@ mark {
 }
 
 .alinea {
-	padding-left: 4rem;
+	padding-left: calc(2.5*var(--indent));
 	text-indent: 0;
 }
 
 .item {
-	padding-left: 4rem;
-	text-indent: 0;
+	padding-left: calc(4*var(--indent));
+	text-indent: -2ch;
 }
- 
+
 .artigo {
 	font-size: 1.6em;
 	font-weight: bold;
@@ -162,7 +162,7 @@ ul.dica{
 }
 
 ul.dica li {
-	font-size: 13pt;
+	font-size: 1rem;
 	color: var(--cinza);
 	margin-bottom: 5px;
 }
