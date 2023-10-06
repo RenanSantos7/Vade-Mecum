@@ -247,6 +247,17 @@ nav#links li {
 	margin: 0 auto;
 }
 
+#titulo2{
+	text-align: center;
+	text-indent: 0;
+	line-height: 120%;
+	margin-block: 3rem;
+	color: var(--azul1);
+	font-weight: 400;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
 #cont-sum h2 {
 	text-align: left;
 	margin-bottom: .3em;
