@@ -1,0 +1,55 @@
+#botao-menu-abrir {
+	font-size: 3rem;
+	position: fixed;
+	top: 50px;
+	left: var(--botao-left);
+}
+
+#botao-pesquisa-abrir {
+	font-size: 3rem;
+	position: fixed;
+	top: 120px;
+	left: var(--botao-left);
+}
+
+.menu-fechar {
+	font-size: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+nav#menu {
+	display: block;
+	background-color: var(--fundo2);
+	position: fixed;
+	top: 0px;
+	width: var(--menu-width);
+	height:100vh;
+	left: -500px;
+	transition: all 0.5s ease;
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+	z-index: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+nav#menu ul {
+	margin-left: -25px;
+	padding-right: 5px;
+	list-style: none;
+}
+
+nav#menu li {
+	margin-left: -20px;
+	margin-right: -10px;
+	padding: 8px 20px 8px 30px;
+	text-align: left;
+	font-size: 1rem;
+}
+
+nav#menu h2 {
+	text-align: left;
+	margin: 0px 0px 1.5rem;
+	padding: 40px 0 0 20px;
+}
