@@ -59,5 +59,15 @@ botaoPesquisarArtigo.addEventListener('click', () => {
     const resultadoPesquisaStr = resultadoPesquisa.textContent
     const idResultado = idArtigos[indResultadoPesquisa]
     
-    divResultados.innerHTML = `<a class="resultado-pesquisa" href="#${idResultado}">${resultadoPesquisaStr}</a>`
+    const resultado = document.createElement('a')
+    resultado.setAttribute('class', 'resultado-pesquisa')
+    resultado.setAttribute('href', `#${idResultado}`)
+    resultado.textContent = `${resultadoPesquisaStr}`
+
+    divResultados.innerHTML = ''
+    divResultados.appendChild(resultado)
+
+    resultado.addEventListener('click', () => {
+        ocultaMenu(menuPesquisa)
+    })
 })

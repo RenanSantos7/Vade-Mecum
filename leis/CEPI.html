@@ -6,6 +6,7 @@
 	<link rel="shortcut icon" href="../imgs/piaui.png" type="image/png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<link rel="stylesheet" href="../css/lei.css" />
+	<link rel="stylesheet" href="../css/lei-procura-artigo.css" />
 	<link rel="stylesheet" href="../css/piaui.css" />
 	<title>Constituição Piauí</title>
 </head>
@@ -21,6 +22,20 @@
 	</ul>
 </nav>
 <span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
+
+<span id="botao-pesquisa-abrir" class="material-symbols-outlined botoes-laterais">search</span>
+<section id="procura-artigo">
+	<span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
+	
+	<h2>Pesquisar artigo</h2>
+	<label id="label-numero" for="input-numero-artigo">Digite o número do artigo</label>
+	<input id="input-numero-artigo" type="text" min="1" name="numero-artigo" />
+
+	<input id="botao-pesquisar-artigo" type="button" value="Pesquisar" />
+
+	<div class="linha-horizontal"></div>
+	<div id="resultados-pesquisa"></div>
+</section
 
 <main id="corpo">
 <p id=titulo>Constituição do Estado do Piauí de 1989</p>
