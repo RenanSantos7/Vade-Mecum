@@ -1,5 +1,4 @@
 @import url('./lei-painel-lateral.css');
-@import url('./procura-artigo.css');
 
 /* % ANIMAÇÕES */
 @keyframes entrada1 {
@@ -15,7 +14,7 @@
 /* % VARIÁVEIS */
 
 :root{
-	/** cores */
+	/* cores */
 	--fundo1: #f2f2f2;
 	--fundo2: white;
 	--azul1: #0063B1;
@@ -24,11 +23,15 @@
 	--cinza: #777;
 	--cinza1: #eee;
 	--texto: inherit;
+	--shadow: rgba(100, 100, 100, 0.3);
 
-	/** medidas */
+	/* medidas */
 	--indent: 1.2rem;
 	--botao-left: 25px;
 	--menu-width: min(100vw, 490px);
+
+	/* fontes */
+	--fonte: "Segoe UI Variable Text","Segoe UI", "Noto Sans", sans;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -41,6 +44,7 @@
 		--cinza: #aaa;
 		--cinza1: #575757;
 		--texto: #e6e6e6;
+		--shadow: rgba(15, 15, 15, 0.65);
 	}
 }
 
@@ -53,7 +57,7 @@ html {
 
 body {
 	background-color: var(--fundo1);
-	font-family: "Segoe UI Variable Text","Segoe UI", "Noto Sans", sans;
+	font-family: var(--fonte);
 }
 
 a {
@@ -180,7 +184,7 @@ ul.dica li {
 
 
 /* % ESTRUTURA */
-/* * Estrutura base */
+/* Estrutura base */
 
 #corpo {
 	background-color: var(--fundo2);
@@ -286,7 +290,7 @@ nav#links li {
 	margin-top: 5rem;
 }
 
-/* * Outras estrutuas */
+/* Outras estrutuas */
 
 blockquote {
     font-style: italic;
