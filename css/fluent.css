@@ -100,7 +100,9 @@ main {
   font-size: 11pt;
 }
 
-hr {
+.linha-horizontal {
+  width: 100%;
+  height: 1px;
   background-color: var(--cinza);
   opacity: .5;
 }
