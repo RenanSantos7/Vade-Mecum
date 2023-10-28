@@ -19,3 +19,16 @@ article:hover, .item-fav:hover {
   filter: blur(1px);
   filter: saturate(.6);
 }
+
+@media only screen and (width <= 700px) {
+  article:hover, .item-fav:hover {
+    background-color: var(--fundo2);
+    box-shadow: none;
+  }
+
+  #corpo:hover article:not(:hover), 
+  #list-fav:hover .item-fav:not(:hover){
+    opacity: 1;
+    filter: none;
+  }
+}
