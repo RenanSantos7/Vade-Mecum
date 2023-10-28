@@ -39,20 +39,7 @@ const idArtigos = artigosArray.map(item => item.textContent
     .replace("º", "").replace(".", "")
     .replace("-", ""))
 
-
-for (let i = 0; i < artigos.length; i++) {
-    artigos[i].setAttribute('id', `${idArtigos[i]}`)
-}
-
-botaoAbrirPesquisa.addEventListener('click', () => {
-    mostraMenu(menuPesquisa)
-})
-
-botaoFecharPesquisa.addEventListener('click', () => {
-    ocultaMenu(menuPesquisa)
-})
-
-botaoPesquisarArtigo.addEventListener('click', () => {
+function pesquisarArtigos() {
     const criterioPesquisa = inputPesquisa.value
     const indResultadoPesquisa = idArtigos.findIndex(item => item.match(new RegExp(criterioPesquisa, 'i')))
     const resultadoPesquisa = artigos[indResultadoPesquisa]
@@ -70,4 +57,24 @@ botaoPesquisarArtigo.addEventListener('click', () => {
     resultado.addEventListener('click', () => {
         ocultaMenu(menuPesquisa)
     })
+}
+
+for (let i = 0; i < artigos.length; i++) {
+    artigos[i].setAttribute('id', `${idArtigos[i]}`)
+}
+
+botaoAbrirPesquisa.addEventListener('click', () => {
+    mostraMenu(menuPesquisa)
+})
+
+botaoFecharPesquisa.addEventListener('click', () => {
+    ocultaMenu(menuPesquisa)
+})
+
+botaoPesquisarArtigo.addEventListener('click', pesquisarArtigos)
+
+inputPesquisa.addEventListener('keydown', (event) => {
+    if (event.key == "Enter" && inputPesquisa.value != '') {
+        pesquisarArtigos()
+    }
 })
