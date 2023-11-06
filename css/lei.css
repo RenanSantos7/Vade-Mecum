@@ -17,11 +17,14 @@
 	/* cores */
 	--fundo1: #f2f2f2;
 	--fundo2: white;
+	--fundo3: #f6f6f6;
+	--input: #ffffff35;
 	--azul1: #0063B1;
 	--azul2: #EDF7FF;
 	--laranja: #F7630C;
 	--cinza: #777;
 	--cinza1: #eee;
+	--cinza2: #aaa;
 	--texto: inherit;
 	--shadow: rgba(100, 100, 100, 0.3);
 
@@ -38,13 +41,15 @@
 	:root{
 		--fundo1: #303032;
 		--fundo2: #474749;
+		--input: #10101030;
 		--azul1: #2F99EC;
 		--azul2: #2F353A;
 		--laranja: #FF9759;
 		--cinza: #aaa;
 		--cinza1: #575757;
+		--cinza2: #2b2b2b;
 		--texto: #e6e6e6;
-		--shadow: rgba(15, 15, 15, 0.65);
+		--shadow: rgba(47, 47, 47, 0.65);
 	}
 }
 

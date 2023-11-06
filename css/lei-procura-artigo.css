@@ -4,7 +4,7 @@
 	align-items: start;
 	gap: 15px;
 	padding: 0 2rem;
-	background-color: var(--fundo2);
+	background-color: var(--fundo1);
 	position: fixed;
 	top: 0;
 	width: min(400px, var(--menu-width));
@@ -17,23 +17,27 @@
 	overflow-x: hidden;
 }
 
-#procura-artigo h2 {
-	margin-bottom: 0;
-}
-
 #label-numero {
 	font-size: 1rem;
-	margin-bottom: -10px;
 }
 
 #input-numero-artigo {
-	background: none;
-	outline: none;
-	border: 1px solid var(--cinza);
-	border-radius: 8px;
 	padding: .5rem;
 	width: 100%;
+	margin-bottom: 3px;
 	font-family: var(--fonte);
+	font-size: 1rem;
+	outline: none;
+	background: var(--input);
+	border-radius: 8px;
+	border: 1px solid var(--cinza2);
+	position: relative;
+}
+
+#input-numero-artigo:focus {
+	background: var(--fundo2);
+	border-bottom: 3px solid var(--laranja);
+	margin-bottom: 0;
 }
 
 #botao-pesquisar-artigo {
@@ -41,6 +45,7 @@
 	border: none;
 	border-radius: 12px;
 	padding: .5rem .8rem;
+	margin-top: 1rem;
 	color: white;
 	font-size: 1rem;
 	cursor: pointer;
