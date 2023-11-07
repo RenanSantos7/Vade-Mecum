@@ -36,8 +36,9 @@ const artigos = document.querySelectorAll(".artigo");
 const artigosArray = Array.from(artigos)
 const idArtigos = artigosArray.map(item => item.textContent
     .replace("Art. ", "")
-    .replace("º", "").replace(".", "")
-    .replace("-", ""))
+    .replace("º", "")
+    .replaceAll(".", "")
+    .replaceAll("-", ""))
 
 function pesquisarArtigos() {
     const criterioPesquisa = inputPesquisa.value
@@ -51,11 +52,12 @@ function pesquisarArtigos() {
     resultado.setAttribute('href', `#${idResultado}`)
     resultado.textContent = `${resultadoPesquisaStr}`
 
-    divResultados.innerHTML = ''
     divResultados.appendChild(resultado)
 
     resultado.addEventListener('click', () => {
         ocultaMenu(menuPesquisa)
+        divResultados.innerHTML = ''
+        inputPesquisa.value = ''
     })
 }
 
