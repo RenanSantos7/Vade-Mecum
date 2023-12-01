@@ -7,20 +7,19 @@
 	<title>Lei da Alienação Parental</title>
 	<link rel="stylesheet" href="css\lei.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<script>
+		const links = [
+			{url:"CF.html", nome:"Constituição"},
+			{url:"CC.html", nome:"Código Civil"},
+			{url:"CPC.html", nome:"Novo Código de Processo Civil"},
+			{url:"ECA.html", nome:"Estatuto da Criança e do Adolescente"}
+		]
+	</script>
 </head>
 <body>
 
-<nav id="menu">
-	<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>	
-	<h2><a href="../index.html">Vade Mecum</a></h2>	<ul>
-		<li><a target="_blank" href="CF.html">Constituição</a></li>
-		<li><a target="_blank" href="CC.html">Código Civil</a></li>
-		<li><a target="_blank" href="CPC.html">Novo Código de Processo Civil</a></li>
-		<li><a target="_blank"hre="ECA.html">Estatuto da Criança e do Adolescente</a></li>
-	</ul>
-</nav>
-
-<span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
+<div id="menu-container"></div>
+<div id="procura-artigo"></div>
 
 <main id="corpo">>
 <p id=titulo>Lei da Alienação Parental</p>
@@ -101,5 +100,5 @@ Paulo de Tarso Vannuchi<br>
 José Gomes Temporão</p>
 </main>
 </body>
-<script src="../js/script.js"></script>
+<script src="../js/script.js" type="module"></script>
 </html>

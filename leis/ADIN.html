@@ -5,28 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="../imgs/brastra.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="../css/lei.css">
   <link rel=stylesheet href="../css/lei-procura-artigo.css" type="text/css">
   <title>ADIN</title>
+  <script src="../js/script.js" type="module" defer></script>
+  <script>
+    const links = [
+      {nome: 'Constituição Federal', url: 'CF.html'},
+      {nome: 'Código de Processo Civil', url: 'CPC.html'}
+    ]
+  </script>
 </head>
 <body>
 
-  <span id="botao-pesquisa-abrir" class="material-symbols-outlined botoes-laterais">search</span>
-	<section id="procura-artigo">
-		<span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
-		
-		<h2>Pesquisar artigo</h2>
-		<label id="label-numero" for="input-numero-artigo">Digite o número do artigo</label>
-		<input id="input-numero-artigo" type="text" min="1" name="numero-artigo" />
+  <div id="menu-container"></div>
 
-		<input id="botao-pesquisar-artigo" type="button" value="Pesquisar" />
-
-		<div class="linha-horizontal"></div>
-		<div id="resultados-pesquisa"></div>
-	</section>
+  <div id="procura-artigo"></div>
 
 <div id="corpo">
-<p id="titulo">LEI DA AÇÃO DIRETA DE INCONSTITUCIONALIDADE</b></p>
+<p id="titulo">Lei da Ação Direta de Inconstitucionalidade</b></p>
 
 <p id="subtit">LEI Nº. 9.868, DE 10 DE NOVEMBRO DE 1999.</p>
 
@@ -506,5 +504,4 @@ da Independência e 111º. 'da República. </p>
 </div>
 <p id=copy>&copy; Renan Santos, 2015.</p>
 </body>
-<script src="../js/script.js"></script>
 </html>
