@@ -9,21 +9,34 @@
 	<link rel=stylesheet href="../css/lei.css">
 	<link rel=stylesheet href="../css/lei-procura-artigo.css">
 	<title>Código Brasileiro de Aeronáutica</title>
-	<script src="../js/script.js" type="module" defer></script>
-	<script>
-		const links = [
-			{nome: 'Constituição Federal', url: 'CF.html'},
-			{url: 'CC.html', nome: 'Código Civil'},
-			{url:'CDC.html', nome:'Cód. Defesa do Consumidor'},
-			{url:"JECC.html", nome:"Lei dos Juizados Especiais Cíveis"},
-			{url:"LProcEl.html",nome:"Lei do Processo Eletrônico"}
-		]
-	</script>
 </head>
 <body>
-	<div id="menu-container"></div>
+	<nav id="menu">
+		<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>		
+		<h2><a href="../index.html">Vade Mecum</a></h2>		<ul>
+			<li><a target="_blank" href="CF.html">Constituição</a></li>
+			<li><a target="_blank" href="CC.html">Código Civil</a></li>
+			<li><a target="_blank" href="CPC73.html">Código de Processo Civil/73</a></li>
+			<li><a target="_blank" href="CDC.html">Cód. Defesa do Consumidor</a></li>
+			<li><a target="_blank" href="JECC.html">Lei dos Juizados Especiais Cíveis</a></li>
+			<li><a target="_blank" href="LProcEl.html">Lei do Processo Eletrônico</a></li>
+		</ul>
+	</nav>
+	<span id="botao-menu-abrir" class="material-symbols-outlined botoes-laterais">menu</span>
 	
-	<div id="procura-artigo"></div>
+	<span id="botao-pesquisa-abrir" class="material-symbols-outlined botoes-laterais">search</span>
+	<section id="procura-artigo">
+		<span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
+		
+		<h2>Pesquisar artigo</h2>
+		<label id="label-numero" for="input-numero-artigo">Digite o número do artigo</label>
+		<input id="input-numero-artigo" type="text" min="1" name="numero-artigo" />
+
+		<input id="botao-pesquisar-artigo" type="button" value="Pesquisar" />
+
+		<div class="linha-horizontal"></div>
+		<div id="resultados-pesquisa"></div>
+	</section>
 
 <main id="corpo">
 <p id="titulo">Código Brasileiro de Aeronáutica</p>
@@ -2314,4 +2327,5 @@ Disposições Finais e Transitórias</h1>
 <i>Octávio Júlio Moreira Lima</i></p>
 </main>
 </body>
+	<script src="../js/script.js"></script>
 </html>

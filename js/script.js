@@ -1,9 +1,3 @@
-import menu from './componentes/menu.js'
-import procuraArt from './componentes/procura-artigo.js'
-
-menu()
-procuraArt()
-
 // % Menu Lateral
 
 const menuLinks = document.getElementById("menu");

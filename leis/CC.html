@@ -8,22 +8,36 @@
 	<link rel=stylesheet href="../css/lei.css" type="text/css">
 	<link rel=stylesheet href="../css/lei-procura-artigo.css" type="text/css">
 	<title>Código Civil</title>
-  <script src="../js/script.js" type="module" defer></script>
-  <script>
-    const links = [
-      {url:'CF.html', nome:'Constituição'},
-      {url:'CPC.html', nome:'Código de Processo Civil'},
-      {url:'LINDB.html', nome:'Lei de Introdução às Normas do Direito Brasileiro'},
-      {url:'CDC.html', nome:'Código de Defesa do Consumidor'},
-      {url:'LINQLT.html', nome:'Lei do Inquilinato'},
-      {url:'ECA.html', nome:'Estatuto da Criança e do Adolescente'},
-      {url:'EPD.html', nome:'Estatuto da Pessoa com Deficiência'},
-    ]
-  </script>
 </head>
 <body>
-  <div id="menu-container"></div>
-  <div id="procura-artigo"></div>
+
+<nav id="menu">
+  <span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>	
+	<h2><a href="../index.html">Vade Mecum</a></h2> 	<ul>
+ 		<li><a target="_blank" href="CF.html">Constituição</a></li>
+ 		<li><a target="_blank" href="CPC.html">Código de Processo Civil</a></li>
+		<li><a target="_blank" href="LINDB.html">Lei de Introdução às Normas do Direito Brasileiro</a></li>
+ 		<li><a target="_blank" href="CDC.html">Código de Defesa do Consumidor</a></li>
+ 		<li><a target="_blank" href="LINQLT.html">Lei do Inquilinato</a></li>
+ 		<li><a target="_blank" href="ECA.html">Estatuto da Criança e do Adolescente</a></li>
+		<li><a target="_blank" href="EPD.html">Estatuto da Pessoa com Deficiência</a></li>
+	</ul>
+</nav>
+<span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
+
+<span id="botao-pesquisa-abrir" class="material-symbols-outlined botoes-laterais">search</span>
+<section id="procura-artigo">
+  <span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
+  
+  <h2>Pesquisar artigo</h2>
+  <label id="label-numero" for="input-numero-artigo">Digite o número do artigo</label>
+  <input id="input-numero-artigo" type="text" min="1" name="numero-artigo" />
+
+  <input id="botao-pesquisar-artigo" type="button" value="Pesquisar" />
+
+  <div class="linha-horizontal"></div>
+  <div id="resultados-pesquisa"></div>
+</section>
 
 <main id="corpo">
 <p id="titulo">Código Civil</p>
@@ -8560,4 +8574,5 @@ Das Disposições Finais e Transitórias</h2>
 <i>Aloysio Nunes Ferreira Filho</i></p>
 </main>
 </body>
+<script src="../js/script.js"></script>
 </html>
