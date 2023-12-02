@@ -9,22 +9,21 @@
 	<link rel="stylesheet" href="css/dark.css">
 	<title>Lei dos Consórcios</title>
 	<link rel="icon" type="image/png" href="../imgs/brastra.png">
+	<script>
+		const links = [
+			{url:"CF.html", nome: "Constituição"},
+			{url:"CC.html", nome: "Código Civil"},
+			{url:"CPC.html", nome: "Novo Código de Processo Civil"},
+			{url:"CDC.html", nome: "Cód. Defesa do Consumidor"},
+			{url:"JECC.html", nome: "Lei dos Juizados Especiais Cíveis"},
+			{url:"LProcEl.html", nome: "Lei do Processo Eletrônico"},
+		]
+	</script>
 </head>
 
 <body>
-<nav id="menu">
-	<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>	
-	<h2><a href="../index.html">Vade Mecum</a></h2>	<ul>
-		<li><a target=_blank href="CF.html">Constituição</a></li>
-		<li><a target=_blank href="CC.html">Código Civil</a></li>
-		<li><a target=_blank href="CPC.html">Novo Código de Processo Civil</a></li>
-		<li><a target=_blank href="CDC.html">Cód. Defesa do Consumidor</a></li>
-		<li><a target=_blank href="JECC.html">Lei dos Juizados Especiais Cíveis</a></li>
-		<li><a target=_blank href="LProcEl.html">Lei do Processo Eletrônico</a></li>
-	</ul>
-</nav>
-
-<span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
+<div id="menu-container"></div>
+<div id="pesquisa-artigo"></div>
 
 <main id="corpo">
 <p id=titulo>Lei Geral dos Consórcios</p>

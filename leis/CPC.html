@@ -8,24 +8,21 @@
 	<link rel="stylesheet" href="../css/lei.css">
 	<link rel="stylesheet" href="../css/lei-procura-artigo.css">
 	<title>Código de Processo Civil</title>
+	<script>
+		const links = [
+			{name: "CF.html", nome: "Constituição"},
+			{name: "CC.html", nome: "Código Civil"},
+			{name: "CPC73.html", nome: "Código de Processo Civil/73"},
+			{name: "CDC.html", nome: "Cód. Defesa do Consumidor"},
+			{name: "JECC.html", nome: "Lei dos Juizados Especiais Cíveis"},
+			{name: "LProcEl.html", nome: "Lei do Processo Eletrônico"},
+		]
+	</script>
 </head>
 
 <body>
 	
-	<nav id="menu">
-		<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>			
-		<h2><a href="../index.html">Vade Mecum</a></h2>
-		<ul>
-			<li><a target="_blank" href="CF.html">Constituição</a></li>
-			<li><a target="_blank" href="CC.html">Código Civil</a></li>
-			<li><a target="_blank" href="CPC73.html">Código de Processo Civil/73</a></li>
-			<li><a target="_blank" href="CDC.html">Cód. Defesa do Consumidor</a></li>
-			<li><a target="_blank" href="JECC.html">Lei dos Juizados Especiais Cíveis</a></li>
-			<li><a target="_blank" href="LProcEl.html">Lei do Processo Eletrônico</a></li>
-		</ul>
-	</nav>
-	<span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
-
+	<div id="menu-container"></div>
 	<div id="pesquisa-artigo"></div>
 
 <main id="corpo">
