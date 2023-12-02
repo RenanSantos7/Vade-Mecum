@@ -11,36 +11,22 @@
 	<title>Código de Processo Penal</title>
 	<meta name="author" content="Renan Santos" />
 	<meta name="description" content="Decreto-Lei nº 3.689, de 3 de outubro de 1941. Institui o Código de Processo Penal Brasileiro" />
+	<script>
+		const links = [
+			{url: 'CF.html', nome: 'Constituição'},
+			{url: 'CP.html', nome: 'Código Penal'},
+			{url: 'CPM.html', nome: 'Código Penal Militar'},		
+			{url: 'CPPM.html', nome: 'Código de Processo Penal Militar'},
+			{url: 'DROGAS.html', nome: 'Lei de Drogas'},
+			{url: 'CRIMHED.html', nome: 'Lei dos Crimes Hediondos'},
+			{url: 'CRIMTRIB.html', nome: 'Lei dos Crimes Tributários'},
+			{url: 'ECA.html', nome: 'Estatuto da Criança e do Adolescente'},
+		]
+	</script>
 </head>
-
-<nav id="menu">
-	<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>	
-	<h2><a href="../index.html">Vade Mecum</a></h2>	<ul>
-		<li><a target="_blank" href="CF.html">Constituição</a></li>
-		<li><a target="_blank" href="CP.html">Código Penal</a></li>
-		<li><a target="_blank" href="CPM.html">Código Penal Militar</a></li>		
-		<li><a target="_blank" href="CPPM.html">Código de Processo Penal Militar</a></li>
-		<li><a target="_blank" href="DROGAS.html">Lei de Drogas</a></li>
-		<li><a target="_blank" href="CRIMHED.html">Lei dos Crimes Hediondos</a></li>
-		<li><a target="_blank" href="CRIMTRIB.html">Lei dos Crimes Tributários</a></li>
-		<li><a target="tab" href="ECA.html">Estatuto da Criança e do Adolescente</a></li>
-	</ul>
-</nav>
-	<span id="botao-menu-abrir" class="material-symbols-outlined">menu</span>
-
-
-<section id="procura-artigo">
-    <span id="botao-pesquisa-fechar" class="material-symbols-outlined menu-fechar">close</span>
-    
-    <h2>Pesquisar artigo</h2>
-    <label id="label-numero" for="input-numero-artigo">Digite o número do artigo</label>
-    <input id="input-numero-artigo" type="text" min="1" name="numero-artigo" />
-
-    <input id="botao-pesquisar-artigo" type="button" value="Pesquisar" />
-
-    <div class="linha-horizontal"></div>
-    <div id="resultados-pesquisa"></div>
-</section>
+<body>
+	<div id="menu-container"></div>
+	<div id="pesquisa-artigo"></div>
 
 <main id="corpo">
 <p id=titulo>Código de Processo Penal</p>
