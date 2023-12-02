@@ -1,3 +1,9 @@
+import pesquisaArt from './componentes/pesquisa-artigo.js'
+import menu from './componentes/menu.js'
+
+pesquisaArt()
+menu()
+
 // % Menu Lateral
 
 const menuLinks = document.getElementById("menu");
@@ -6,21 +12,21 @@ const botaoMenuFechar = document.getElementById("botao-menu-fechar")
 
 function mostraMenu(menu) {
     menu.style.left = "0";
-}
+}    
 
 function ocultaMenu(menu) {
     menu.style.left = "-500px";
-}
+}    
 
 botaoMenuAbrir.addEventListener("click", function () {
     mostraMenu(menuLinks)
-});
+});    
 
 botaoMenuFechar.addEventListener("click", function () {
     ocultaMenu(menuLinks)
-});
+});    
 
-// % Procurar Artigo
+// % Pesquisar Artigo
 
 const botaoAbrirPesquisa = document.querySelector("#botao-pesquisa-abrir");
 const menuPesquisa = document.querySelector("#procura-artigo");
