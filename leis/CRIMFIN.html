@@ -11,23 +11,24 @@
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>Crimes Financeiros</title>
+	<script>
+		const links = [
+			{url: "CF.html", nome: "Constituição"},
+			{url: "CPP.html", nome: "Código de Processo Penal"},
+			{url: "CPM.html", nome: "Código Penal Militar"},
+			{url: "CPPM.html", nome: "Código de Processo Penal Militar"},
+			{url: "DROGAS.html", nome: "Lei de Drogas"},
+			{url: "CRIMHED.html", nome: "Lei dos Crimes Hediondos"},
+			{url: "CRIMTRIB.html", nome: "Lei dos Crimes Tributários"},
+			{url: "ECA.html", nome: "Estatuto da Criança e do Adolescente"},
+		]
+	</script>
 </head>
 
 <body>
 
-	<nav id="menu">
-		<span id="botao-menu-fechar" class="material-symbols-outlined menu-fechar">close</span>	
-		<h2><a href="../index.html">Vade Mecum</a></h2>		<ul>
-			<li><a target="_blank" href="CF.html">Constituição</a></li>
-			<li><a target="_blank" href="CPP.html">Código de Processo Penal</a></li>
-			<li><a target="_blank" href="CPM.html">Código Penal Militar</a></li>
-			<li><a target="_blank" href="CPPM.html">Código de Processo Penal Militar</a></li>
-			<li><a target="_blank" href="DROGAS.html">Lei de Drogas</a></li>
-			<li><a target="_blank" href="CRIMHED.html">Lei dos Crimes Hediondos</a></li>
-			<li><a target="_blank" href="CRIMTRIB.html">Lei dos Crimes Tributários</a></li>
-			<li><a target="tab" href="ECA.html">Estatuto da Criança e do Adolescente</a></li>
-		</ul>
-	</nav>
+	<div id="menu-container"></div>
+	<div id="pesquisa-artigo"></div>
 
 	<main id="corpo">
 		<p id=titulo>Lei dos Crimes contra o Sistema Financeiro</p>
