@@ -25,3 +25,13 @@ Tela principal no celular
 - Melhor legibilidade;
 - Adaptado para telas *ultrawide*
 - Facilidade de uso.
+
+## Tecnologias Usadas
+
+- HTML 5
+- CSS 3
+- JavaScript
+
+## Licensa
+
+Este projeto está publicado com a licensa GNU, para mais detalhes, consulte a [arquivo da Licensa](./LICENSE).
