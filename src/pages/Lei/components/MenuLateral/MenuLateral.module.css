@@ -1,0 +1,46 @@
+.menuLateral {
+	position: fixed;
+	top: 0px;
+	left: -500px;
+	bottom: 0px;
+	width: var(--menu-width);
+	z-index: 10;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 40px;
+	background-color: var(--fundo1);
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+	transition: all 0.5s ease-in-out;
+
+	h2 {
+		text-align: left;
+		margin-bottom: 1.5rem;
+		font-size: 2.2rem;
+		font-weight: 500;
+		color: var(--azul1);
+	}
+}
+
+.menuLateral.aberto {
+	left: 0;
+}
+
+.btFechar {
+	font-size: 2rem;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	color: var(--cinza);
+}
+
+.linksContainer {
+	padding-right: 5px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	
+	li {
+		padding: 1rem 0;
+		font-size: 1rem;
+	}
+}

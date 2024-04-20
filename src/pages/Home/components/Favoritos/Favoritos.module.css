@@ -1,0 +1,54 @@
+.favoritos h2 {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: var(--azul1);
+	margin-bottom: 1em;
+}
+
+.favoritos__wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 1vw;
+	grid-row-gap: 1vw;
+}
+
+.favoritos__item,
+.favoritos__vazio {
+	height: 85px; 
+	border-radius: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2vh;
+	text-align: center;
+	font-size: 11pt;
+}
+
+.favoritos__vazio {
+	border: 1px dashed var(--cinza)
+}
+
+.favoritos__item {
+	background-color: var(--fundo2);
+	transition: .6s ease-in-out;
+	position: relative;
+
+	.btRemove {
+		position: absolute;
+		--distance: 10px;
+		top: var(--distance);
+		right: var(--distance);
+		font-size: 1.1rem;
+		opacity: 0;
+	}
+	
+	&:hover {
+		box-shadow: 1px 1px 15px var(--shadow);
+		transform: translate3d(-5px, -5px, 0);
+
+		.btRemove {
+			opacity: 1;
+		}
+	}
+}
