@@ -48,7 +48,17 @@
 		transform: translate3d(-5px, -5px, 0);
 
 		.btRemove {
+			opacity: .5;
+		}
+
+		.btRemove:active {
 			opacity: 1;
 		}
+	}
+}
+
+@media only screen and (width <= 700px) {
+	.favoritos__wrapper {
+		grid-template-columns: 1fr;
 	}
 }

@@ -8,3 +8,9 @@
 	gap: 10px;
 	font-size: 0.9rem;
 }
+
+@media only screen and (width <= 1200px) {
+	.rodape {
+		display: none;
+	}
+}

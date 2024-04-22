@@ -3,7 +3,7 @@ import { ILei } from '../../../../types/types.ts'
 import { useContext } from 'react'
 import { LeisContext } from '../../../../contexts/LeisContext.tsx'
 import { Link } from 'react-router-dom'
-import { BookmarkRemove } from '@mui/icons-material'
+import { BookmarkRemoveOutlined } from '@mui/icons-material'
 
 export default function Favoritos() {
 	const { favoritos, setFavoritos } = useContext(LeisContext)
@@ -39,7 +39,7 @@ export default function Favoritos() {
 							className={styles.btRemove}
 							onClick={() => removeFavorito(lei)}
 						>
-							<BookmarkRemove />
+							<BookmarkRemoveOutlined />
 						</button>
 					</div>
 				))}

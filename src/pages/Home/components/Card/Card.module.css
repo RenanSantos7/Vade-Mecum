@@ -4,7 +4,7 @@
 	background-color: var(--fundo2);
 	box-shadow: 0 0 5px var(--shadow);
 	transition: 0.6s ease-in-out;
-	width: calc((var(--home-width) / 3) - 10px);
+	width: calc((var(--home-width) / 3) - var(--gap));
 	backdrop-filter: blur(4px);
 }
 
@@ -25,4 +25,10 @@
 
 .card ul {
 	list-style: none;
+}
+
+@media only screen and (width <= 700px) {
+	.card {
+		width: 100%;
+	}
 }
