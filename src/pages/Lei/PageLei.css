@@ -1,0 +1,278 @@
+.corpo {
+	background-color: var(--fundo2);
+	margin: 50px auto;
+	padding: 80px 10vw;
+	width: 95vw;
+	border: var(--cinza);
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+
+	/* prettier-ignore */
+	p, li {
+		text-align: justify;
+		font-size: 1.2rem;
+		line-height: 1.5;
+		color: var(--texto);
+		margin-bottom: 1rem;
+	}
+
+	a:hover {
+		border-bottom: 1px dotted;
+	}
+
+	p {
+		text-indent: var(--indent);
+	}
+
+	ul {
+		padding-left: 1.5rem;
+	}
+
+	/* prettier-ignore */
+	td, label, input {
+		color: var(--texto);
+	}
+
+	/* prettier-ignore */
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	h1 {
+		font-size: 2.2rem;
+		font-weight: 600;
+		color: var(--laranja);
+		margin-block: 1em;
+	}
+
+	h2 {
+		font-size: 2rem;
+		font-weight: 600;
+		color: var(--azul1);
+	}
+
+	h3 {
+		font-size: 1.8rem;
+		font-weight: normal;
+		color: var(--laranja);
+	}
+
+	h4 {
+		font-size: 1.6rem;
+		font-weight: normal;
+		color: var(--azul1);
+	}
+
+	h5 {
+		font-size: 1.5rem;
+		font-weight: normal;
+		color: var(--laranja);
+	}
+
+	h6 {
+		font-size: 1.4rem;
+		font-weight: normal;
+		color: var(--azul1);
+	}
+
+	ul {
+		margin-left: 40px;
+		line-height: 150%;
+	}
+
+	mark {
+		background: none;
+		color: inherit;
+	}
+
+	blockquote {
+		font-style: italic;
+		margin-block: 1rem;
+		margin-inline: 5rem 0;
+		padding: 10px;
+		padding-left: 15px;
+		border-left: 3px solid var(--azul1);
+		background-color: var(--azul2);
+
+		p {
+			text-indent: 0;
+			line-height: 110%;
+			font-size: 1rem;
+			margin-bottom: 0.3rem;
+			margin-top: 0;
+			color: var(--cinza);
+		}
+	}
+
+	.titulo {
+		text-align: center;
+		font-size: 4.2rem;
+		font-weight: 400;
+		text-indent: 0;
+		line-height: 120%;
+		margin-bottom: 3rem;
+		color: var(--azul1);
+
+		&::before {
+			content: url('@/assets/img/brastra.png');
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	.titulo.piaui::before {
+		content: url('@/assets/img/piaui.png');
+	}
+
+	/* prettier-ignore */
+	#subtit, .subtit {
+		text-align: center;
+		font-weight: 600;
+		text-indent: 0;
+		text-transform: uppercase;
+		color: var(--laranja);
+	}
+
+	/* prettier-ignore */
+	#ementa, .ementa {
+		font-style: italic;
+		margin-left: 60%;
+		margin-block: 1em;
+		text-indent: 0;
+		line-height: 125%;
+		-webkit-hyphens: auto;
+		hyphens: auto;
+	}
+
+	.alinea {
+		padding-left: calc(2.5 * var(--indent));
+		text-indent: 0;
+	}
+
+	.item {
+		padding-left: calc(4 * var(--indent));
+		text-indent: -2ch;
+	}
+
+	.artigo {
+		font-size: 1.6em;
+		font-weight: bold;
+		color: var(--azul1);
+	}
+
+	.paragrafo {
+		font-weight: bold;
+		color: var(--laranja);
+	}
+
+	.dica {
+		margin-left: var(--indent);
+		margin-block: 1rem;
+		line-height: 1;
+
+		li {
+			font-size: 1rem;
+			color: var(--cinza);
+			margin-bottom: 5px;
+		}
+	}
+
+	.adct {
+		margin-top: 5em;
+	}
+
+	.copy {
+		display: none;
+	}
+
+	.links {
+		margin-block: 2rem;
+		padding: 1rem;
+		background-color: var(--cinza1);
+		border-radius: 1rem;
+		width: min(75%, 500px);
+
+		ul {
+			margin-left: 1rem;
+		}
+
+		li {
+			text-align: left;
+			margin-bottom: 0;
+			margin-top: 0.25rem;
+		}
+
+		&:before {
+			content: 'Links';
+			position: relative;
+			font-variant: small-caps;
+			color: var(--azul1);
+			font-size: 1.5rem;
+			padding-left: 1rem;
+			font-weight: 600;
+		}
+	}
+
+	.subtit {
+		text-align: center;
+		font-weight: 600;
+		text-indent: 0;
+		text-transform: uppercase;
+		color: var(--laranja);
+	}
+
+	.titulo2 {
+		text-align: center;
+		text-indent: 0;
+		line-height: 120%;
+		margin-block: 3rem;
+		color: var(--azul1);
+		font-weight: 400;
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
+
+	.cont-sum h2 {
+		text-align: left;
+		margin-bottom: 0.3em;
+	}
+
+	.cont-sum ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.cont-sum li {
+		list-style: none;
+		margin-left: 0;
+	}
+
+	.sumario ul,
+	li {
+		margin-left: 0;
+	}
+
+	.assinaturas {
+		text-align: center;
+		text-indent: 0pt;
+		margin-top: 5rem;
+	}
+}
+
+@media only screen and (width > 900px) {
+	.corpo {
+		margin: 50px auto 150px;
+		width: min(1200px, 85vw);
+		padding: 80px 120px 100px;
+
+		&:after {
+			content: '@ Renan Santos. 2020.';
+			position: fixed;
+			right: -4vw;
+			bottom: 12vh;
+			color: var(--cinza);
+			transform: rotate(-90deg);
+		}
+	}
+}

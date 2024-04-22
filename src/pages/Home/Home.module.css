@@ -1,0 +1,38 @@
+.home {
+	width: var(--home-width);
+	margin-inline: auto;
+	/* border: 1px solid goldenrod; */
+}
+
+.cabecalho {
+	padding: 50px 0;
+}
+
+.cabecalho h1 {
+	font-weight: 400;
+	font-size: 3em;
+	color: var(--azul1);
+	text-align: center;
+}
+
+.corpo {
+	display: flex;
+	flex-flow: column wrap;
+	height: 100rem;
+	width: var(--home-width);
+	column-gap: var(--gap);
+	row-gap: var(--gap);
+	margin-bottom: 50px;
+}
+
+@media only screen and (width <= 1200px) {
+	.corpo {
+		height: 115rem;
+	}
+}
+
+@media only screen and (width <= 700px) {
+	.corpo {
+		height: unset;
+	}
+}

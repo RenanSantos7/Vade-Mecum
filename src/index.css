@@ -1,0 +1,71 @@
+@import url('https://renan-santos.netlify.app/styles/reset.css');
+
+:root{
+	/* cores */
+	--fundo1: #f2f2f2;
+	--fundo2: white;
+	--fundo3: #f6f6f6;
+	--fundo3t: #f6f6f6cc;
+	--input: #ffffff35;
+	--azul1: #0063B1;
+	--azul2: #EDF7FF;
+	--laranja: #F7630C;
+	--cinza: #777;
+	--cinza1: #eee;
+	--cinza2: #aaa;
+	--texto: inherit;
+	--shadow: rgba(0, 0, 0, 0.15);
+
+	/* medidas */
+	--indent: 1.2rem;
+	--gap: 10px;
+	--botao-left: 25px;
+	--menu-width: min(100vw, 490px);
+	--home-width: min(90vw, 1000px);
+
+	/* fontes */
+	--fonte: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	:root{
+		--fundo1: #252525;
+		--fundo2: #474749;
+		--fundo3: #38383d;
+		--fundo3t: #38383dcc;
+		--input: #10101035;
+		--azul1: #2F99EC;
+		--azul2: #2F353A;
+		--laranja: #FF9759;
+		--cinza: #aaa;
+		--cinza1: #575757;
+		--cinza2: #424242;
+		--texto: #e6e6e6;
+		--shadow: rgba(47, 47, 47, 0.65);
+	}
+}
+
+body {
+    font-family: var(--fonte);
+    background: var(--fundo1);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--texto);
+}
+
+del {
+	font-style: italic;
+	display: none;
+    color: var(--cinza);
+}
+
+button {
+	background: transparent;
+}
+
+@media only screen and (width > 900px) {
+	:root {
+		--botao-left: min(4vw, 120px);
+	}
+}

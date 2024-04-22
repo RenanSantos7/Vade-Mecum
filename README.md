@@ -28,9 +28,8 @@ Tela principal no celular
 
 ## Tecnologias Usadas
 
-- HTML 5
-- CSS 3
-- JavaScript
+- React
+- TypeScript
 
 ## Licensa
 

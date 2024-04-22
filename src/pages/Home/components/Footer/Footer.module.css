@@ -1,0 +1,16 @@
+.rodape {
+	position: fixed;
+	bottom: 50px;
+	left: min(calc(85vw + 15px), calc(50vw + 625px));
+	color: var(--cinza);
+	display: flex;
+	flex-flow: column-reverse nowrap;
+	gap: 10px;
+	font-size: 0.9rem;
+}
+
+@media only screen and (width <= 1200px) {
+	.rodape {
+		display: none;
+	}
+}

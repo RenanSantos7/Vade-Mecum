@@ -1,0 +1,104 @@
+.pesquisaArtigo {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+    padding: 40px;
+	background-color: var(--fundo1);
+	position: fixed;
+	top: 0;
+	left: -500px;
+    bottom: 0;
+	z-index: 1;
+	width: var(--menu-width);
+	box-shadow: 0px 0px 50px rgba(0,0,0,0.2);
+	overflow-y: auto;
+	overflow-x: hidden;
+    font-family: var(--fonte);
+	transition: all 0.6s ease;
+	
+	h2 {
+		text-align: left;
+		margin-bottom: 1.5rem;
+		font-size: 2.2rem;
+		font-weight: 500;
+		color: var(--azul1);
+	}
+}
+
+.pesquisaArtigo.aberto {
+	left: 0;
+}
+
+.btFechar {
+	font-size: 2rem;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	color: var(--cinza);
+}
+
+.labelPesquisa {
+    position: relative;
+    color: var(--azul1);
+    font-size: .8rem;
+    font-weight: bold;
+    top: -10px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+
+.labelPesquisa.placeholder {
+    color: var(--texto);
+    font-weight: normal;
+    font-size: 1rem;
+    top: 1.5rem;
+    left: .5rem;
+}
+
+.inputArtigo {
+	padding: .5rem;
+	width: 100%;
+	margin-bottom: 3px;
+	font-family: var(--fonte);
+	font-size: 1rem;
+	background: var(--input);
+	border-bottom: 1px solid var(--cinza2);
+	position: relative;
+    transition: all .3s ease-in-out .3s;
+}
+
+.inputArtigo:focus {
+	background: var(--fundo2);
+	border-bottom: 3px solid var(--laranja);
+	margin-bottom: 0;
+    outline: none;
+}
+
+.btPesquisar {
+	background-color: var(--azul1);
+	width: 15ch;
+	border-radius: .25rem;
+	padding: 1rem;
+	margin-top: 1rem;
+	color: white;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.25);
+}
+
+.btPesquisar:disabled {
+	filter: opacity(0.5);
+}
+
+#resultados-pesquisa {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.resultado-pesquisa {
+	padding: .5rem .8rem;
+	border-radius: 18px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--azul1);
+	background-color: var(--azul2);
+	box-shadow: 1px 1px 5px var(--shadow);
+}
