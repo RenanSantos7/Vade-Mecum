@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom'
 import { ILei } from '../../types/types.ts'
 import BotaoLateral from './components/BotaoLateral/BotaoLateral.tsx'
 import classNames from 'classnames'
+import BotoesLaterais from './components/BotoesLaterais/BotoesLaterais.tsx'
 
 export default function PageLei() {
 	const params = useParams()
@@ -20,10 +21,12 @@ export default function PageLei() {
 
 	return (
 		<>
-			<BotaoLateral tipo='menu' onClick={() => setMenuAberto(true)} />
+			<BotoesLaterais>
+				<BotaoLateral tipo='menu' onClick={() => setMenuAberto(true)} />
+				<BotaoLateral tipo='pesquisa' onClick={() => setPesquisaAberta(true)} />
+			</BotoesLaterais>
+			
 			<MenuLateral links={leiSelecionada.linksRelacionados} />
-
-			<BotaoLateral tipo='pesquisa' onClick={() => setPesquisaAberta(true)} />
 			<Pesquisa />
 
 			<main className='corpo'>

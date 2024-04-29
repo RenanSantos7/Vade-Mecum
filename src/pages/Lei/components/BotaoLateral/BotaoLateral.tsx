@@ -8,11 +8,9 @@ interface BotaoLateralProps {
 
 export default function BotaoLateral({ onClick, tipo }: BotaoLateralProps) {
 	
-	let classe = styles.btMenu
 	let icone = <Menu fontSize='inherit' />
 
 	if (tipo === 'pesquisa') {
-		classe = styles.btPesquisa
 		icone = <Search fontSize='inherit' />
 	}
 
@@ -20,7 +18,7 @@ export default function BotaoLateral({ onClick, tipo }: BotaoLateralProps) {
 		<button
 			type='button'
 			title={tipo}
-			className={classe}
+			className={styles.btLateral}
 			onClick={onClick}
 		>
 			{icone}

@@ -64,8 +64,16 @@ button {
 	background: transparent;
 }
 
-@media only screen and (width > 900px) {
+/* pc */
+@media only screen and (width >= 1200px) {
 	:root {
 		--botao-left: min(4vw, 120px);
+	}
+}
+
+/* tablet */
+@media (width >= 700px) {
+	:root {
+		--botao-left: 1vw;
 	}
 }

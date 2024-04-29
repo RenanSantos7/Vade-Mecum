@@ -1,11 +1,12 @@
+/* ! mobile first */
+
 .corpo {
 	background-color: var(--fundo2);
-	margin: 50px auto;
-	padding: 80px 10vw;
-	width: 95vw;
+	margin: 0;
+	padding: 115px 8vw 80px;
+	width: 100vw;
 	border: var(--cinza);
 	border-radius: 8px;
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 
 	/* prettier-ignore */
 	p, li {
@@ -40,7 +41,6 @@
 	}
 
 	h1 {
-		font-size: 2.2rem;
 		font-weight: 600;
 		color: var(--laranja);
 		margin-block: 1em;
@@ -107,7 +107,7 @@
 
 	.titulo {
 		text-align: center;
-		font-size: 4.2rem;
+		font-size: 3rem;
 		font-weight: 400;
 		text-indent: 0;
 		line-height: 120%;
@@ -115,14 +115,14 @@
 		color: var(--azul1);
 
 		&::before {
-			content: url('@/assets/img/brastra.png');
+			content: url('@/assets/img/brastra-menor.png');
 			display: block;
 			margin: 0 auto;
 		}
 	}
 
 	.titulo.piaui::before {
-		content: url('@/assets/img/piaui.png');
+		content: url('@/assets/img/piaui-menor.png');
 	}
 
 	/* prettier-ignore */
@@ -260,11 +260,12 @@
 	}
 }
 
-@media only screen and (width > 900px) {
+@media (width >= 700px) {
 	.corpo {
 		margin: 50px auto 150px;
 		width: min(1200px, 85vw);
 		padding: 80px 120px 100px;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 
 		&:after {
 			content: '@ Renan Santos. 2020.';
@@ -273,6 +274,18 @@
 			bottom: 12vh;
 			color: var(--cinza);
 			transform: rotate(-90deg);
+		}
+	
+		.titulo {
+			font-size: 4.2rem;
+	
+			&::before {
+				content: url('@/assets/img/brastra.png');
+			}
+		}
+
+		.titulo.piaui::before {
+			content: url('@/assets/img/piaui.png');
 		}
 	}
 }

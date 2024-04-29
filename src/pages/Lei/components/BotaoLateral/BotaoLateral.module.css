@@ -1,15 +1,8 @@
-.btMenu,
-.btPesquisa {
-	position: fixed;
-	left: var(--botao-left);
-	font-size: 3rem;
+.btLateral {
+	font-size: 2.5rem;
 	color: var(--cinza);
 }
 
-.btMenu {
-	top: 50px;
-}
-
-.btPesquisa {
-	top: 120px;
+@media (width >= 700px) {
+	.btLateral {font-size: 3rem;}
 }

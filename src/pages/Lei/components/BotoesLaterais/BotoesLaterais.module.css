@@ -1,0 +1,30 @@
+/* ! mobile first */
+
+.botoes {
+    position: fixed;
+    top: 0;
+    padding: .5rem var(--botao-left);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: .6s ease-in-out;
+}
+
+.animado {
+    box-shadow: 0 4px 2px var(--shadow);
+    background-color: var(--fundo3);
+}
+
+@media (width >= 700px) {
+    .botoes {
+        left: var(--botao-left);
+        gap: 1rem;
+        flex-direction: column;
+        
+        /* reset */
+        top: unset;
+        background-color: transparent;
+        width: unset;
+        box-shadow: none;
+    }
+}
