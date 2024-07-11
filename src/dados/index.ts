@@ -48,6 +48,7 @@ import lacinfo from './leis/lacinfo.ts'
 import lanticor from './leis/lanticor.ts'
 import lapop from './leis/lapop.ts'
 import lc123 from './leis/lc123.ts'
+import lc150 from './leis/lc150.ts'
 import lc64 from './leis/lc64.ts'
 import lda from './leis/lda.ts'
 import ldas from './leis/ldas.ts'
@@ -129,6 +130,7 @@ const listaLeis = [
     lapop,
     lc64,
     lc123,
+    lc150,
     lda,
     ldas,
     lelc,
