@@ -5,9 +5,9 @@ const ce:ILei = {
 	titulo: 'Código Eleitoral',
 	alias: 'Código Eleitoral',
 	linksRelacionados: [
-		{ id: 'CF', nome: 'Constituição' },
-		{ id: 'CPC', nome: 'Código de Processo Civil' },
-		{ id: 'CP', nome: 'Código Penal' },
+		{ id: 'cf', nome: 'Constituição' },
+		{ id: 'cpc', nome: 'Código de Processo Civil' },
+		{ id: 'cp', nome: 'Código Penal' },
 		{ id: 'LOPartPol', nome: 'Lei Orgânica dos Partidos Políticos' },
 		{ id: 'LELÇ', nome: 'Lei das Eleições' },
 	],

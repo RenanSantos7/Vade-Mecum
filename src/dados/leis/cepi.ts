@@ -5,7 +5,7 @@ const cepi:ILei = {
 	titulo: 'Constituição do Estado do Piauí de 1989',
 	alias: 'Constituição do Estado do Piauí',
 	linksRelacionados: [
-		{ id: 'CF', nome: 'Constituição Federal' },
+		{ id: 'cf', nome: 'Constituição Federal' },
 		{ id: 'EstSPPI', nome: 'Estatuto dos Servidores Públicos Civis do Piauí' },
 		{ id: 'LAPop', nome: 'Lei da Ação Popular' },
 		{ id: 'LAcsInf', nome: 'Lei de Acesso à Informação' },

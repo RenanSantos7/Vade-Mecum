@@ -1,7 +1,7 @@
 import { ILei } from "../../types/index.tsx"
 
 const cpi:ILei = {
-	id: 'CPI',
+	id: 'cpi',
 	titulo: 'Lei das CPIs',
 	alias: 'Lei das CPIs',
   linksRelacionados: [

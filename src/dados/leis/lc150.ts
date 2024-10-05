@@ -5,9 +5,9 @@ const lc150:ILei = {
     titulo: 'Lei do Trabalho Doméstico',
     alias: 'Lei do Trabalho Doméstico',
     linksRelacionados: [
-        {id: 'CF', nome: 'Constituição Federal'},
-        {id: 'CLT', nome: 'Consolidação das Leis do Trabalho'},
-        {id: 'CPC', nome: 'Código de Processo Civil'},
+        {id: 'cf', nome: 'Constituição Federal'},
+        {id: 'clt', nome: 'Consolidação das Leis do Trabalho'},
+        {id: 'cpc', nome: 'Código de Processo Civil'},
     ],
     jurisdicao: 'nacional',
     area: 'trabalho',

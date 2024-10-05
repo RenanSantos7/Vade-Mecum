@@ -1,12 +1,12 @@
 import { ILei } from "../../types/index.tsx"
 
 const adin:ILei = {
-	id: 'ADIN',
+	id: 'adin',
 	titulo: 'Lei da Ação Direta de Inconstitucionalidade',
 	alias: 'Lei da ADIN',
 	linksRelacionados: [
-		{ nome: 'Constituição Federal', id: 'CF' },
-		{ nome: 'Código de Processo Civil', id: 'CPC' },
+		{ nome: 'Constituição Federal', id: 'cf' },
+		{ nome: 'Código de Processo Civil', id: 'cpc' },
 	],
 	jurisdicao: 'nacional',
     area: 'constitucional',

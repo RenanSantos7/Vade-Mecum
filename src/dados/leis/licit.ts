@@ -6,7 +6,6 @@ const licit:ILei = {
     alias: "Lei das Licitações e Contratos Administrativos",
     linksRelacionados: [
         {id: "cf", nome: "Constituição Federal"},
-		{id: "cpc73", nome: "Código de Processo Civil/73"},
 		{id: "cpc", nome: "Novo Código de Processo Civil"},
 		{id: "lanticor", nome: "Lei Anti-corrupção"},
 		{id: "lprocadm", nome: "Lei do Processo Administrativo Federal"},

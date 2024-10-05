@@ -1,13 +1,13 @@
 import { ILei } from "../../types/index.tsx"
 
 const lrp:ILei = {
-	id: 'LRP',
+	id: 'lrp',
 	titulo: 'Lei dos Registros Públicos',
 	alias: 'Lei dos Registros Públicos',
 	linksRelacionados: [
-		{ id: 'CF', nome: 'Constituição' },
-		{ id: 'CC', nome: 'Código Civil' },
-		{ id: 'CPC', nome: 'Código de Processo Civil' },
+		{ id: 'cf', nome: 'Constituição' },
+		{ id: 'cc', nome: 'Código Civil' },
+		{ id: 'cpc', nome: 'Código de Processo Civil' },
 	],
 	jurisdicao: 'nacional',
 	area: 'civil',

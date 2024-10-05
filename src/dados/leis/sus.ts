@@ -1,7 +1,7 @@
 import { ILei } from "../../types/index.tsx"
 
 const sus:ILei = {
-	id: 'SUS',
+	id: 'sus',
 	titulo: 'Lei do Sistema Único de Saúde',
 	alias: 'Lei do Sistema Único de Saúde',
 	linksRelacionados: [],

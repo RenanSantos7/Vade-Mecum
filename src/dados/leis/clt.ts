@@ -5,9 +5,9 @@ const clt:ILei = {
 	titulo: 'Consolidação das Leis do Trabalho',
 	alias: 'Cons. das Leis do Trabalho',
 	linksRelacionados: [
-		{ id: 'CF', nome: 'Constituição Federal' },
-		{ id: 'CPC', nome: 'Código de Processo Civil' },
-		{ id: 'FGTS', nome: 'Lei do FGTS' },
+		{ id: 'cf', nome: 'Constituição Federal' },
+		{ id: 'cpc', nome: 'Código de Processo Civil' },
+		{ id: 'fgts', nome: 'Lei do FGTS' },
 		{ id: 'L9610', nome: 'Lei do Trabalho Temporário' },
 		//{ link: 'http://www.tst.jus.br/sumulas', nome: 'Súmulas do TST' },
 	],

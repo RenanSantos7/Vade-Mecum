@@ -1,7 +1,7 @@
 import { ILei } from '../../types/index.tsx'
 
 const dpvat: ILei = {
-	id: 'DPVAT',
+	id: 'dpvat',
 	titulo: 'Lei do Seguro DPVAT',
 	alias: 'Lei do Seguro DPVAT',
 	linksRelacionados: [

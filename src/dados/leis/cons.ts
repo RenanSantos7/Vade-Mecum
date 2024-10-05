@@ -9,7 +9,7 @@ const cons:ILei = {
 		{ nome: 'Lei das Licitações e Contratos Púbicos', id: 'licit' },
 		{ nome: 'Lei de Improbidade Administrativa', id: 'lia' },
 		{ id: 'lanticor', nome: 'Lei Anti-corrupção' },
-		{ id: 'EMPPUB', nome: 'Estatuto das Empresas Públicas e Sociedades de Economia Mista' },
+		{ id: 'emppub', nome: 'Estatuto das Empresas Públicas e Sociedades de Economia Mista' },
 		//{ link: 'http://www.agu.gov.br/sumulas', nome: 'Súmulas AGU' },
 	],
 	jurisdicao: 'nacional',

@@ -5,9 +5,9 @@ const eca:ILei = {
 	titulo: 'Estatuto da Criança e do Adolescente',
 	alias: 'Estat da Crianç e do Adolescente',
 	linksRelacionados: [
-		{ id: 'CF', nome: 'Constituição' },
-		{ id: 'CC', nome: 'Código Civil' },
-		{ id: 'CPC', nome: 'Código de Processo Civil' },
+		{ id: 'cf', nome: 'Constituição' },
+		{ id: 'cc', nome: 'Código Civil' },
+		{ id: 'cpc', nome: 'Código de Processo Civil' },
 	],
 	jurisdicao: 'nacional',
 	area: 'civil',

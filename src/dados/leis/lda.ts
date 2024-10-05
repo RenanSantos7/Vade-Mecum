@@ -5,9 +5,9 @@ const lda:ILei = {
     titulo: "Lei dos Direitos Autorais",
     alias: "Lei dos Direitos Autorais",
     linksRelacionados: [
-        { id: 'CF', nome: 'Constituição' },
-		{ id: 'CC', nome: 'Código Civil' },
-		{ id: 'CPC', nome: 'Código de Processo Civil' },
+        { id: 'cf', nome: 'Constituição' },
+		{ id: 'cc', nome: 'Código Civil' },
+		{ id: 'cpc', nome: 'Código de Processo Civil' },
     ],
     jurisdicao: "nacional",
     area: "civil",
