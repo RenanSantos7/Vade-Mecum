@@ -3,7 +3,7 @@ import { useContext, useState } from 'react';
 import classNames from 'classnames';
 
 import { LeisContext } from '../../../../contexts/LeisContext.tsx';
-import styles from './Pesquisa.module.css';
+import styles from './styles.module.css';
 
 export default function Pesquisa() {
 	const { pesquisaAberta, setPesquisaAberta } = useContext(LeisContext);

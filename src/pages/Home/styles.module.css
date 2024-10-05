@@ -18,7 +18,7 @@
 .corpo {
 	display: flex;
 	flex-flow: column wrap;
-	height: 100rem;
+	height: 110rem;
 	width: var(--home-width);
 	column-gap: var(--gap);
 	row-gap: var(--gap);

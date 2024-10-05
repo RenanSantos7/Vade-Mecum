@@ -1,6 +1,6 @@
 import { Menu, Search } from '@mui/icons-material'
 
-import styles from './BotaoLateral.module.css'
+import styles from './styles.module.css'
 
 interface BotaoLateralProps {
 	onClick: (arg: any) => void

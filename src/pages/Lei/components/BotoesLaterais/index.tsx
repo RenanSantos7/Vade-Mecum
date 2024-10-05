@@ -1,6 +1,7 @@
 import { ReactNode, useEffect, useState } from 'react';
-import styles from './styles.module.css';
 import classNames from 'classnames';
+
+import styles from './styles.module.css';
 
 interface BotoesLateraisProps {
 	children: ReactNode;
