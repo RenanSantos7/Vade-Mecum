@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import classNames from 'classnames';
 
 import { ILinkRelacionado } from '../../../../types/index.tsx';
-import { LeisContext } from '../../../../contexts/LeisContext.tsx';
+import { useLeisContext } from '../../../../contexts/LeisContext.tsx';
 import LinkLei from '../../../../components/LinkLei.tsx';
 import styles from './styles.module.css';
 
@@ -13,7 +13,7 @@ interface MenuLateralProps {
 }
 
 export default function MenuLateral(props: MenuLateralProps) {
-	const { menuAberto, setMenuAberto } = useContext(LeisContext);
+	const { menuAberto, setMenuAberto } = useLeisContext();
 
 	return (
 		<nav

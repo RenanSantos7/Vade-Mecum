@@ -1,5 +1,7 @@
-import { ElementType, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
+
+import { useLeisContext } from '../contexts/LeisContext.tsx';
 
 interface LinkLeiProps {
 	destino: string;
@@ -8,10 +10,15 @@ interface LinkLeiProps {
 }
 
 export default function LinkLei(props: LinkLeiProps) {
+	const { menuAberto, setMenuAberto } = useLeisContext();
+
 	return (
 		<Link
-			to={`leis/${props.destino}`}
+			to={`/leis/${props.destino}`}
 			className={props.className ? props.className : ''}
+			onClick={() => {
+				if (menuAberto) setMenuAberto(false);
+			}}
 		>
 			{props.children}
 		</Link>

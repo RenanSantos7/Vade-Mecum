@@ -2,11 +2,11 @@ import { Close as CloseIcon } from '@mui/icons-material';
 import { useContext, useState } from 'react';
 import classNames from 'classnames';
 
-import { LeisContext } from '../../../../contexts/LeisContext.tsx';
+import { useLeisContext } from '../../../../contexts/LeisContext.tsx';
 import styles from './styles.module.css';
 
 export default function Pesquisa() {
-	const { pesquisaAberta, setPesquisaAberta } = useContext(LeisContext);
+	const { pesquisaAberta, setPesquisaAberta } = useLeisContext();
 	const [inputFoco, setInputFoco] = useState(false);
 	const [artQuery, setArtQuery] = useState('');
 	const [resultados, setResultados] = useState([]);

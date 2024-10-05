@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import classNames from 'classnames';
 
 import { ILei } from '../../types/index.tsx';
-import { LeisContext } from '../../contexts/LeisContext.tsx';
+import { useLeisContext } from '../../contexts/LeisContext.tsx';
 import BotaoLateral from './components/BotaoLateral/index.tsx';
 import BotoesLaterais from './components/BotoesLaterais/index.tsx';
 import MenuLateral from './components/MenuLateral/index.tsx';
@@ -13,7 +13,7 @@ import './styles.css';
 export default function PageLei() {
 	const params = useParams();
 
-	const { leis, setMenuAberto, setPesquisaAberta } = useContext(LeisContext);
+	const { leis, setMenuAberto, setPesquisaAberta } = useLeisContext();
 	const leiSelecionada = leis.find((lei: ILei) => lei.id == params.leiID);
 
 	useEffect(() => {

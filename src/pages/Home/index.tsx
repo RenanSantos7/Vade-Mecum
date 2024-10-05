@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 
 import { ILei } from '../../types/index.tsx';
-import { LeisContext } from '../../contexts/LeisContext.tsx';
+import { useLeisContext } from '../../contexts/LeisContext.tsx';
 import Card from './components/Card/index.tsx';
 import Favoritos from './components/Favoritos/index.tsx';
 import Pesquisa from './components/Pesquisa/index.tsx';
@@ -9,7 +9,7 @@ import Rodape from './components/Rodape/index.tsx';
 import styles from './styles.module.css';
 
 export default function Home() {
-	const { leis } = useContext(LeisContext);
+	const { leis } = useLeisContext();
 	const [termoPesquisa, setTermoPesquisa] = useState('');
 
 	const ramos = [

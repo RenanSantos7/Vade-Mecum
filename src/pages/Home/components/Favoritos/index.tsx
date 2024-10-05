@@ -2,12 +2,12 @@ import { BookmarkRemoveOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 
-import { LeisContext } from '../../../../contexts/LeisContext.tsx';
+import { useLeisContext } from '../../../../contexts/LeisContext.tsx';
 import { ILei } from '../../../../types/index.tsx';
 import styles from './styles.module.css';
 
 export default function Favoritos() {
-	const { favoritos, setFavoritos } = useContext(LeisContext);
+	const { favoritos, setFavoritos } = useLeisContext();
 
 	if (favoritos.length === 0) {
 		return (

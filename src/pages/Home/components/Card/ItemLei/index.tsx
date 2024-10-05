@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 import { ILei } from '../../../../../types/index.tsx';
-import { LeisContext } from '../../../../../contexts/LeisContext.tsx';
+import { useLeisContext } from '../../../../../contexts/LeisContext.tsx';
 import IndicadorFavorito from '../../IndicadorFavorito/index.tsx';
 import styles from './styles.module.css';
 import LinkLei from '../../../../../components/LinkLei.tsx';
@@ -11,7 +11,7 @@ interface ItemLeiProps {
 }
 
 export default function ItemLei({ lei }: ItemLeiProps) {
-	const { favoritos, setFavoritos } = useContext(LeisContext);
+	const { favoritos, setFavoritos } = useLeisContext();
 
 	function aoClicarFavorito() {
 		if (favoritos.includes(lei)) {
