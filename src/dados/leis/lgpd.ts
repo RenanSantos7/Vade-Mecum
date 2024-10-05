@@ -1,4 +1,4 @@
-import { ILei } from '../../types/types.ts'
+import { ILei } from '../../types/index.tsx'
 
 const lgpd:ILei = {
     id: 'lgpd',

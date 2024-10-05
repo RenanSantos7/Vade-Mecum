@@ -1,15 +1,16 @@
-import styles from './Home.module.css'
-import Favoritos from './components/Favoritos/Favoritos.tsx'
-import Footer from './components/Footer/Footer.tsx'
-import Card from './components/Card/Card.tsx'
-import Pesquisa from './components/Pesquisa/Pesquisa.tsx'
-import { LeisContext } from '../../contexts/LeisContext.tsx'
-import { useContext, useEffect, useState } from 'react'
-import { ILei } from '../../types/types.ts'
+import { useContext, useEffect, useState } from 'react';
+
+import { ILei } from '../../types/index.tsx';
+import { LeisContext } from '../../contexts/LeisContext.tsx';
+import Card from './components/Card/index.tsx';
+import Favoritos from './components/Favoritos/index.tsx';
+import Pesquisa from './components/Pesquisa/index.tsx';
+import Rodape from './components/Rodape/index.tsx';
+import styles from './styles.module.css';
 
 export default function Home() {
-	const { leis } = useContext(LeisContext)
-	const [termoPesquisa, setTermoPesquisa] = useState('')
+	const { leis } = useContext(LeisContext);
+	const [termoPesquisa, setTermoPesquisa] = useState('');
 
 	const ramos = [
 		{ id: 'constitucional', titulo: 'Direito Constitucional' },
@@ -27,7 +28,7 @@ export default function Home() {
 		{ id: 'tributario', titulo: 'Direito Tributário' },
 		{ id: 'digital', titulo: 'Direito Digital' },
 		{ id: 'militar', titulo: 'Direito Militar' },
-	]
+	];
 
 	return (
 		<div className={styles.home}>
@@ -48,7 +49,7 @@ export default function Home() {
 					{ramos.map(ramo => {
 						const leisDesseRamo = leis.filter(
 							(lei: ILei) => lei.area === ramo.id,
-						)
+						);
 						if (!!leisDesseRamo.length) {
 							return (
 								<Card
@@ -57,7 +58,7 @@ export default function Home() {
 									titulo={ramo.titulo}
 									array={leisDesseRamo}
 								/>
-							)
+							);
 						}
 					})}
 
@@ -94,7 +95,7 @@ export default function Home() {
 				</section>
 			</main>
 
-			<Footer />
+			<Rodape />
 		</div>
-	)
+	);
 }

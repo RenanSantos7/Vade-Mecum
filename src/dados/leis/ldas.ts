@@ -1,4 +1,4 @@
-import { ILei } from "../../types/types.ts"
+import { ILei } from "../../types/index.tsx"
 
 const ldas:ILei = {
     id: "ldas",

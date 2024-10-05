@@ -1,5 +1,5 @@
 import { ReactNode, createContext, useCallback, useEffect, useState } from "react"
-import listaLeis from '../dados/index.ts'
+import listaLeis from '../dados/index.tsx'
 
 export const LeisContext = createContext(null);
 LeisContext.displayName = "Leis"

@@ -1,4 +1,4 @@
-import { ILei } from "../../types/types.ts"
+import { ILei } from "../../types/index.tsx"
 
 const cc:ILei = {
 	id: 'cc',
@@ -7,13 +7,13 @@ const cc:ILei = {
 	jurisdicao: 'nacional',
 	area: 'civil',
 	linksRelacionados: [
-		{ id: 'CF', nome: 'Constituição' },
-		{ id: 'CPC', nome: 'Código de Processo Civil' },
-		{ id: 'LINDB', nome: 'Lei de Introdução às Normas do Brasileiro' },
-		{ id: 'CDC', nome: 'Código de Defesa do Consumidor' },
-		{ id: 'LINQLT', nome: 'Lei do Inquilinato' },
-		{ id: 'ECA', nome: 'Estatuto da Criança e do Adolescente' },
-		{ id: 'EPD', nome: 'Estatuto da Pessoa com Deficiência' },
+		{ id: 'cf', nome: 'Constituição' },
+		{ id: 'cpc', nome: 'Código de Processo Civil' },
+		{ id: 'lindb', nome: 'Lei de Introdução às Normas do Brasileiro' },
+		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
+		{ id: 'linqlt', nome: 'Lei do Inquilinato' },
+		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
+		{ id: 'epd', nome: 'Estatuto da Pessoa com Deficiência' },
 	],
 	conteudo: `
     <p id="ementa">Institui o Código Civil</p>

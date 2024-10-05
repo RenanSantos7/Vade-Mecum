@@ -1,6 +1,6 @@
-import styles from './Footer.module.css'
+import styles from './styles.module.css'
 
-export default function Footer() {
+export default function Rodape() {
     return (
         <footer className={styles.rodape}>
             <a href="https://github.com/RenanSantos7">@ Renan Santos</a>

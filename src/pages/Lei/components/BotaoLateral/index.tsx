@@ -1,5 +1,6 @@
-import styles from './BotaoLateral.module.css'
 import { Menu, Search } from '@mui/icons-material'
+
+import styles from './BotaoLateral.module.css'
 
 interface BotaoLateralProps {
 	onClick: (arg: any) => void
@@ -7,12 +8,6 @@ interface BotaoLateralProps {
 }
 
 export default function BotaoLateral({ onClick, tipo }: BotaoLateralProps) {
-	
-	let icone = <Menu fontSize='inherit' />
-
-	if (tipo === 'pesquisa') {
-		icone = <Search fontSize='inherit' />
-	}
 
 	return (
 		<button
@@ -21,7 +16,10 @@ export default function BotaoLateral({ onClick, tipo }: BotaoLateralProps) {
 			className={styles.btLateral}
 			onClick={onClick}
 		>
-			{icone}
+			{tipo === 'pesquisa'
+				? (<Search fontSize='inherit' />)
+				: (<Menu fontSize='inherit' />)
+			}
 		</button>
 	)
 }
