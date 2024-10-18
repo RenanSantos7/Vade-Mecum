@@ -253,6 +253,12 @@
 		margin-left: 0;
 	}
 
+	.titart {
+		font-weight: bold;
+		color: var(--azul1);
+		margin-bottom: .25rem;
+	}
+
 	.assinaturas {
 		text-align: center;
 		text-indent: 0pt;
