@@ -56,7 +56,7 @@ export default function Pesquisa({
 				{resultados.map(lei => (
 					<LinkLei
 						key={lei.id}
-						destino={`/leis/${lei.id}`}
+						destino={lei.id}
 						className={styles.resultados__item}
 					>
 						{lei.alias}
