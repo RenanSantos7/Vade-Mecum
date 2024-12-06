@@ -15,7 +15,7 @@ export default function Pesquisa({
 	setTermoPesquisa,
 	leis,
 }: PesquisaProps) {
-	const estResultados =
+	const estiloResultados =
 		termoPesquisa.length > 2
 			? `${styles.resultados}`
 			: `${styles.sem} ${styles.resultados}`;
@@ -29,7 +29,7 @@ export default function Pesquisa({
 					lei =>
 						lei.alias.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
 						lei.titulo.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
-						// lei.ementa.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
+						lei.ementa.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
 						lei.id.includes(termoPesquisa.toLowerCase()),
 				),
 			);
@@ -52,7 +52,7 @@ export default function Pesquisa({
 				/>
 			</label>
 
-			<div className={estResultados}>
+			<div className={estiloResultados}>
 				{resultados.map(lei => (
 					<LinkLei
 						key={lei.id}

@@ -2,8 +2,8 @@ import { ILei } from '../../types/index.tsx'
 
 const emppub:ILei = {
     id: 'emppub',
-    titulo: 'Estatuto das Empresa Públicas e Sociedades de Economia Mista',
-    alias: 'Estatuto das Empresa Públicas e Sociedades de Economia Mista',
+    titulo: 'Estatuto das Empresas Públicas e Sociedades de Economia Mista',
+    alias: 'Estatuto das Empresas Públicas e Sociedades de Economia Mista',
     linksRelacionados: [
         {id: 'cf', nome: 'Constituição Federal'},
         {id: 'cpc', nome: 'Código de Processo Civil'},
@@ -26,7 +26,7 @@ const emppub:ILei = {
     <h2>CAPÍTULO I <br>
     Disposições Preliminares </h2>
 
-    <p><span class="artigo">Art. 1º. </span> Esta Lei dispõe sobre o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias, abrangendo toda e qualquer empresa pública e sociedade de economia mista da União, dos Estados, do Distrito Federal e dos Municípios que explore atividade econômica de produção ou comercialização de bens ou de prestação de serviços, ainda que a atividade econômica esteja sujeita ao regime de monopólio da União ou seja de prestação de serviços públicos.</p>
+    <p><span class="artigo">Art. 1º.</span> Esta Lei dispõe sobre o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias, abrangendo toda e qualquer empresa pública e sociedade de economia mista da União, dos Estados, do Distrito Federal e dos Municípios que explore atividade econômica de produção ou comercialização de bens ou de prestação de serviços, ainda que a atividade econômica esteja sujeita ao regime de monopólio da União ou seja de prestação de serviços públicos.</p>
 
     <p>§ 1º O Título I desta Lei, exceto o disposto nos arts. 2º, 3º, 4º, 5º, 6º, 7º, 8º, 11, 12 e 27, não se aplica à empresa pública e à sociedade de economia mista que tiver, em conjunto com suas respectivas subsidiárias, no exercício social anterior, receita operacional bruta inferior a R$ 90.000.000,00 (noventa milhões de reais).</p>
 
@@ -38,7 +38,7 @@ const emppub:ILei = {
 
     <p>§ 5º Submetem-se ao regime previsto nesta Lei a empresa pública e a sociedade de economia mista que participem de consórcio, conforme disposto no art. 279 da Lei nº 6.404, de 15 de dezembro de 1976 , na condição de operadora.</p>
 
-    <p>§ 6º Submete-se ao regime previsto nesta Lei a sociedade, inclusive a de propósito específico, que seja controlada por empresa pública ou sociedade de economia mista abrangidas no caput .</p>
+    <p>§ 6º Submete-se ao regime previsto nesta Lei a sociedade, inclusive a de propósito específico, que seja controlada por empresa pública ou sociedade de economia mista abrangidas no <em>caput</em>.</p>
 
     <p>§ 7º Na participação em sociedade empresarial em que a empresa pública, a sociedade de economia mista e suas subsidiárias não detenham o controle acionário, essas deverão adotar, no dever de fiscalizar, práticas de governança e controle proporcionais à relevância, à materialidade e aos riscos do negócio do qual são partícipes, considerando, para esse fim:</p>
 
@@ -60,25 +60,25 @@ const emppub:ILei = {
 
     <p>IX - avaliação das necessidades de novos aportes na sociedade e dos possíveis riscos de redução da rentabilidade esperada do negócio;</p>
 
-    <p>X - qualquer outro relatório, documento ou informação produzido pela sociedade empresarial investida considerado relevante para o cumprimento do comando constante do caput .</p>
+    <p>X - qualquer outro relatório, documento ou informação produzido pela sociedade empresarial investida considerado relevante para o cumprimento do comando constante do <em>caput</em>.</p>
 
-    <p><span class="artigo">Art. 2º. </span> A exploração de atividade econômica pelo Estado será exercida por meio de empresa pública, de sociedade de economia mista e de suas subsidiárias.</p>
+    <p><span class="artigo">Art. 2º.</span> A exploração de atividade econômica pelo Estado será exercida por meio de empresa pública, de sociedade de economia mista e de suas subsidiárias.</p>
 
-    <p>§ 1º A constituição de empresa pública ou de sociedade de economia mista dependerá de prévia autorização legal que indique, de forma clara, relevante interesse coletivo ou imperativo de segurança nacional, nos termos do caput do art. 173 da Constituição Federal .</p>
+    <p>§ 1º A constituição de empresa pública ou de sociedade de economia mista dependerá de prévia autorização legal que indique, de forma clara, relevante interesse coletivo ou imperativo de segurança nacional, nos termos do <em>caput</em> do <a href="./cf#173" target="_blank">art. 173 da Constituição Federal</a>.</p>
 
-    <p>§ 2º Depende de autorização legislativa a criação de subsidiárias de empresa pública e de sociedade de economia mista, assim como a participação de qualquer delas em empresa privada, cujo objeto social deve estar relacionado ao da investidora, nos termos do inciso XX do art. 37 da Constituição Federal .</p>
+    <p>§ 2º Depende de autorização legislativa a criação de subsidiárias de empresa pública e de sociedade de economia mista, assim como a participação de qualquer delas em empresa privada, cujo objeto social deve estar relacionado ao da investidora, nos termos do inciso XX do art. 37 da Constituição Federal.</p>
 
     <p>§ 3º A autorização para participação em empresa privada prevista no § 2º não se aplica a operações de tesouraria, adjudicação de ações em garantia e participações autorizadas pelo Conselho de Administração em linha com o plano de negócios da empresa pública, da sociedade de economia mista e de suas respectivas subsidiárias.</p>
 
-    <p><span class="artigo">Art. 3º. </span> Empresa pública é a entidade dotada de personalidade jurídica de direito privado, com criação autorizada por lei e com patrimônio próprio, cujo capital social é integralmente detido pela União, pelos Estados, pelo Distrito Federal ou pelos Municípios.</p>
+    <p><span class="artigo">Art. 3º.</span> Empresa pública é a entidade dotada de personalidade jurídica de direito privado, com criação autorizada por lei e com patrimônio próprio, cujo capital social é integralmente detido pela União, pelos Estados, pelo Distrito Federal ou pelos Municípios.</p>
 
-    <pu>Parágrafo único. Desde que a maioria do capital votante permaneça em propriedade da União, do Estado, do Distrito Federal ou do Município, será admitida, no capital da empresa pública, a participação de outras pessoas jurídicas de direito público interno, bem como de entidades da administração indireta da União, dos Estados, do Distrito Federal e dos Municípios.</pu>
+    <p>Parágrafo único. Desde que a maioria do capital votante permaneça em propriedade da União, do Estado, do Distrito Federal ou do Município, será admitida, no capital da empresa pública, a participação de outras pessoas jurídicas de direito público interno, bem como de entidades da administração indireta da União, dos Estados, do Distrito Federal e dos Municípios.</p>
 
-    <p><span class="artigo">Art. 4º. </span> Sociedade de economia mista é a entidade dotada de personalidade jurídica de direito privado, com criação autorizada por lei, sob a forma de sociedade anônima, cujas ações com direito a voto pertençam em sua maioria à União, aos Estados, ao Distrito Federal, aos Municípios ou a entidade da administração indireta.</p>
+    <p><span class="artigo">Art. 4º.</span> Sociedade de economia mista é a entidade dotada de personalidade jurídica de direito privado, com criação autorizada por lei, sob a forma de sociedade anônima, cujas ações com direito a voto pertençam em sua maioria à União, aos Estados, ao Distrito Federal, aos Municípios ou a entidade da administração indireta.</p>
 
     <p>§ 1º A pessoa jurídica que controla a sociedade de economia mista tem os deveres e as responsabilidades do acionista controlador, estabelecidos na Lei nº 6.404, de 15 de dezembro de 1976 , e deverá exercer o poder de controle no interesse da companhia, respeitado o interesse público que justificou sua criação.</p>
 
-    <p>§ 2º Além das normas previstas nesta Lei, a sociedade de economia mista com registro na Comissão de Valores Mobiliários sujeita-se às disposições da Lei nº 6.385, de 7 de dezembro de 1976 .</p>
+    <p>§ 2º Além das normas previstas nesta Lei, a sociedade de economia mista com registro na Comissão de Valores Mobiliários sujeita-se às disposições da Lei nº 6.385, de 7 de dezembro de 1976.</p>
 
     <h2>CAPÍTULO II <br>
     Do Regime Societário da Empresa Pública e da Sociedade de Economia Mista </h2>
@@ -86,13 +86,13 @@ const emppub:ILei = {
     <h3>Seção I<br>
     Das Normas Gerais </h3>
 
-    <p><span class="artigo">Art. 5º. </span> A sociedade de economia mista será constituída sob a forma de sociedade anônima e, ressalvado o disposto nesta Lei, estará sujeita ao regime previsto na Lei nº 6.404, de 15 de dezembro de 1976 .</p>
+    <p><span class="artigo">Art. 5º.</span> A sociedade de economia mista será constituída sob a forma de sociedade anônima e, ressalvado o disposto nesta Lei, estará sujeita ao regime previsto na Lei nº 6.404, de 15 de dezembro de 1976.</p>
 
-    <p><span class="artigo">Art. 6º. </span> O estatuto da empresa pública, da sociedade de economia mista e de suas subsidiárias deverá observar regras de governança corporativa, de transparência e de estruturas, práticas de gestão de riscos e de controle interno, composição da administração e, havendo acionistas, mecanismos para sua proteção, todos constantes desta Lei.</p>
+    <p><span class="artigo">Art. 6º.</span> O estatuto da empresa pública, da sociedade de economia mista e de suas subsidiárias deverá observar regras de governança corporativa, de transparência e de estruturas, práticas de gestão de riscos e de controle interno, composição da administração e, havendo acionistas, mecanismos para sua proteção, todos constantes desta Lei.</p>
 
-    <p><span class="artigo">Art. 7º. </span> Aplicam-se a todas as empresas públicas, as sociedades de economia mista de capital fechado e as suas subsidiárias as disposições da Lei nº 6.404, de 15 de dezembro de 1976, e as normas da Comissão de Valores Mobiliários sobre escrituração e elaboração de demonstrações financeiras, inclusive a obrigatoriedade de auditoria independente por auditor registrado nesse órgão.</p>
+    <p><span class="artigo">Art. 7º.</span> Aplicam-se a todas as empresas públicas, as sociedades de economia mista de capital fechado e as suas subsidiárias as disposições da <a href="#" title="Lei das SAs">Lei nº 6.404, de 15 de dezembro de 1976</a>, e as normas da Comissão de Valores Mobiliários sobre escrituração e elaboração de demonstrações financeiras, inclusive a obrigatoriedade de auditoria independente por auditor registrado nesse órgão.</p>
 
-    <p><span class="artigo">Art. 8º. </span> As empresas públicas e as sociedades de economia mista deverão observar, no mínimo, os seguintes requisitos de transparência:</p>
+    <p><span class="artigo">Art. 8º.</span> As empresas públicas e as sociedades de economia mista deverão observar, no mínimo, os seguintes requisitos de transparência:</p>
 
     <p>I - elaboração de carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos compromissos de consecução de objetivos de políticas públicas pela empresa pública, pela sociedade de economia mista e por suas subsidiárias, em atendimento ao interesse coletivo ou ao imperativo de segurança nacional que justificou a autorização para suas respectivas criações, com definição clara dos recursos a serem empregados para esse fim, bem como dos impactos econômico-financeiros da consecução desses objetivos, mensuráveis por meio de indicadores objetivos;</p>
 
@@ -112,7 +112,7 @@ const emppub:ILei = {
 
     <p>IX - divulgação anual de relatório integrado ou de sustentabilidade.</p>
 
-    <p>§ 1º O interesse público da empresa pública e da sociedade de economia mista, respeitadas as razões que motivaram a autorização legislativa, manifesta-se por meio do alinhamento entre seus objetivos e aqueles de políticas públicas, na forma explicitada na carta anual a que se refere o inciso I do caput .</p>
+    <p>§ 1º O interesse público da empresa pública e da sociedade de economia mista, respeitadas as razões que motivaram a autorização legislativa, manifesta-se por meio do alinhamento entre seus objetivos e aqueles de políticas públicas, na forma explicitada na carta anual a que se refere o inciso I do <em>caput</em>.</p>
 
     <p>§ 2º Quaisquer obrigações e responsabilidades que a empresa pública e a sociedade de economia mista que explorem atividade econômica assumam em condições distintas às de qualquer outra empresa do setor privado em que atuam deverão:</p>
 
@@ -122,9 +122,9 @@ const emppub:ILei = {
 
     <p>§ 3º Além das obrigações contidas neste artigo, as sociedades de economia mista com registro na Comissão de Valores Mobiliários sujeitam-se ao regime informacional estabelecido por essa autarquia e devem divulgar as informações previstas neste artigo na forma fixada em suas normas.</p>
 
-    <p>§ 4º Os documentos resultantes do cumprimento dos requisitos de transparência constantes dos incisos I a IX do caput deverão ser publicamente divulgados na internet de forma permanente e cumulativa.</p>
+    <p>§ 4º Os documentos resultantes do cumprimento dos requisitos de transparência constantes dos incisos I a IX do <em>caput</em> deverão ser publicamente divulgados na internet de forma permanente e cumulativa.</p>
 
-    <p><span class="artigo">Art. 9º. </span> A empresa pública e a sociedade de economia mista adotarão regras de estruturas e práticas de gestão de riscos e controle interno que abranjam:</p>
+    <p><span class="artigo">Art. 9º.</span> A empresa pública e a sociedade de economia mista adotarão regras de estruturas e práticas de gestão de riscos e controle interno que abranjam:</p>
 
     <p>I - ação dos administradores e empregados, por meio da implementação cotidiana de práticas de controle interno;</p>
 
@@ -158,7 +158,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 10. </span>A empresa pública e a sociedade de economia mista deverão criar comitê estatutário para verificar a conformidade do processo de indicação e de avaliação de membros para o Conselho de Administração e para o Conselho Fiscal, com competência para auxiliar o acionista controlador na indicação desses membros.</p>
 
-    <p>Parágrafo único. Devem ser divulgadas as atas das reuniões do comitê estatutário referido no caput realizadas com o fim de verificar o cumprimento, pelos membros indicados, dos requisitos definidos na política de indicação, devendo ser registradas as eventuais manifestações divergentes de conselheiros.</p>
+    <p>Parágrafo único. Devem ser divulgadas as atas das reuniões do comitê estatutário referido no <em>caput</em> realizadas com o fim de verificar o cumprimento, pelos membros indicados, dos requisitos definidos na política de indicação, devendo ser registradas as eventuais manifestações divergentes de conselheiros.</p>
 
     <p><span class="artigo">Art. 11. </span>A empresa pública não poderá:</p>
 
@@ -209,7 +209,7 @@ const emppub:ILei = {
 
     <p>III - observar a política de indicação na escolha dos administradores e membros do Conselho Fiscal.</p>
 
-    <p><span class="artigo">Art. 15. </span>O acionista controlador da empresa pública e da sociedade de economia mista responderá pelos atos praticados com abuso de poder, nos termos da Lei nº 6.404, de 15 de dezembro de 1976 .</p>
+    <p><span class="artigo">Art. 15. </span>O acionista controlador da empresa pública e da sociedade de economia mista responderá pelos atos praticados com abuso de poder, nos termos da Lei nº 6.404, de 15 de dezembro de 1976.</p>
 
     <p>§ 1º A ação de reparação poderá ser proposta pela sociedade, nos termos do art. 246 da Lei no 6.404, de 15 de dezembro de 1976 , pelo terceiro prejudicado ou pelos demais sócios, independentemente de autorização da assembleia-geral de acionistas.</p>
 
@@ -218,7 +218,7 @@ const emppub:ILei = {
     <h3>Seção III<br>
     Do Administrador </h3>
 
-    <p><span class="artigo">Art. 16. </span>Sem prejuízo do disposto nesta Lei, o administrador de empresa pública e de sociedade de economia mista é submetido às normas previstas na Lei nº 6.404, de 15 de dezembro de 1976 .</p>
+    <p><span class="artigo">Art. 16. </span>Sem prejuízo do disposto nesta Lei, o administrador de empresa pública e de sociedade de economia mista é submetido às normas previstas na Lei nº 6.404, de 15 de dezembro de 1976.</p>
 
     <p>Parágrafo único. Consideram-se administradores da empresa pública e da sociedade de economia mista os membros do Conselho de Administração e da diretoria.</p>
 
@@ -240,7 +240,7 @@ const emppub:ILei = {
 
     <p>II - ter formação acadêmica compatível com o cargo para o qual foi indicado; e</p>
 
-    <p>III - não se enquadrar nas hipóteses de inelegibilidade previstas nas alíneas do inciso I do caput do art. 1º da Lei Complementar nº 64, de 18 de maio de 1990 , com as alterações introduzidas pela Lei Complementar nº 135, de 4 de junho de 2010.</p>
+    <p>III - não se enquadrar nas hipóteses de inelegibilidade previstas nas alíneas do inciso I do <em>caput</em> do art. 1º da Lei Complementar nº 64, de 18 de maio de 1990 , com as alterações introduzidas pela Lei Complementar nº 135, de 4 de junho de 2010.</p>
 
     <p>§ 1º O estatuto da empresa pública, da sociedade de economia mista e de suas subsidiárias poderá dispor sobre a contratação de seguro de responsabilidade civil pelos administradores.</p>
 
@@ -260,13 +260,13 @@ const emppub:ILei = {
 
     <p>§ 4º Os administradores eleitos devem participar, na posse e anualmente, de treinamentos específicos sobre legislação societária e de mercado de capitais, divulgação de informações, controle interno, código de conduta, a Lei nº 12.846, de 1º de agosto de 2013 (Lei Anticorrupção), e demais temas relacionados às atividades da empresa pública ou da sociedade de economia mista.</p>
 
-    <p>§ 5º Os requisitos previstos no inciso I do caput poderão ser dispensados no caso de indicação de empregado da empresa pública ou da sociedade de economia mista para cargo de administrador ou como membro de comitê, desde que atendidos os seguintes quesitos mínimos:</p>
+    <p>§ 5º Os requisitos previstos no inciso I do <em>caput</em> poderão ser dispensados no caso de indicação de empregado da empresa pública ou da sociedade de economia mista para cargo de administrador ou como membro de comitê, desde que atendidos os seguintes quesitos mínimos:</p>
 
     <p>I - o empregado tenha ingressado na empresa pública ou na sociedade de economia mista por meio de concurso público de provas ou de provas e títulos;</p>
 
     <p>II - o empregado tenha mais de 10 (dez) anos de trabalho efetivo na empresa pública ou na sociedade de economia mista;</p>
 
-    <p>III - o empregado tenha ocupado cargo na gestão superior da empresa pública ou da sociedade de economia mista, comprovando sua capacidade para assumir as responsabilidades dos cargos de que trata o caput .</p>
+    <p>III - o empregado tenha ocupado cargo na gestão superior da empresa pública ou da sociedade de economia mista, comprovando sua capacidade para assumir as responsabilidades dos cargos de que trata o <em>caput</em>.</p>
 
     <h3>Seção IV <br>
     Do Conselho de Administração </h3>
@@ -285,7 +285,7 @@ const emppub:ILei = {
 
     <p>§ 1º As normas previstas na Lei nº 12.353, de 28 de dezembro de 2010 , aplicam-se à participação de empregados no Conselho de Administração da empresa pública, da sociedade de economia mista e de suas subsidiárias e controladas e das demais empresas em que a União, direta ou indiretamente, detenha a maioria do capital social com direito a voto.</p>
 
-    <p>§ 2º É assegurado aos acionistas minoritários o direito de eleger 1 (um) conselheiro, se maior número não lhes couber pelo processo de voto múltiplo previsto na Lei nº 6.404, de 15 de dezembro de 1976 .</p>
+    <p>§ 2º É assegurado aos acionistas minoritários o direito de eleger 1 (um) conselheiro, se maior número não lhes couber pelo processo de voto múltiplo previsto na Lei nº 6.404, de 15 de dezembro de 1976.</p>
 
     <p><span class="artigo">Art. 20. </span>É vedada a participação remunerada de membros da administração pública, direta ou indireta, em mais de 2 (dois) conselhos, de administração ou fiscal, de empresa pública, de sociedade de economia mista ou de suas subsidiárias.</p>
 
@@ -296,7 +296,7 @@ const emppub:ILei = {
     <h3>Seção V<br>
     Do Membro Independente do Conselho de Administração </h3>
 
-    <p><span class="artigo">Art. 22. </span>O Conselho de Administração deve ser composto, no mínimo, por 25% (vinte e cinco por cento) de membros independentes ou por pelo menos 1 (um), caso haja decisão pelo exercício da faculdade do voto múltiplo pelos acionistas minoritários, nos termos do art. 141 da Lei nº 6.404, de 15 de dezembro de 1976 .</p>
+    <p><span class="artigo">Art. 22. </span>O Conselho de Administração deve ser composto, no mínimo, por 25% (vinte e cinco por cento) de membros independentes ou por pelo menos 1 (um), caso haja decisão pelo exercício da faculdade do voto múltiplo pelos acionistas minoritários, nos termos do art. 141 da Lei nº 6.404, de 15 de dezembro de 1976.</p>
 
     <p>§ 1º O conselheiro independente caracteriza-se por:</p>
 
@@ -314,7 +314,7 @@ const emppub:ILei = {
 
     <p>VII - não receber outra remuneração da empresa pública ou da sociedade de economia mista além daquela relativa ao cargo de conselheiro, à exceção de proventos em dinheiro oriundos de participação no capital.</p>
 
-    <p>§ 2º Quando, em decorrência da observância do percentual mencionado no caput , resultar número fracionário de conselheiros, proceder-se-á ao arredondamento para o número inteiro:</p>
+    <p>§ 2º Quando, em decorrência da observância do percentual mencionado no <em>caput</em> , resultar número fracionário de conselheiros, proceder-se-á ao arredondamento para o número inteiro:</p>
 
     <p>I - imediatamente superior, quando a fração for igual ou superior a 0,5 (cinco décimos);</p>
 
@@ -331,7 +331,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 23. </span>É condição para investidura em cargo de diretoria da empresa pública e da sociedade de economia mista a assunção de compromisso com metas e resultados específicos a serem alcançados, que deverá ser aprovado pelo Conselho de Administração, a quem incumbe fiscalizar seu cumprimento.</p>
 
-    <p>§ 1º Sem prejuízo do disposto no caput , a diretoria deverá apresentar, até a última reunião ordinária do Conselho de Administração do ano anterior, a quem compete sua aprovação:</p>
+    <p>§ 1º Sem prejuízo do disposto no <em>caput</em> , a diretoria deverá apresentar, até a última reunião ordinária do Conselho de Administração do ano anterior, a quem compete sua aprovação:</p>
 
     <p>I - plano de negócios para o exercício anual seguinte;</p>
 
@@ -437,13 +437,13 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 28. </span>Os contratos com terceiros destinados à prestação de serviços às empresas públicas e às sociedades de economia mista, inclusive de engenharia e de publicidade, à aquisição e à locação de bens, à alienação de bens e ativos integrantes do respectivo patrimônio ou à execução de obras a serem integradas a esse patrimônio, bem como à implementação de ônus real sobre tais bens, serão precedidos de licitação nos termos desta Lei, ressalvadas as hipóteses previstas nos arts. 29 e 30.</p>
 
-    <p>§ 1º Aplicam-se às licitações das empresas públicas e das sociedades de economia mista as disposições constantes dos arts. 42 a 49 da Lei Complementar nº 123, de 14 de dezembro de 2006 .</p>
+    <p>§ 1º Aplicam-se às licitações das empresas públicas e das sociedades de economia mista as disposições constantes dos arts. 42 a 49 da Lei Complementar nº 123, de 14 de dezembro de 2006.</p>
 
     <p>§ 2º O convênio ou contrato de patrocínio celebrado com pessoas físicas ou jurídicas de que trata o § 3º do art. 27 observará, no que couber, as normas de licitação e contratos desta Lei.</p>
 
     <p>§ 3º São as empresas públicas e as sociedades de economia mista dispensadas da observância dos dispositivos deste Capítulo nas seguintes situações:</p>
 
-    <p§3i”>I - comercialização, prestação ou execução, de forma direta, pelas empresas mencionadas no caput , de produtos, serviços ou obras especificamente relacionados com seus respectivos objetos sociais;</p§3i”>
+    <p§3i”>I - comercialização, prestação ou execução, de forma direta, pelas empresas mencionadas no <em>caput</em> , de produtos, serviços ou obras especificamente relacionados com seus respectivos objetos sociais;</p§3i”>
 
     <p>II - nos casos em que a escolha do parceiro esteja associada a suas características particulares, vinculada a oportunidades de negócio definidas e específicas, justificada a inviabilidade de procedimento competitivo.</p>
 
@@ -487,11 +487,11 @@ const emppub:ILei = {
 
     <pxviii>XVIII - na compra e venda de ações, de títulos de crédito e de dívida e de bens que produzam ou comercializem.&nbsp;&nbsp; (Vide ADIN 5624)&nbsp;&nbsp; (Vide ADIN 5846)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADIN 5924)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADIN 6029)</pxviii>
 
-    <p>§ 1º Na hipótese de nenhum dos licitantes aceitar a contratação nos termos do inciso VI do caput , a empresa pública e a sociedade de economia mista poderão convocar os licitantes remanescentes, na ordem de classificação, para a celebração do contrato nas condições ofertadas por estes, desde que o respectivo valor seja igual ou inferior ao orçamento estimado para a contratação, inclusive quanto aos preços atualizados nos termos do instrumento convocatório.</p>
+    <p>§ 1º Na hipótese de nenhum dos licitantes aceitar a contratação nos termos do inciso VI do <em>caput</em> , a empresa pública e a sociedade de economia mista poderão convocar os licitantes remanescentes, na ordem de classificação, para a celebração do contrato nas condições ofertadas por estes, desde que o respectivo valor seja igual ou inferior ao orçamento estimado para a contratação, inclusive quanto aos preços atualizados nos termos do instrumento convocatório.</p>
 
-    <p>§ 2º A contratação direta com base no inciso XV do caput não dispensará a responsabilização de quem, por ação ou omissão, tenha dado causa ao motivo ali descrito, inclusive no tocante ao disposto na Lei nº 8.429, de 2 de junho de 1992 .</p>
+    <p>§ 2º A contratação direta com base no inciso XV do <em>caput</em> não dispensará a responsabilização de quem, por ação ou omissão, tenha dado causa ao motivo ali descrito, inclusive no tocante ao disposto na Lei nº 8.429, de 2 de junho de 1992.</p>
 
-    <p>§ 3º Os valores estabelecidos nos incisos I e II do caput podem ser alterados, para refletir a variação de custos, por deliberação do Conselho de Administração da empresa pública ou sociedade de economia mista, admitindo-se valores diferenciados para cada sociedade.</p>
+    <p>§ 3º Os valores estabelecidos nos incisos I e II do <em>caput</em> podem ser alterados, para refletir a variação de custos, por deliberação do Conselho de Administração da empresa pública ou sociedade de economia mista, admitindo-se valores diferenciados para cada sociedade.</p>
 
     <p><span class="artigo">Art. 30. </span>A contratação direta será feita quando houver inviabilidade de competição, em especial na hipótese de:</p>
 
@@ -515,7 +515,7 @@ const emppub:ILei = {
 
     <p>§ 1º Considera-se de notória especialização o profissional ou a empresa cujo conceito no campo de sua especialidade, decorrente de desempenho anterior, estudos, experiência, publicações, organização, aparelhamento, equipe técnica ou outros requisitos relacionados com suas atividades, permita inferir que o seu trabalho é essencial e indiscutivelmente o mais adequado à plena satisfação do objeto do contrato.</p>
 
-    <p>§ 2º Na hipótese do caput e em qualquer dos casos de dispensa, se comprovado, pelo órgão de controle externo, sobrepreço ou superfaturamento, respondem solidariamente pelo dano causado quem houver decidido pela contratação direta e o fornecedor ou o prestador de serviços.</p>
+    <p>§ 2º Na hipótese do <em>caput</em> e em qualquer dos casos de dispensa, se comprovado, pelo órgão de controle externo, sobrepreço ou superfaturamento, respondem solidariamente pelo dano causado quem houver decidido pela contratação direta e o fornecedor ou o prestador de serviços.</p>
 
     <p>§ 3º O processo de contratação direta será instruído, no que couber, com os seguintes elementos:</p>
 
@@ -530,7 +530,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 31. </span>As licitações realizadas e os contratos celebrados por empresas públicas e sociedades de economia mista destinam-se a assegurar a seleção da proposta mais vantajosa, inclusive no que se refere ao ciclo de vida do objeto, e a evitar operações em que se caracterize sobrepreço ou superfaturamento, devendo observar os princípios da impessoalidade, da moralidade, da igualdade, da publicidade, da eficiência, da probidade administrativa, da economicidade, do desenvolvimento nacional sustentável, da vinculação ao instrumento convocatório, da obtenção de competitividade e do julgamento objetivo.</p>
 
-    <p>§ 1º Para os fins do disposto no caput , considera-se que há:</p>
+    <p>§ 1º Para os fins do disposto no <em>caput</em> , considera-se que há:</p>
 
     <p>I - sobrepreço quando os preços orçados para a licitação ou os preços contratados são expressivamente superiores aos preços referenciais de mercado, podendo referir-se ao valor unitário de um item, se a licitação ou a contratação for por preços unitários de serviço, ou ao valor global do objeto, se a licitação ou a contratação for por preço global ou por empreitada;</p>
 
@@ -588,7 +588,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 34. </span>O valor estimado do contrato a ser celebrado pela empresa pública ou pela sociedade de economia mista será sigiloso, facultando-se à contratante, mediante justificação na fase de preparação prevista no inciso I do art. 51 desta Lei, conferir publicidade ao valor estimado do objeto da licitação, sem prejuízo da divulgação do detalhamento dos quantitativos e das demais informações necessárias para a elaboração das propostas.</p>
 
-    <p>§ 1º Na hipótese em que for adotado o critério de julgamento por maior desconto, a informação de que trata o caput deste artigo constará do instrumento convocatório.</p>
+    <p>§ 1º Na hipótese em que for adotado o critério de julgamento por maior desconto, a informação de que trata o <em>caput</em> deste artigo constará do instrumento convocatório.</p>
 
     <p>§ 2º No caso de julgamento por melhor técnica, o valor do prêmio ou da remuneração será incluído no instrumento convocatório.</p>
 
@@ -596,15 +596,15 @@ const emppub:ILei = {
 
     <p>§ 4º (VETADO).</p>
 
-    <p><span class="artigo">Art. 35. </span>Observado o disposto no art. 34, o conteúdo da proposta, quando adotado o modo de disputa fechado e até sua abertura, os atos e os procedimentos praticados em decorrência desta Lei submetem-se à legislação que regula o acesso dos cidadãos às informações detidas pela administração pública, particularmente aos termos da Lei nº 12.527, de 18 de novembro de 2011 .</p>
+    <p><span class="artigo">Art. 35. </span>Observado o disposto no art. 34, o conteúdo da proposta, quando adotado o modo de disputa fechado e até sua abertura, os atos e os procedimentos praticados em decorrência desta Lei submetem-se à legislação que regula o acesso dos cidadãos às informações detidas pela administração pública, particularmente aos termos da Lei nº 12.527, de 18 de novembro de 2011.</p>
 
     <p><span class="artigo">Art. 36. </span>A empresa pública e a sociedade de economia mista poderão promover a pré-qualificação de seus fornecedores ou produtos, nos termos do art. 64.</p>
 
-    <p><span class="artigo">Art. 37. </span>A empresa pública e a sociedade de economia mista deverão informar os dados relativos às sanções por elas aplicadas aos contratados, nos termos definidos no art. 83, de forma a manter atualizado o cadastro de empresas inidôneas de que trata o art. 23 da Lei nº 12.846, de 1º de agosto de 2013 .</p>
+    <p><span class="artigo">Art. 37. </span>A empresa pública e a sociedade de economia mista deverão informar os dados relativos às sanções por elas aplicadas aos contratados, nos termos definidos no art. 83, de forma a manter atualizado o cadastro de empresas inidôneas de que trata o art. 23 da Lei nº 12.846, de 1º de agosto de 2013.</p>
 
-    <p>§ 1º O fornecedor incluído no cadastro referido no caput não poderá disputar licitação ou participar, direta ou indiretamente, da execução de contrato.</p>
+    <p>§ 1º O fornecedor incluído no cadastro referido no <em>caput</em> não poderá disputar licitação ou participar, direta ou indiretamente, da execução de contrato.</p>
 
-    <p>§ 2º Serão excluídos do cadastro referido no caput , a qualquer tempo, fornecedores que demonstrarem a superação dos motivos que deram causa à restrição contra eles promovida.</p>
+    <p>§ 2º Serão excluídos do cadastro referido no <em>caput</em> , a qualquer tempo, fornecedores que demonstrarem a superação dos motivos que deram causa à restrição contra eles promovida.</p>
 
     <p><span class="artigo">Art. 38. </span>Estará impedida de participar de licitações e de ser contratada pela empresa pública ou sociedade de economia mista a empresa:</p>
 
@@ -624,7 +624,7 @@ const emppub:ILei = {
 
     <p>VIII - que tiver, nos seus quadros de diretoria, pessoa que participou, em razão de vínculo de mesma natureza, de empresa declarada inidônea.</p>
 
-    <p>Parágrafo único. Aplica-se a vedação prevista no caput :</p>
+    <p>Parágrafo único. Aplica-se a vedação prevista no <em>caput</em> :</p>
 
     <p>I - à contratação do próprio empregado ou dirigente, como pessoa física, bem como à participação dele em procedimentos licitatórios, na condição de licitante;</p>
 
@@ -676,7 +676,7 @@ const emppub:ILei = {
 
     <p>IX - recebimento do objeto do contrato.</p>
 
-    <p><span class="artigo">Art. 41. </span>Aplicam-se às licitações e contratos regidos por esta Lei as normas de direito penal contidas nos arts. 89 a 99 da Lei nº 8.666, de 21 de junho de 1993 .</p>
+    <p><span class="artigo">Art. 41. </span>Aplicam-se às licitações e contratos regidos por esta Lei as normas de direito penal contidas nos arts. 89 a 99 da Lei nº 8.666, de 21 de junho de 1993.</p>
 
     <h3>Seção III <br>
     Das Normas Específicas para Obras e Serviços </h3>
@@ -739,7 +739,7 @@ const emppub:ILei = {
 
     <p>c) estabelecimento preciso das frações do objeto em que não haverá liberdade das contratadas para inovar em soluções metodológicas ou tecnológicas, em obrigações de meio, devendo haver obrigação de identidade entre a execução e a solução pré-definida no anteprojeto ou no projeto básico da licitação.</p>
 
-    <p>§ 1º As contratações semi-integradas e integradas referidas, respectivamente, nos incisos V e VI do caput deste artigo restringir-se-ão a obras e serviços de engenharia e observarão os seguintes requisitos:</p>
+    <p>§ 1º As contratações semi-integradas e integradas referidas, respectivamente, nos incisos V e VI do <em>caput</em> deste artigo restringir-se-ão a obras e serviços de engenharia e observarão os seguintes requisitos:</p>
 
     <p>I - o instrumento convocatório deverá conter:</p>
 
@@ -765,7 +765,7 @@ const emppub:ILei = {
 
     <p>§ 3º Nas contratações integradas ou semi-integradas, os riscos decorrentes de fatos supervenientes à contratação associados à escolha da solução de projeto básico pela contratante deverão ser alocados como de sua responsabilidade na matriz de riscos.</p>
 
-    <p>§ 4º No caso de licitação de obras e serviços de engenharia, as empresas públicas e as sociedades de economia mista abrangidas por esta Lei deverão utilizar a contratação semi-integrada, prevista no inciso V do caput , cabendo a elas a elaboração ou a contratação do projeto básico antes da licitação de que trata este parágrafo, podendo ser utilizadas outras modalidades previstas nos incisos do caput deste artigo, desde que essa opção seja devidamente justificada.</p>
+    <p>§ 4º No caso de licitação de obras e serviços de engenharia, as empresas públicas e as sociedades de economia mista abrangidas por esta Lei deverão utilizar a contratação semi-integrada, prevista no inciso V do <em>caput</em> , cabendo a elas a elaboração ou a contratação do projeto básico antes da licitação de que trata este parágrafo, podendo ser utilizadas outras modalidades previstas nos incisos do <em>caput</em> deste artigo, desde que essa opção seja devidamente justificada.</p>
 
     <p>§ 5º Para fins do previsto na parte final do § 4º, não será admitida, por parte da empresa pública ou da sociedade de economia mista, como justificativa para a adoção da modalidade de contratação integrada, a ausência de projeto básico.</p>
 
@@ -783,7 +783,7 @@ const emppub:ILei = {
 
     <p>VI - contratação integrada, quando a obra ou o serviço de engenharia for de natureza predominantemente intelectual e de inovação tecnológica do objeto licitado ou puder ser executado com diferentes metodologias ou tecnologias de domínio restrito no mercado.</p>
 
-    <p>§ 1º Serão obrigatoriamente precedidas pela elaboração de projeto básico, disponível para exame de qualquer interessado, as licitações para a contratação de obras e serviços, com exceção daquelas em que for adotado o regime previsto no inciso VI do caput deste artigo.</p>
+    <p>§ 1º Serão obrigatoriamente precedidas pela elaboração de projeto básico, disponível para exame de qualquer interessado, as licitações para a contratação de obras e serviços, com exceção daquelas em que for adotado o regime previsto no inciso VI do <em>caput</em> deste artigo.</p>
 
     <p>§ 2º É vedada a execução, sem projeto executivo, de obras e serviços de engenharia.</p>
 
@@ -797,9 +797,9 @@ const emppub:ILei = {
 
     <p>§ 1º A elaboração do projeto executivo constituirá encargo do contratado, consoante preço previamente fixado pela empresa pública ou pela sociedade de economia mista.</p>
 
-    <p>§ 2º É permitida a participação das pessoas jurídicas e da pessoa física de que tratam os incisos II e III do caput deste artigo em licitação ou em execução de contrato, como consultor ou técnico, nas funções de fiscalização, supervisão ou gerenciamento, exclusivamente a serviço da empresa pública e da sociedade de economia mista interessadas.</p>
+    <p>§ 2º É permitida a participação das pessoas jurídicas e da pessoa física de que tratam os incisos II e III do <em>caput</em> deste artigo em licitação ou em execução de contrato, como consultor ou técnico, nas funções de fiscalização, supervisão ou gerenciamento, exclusivamente a serviço da empresa pública e da sociedade de economia mista interessadas.</p>
 
-    <p>§ 3º Para fins do disposto no caput , considera-se participação indireta a existência de vínculos de natureza técnica, comercial, econômica, financeira ou trabalhista entre o autor do projeto básico, pessoa física ou jurídica, e o licitante ou responsável pelos serviços, fornecimentos e obras, incluindo-se os fornecimentos de bens e serviços a estes necessários.</p>
+    <p>§ 3º Para fins do disposto no <em>caput</em> , considera-se participação indireta a existência de vínculos de natureza técnica, comercial, econômica, financeira ou trabalhista entre o autor do projeto básico, pessoa física ou jurídica, e o licitante ou responsável pelos serviços, fornecimentos e obras, incluindo-se os fornecimentos de bens e serviços a estes necessários.</p>
 
     <p>§ 4º O disposto no § 3º deste artigo aplica-se a empregados incumbidos de levar a efeito atos e procedimentos realizados pela empresa pública e pela sociedade de economia mista no curso da licitação.</p>
 
@@ -809,7 +809,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 46. </span>Mediante justificativa expressa e desde que não implique perda de economia de escala, poderá ser celebrado mais de um contrato para executar serviço de mesma natureza quando o objeto da contratação puder ser executado de forma concorrente e simultânea por mais de um contratado.</p>
 
-    <p>§ 1º Na hipótese prevista no caput deste artigo, será mantido controle individualizado da execução do objeto contratual relativamente a cada um dos contratados.</p>
+    <p>§ 1º Na hipótese prevista no <em>caput</em> deste artigo, será mantido controle individualizado da execução do objeto contratual relativamente a cada um dos contratados.</p>
 
     <p>§ 2º (VETADO).</p>
 
@@ -830,7 +830,7 @@ const emppub:ILei = {
 
     <p>III - solicitar a certificação da qualidade do produto ou do processo de fabricação, inclusive sob o aspecto ambiental, por instituição previamente credenciada.</p>
 
-    <p>Parágrafo único. O edital poderá exigir, como condição de aceitabilidade da proposta, a adequação às normas da Associação Brasileira de Normas Técnicas (ABNT) ou a certificação da qualidade do produto por instituição credenciada pelo Sistema Nacional de Metrologia, Normalização e Qualidade Industrial (Sinmetro) .</p>
+    <p>Parágrafo único. O edital poderá exigir, como condição de aceitabilidade da proposta, a adequação às normas da Associação Brasileira de Normas Técnicas (ABNT) ou a certificação da qualidade do produto por instituição credenciada pelo Sistema Nacional de Metrologia, Normalização e Qualidade Industrial (Sinmetro).</p>
 
     <p><span class="artigo">Art. 48. </span>Será dada publicidade, com periodicidade mínima semestral, em sítio eletrônico oficial na internet de acesso irrestrito, à relação das aquisições de bens efetivadas pelas empresas públicas e pelas sociedades de economia mista, compreendidas as seguintes informações:</p>
 
@@ -876,9 +876,9 @@ const emppub:ILei = {
 
     <p>X - homologação do resultado ou revogação do procedimento.</p>
 
-    <p>§ 1º A fase de que trata o inciso VII do caput poderá, excepcionalmente, anteceder as referidas nos incisos III a VI do caput , desde que expressamente previsto no instrumento convocatório.</p>
+    <p>§ 1º A fase de que trata o inciso VII do <em>caput</em> poderá, excepcionalmente, anteceder as referidas nos incisos III a VI do <em>caput</em> , desde que expressamente previsto no instrumento convocatório.</p>
 
-    <p>§ 2º Os atos e procedimentos decorrentes das fases enumeradas no caput praticados por empresas públicas, por sociedades de economia mista e por licitantes serão efetivados preferencialmente por meio eletrônico, nos termos definidos pelo instrumento convocatório, devendo os avisos contendo os resumos dos editais das licitações e contratos abrangidos por esta Lei ser previamente publicados no Diário Oficial da União, do Estado ou do Município e na internet.</p>
+    <p>§ 2º Os atos e procedimentos decorrentes das fases enumeradas no <em>caput</em> praticados por empresas públicas, por sociedades de economia mista e por licitantes serão efetivados preferencialmente por meio eletrônico, nos termos definidos pelo instrumento convocatório, devendo os avisos contendo os resumos dos editais das licitações e contratos abrangidos por esta Lei ser previamente publicados no Diário Oficial da União, do Estado ou do Município e na internet.</p>
 
     <p><span class="artigo">Art. 52. </span>Poderão ser adotados os modos de disputa aberto ou fechado, ou, quando o objeto da licitação puder ser parcelado, a combinação de ambos, observado o disposto no inciso III do art. 32 desta Lei.</p>
 
@@ -918,21 +918,21 @@ const emppub:ILei = {
 
     <p>§ 1º Os critérios de julgamento serão expressamente identificados no instrumento convocatório e poderão ser combinados na hipótese de parcelamento do objeto, observado o disposto no inciso III do art. 32.</p>
 
-    <p>§ 2º Na hipótese de adoção dos critérios referidos nos incisos III, IV, V e VII do caput deste artigo, o julgamento das propostas será efetivado mediante o emprego de parâmetros específicos, definidos no instrumento convocatório, destinados a limitar a subjetividade do julgamento.</p>
+    <p>§ 2º Na hipótese de adoção dos critérios referidos nos incisos III, IV, V e VII do <em>caput</em> deste artigo, o julgamento das propostas será efetivado mediante o emprego de parâmetros específicos, definidos no instrumento convocatório, destinados a limitar a subjetividade do julgamento.</p>
 
     <p>§ 3º Para efeito de julgamento, não serão consideradas vantagens não previstas no instrumento convocatório.</p>
 
-    <p>§ 4º O critério previsto no inciso II do caput :</p>
+    <p>§ 4º O critério previsto no inciso II do <em>caput</em> :</p>
 
     <p>I - terá como referência o preço global fixado no instrumento convocatório, estendendo-se o desconto oferecido nas propostas ou lances vencedores a eventuais termos aditivos;</p>
 
     <p>II - no caso de obras e serviços de engenharia, o desconto incidirá de forma linear sobre a totalidade dos itens constantes do orçamento estimado, que deverá obrigatoriamente integrar o instrumento convocatório.</p>
 
-    <p>§ 5º Quando for utilizado o critério referido no inciso III do caput , a avaliação das propostas técnicas e de preço considerará o percentual de ponderação mais relevante, limitado a 70% (setenta por cento).</p>
+    <p>§ 5º Quando for utilizado o critério referido no inciso III do <em>caput</em> , a avaliação das propostas técnicas e de preço considerará o percentual de ponderação mais relevante, limitado a 70% (setenta por cento).</p>
 
-    <p>§ 6º Quando for utilizado o critério referido no inciso VII do caput , os lances ou propostas terão o objetivo de proporcionar economia à empresa pública ou à sociedade de economia mista, por meio da redução de suas despesas correntes, remunerando-se o licitante vencedor com base em percentual da economia de recursos gerada.</p>
+    <p>§ 6º Quando for utilizado o critério referido no inciso VII do <em>caput</em> , os lances ou propostas terão o objetivo de proporcionar economia à empresa pública ou à sociedade de economia mista, por meio da redução de suas despesas correntes, remunerando-se o licitante vencedor com base em percentual da economia de recursos gerada.</p>
 
-    <p>§ 7º Na implementação do critério previsto no inciso VIII do caput deste artigo, será obrigatoriamente considerada, nos termos do respectivo instrumento convocatório, a repercussão, no meio social, da finalidade para cujo atendimento o bem será utilizado pelo adquirente.</p>
+    <p>§ 7º Na implementação do critério previsto no inciso VIII do <em>caput</em> deste artigo, será obrigatoriamente considerada, nos termos do respectivo instrumento convocatório, a repercussão, no meio social, da finalidade para cujo atendimento o bem será utilizado pelo adquirente.</p>
 
     <p>§ 8º O descumprimento da finalidade a que se refere o § 7º deste artigo resultará na imediata restituição do bem alcançado ao acervo patrimonial da empresa pública ou da sociedade de economia mista, vedado, nessa hipótese, o pagamento de indenização em favor do adquirente.</p>
 
@@ -954,7 +954,7 @@ const emppub:ILei = {
 
     <p>III - apresentem preços manifestamente inexequíveis;</p>
 
-    <p>IV - se encontrem acima do orçamento estimado para a contratação de que trata o § 1º do art. 57, ressalvada a hipótese prevista no caput do art. 34 desta Lei;</p>
+    <p>IV - se encontrem acima do orçamento estimado para a contratação de que trata o § 1º do art. 57, ressalvada a hipótese prevista no <em>caput</em> do art. 34 desta Lei;</p>
 
     <p>V - não tenham sua exequibilidade demonstrada, quando exigido pela empresa pública ou pela sociedade de economia mista;</p>
 
@@ -962,7 +962,7 @@ const emppub:ILei = {
 
     <p>§ 1º A verificação da efetividade dos lances ou propostas poderá ser feita exclusivamente em relação aos lances e propostas mais bem classificados.</p>
 
-    <p>§ 2º A empresa pública e a sociedade de economia mista poderão realizar diligências para aferir a exequibilidade das propostas ou exigir dos licitantes que ela seja demonstrada, na forma do inciso V do caput .</p>
+    <p>§ 2º A empresa pública e a sociedade de economia mista poderão realizar diligências para aferir a exequibilidade das propostas ou exigir dos licitantes que ela seja demonstrada, na forma do inciso V do <em>caput</em>.</p>
 
     <p>§ 3º Nas licitações de obras e serviços de engenharia, consideram-se inexequíveis as propostas com valores globais inferiores a 70% (setenta por cento) do menor dos seguintes valores:</p>
 
@@ -996,9 +996,9 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 59. </span>Salvo no caso de inversão de fases, o procedimento licitatório terá fase recursal única.</p>
 
-    <p>§ 1º Os recursos serão apresentados no prazo de 5 (cinco) dias úteis após a habilitação e contemplarão, além dos atos praticados nessa fase, aqueles praticados em decorrência do disposto nos incisos IV e V do caput do art. 51 desta Lei.</p>
+    <p>§ 1º Os recursos serão apresentados no prazo de 5 (cinco) dias úteis após a habilitação e contemplarão, além dos atos praticados nessa fase, aqueles praticados em decorrência do disposto nos incisos IV e V do <em>caput</em> do art. 51 desta Lei.</p>
 
-    <p>§ 2º Na hipótese de inversão de fases, o prazo referido no § 1º será aberto após a habilitação e após o encerramento da fase prevista no inciso V do caput do art. 51, abrangendo o segundo prazo também atos decorrentes da fase referida no inciso IV do caput do art. 51 desta Lei.</p>
+    <p>§ 2º Na hipótese de inversão de fases, o prazo referido no § 1º será aberto após a habilitação e após o encerramento da fase prevista no inciso V do <em>caput</em> do art. 51, abrangendo o segundo prazo também atos decorrentes da fase referida no inciso IV do <em>caput</em> do art. 51 desta Lei.</p>
 
     <p><span class="artigo">Art. 60. </span>A homologação do resultado implica a constituição de direito relativo à celebração do contrato em favor do licitante vencedor.</p>
 
@@ -1010,9 +1010,9 @@ const emppub:ILei = {
 
     <p>§ 2º A nulidade da licitação induz à do contrato.</p>
 
-    <p>§ 3º Depois de iniciada a fase de apresentação de lances ou propostas, referida no inciso III do caput do art. 51 desta Lei, a revogação ou a anulação da licitação somente será efetivada depois de se conceder aos licitantes que manifestem interesse em contestar o respectivo ato prazo apto a lhes assegurar o exercício do direito ao contraditório e à ampla defesa.</p>
+    <p>§ 3º Depois de iniciada a fase de apresentação de lances ou propostas, referida no inciso III do <em>caput</em> do art. 51 desta Lei, a revogação ou a anulação da licitação somente será efetivada depois de se conceder aos licitantes que manifestem interesse em contestar o respectivo ato prazo apto a lhes assegurar o exercício do direito ao contraditório e à ampla defesa.</p>
 
-    <p>§ 4º O disposto no caput e nos §§ 1º e 2º deste artigo aplica-se, no que couber, aos atos por meio dos quais se determine a contratação direta.</p>
+    <p>§ 4º O disposto no <em>caput</em> e nos §§ 1º e 2º deste artigo aplica-se, no que couber, aos atos por meio dos quais se determine a contratação direta.</p>
 
     <h3>Seção VII<br>
     Dos Procedimentos Auxiliares das Licitações </h3>
@@ -1027,7 +1027,7 @@ const emppub:ILei = {
 
     <p>IV - catálogo eletrônico de padronização.</p>
 
-    <p>Parágrafo único. Os procedimentos de que trata o caput deste artigo obedecerão a critérios claros e objetivos definidos em regulamento.</p>
+    <p>Parágrafo único. Os procedimentos de que trata o <em>caput</em> deste artigo obedecerão a critérios claros e objetivos definidos em regulamento.</p>
 
     <p><span class="artigo">Art. 64. </span>Considera-se pré-qualificação permanente o procedimento anterior à licitação destinado a identificar:</p>
 
@@ -1061,7 +1061,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 66. </span>O Sistema de Registro de Preços especificamente destinado às licitações de que trata esta Lei reger-se-á pelo disposto em decreto do Poder Executivo e pelas seguintes disposições:</p>
 
-    <p>§ 1º Poderá aderir ao sistema referido no caput qualquer órgão ou entidade responsável pela execução das atividades contempladas no art. 1º desta Lei.</p>
+    <p>§ 1º Poderá aderir ao sistema referido no <em>caput</em> qualquer órgão ou entidade responsável pela execução das atividades contempladas no art. 1º desta Lei.</p>
 
     <p>§ 2º O registro de preços observará, entre outras, as seguintes condições:</p>
 
@@ -1079,7 +1079,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 67. </span>O catálogo eletrônico de padronização de compras, serviços e obras consiste em sistema informatizado, de gerenciamento centralizado, destinado a permitir a padronização dos itens a serem adquiridos pela empresa pública ou sociedade de economia mista que estarão disponíveis para a realização de licitação.</p>
 
-    <p>Parágrafo único. O catálogo referido no caput poderá ser utilizado em licitações cujo critério de julgamento seja o menor preço ou o maior desconto e conterá toda a documentação e todos os procedimentos da fase interna da licitação, assim como as especificações dos respectivos objetos, conforme disposto em regulamento.</p>
+    <p>Parágrafo único. O catálogo referido no <em>caput</em> poderá ser utilizado em licitações cujo critério de julgamento seja o menor preço ou o maior desconto e conterá toda a documentação e todos os procedimentos da fase interna da licitação, assim como as especificações dos respectivos objetos, conforme disposto em regulamento.</p>
 
     <h2>CAPÍTULO II<br>
     Dos Contratos </h2>
@@ -1113,7 +1113,7 @@ const emppub:ILei = {
 
     <p>§ 1º (VETADO).</p>
 
-    <p>§ 2º Nos contratos decorrentes de licitações de obras ou serviços de engenharia em que tenha sido adotado o modo de disputa aberto, o contratado deverá reelaborar e apresentar à empresa pública ou à sociedade de economia mista e às suas respectivas subsidiárias, por meio eletrônico, as planilhas com indicação dos quantitativos e dos custos unitários, bem como do detalhamento das Bonificações e Despesas Indiretas (BDI) e dos Encargos Sociais (ES), com os respectivos valores adequados ao lance vencedor, para fins do disposto no inciso III do caput deste artigo.</p>
+    <p>§ 2º Nos contratos decorrentes de licitações de obras ou serviços de engenharia em que tenha sido adotado o modo de disputa aberto, o contratado deverá reelaborar e apresentar à empresa pública ou à sociedade de economia mista e às suas respectivas subsidiárias, por meio eletrônico, as planilhas com indicação dos quantitativos e dos custos unitários, bem como do detalhamento das Bonificações e Despesas Indiretas (BDI) e dos Encargos Sociais (ES), com os respectivos valores adequados ao lance vencedor, para fins do disposto no inciso III do <em>caput</em> deste artigo.</p>
 
     <p><span class="artigo">Art. 70. </span>Poderá ser exigida prestação de garantia nas contratações de obras, serviços e compras.</p>
 
@@ -1125,7 +1125,7 @@ const emppub:ILei = {
 
     <p>III - fiança bancária.</p>
 
-    <p>§ 2º A garantia a que se refere o caput não excederá a 5% (cinco por cento) do valor do contrato e terá seu valor atualizado nas mesmas condições nele estabelecidas, ressalvado o previsto no § 3º deste artigo.</p>
+    <p>§ 2º A garantia a que se refere o <em>caput</em> não excederá a 5% (cinco por cento) do valor do contrato e terá seu valor atualizado nas mesmas condições nele estabelecidas, ressalvado o previsto no § 3º deste artigo.</p>
 
     <p>§ 3º Para obras, serviços e fornecimentos de grande vulto envolvendo complexidade técnica e riscos financeiros elevados, o limite de garantia previsto no § 2º poderá ser elevado para até 10% (dez por cento) do valor do contrato.</p>
 
@@ -1143,9 +1143,9 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 73. </span>A redução a termo do contrato poderá ser dispensada no caso de pequenas despesas de pronta entrega e pagamento das quais não resultem obrigações futuras por parte da empresa pública ou da sociedade de economia mista.</p>
 
-    <p>Parágrafo único. O disposto no caput não prejudicará o registro contábil exaustivo dos valores despendidos e a exigência de recibo por parte dos respectivos destinatários.</p>
+    <p>Parágrafo único. O disposto no <em>caput</em> não prejudicará o registro contábil exaustivo dos valores despendidos e a exigência de recibo por parte dos respectivos destinatários.</p>
 
-    <p><span class="artigo">Art. 74. </span>É permitido a qualquer interessado o conhecimento dos termos do contrato e a obtenção de cópia autenticada de seu inteiro teor ou de qualquer de suas partes, admitida a exigência de ressarcimento dos custos, nos termos previstos na Lei nº 12.527, de 18 de novembro de 2011 .</p>
+    <p><span class="artigo">Art. 74. </span>É permitido a qualquer interessado o conhecimento dos termos do contrato e a obtenção de cópia autenticada de seu inteiro teor ou de qualquer de suas partes, admitida a exigência de ressarcimento dos custos, nos termos previstos na Lei nº 12.527, de 18 de novembro de 2011.</p>
 
     <p><span class="artigo">Art. 75. </span>A empresa pública e a sociedade de economia mista convocarão o licitante vencedor ou o destinatário de contratação com dispensa ou inexigibilidade de licitação para assinar o termo de contrato, observados o prazo e as condições estabelecidos, sob pena de decadência do direito à contratação.</p>
 
@@ -1179,7 +1179,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 79. </span>Na hipótese do § 6º do art. 54, quando não for gerada a economia prevista no lance ou proposta, a diferença entre a economia contratada e a efetivamente obtida será descontada da remuneração do contratado.</p>
 
-    <p>Parágrafo único. Se a diferença entre a economia contratada e a efetivamente obtida for superior à remuneração do contratado, será aplicada a sanção prevista no contrato, nos termos do inciso VI do caput do art. 69 desta Lei.</p>
+    <p>Parágrafo único. Se a diferença entre a economia contratada e a efetivamente obtida for superior à remuneração do contratado, será aplicada a sanção prevista no contrato, nos termos do inciso VI do <em>caput</em> do art. 69 desta Lei.</p>
 
     <p><span class="artigo">Art. 80. </span>Os direitos patrimoniais e autorais de projetos ou serviços técnicos especializados desenvolvidos por profissionais autônomos ou por empresas contratadas passam a ser propriedade da empresa pública ou sociedade de economia mista que os tenha contratado, sem prejuízo da preservação da identificação dos respectivos autores e da responsabilidade técnica a eles atribuída.</p>
 
@@ -1237,7 +1237,7 @@ const emppub:ILei = {
 
     <p>§ 1º Se a multa aplicada for superior ao valor da garantia prestada, além da perda desta, responderá o contratado pela sua diferença, que será descontada dos pagamentos eventualmente devidos pela empresa pública ou pela sociedade de economia mista ou cobrada judicialmente.</p>
 
-    <p>§ 2º As sanções previstas nos incisos I e III do caput poderão ser aplicadas juntamente com a do inciso II, devendo a defesa prévia do interessado, no respectivo processo, ser apresentada no prazo de 10 (dez) dias úteis.</p>
+    <p>§ 2º As sanções previstas nos incisos I e III do <em>caput</em> poderão ser aplicadas juntamente com a do inciso II, devendo a defesa prévia do interessado, no respectivo processo, ser apresentada no prazo de 10 (dez) dias úteis.</p>
 
     <p><span class="artigo">Art. 84. </span>As sanções previstas no inciso III do art. 83 poderão também ser aplicadas às empresas ou aos profissionais que, em razão dos contratos regidos por esta Lei:</p>
 
@@ -1252,7 +1252,7 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 85. </span>Os órgãos de controle externo e interno das 3 (três) esferas de governo fiscalizarão as empresas públicas e as sociedades de economia mista a elas relacionadas, inclusive aquelas domiciliadas no exterior, quanto à legitimidade, à economicidade e à eficácia da aplicação de seus recursos, sob o ponto de vista contábil, financeiro, operacional e patrimonial.</p>
 
-    <p>§ 1º Para a realização da atividade fiscalizatória de que trata o caput , os órgãos de controle deverão ter acesso irrestrito aos documentos e às informações necessários à realização dos trabalhos, inclusive aqueles classificados como sigilosos pela empresa pública ou pela sociedade de economia mista, nos termos da Lei nº 12.527, de 18 de novembro de 2011 .</p>
+    <p>§ 1º Para a realização da atividade fiscalizatória de que trata o <em>caput</em> , os órgãos de controle deverão ter acesso irrestrito aos documentos e às informações necessários à realização dos trabalhos, inclusive aqueles classificados como sigilosos pela empresa pública ou pela sociedade de economia mista, nos termos da Lei nº 12.527, de 18 de novembro de 2011.</p>
 
     <p>§ 2º O grau de confidencialidade será atribuído pelas empresas públicas e sociedades de economia mista no ato de entrega dos documentos e informações solicitados, tornando-se o órgão de controle com o qual foi compartilhada a informação sigilosa corresponsável pela manutenção do seu sigilo.</p>
 
@@ -1264,7 +1264,7 @@ const emppub:ILei = {
 
     <p>§ 2º As atas e demais expedientes oriundos de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou fiscal das empresas públicas e das sociedades de economia mista, inclusive gravações e filmagens, quando houver, deverão ser disponibilizados para os órgãos de controle sempre que solicitados, no âmbito dos trabalhos de auditoria.</p>
 
-    <p>§ 3º O acesso dos órgãos de controle às informações referidas no caput e no § 2º será restrito e individualizado.</p>
+    <p>§ 3º O acesso dos órgãos de controle às informações referidas no <em>caput</em> e no § 2º será restrito e individualizado.</p>
 
     <p>§ 4º As informações que sejam revestidas de sigilo bancário, estratégico, comercial ou industrial serão assim identificadas, respondendo o servidor administrativa, civil e penalmente pelos danos causados à empresa pública ou à sociedade de economia mista e a seus acionistas em razão de eventual divulgação indevida.</p>
 
@@ -1293,11 +1293,11 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 91. </span>A empresa pública e a sociedade de economia mista constituídas anteriormente à vigência desta Lei deverão, no prazo de 24 (vinte e quatro) meses, promover as adaptações necessárias à adequação ao disposto nesta Lei.</p>
 
-    <p>§ 1º A sociedade de economia mista que tiver capital fechado na data de entrada em vigor desta Lei poderá, observado o prazo estabelecido no caput , ser transformada em empresa pública, mediante resgate, pela empresa, da totalidade das ações de titularidade de acionistas privados, com base no valor de patrimônio líquido constante do último balanço aprovado pela assembleia-geral.</p>
+    <p>§ 1º A sociedade de economia mista que tiver capital fechado na data de entrada em vigor desta Lei poderá, observado o prazo estabelecido no <em>caput</em> , ser transformada em empresa pública, mediante resgate, pela empresa, da totalidade das ações de titularidade de acionistas privados, com base no valor de patrimônio líquido constante do último balanço aprovado pela assembleia-geral.</p>
 
     <p>§ 2º (VETADO).</p>
 
-    <p>§ 3º Permanecem regidos pela legislação anterior procedimentos licitatórios e contratos iniciados ou celebrados até o final do prazo previsto no caput .</p>
+    <p>§ 3º Permanecem regidos pela legislação anterior procedimentos licitatórios e contratos iniciados ou celebrados até o final do prazo previsto no <em>caput</em>.</p>
 
     <p><span class="artigo">Art. 92. </span>O Registro Público de Empresas Mercantis e Atividades Afins manterá banco de dados público e gratuito, disponível na internet, contendo a relação de todas as empresas públicas e as sociedades de economia mista.</p>
 
@@ -1305,11 +1305,11 @@ const emppub:ILei = {
 
     <p><span class="artigo">Art. 93. </span>As despesas com publicidade e patrocínio da empresa pública e da sociedade de economia mista não ultrapassarão, em cada exercício, o limite de 0,5% (cinco décimos por cento) da receita operacional bruta do exercício anterior.</p>
 
-    <p>§ 1º O limite disposto no caput poderá ser ampliado, até o limite de 2% (dois por cento) da receita bruta do exercício anterior, por proposta da diretoria da empresa pública ou da sociedade de economia mista justificada com base em parâmetros de mercado do setor específico de atuação da empresa ou da sociedade e aprovada pelo respectivo Conselho de Administração.</p>
+    <p>§ 1º O limite disposto no <em>caput</em> poderá ser ampliado, até o limite de 2% (dois por cento) da receita bruta do exercício anterior, por proposta da diretoria da empresa pública ou da sociedade de economia mista justificada com base em parâmetros de mercado do setor específico de atuação da empresa ou da sociedade e aprovada pelo respectivo Conselho de Administração.</p>
 
     <p>§ 2º É vedado à empresa pública e à sociedade de economia mista realizar, em ano de eleição para cargos do ente federativo a que sejam vinculadas, despesas com publicidade e patrocínio que excedam a média dos gastos nos 3 (três) últimos anos que antecedem o pleito ou no último ano imediatamente anterior à eleição.</p>
 
-    <p><span class="artigo">Art. 94. </span>Aplicam-se à empresa pública, à sociedade de economia mista e às suas subsidiárias as sanções previstas na Lei nº 12.846, de 1º de agosto de 2013 , salvo as previstas nos incisos II, III e IV do caput do art. 19 da referida Lei .</p>
+    <p><span class="artigo">Art. 94. </span>Aplicam-se à empresa pública, à sociedade de economia mista e às suas subsidiárias as sanções previstas na Lei nº 12.846, de 1º de agosto de 2013 , salvo as previstas nos incisos II, III e IV do <em>caput</em> do art. 19 da referida Lei.</p>
 
     <p><span class="artigo">Art. 95. </span>A estratégia de longo prazo prevista no art. 23 deverá ser aprovada em até 180 (cento e oitenta) dias da data de publicação da presente Lei.</p>
 
@@ -1317,7 +1317,7 @@ const emppub:ILei = {
 
     <p>I - o § 2º do art. 15 da Lei nº 3.890-A, de 25 de abril de 1961 , com a redação dada pelo art. 19 da Lei nº 11.943, de 28 de maio de 2009;</p>
 
-    <p>II - os arts. 67 e 68 da Lei nº 9.478, de 6 de agosto de 1997 .</p>
+    <p>II - os arts. 67 e 68 da Lei nº 9.478, de 6 de agosto de 1997.</p>
 
     <p><span class="artigo">Art. 97. </span>Esta Lei entra em vigor na data de sua publicação.</p>
 

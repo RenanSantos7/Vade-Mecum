@@ -29,9 +29,9 @@ export default function Favoritos() {
 	return (
 		<section className={styles.favoritos}>
 			<h2>Favoritos</h2>
-			<div className={styles.favoritos__wrapper}>
+			<div className={styles.wrapper}>
 				{favoritos.map((lei: ILei) => (
-					<div key={lei.id} className={styles.favoritos__item}>
+					<div key={lei.id} className={styles.item}>
 						<LinkLei destino={lei.id}>{lei.alias}</LinkLei>
 
 						<button

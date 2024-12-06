@@ -6,15 +6,15 @@
 	margin-bottom: 1em;
 }
 
-.favoritos__wrapper {
+.wrapper {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-column-gap: 1vw;
 	grid-row-gap: 1vw;
 }
 
-.favoritos__item,
-.favoritos__vazio {
+/* @prettier-ignore */
+.item, .vazio {
 	height: 85px; 
 	border-radius: 18px;
 	display: flex;
@@ -23,13 +23,14 @@
 	padding: 2vh;
 	text-align: center;
 	font-size: 11pt;
+	line-height: 1.2;
 }
 
-.favoritos__vazio {
+.vazio {
 	border: 1px dashed var(--cinza)
 }
 
-.favoritos__item {
+.item {
 	background-color: var(--fundo2);
 	transition: .6s ease-in-out;
 	position: relative;

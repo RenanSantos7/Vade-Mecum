@@ -1,5 +1,4 @@
 /* ! mobile first */
-
 .corpo {
 	background-color: var(--fundo2);
 	margin: 0;
@@ -38,6 +37,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		text-align: center;
 		margin-bottom: 1em;
+		max-width: 85%;
+		margin-inline: auto;
 	}
 
 	h1 {
@@ -192,12 +193,9 @@
 		background-color: var(--cinza1);
 		border-radius: 1rem;
 		width: min(75%, 500px);
-
-		ul {
-			margin-left: 1rem;
-		}
-
+		
 		li {
+			margin-left: 2rem;
 			text-align: left;
 			margin-bottom: 0;
 			margin-top: 0.25rem;
