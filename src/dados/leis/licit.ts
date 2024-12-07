@@ -4,6 +4,8 @@ const licit:ILei = {
     id: "licit",
     titulo: "Lei das Licitações e Contratos Administrativos",
     alias: "Lei das Licitações e Contratos Administrativos",
+    numLei: 'Lei nº 14.133, de 1º de abril de 2021',
+    linkDaLei: 'http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm',
     linksRelacionados: [
         {id: "cf", nome: "Constituição Federal"},
 		{id: "cpc", nome: "Novo Código de Processo Civil"},
@@ -14,12 +16,9 @@ const licit:ILei = {
     ],
     jurisdicao: "nacional",
     area: "administrativo",
-    conteudo: `
-    <p id=subtit><a href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm">Lei nº 14.133, de 1º de abril de 2021</a></p>
-
-    <p id=ementa>Lei de Licitações e Contratos Administrativos.</p>
-    
-    <nav id=links>
+    ementa: 'Lei de Licitações e Contratos Administrativos.',
+    conteudo: `  
+    <nav class="links">
         <ul>
             <li><a href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/Msg/VEP/VEP-118.htm">Mensagem de veto</a></li>
     
@@ -45,7 +44,7 @@ const licit:ILei = {
     
     <p>II - os fundos especiais e as demais entidades controladas direta ou indiretamente pela Administração Pública.</p>
     
-    <p><span class=paragrafo>§ 1º.</span> Não são abrangidas por esta Lei as empresas públicas, as sociedades de economia mista e as suas subsidiárias, regidas pela <a href="EMPPUB.html">Lei nº 13.303, de 30 de junho de </a>2016, ressalvado o disposto no <a href="#178">art. 178</a> desta Lei.</p>
+    <p><span class=paragrafo>§ 1º.</span> Não são abrangidas por esta Lei as empresas públicas, as sociedades de economia mista e as suas subsidiárias, regidas pela <a href="./emppub">Lei nº 13.303, de 30 de junho de </a>2016, ressalvado o disposto no <a href="#178">art. 178</a> desta Lei.</p>
     
     <ul class="dica">
         <li>A Lei nº 13.303 dispõe sobre o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias, no âmbito da União, dos Estados, do Distrito Federal e dos Municípios.</li>

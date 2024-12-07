@@ -195,7 +195,6 @@
 		width: min(75%, 500px);
 		
 		li {
-			margin-left: 2rem;
 			text-align: left;
 			margin-bottom: 0;
 			margin-top: 0.25rem;
@@ -212,6 +211,10 @@
 		}
 	}
 
+	ul.links li {
+		margin-left: 2rem;
+	}
+	
 	.subtit {
 		text-align: center;
 		font-weight: 600;
