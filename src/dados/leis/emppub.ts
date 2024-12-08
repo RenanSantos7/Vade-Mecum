@@ -489,7 +489,7 @@ const emppub: ILei = {
 
   <p>XVII - na doação de bens móveis para fins e usos de interesse social, após avaliação de sua oportunidade e conveniência socioeconômica relativamente à escolha de outra forma de alienação;</p>
 
-  <pxviii>XVIII - na compra e venda de ações, de títulos de crédito e de dívida e de bens que produzam ou comercializem.&nbsp;&nbsp; (Vide ADIN 5624)&nbsp;&nbsp; (Vide ADIN 5846)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADIN 5924)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADIN 6029)</pxviii>
+  <p id="xviii">XVIII - na compra e venda de ações, de títulos de crédito e de dívida e de bens que produzam ou comercializem.&nbsp;&nbsp; (Vide ADIN 5624)&nbsp;&nbsp; (Vide ADIN 5846)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADIN 5924)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Vide ADIN 6029)</p>
 
   <p>§ 1º Na hipótese de nenhum dos licitantes aceitar a contratação nos termos do inciso VI do <em>caput</em> , a empresa pública e a sociedade de economia mista poderão convocar os licitantes remanescentes, na ordem de classificação, para a celebração do contrato nas condições ofertadas por estes, desde que o respectivo valor seja igual ou inferior ao orçamento estimado para a contratação, inclusive quanto aos preços atualizados nos termos do instrumento convocatório.</p>
 

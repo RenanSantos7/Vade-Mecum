@@ -26,7 +26,7 @@ const licit:ILei = {
             
             <li><a href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/Decreto/D10929.htm">Regulamento</a></li>
     
-            <li><a href="L8666.html">Antiga Lei de Licitações</a></li>
+            <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l8666cons.htm">Antiga Lei de Licitações</a></li>
         </ul>
     </nav>
     
