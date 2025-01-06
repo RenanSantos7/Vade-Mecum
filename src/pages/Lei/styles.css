@@ -171,11 +171,24 @@
 		margin-left: var(--indent);
 		margin-block: 1rem;
 		line-height: 1;
+		border: 1px solid var(--cinza);
+		padding: 1rem;
+		border-radius: 4px;
+
+		&::before {
+			content: "nota";
+			color: var(--cinza);
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-bottom: 1rem;
+		}
 
 		li {
 			font-size: 1rem;
 			color: var(--cinza);
-			margin-bottom: 5px;
+			margin-top: 5px;
+			margin-bottom: 0;
+			margin-left: 1rem;
 		}
 	}
 
