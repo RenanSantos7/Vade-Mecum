@@ -208,33 +208,59 @@ const l8213: ILei = {
     
     <p>§ 7º. O grupo familiar poderá utilizar-se de empregados contratados por prazo determinado ou de trabalhador de que trata a alínea g do inciso V do caput, à razão de no máximo 120 (cento e vinte) pessoas por dia no ano civil, em períodos corridos ou intercalados ou, ainda, por tempo equivalente em horas de trabalho, não sendo computado nesse prazo o período de afastamento em decorrência da percepção de auxílio-doença. <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2011-2014/2013/Lei/L12873.htm#art5">(Redação dada pela Lei nº. 12.873, de 2013)</a></p>
     
-    <p>§ 8º. Não descaracteriza a condição de segurado especial: <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>§ 8º. Não descaracteriza a condição de segurado especial:</p>
+
+    <ul class="dica">
+        <li><a href="http://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2008/Lei/L11718.htm#art10">Parágrafo incluído pela Lei nº. 11.718, de 2008</a></li>
+    </ul>
     
-    <p>I – a outorga, por meio de contrato escrito de parceria, meação ou comodato, de até 50% (cinquenta por cento) de imóvel rural cuja área total não seja superior a 4 (quatro) módulos fiscais, desde que outorgante e outorgado continuem a exercer a respectiva atividade, individualmente ou em regime de economia familiar; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>I – a outorga, por meio de contrato escrito de parceria, meação ou comodato, de até 50% (cinquenta por cento) de imóvel rural cuja área total não seja superior a 4 (quatro) módulos fiscais, desde que outorgante e outorgado continuem a exercer a respectiva atividade, individualmente ou em regime de economia familiar;</p>
     
-    <p>II – a exploração da atividade turística da propriedade rural, inclusive com hospedagem, por não mais de 120 (cento e vinte) dias ao ano; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>II – a exploração da atividade turística da propriedade rural, inclusive com hospedagem, por não mais de 120 (cento e vinte) dias ao ano;</a></p>
     
-    <p>III – a participação em plano de previdência complementar instituído por entidade classista a que seja associado em razão da condição de trabalhador rural ou de produtor rural em regime de economia familiar; e <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>III – a participação em plano de previdência complementar instituído por entidade classista a que seja associado em razão da condição de trabalhador rural ou de produtor rural em regime de economia familiar; e</p>
     
-    <p>IV – ser beneficiário ou fazer parte de grupo familiar que tem algum componente que seja beneficiário de programa assistencial oficial de governo; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>IV – ser beneficiário ou fazer parte de grupo familiar que tem algum componente que seja beneficiário de programa assistencial oficial de governo;</p>
     
-    <p>V – a utilização pelo próprio grupo familiar, na exploração da atividade, de processo de beneficiamento ou industrialização artesanal, na forma do § 11 do art. 25 da Lei no 8.212, de 24 de julho de 1991; e <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>V – a utilização pelo próprio grupo familiar, na exploração da atividade, de processo de beneficiamento ou industrialização artesanal, na forma do § 11 do art. 25 da Lei no 8.212, de 24 de julho de 1991; e</p>
     
-    <p>VI - a associação em cooperativa agropecuária ou de crédito rural; e <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2015-2018/2015/Lei/L13183.htm#art2">(Redação dada pela Lei nº. 13.183, de 2015)</a></p>
+    <p>VI - associação, exceto em cooperativa de trabalho, conforme regulamento:</p>
+
+    <p class="alinea">a) em cooperativa que tenha atuação vinculada às atividades previstas no inciso VII do caput deste artigo, conforme previsão em seu objeto social ou autorização da autoridade competente;</p>
+
+    <p class="alinea">b) (VETADO);</p>
+
+    <ul class="dica">
+		<li>Inciso com redação dada pela Lei nº 15.072, de 26 de dezembro de 2024</li>
+		<li><a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Msg/Vep/VEP-1694-24.htm">Mensagem de veto</a></li>
+	</ul>
     
-    <p>VII - a incidência do Imposto Sobre Produtos Industrializados - IPI sobre o produto das atividades desenvolvidas nos termos do § 12. <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2011-2014/2013/Lei/L12873.htm#art5">(Incluído pela Lei nº. 12.873, de 2013)</a><a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2011-2014/2013/Lei/L12873.htm#art63iii">(Produção de efeito)</a></p>
+    <p>VII - a incidência do Imposto Sobre Produtos Industrializados - IPI sobre o produto das atividades desenvolvidas nos termos do § 12.</p>
     
-    <p>§ 9º. Não é segurado especial o membro de grupo familiar que possuir outra fonte de rendimento, exceto se decorrente de: <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>§ 9º. Não é segurado especial o membro de grupo familiar que possuir outra fonte de rendimento, exceto se decorrente de:</p>
     
-    <p>I – benefício de pensão por morte, auxílio-acidente ou auxílio-reclusão, cujo valor não supere o do menor benefício de prestação continuada da Previdência Social; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>I – benefício de pensão por morte, auxílio-acidente ou auxílio-reclusão, cujo valor não supere o do menor benefício de prestação continuada da Previdência Social;</p>
     
-    <p>II – benefício previdenciário pela participação em plano de previdência complementar instituído nos termos do inciso IV do § 8o deste artigo; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>II – benefício previdenciário pela participação em plano de previdência complementar instituído nos termos do inciso IV do § 8o deste artigo;></p>
     
     <p>III - exercício de atividade remunerada em período não superior a 120 (cento e vinte) dias, corridos ou intercalados, no ano civil, observado o disposto no <a href="http://www.planalto.gov.br/ccivil_03/leis/L8212cons.htm#art12§13">§ 13 do art. 12 da Lei nº. 8.212, de 24 de julho de 1991;</a><a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2011-2014/2013/Lei/L12873.htm#art5">(Redação dada pela Lei nº. 12.873, de 2013)</a></p>
     
     <p>IV – exercício de mandato eletivo de dirigente sindical de organização da categoria de trabalhadores rurais; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
     
-    <p>V – exercício de mandato de vereador do Município em que desenvolve a atividade rural ou de dirigente de cooperativa rural constituída, exclusivamente, por segurados especiais, observado o disposto no § 13 do art. 12 da Lei no 8.212, de 24 de julho de 1991; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
+    <p>V - exercício de:</p>
+
+    <p class="dica">a) mandato de vereador do Município em que desenvolve a atividade rural;</p>
+
+    <p class="dica">b) atividade remunerada, sem dedicação exclusiva ou regime integral de trabalho, derivada de mandato eletivo:</p>
+
+    <p class="item">1. em cooperativa, exceto cooperativa de trabalho, que tenha atuação vinculada às atividades previstas no inciso VII do caput deste artigo, conforme previsão em seu objeto social ou autorização da autoridade competente, de acordo com regulamento e observado o disposto no § 13 do art. 12 da Lei nº 8.212, de 24 de julho de 1991 (Lei Orgânica da Seguridade Social);</p>
+
+    <p class="item">2. (VETADO);</p>
+
+     <ul class="dica">
+		<li>Inciso com redação dada pela Lei nº 15.072, de 26 de dezembro de 2024</li>
+		<li><a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Msg/Vep/VEP-1694-24.htm">Mensagem de veto</a></li>
+	</ul>
     
     <p>VI – parceria ou meação outorgada na forma e condições estabelecidas no inciso I do § 8o deste artigo; <a href="http://www.planalto.gov.br/ccivil_03/leis/../_Ato2007-2010/2008/Lei/L11718.htm#art10">(Incluído pela Lei nº. 11.718, de 2008)</a></p>
     

@@ -29,7 +29,7 @@ const L8212:ILei = {
 	<h1>TÍTULO I <br>
 	 CONCEITUAÇÃO E PRINCÍPIOS CONSTITUCIONAIS</span></h1>
 	
-	<p><span class=artigo>Art. 1º.</span> A Seguridade Social compreende um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade, destinado a assegurar o direito relativo à saúde, à previdência e à assistência social.</p>
+	<p><span class="artigo">Art. 1º.</span> A Seguridade Social compreende um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade, destinado a assegurar o direito relativo à saúde, à previdência e à assistência social.</p>
 	
 	<p>Parágrafo único. A Seguridade Social obedecerá aos seguintes princípios e diretrizes:</p>
 	
@@ -50,7 +50,7 @@ const L8212:ILei = {
 	<h1>TÍTULO II <br>
 	 DA SAÚDE </span></h1>
 	
-	<p><span class=artigo>Art. 2º.</span> A Saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação.</p>
+	<p><span class="artigo">Art. 2º.</span> A Saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação.</p>
 	
 	<p>Parágrafo único. As atividades de saúde são de relevância pública e sua organização obedecerá aos seguintes princípios e diretrizes:</p>
 	
@@ -69,7 +69,7 @@ const L8212:ILei = {
 	<h1>TÍTULO III <br>
 	 DA PREVIDÊNCIA SOCIAL </span></h1>
 	
-	<p><span class=artigo>Art. 3º.</span> A Previdência Social tem por fim assegurar aos seus beneficiários meios indispensáveis de manutenção, por motivo de incapacidade, idade avançada, tempo de serviço, desemprego involuntário, encargos de família e reclusão ou morte daqueles de quem dependiam economicamente.</p>
+	<p><span class="artigo">Art. 3º.</span> A Previdência Social tem por fim assegurar aos seus beneficiários meios indispensáveis de manutenção, por motivo de incapacidade, idade avançada, tempo de serviço, desemprego involuntário, encargos de família e reclusão ou morte daqueles de quem dependiam economicamente.</p>
 	
 	<p>Parágrafo único. A organização da Previdência Social obedecerá aos seguintes princípios e diretrizes:</p>
 	
@@ -86,7 +86,7 @@ const L8212:ILei = {
 	<h1>TÍTULO IV <br>
 	 DA ASSISTÊNCIA SOCIAL </span></h1>
 	
-	<p><span class=artigo>Art. 4º.</span> A Assistência Social é a política social que provê o atendimento das necessidades básicas, traduzidas em proteção à família, à maternidade, à infância, à adolescência, à velhice e à pessoa portadora de deficiência, independentemente de contribuição à Seguridade Social.</p>
+	<p><span class="artigo">Art. 4º.</span> A Assistência Social é a política social que provê o atendimento das necessidades básicas, traduzidas em proteção à família, à maternidade, à infância, à adolescência, à velhice e à pessoa portadora de deficiência, independentemente de contribuição à Seguridade Social.</p>
 	
 	<p>Parágrafo único. A organização da Assistência Social obedecerá às seguintes diretrizes:</p>
 	
@@ -97,24 +97,24 @@ const L8212:ILei = {
 	<h1>TÍTULO V <br>
 	 DA ORGANIZAÇÃO DA SEGURIDADE SOCIAL </span></h1>
 	
-	<p><span class=artigo>Art. 5º.</span> As ações nas áreas de Saúde, Previdência Social e Assistência Social, conforme o disposto no Capítulo II do Título VIII da Constituição Federal, serão organizadas em Sistema Nacional de Seguridade Social, na forma desta Lei.</p>
+	<p><span class="artigo">Art. 5º.</span> As ações nas áreas de Saúde, Previdência Social e Assistência Social, conforme o disposto no Capítulo II do Título VIII da Constituição Federal, serão organizadas em Sistema Nacional de Seguridade Social, na forma desta Lei.</p>
 	
-	<p><span class=artigo>Art. 6º.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 6º.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 7º.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 7º.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 8º.</span> As propostas orçamentárias anuais ou plurianuais da Seguridade Social serão elaboradas por Comissão integrada por 3 (três) representantes, sendo 1 (um) da área da saúde, 1 (um) da área da previdência social e 1 (um) da área de assistência social.</p>
+	<p><span class="artigo">Art. 8º.</span> As propostas orçamentárias anuais ou plurianuais da Seguridade Social serão elaboradas por Comissão integrada por 3 (três) representantes, sendo 1 (um) da área da saúde, 1 (um) da área da previdência social e 1 (um) da área de assistência social.</p>
 	
-	<p><span class=artigo>Art. 9º.</span> As áreas de Saúde, Previdência Social e Assistência Social são objeto de leis específicas, que regulamentarão sua organização e funcionamento.</p>
+	<p><span class="artigo">Art. 9º.</span> As áreas de Saúde, Previdência Social e Assistência Social são objeto de leis específicas, que regulamentarão sua organização e funcionamento.</p>
 	
 	<h1>TÍTULO VI <br>
 	 DO FINANCIAMENTO DA SEGURIDADE SOCIAL</span></h1>
 	
 	<h2>INTRODUÇÃO</span></h2>
 	
-	<p><span class=artigo>Art. 10.</span> A Seguridade Social será financiada por toda sociedade, de forma direta e indireta, nos termos do art. 195 da Constituição Federal e desta Lei, mediante recursos provenientes da União, dos Estados, do Distrito Federal, dos Municípios e de contribuições sociais.</p>
+	<p><span class="artigo">Art. 10.</span> A Seguridade Social será financiada por toda sociedade, de forma direta e indireta, nos termos do art. 195 da Constituição Federal e desta Lei, mediante recursos provenientes da União, dos Estados, do Distrito Federal, dos Municípios e de contribuições sociais.</p>
 	
-	<p><span class=artigo>Art. 11.</span> No âmbito federal, o orçamento da Seguridade Social é composto das seguintes receitas:</p>
+	<p><span class="artigo">Art. 11.</span> No âmbito federal, o orçamento da Seguridade Social é composto das seguintes receitas:</p>
 	
 	<p>I - receitas da União;</p>
 	
@@ -140,7 +140,7 @@ const L8212:ILei = {
 	<h3>Seção I<br>
 	 Dos Segurados</span></h3>
 	
-	<p><span class=artigo>Art. 12.</span> São segurados obrigatórios da Previdência Social as seguintes pessoas físicas:</p>
+	<p><span class="artigo">Art. 12.</span> São segurados obrigatórios da Previdência Social as seguintes pessoas físicas:</p>
 	
 	<p>I - como empregado:</p>
 	
@@ -230,7 +230,16 @@ const L8212:ILei = {
 	
 	<p>V – a utilização pelo próprio grupo familiar, na exploração da atividade, de processo de beneficiamento ou industrialização artesanal, na forma do § 11 do art. 25 desta Lei; e </p>
 	
-	<p>VI - a associação em cooperativa agropecuária ou de crédito rural; e </p>
+	<p>VI - a associação, exceto em cooperativa de trabalho, conforme regulamento:</p>
+
+	<p class="alinea">a) em cooperativa que tenha atuação vinculada às atividades previstas no inciso VII do caput deste artigo, conforme previsão em seu objeto social ou autorização da autoridade competente;</p>
+
+	<p class="alinea">b) (VETADO);</p>
+
+	<ul class="dica">
+		<li>§ 9º com redação dada pela Lei nº 15.072, de 26 de dezembro de 2024</li>
+		<li><a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Msg/Vep/VEP-1694-24.htm">Mensagem de veto</a></li>
+	</ul>
 	
 	<p>VII - a incidência do Imposto Sobre Produtos Industrializados - IPI sobre o produto das atividades desenvolvidas nos termos do § 14 deste artigo. </p>
 	
@@ -244,7 +253,20 @@ const L8212:ILei = {
 	
 	<p>IV – exercício de mandato eletivo de dirigente sindical de organização da categoria de trabalhadores rurais; </p>
 	
-	<p>V – exercício de mandato de vereador do município onde desenvolve a atividade rural, ou de dirigente de cooperativa rural constituída exclusivamente por segurados especiais, observado o disposto no § 13 deste artigo; </p>
+	<p>V - exercício de:</p>
+
+	<p class="alinea">a) mandato de vereador do Município em que desenvolve a atividade rural;</p>
+
+	<p class="alinea">b) atividade remunerada, sem dedicação exclusiva ou regime integral de trabalho, derivada de mandato eletivo:</p>
+
+	<p class="item">1. em cooperativa, exceto cooperativa de trabalho, que tenha atuação vinculada às atividades previstas no inciso VII do <i>caput</i> deste artigo, conforme previsão em seu objeto social ou autorização da autoridade competente, de acordo com regulamento e observado o disposto no § 13 deste artigo;</p>
+
+	<p class="item">2. (VETADO);</p>
+	
+	<ul class="dica">
+		<li>Inciso com redação dada pela Lei nº 15.072, de 26 de dezembro de 2024</li>
+		<li><a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2024/Msg/Vep/VEP-1694-24.htm">Mensagem de veto</a></li>
+	</ul>
 	
 	<p>VI – parceria ou meação outorgada na forma e condições estabelecidas no inciso I do § 9º. deste artigo; </p>
 	
@@ -280,18 +302,18 @@ const L8212:ILei = {
 	
 	<p>§ 15. (VETADO). </p>
 	
-	<p><span class=artigo>Art. 13.</span> O servidor civil ocupante de cargo efetivo ou o militar da União, dos Estados, do Distrito Federal ou dos Municípios, bem como o das respectivas autarquias e fundações, são excluídos do Regime Geral de Previdência Social consubstanciado nesta Lei, desde que amparados por regime próprio de previdência social. </p>
+	<p><span class="artigo">Art. 13.</span> O servidor civil ocupante de cargo efetivo ou o militar da União, dos Estados, do Distrito Federal ou dos Municípios, bem como o das respectivas autarquias e fundações, são excluídos do Regime Geral de Previdência Social consubstanciado nesta Lei, desde que amparados por regime próprio de previdência social. </p>
 	
 	<p>§ 1º. Caso o servidor ou o militar venham a exercer, concomitantemente, uma ou mais atividades abrangidas pelo Regime Geral de Previdência Social, tornar-se-ão segurados obrigatórios em relação a essas atividades. </p>
 	
 	<p>§ 2º. Caso o servidor ou o militar, amparados por regime próprio de previdência social, sejam requisitados para outro órgão ou entidade cujo regime previdenciário não permita a filiação nessa condição, permanecerão vinculados ao regime de origem, obedecidas as regras que cada ente estabeleça acerca de sua contribuição. </p>
 	
-	<p><span class=artigo>Art. 14.</span> É segurado facultativo o maior de 14 (quatorze) anos de idade que se filiar ao Regime Geral de Previdência Social, mediante contribuição, na forma do art. 21, desde que não incluído nas disposições do <span class=artigo>Art. 12.</span></p>
+	<p><span class="artigo">Art. 14.</span> É segurado facultativo o maior de 14 (quatorze) anos de idade que se filiar ao Regime Geral de Previdência Social, mediante contribuição, na forma do art. 21, desde que não incluído nas disposições do art. 12.</span></p>
 	
 	<h3>Seção II <br>
 	 Da Empresa e do Empregador Doméstico </span></h3>
 	
-	<p><span class=artigo>Art. 15.</span> Considera-se:</p>
+	<p><span class="artigo">Art. 15.</span> Considera-se:</p>
 	
 	<p>I - empresa - a firma individual ou sociedade que assume o risco de atividade econômica urbana ou rural, com fins lucrativos ou não, bem como os órgãos e entidades da administração pública direta, indireta e fundacional;</p>
 	
@@ -302,13 +324,13 @@ const L8212:ILei = {
 	<h2>CAPÍTULO II <br>
 	 DA CONTRIBUIÇÃO DA UNIÃO </span></h2>
 	
-	<p><span class=artigo>Art. 16.</span> A contribuição da União é constituída de recursos adicionais do Orçamento Fiscal, fixados obrigatoriamente na lei orçamentária anual.</p>
+	<p><span class="artigo">Art. 16.</span> A contribuição da União é constituída de recursos adicionais do Orçamento Fiscal, fixados obrigatoriamente na lei orçamentária anual.</p>
 	
 	<p>Parágrafo único. A União é responsável pela cobertura de eventuais insuficiências financeiras da Seguridade Social, quando decorrentes do pagamento de benefícios de prestação continuada da Previdência Social, na forma da Lei Orçamentária Anual.</p>
 	
 	<p>Art.17. Para pagamento dos encargos previdenciários da União, poderão contribuir os recursos da Seguridade Social referidos na alínea &quot;d&quot; do parágrafo único do art. 11 desta Lei, na forma da Lei Orçamentária anual, assegurada a destinação de recursos para as ações desta Lei de Saúde e Assistência Social. </p>
 	
-	<p><span class=artigo>Art. 18.</span> Os recursos da Seguridade Social referidos nas alíneas &quot;a&quot;, &quot;b&quot;, &quot;c&quot; e &quot;d&quot; do parágrafo único do art. 11 desta Lei poderão contribuir, a partir do exercício de 1992, para o financiamento das despesas com pessoal e administração geral apenas do Instituto Nacional do Seguro Social-INSS, do Instituto Nacional de Assistência Médica da Previdência Social-INAMPS, da Fundação Legião Brasileira de Assistência-LBA e da Fundação Centro Brasileira para Infância e Adolescência.</p>
+	<p><span class="artigo">Art. 18.</span> Os recursos da Seguridade Social referidos nas alíneas &quot;a&quot;, &quot;b&quot;, &quot;c&quot; e &quot;d&quot; do parágrafo único do art. 11 desta Lei poderão contribuir, a partir do exercício de 1992, para o financiamento das despesas com pessoal e administração geral apenas do Instituto Nacional do Seguro Social-INSS, do Instituto Nacional de Assistência Médica da Previdência Social-INAMPS, da Fundação Legião Brasileira de Assistência-LBA e da Fundação Centro Brasileira para Infância e Adolescência.</p>
 	
 	<p>Art.19.O Tesouro Nacional repassará mensalmente recursos referentes às contribuições mencionadas nas alíneas &quot;d&quot; e &quot;e&quot; do parágrafo único do art. 11 desta Lei, destinados à execução do Orçamento da Seguridade Social. </p>
 	
@@ -322,7 +344,7 @@ const L8212:ILei = {
 	<h3>Seção I <br>
 	 Da Contribuição dos Segurados Empregado, Empregado Doméstico e Trabalhador Avulso </span></h3>
 	
-	<p><span class=artigo>Art. 20.</span> A contribuição do empregado, inclusive o doméstico, e a do trabalhador avulso é calculada mediante a aplicação da correspondente alíquota sobre o seu salário-de-contribuição mensal, de forma não cumulativa, observado o disposto no art. 28, de acordo com a seguinte tabela: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9032.htm#art2">(Redação dada pela Lei n° 9.032, de 28.4.95). </a></p>
+	<p><span class="artigo">Art. 20.</span> A contribuição do empregado, inclusive o doméstico, e a do trabalhador avulso é calculada mediante a aplicação da correspondente alíquota sobre o seu salário-de-contribuição mensal, de forma não cumulativa, observado o disposto no art. 28, de acordo com a seguinte tabela: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9032.htm#art2">(Redação dada pela Lei n° 9.032, de 28.4.95). </a></p>
 	
 	<table>
 		<tr>
@@ -352,7 +374,7 @@ const L8212:ILei = {
 	<h3>Seção II <br>
 	 Da Contribuição dos Segurados Contribuinte Individual e Facultativo.</span></h3>
 	
-	<p><span class=artigo>Art. 21.</span> A alíquota de contribuição dos segurados contribuinte individual e facultativo será de vinte por cento sobre o respectivo salário-de-contribuição. </p>
+	<p><span class="artigo">Art. 21.</span> A alíquota de contribuição dos segurados contribuinte individual e facultativo será de vinte por cento sobre o respectivo salário-de-contribuição. </p>
 	
 	<p>I - revogado; </p>
 	
@@ -379,7 +401,7 @@ const L8212:ILei = {
 	<h2>CAPÍTULO IV <br>
 	 DA CONTRIBUIÇÃO DA EMPRESA </span></h2>
 	
-	<p><span class=artigo>Art. 22.</span> A contribuição a cargo da empresa, destinada à Seguridade Social, além do disposto no art. 23, é de: 6</p>
+	<p><span class="artigo">Art. 22.</span> A contribuição a cargo da empresa, destinada à Seguridade Social, além do disposto no art. 23, é de: 6</p>
 	
 	<p>I - vinte por cento sobre o total das remunerações pagas, devidas ou creditadas a qualquer título, durante o mês, aos segurados empregados e trabalhadores avulsos que lhe prestem serviços, destinadas a retribuir o trabalho, qualquer que seja a sua forma, inclusive as gorjetas, os ganhos habituais sob a forma de utilidades e os adiantamentos decorrentes de reajuste salarial, quer pelos serviços efetivamente prestados, quer pelo tempo à disposição do empregador ou tomador de serviços, nos termos da lei ou do contrato ou, ainda, de convenção ou acordo coletivo de trabalho ou sentença normativa. </p>
 	
@@ -423,7 +445,7 @@ const L8212:ILei = {
 	
 	<p>§ 13. Não se considera como remuneração direta ou indireta, para os efeitos desta Lei, os valores despendidos pelas entidades religiosas e instituições de ensino vocacional com ministro de confissão religiosa, membros de instituto de vida consagrada, de congregação ou de ordem religiosa em face do seu mister religioso ou para sua subsistência desde que fornecidos em condições que independam da natureza e da quantidade do trabalho executado. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L10170.htm#art1">(Incluído pela Lei nº. 10.170, de 2000).</a></p>
 	
-	<p><span class=artigo>Art. 22-A.</span> A contribuição devida pela agroindústria, definida, para os efeitos desta Lei, como sendo o produtor rural pessoa jurídica cuja atividade econômica seja a industrialização de produção própria ou de produção própria e adquirida de terceiros, incidente sobre o valor da receita bruta proveniente da comercialização da produção, em substituição às previstas nos incisos I e II do art. 22 desta Lei, é de: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
+	<p><span class="artigo">Art. 22-A.</span> A contribuição devida pela agroindústria, definida, para os efeitos desta Lei, como sendo o produtor rural pessoa jurídica cuja atividade econômica seja a industrialização de produção própria ou de produção própria e adquirida de terceiros, incidente sobre o valor da receita bruta proveniente da comercialização da produção, em substituição às previstas nos incisos I e II do art. 22 desta Lei, é de: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
 	
 	<p>I - <span class=GramE>dois vírgula</span> cinco por cento destinados à Seguridade Social; <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
 	
@@ -443,9 +465,9 @@ const L8212:ILei = {
 	
 	<p>§ 7º. Aplica-se o disposto no § 6º. ainda que a pessoa jurídica comercialize resíduos vegetais ou sobras ou partes da produção, desde que a receita bruta decorrente dessa comercialização represente menos de um por cento de sua receita bruta proveniente da comercialização da produção. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//2003/L10.684.htm#art19">(Incluído pela Lei nº. 10.684, de 2003).</a></p>
 	
-	<p><span class=artigo>Art. 22-B.</span> As contribuições de que tratam os incisos I e II do art. 22 desta Lei são substituídas, em relação à remuneração paga, devida ou creditada ao trabalhador rural contratado pelo consórcio simplificado de produtores rurais de que trata o art. 25-A, pela contribuição dos respectivos produtores rurais, calculada na forma do art. 25 desta Lei. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
+	<p><span class="artigo">Art. 22-B.</span> As contribuições de que tratam os incisos I e II do art. 22 desta Lei são substituídas, em relação à remuneração paga, devida ou creditada ao trabalhador rural contratado pelo consórcio simplificado de produtores rurais de que trata o art. 25-A, pela contribuição dos respectivos produtores rurais, calculada na forma do art. 25 desta Lei. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 23.</span> As contribuições a cargo da empresa provenientes do faturamento e do lucro, destinadas à Seguridade Social, além do disposto no art. 22, são calculadas mediante a aplicação das seguintes alíquotas:</p>
+	<p><span class="artigo">Art. 23.</span> As contribuições a cargo da empresa provenientes do faturamento e do lucro, destinadas à Seguridade Social, além do disposto no art. 22, são calculadas mediante a aplicação das seguintes alíquotas:</p>
 	
 	<p>I - 2% (dois por cento) sobre sua receita bruta, estabelecida segundo o disposto no <a href="../Documentos/SkyDrive/Documentos/Decreto-Lei/Del1940.htm#art1%C2%A71">§ 1º. do art. 1º do Decreto-lei nº. 1.940, de 25 de maio de 1982</a>, com a redação dada pelo <a href="../Documentos/SkyDrive/Documentos/Decreto-Lei/Del2397.htm#art22">art. 22, do Decreto-lei nº. 2.397, de 21 de dezembro de 1987</a>, e alterações posteriores; 9</p>
 	
@@ -458,14 +480,14 @@ const L8212:ILei = {
 	<h2>CAPÍTULO V <br>
 	 DA CONTRIBUIÇÃO DO EMPREGADOR DOMÉSTICO </span></h2>
 	
-	<p><span class=artigo>Art. 24.</span> A contribuição do empregador doméstico é de 12% (doze por cento) do salário-de-contribuição do empregado doméstico a seu serviço.</p>
+	<p><span class="artigo">Art. 24.</span> A contribuição do empregador doméstico é de 12% (doze por cento) do salário-de-contribuição do empregado doméstico a seu serviço.</p>
 	
 	<p>Parágrafo único. Presentes os elementos da relação de emprego doméstico, o empregador doméstico não poderá contratar microempreendedor individual de que trata o <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp123.htm#art18a">art. 18-A da Lei Complementar nº. 123, de 14 de dezembro de 2006</a>, sob pena de ficar sujeito a todas as obrigações dela decorrentes, inclusive trabalhistas, tributárias e previdenciárias. <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2011/Lei/L12470.htm#art1">(Incluído pela Lei nº. 12.470, de 2011)</a></p>
 	
 	<h2>CAPÍTULO VI<br>
 	 DA CONTRIBUIÇÃO DO PRODUTOR RURAL E DO PESCADOR</h2>
 	
-	<p><span class=artigo>Art. 25.</span> A contribuição do empregador rural pessoa física, em substituição à contribuição de que tratam os incisos I e II do art. 22, e a do segurado especial, referidos, respectivamente, na alínea a do inciso V e no inciso VII do art. 12 desta Lei, destinada à Seguridade Social, é de: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Redação dada pela Lei nº. 10.256, de 2001).</a></p>
+	<p><span class="artigo">Art. 25.</span> A contribuição do empregador rural pessoa física, em substituição à contribuição de que tratam os incisos I e II do art. 22, e a do segurado especial, referidos, respectivamente, na alínea a do inciso V e no inciso VII do art. 12 desta Lei, destinada à Seguridade Social, é de: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Redação dada pela Lei nº. 10.256, de 2001).</a></p>
 	
 	<p>I - 2% da receita bruta proveniente da comercialização da sua produção; <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97). </a></p>
 	
@@ -503,7 +525,7 @@ const L8212:ILei = {
 	
 	<p>§ 11. Considera-se processo de beneficiamento ou industrialização artesanal aquele realizado diretamente pelo próprio produtor rural pessoa física, desde que não esteja sujeito à incidência do Imposto Sobre Produtos Industrializados – IPI. </p>
 	
-	<p><span class=artigo>Art. 25-A.</span> Equipara-se ao empregador rural pessoa física o consórcio simplificado de produtores rurais, formado pela união de produtores rurais pessoas físicas, que outorgar a um deles poderes para contratar, gerir e demitir trabalhadores para prestação de serviços, exclusivamente, aos seus integrantes, mediante documento registrado em cartório de títulos e documentos. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
+	<p><span class="artigo">Art. 25-A.</span> Equipara-se ao empregador rural pessoa física o consórcio simplificado de produtores rurais, formado pela união de produtores rurais pessoas físicas, que outorgar a um deles poderes para contratar, gerir e demitir trabalhadores para prestação de serviços, exclusivamente, aos seus integrantes, mediante documento registrado em cartório de títulos e documentos. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
 	
 	<p>§ 1º. O documento de que trata o <i>caput</i> deverá conter a identificação de cada produtor, seu endereço pessoal e o de sua propriedade rural, bem como o respectivo registro no Instituto Nacional de Colonização e Reforma Agrária - INCRA ou informações relativas a parceria, arrendamento ou equivalente e a matrícula no Instituto Nacional do Seguro Social – INSS de cada um dos produtores rurais. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LEIS_2001/L10256.htm#art1">(Incluído pela Lei nº. 10.256, de 2001).</a></p>
 	
@@ -516,7 +538,7 @@ const L8212:ILei = {
 	<h2>CAPÍTULO VII <br>
 	 DA CONTRIBUIÇÃO SOBRE A RECEITA DE CONCURSOS DE PROGNÓSTICOS</h2>
 	
-	<p><span class=artigo>Art. 26.</span> Constitui receita da Seguridade Social a renda líquida dos concursos de prognósticos, excetuando-se os valores destinados ao Programa de Crédito Educativo. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8436.htm#art6">(Redação dada pela Lei n° 8.436, de 25.6.92) </a></p>
+	<p><span class="artigo">Art. 26.</span> Constitui receita da Seguridade Social a renda líquida dos concursos de prognósticos, excetuando-se os valores destinados ao Programa de Crédito Educativo. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8436.htm#art6">(Redação dada pela Lei n° 8.436, de 25.6.92) </a></p>
 	
 	<p>§ 1º. Consideram-se concursos de prognósticos todos e quaisquer concursos de sorteios de números, loterias, apostas, inclusive as realizadas em reuniões hípicas, nos âmbitos federal, estadual, do Distrito Federal e municipal.</p>
 	
@@ -527,7 +549,7 @@ const L8212:ILei = {
 	<h2>CAPÍTULO VIII <br>
 	 DAS OUTRAS RECEITAS </span></h2>
 	
-	<p><span class=artigo>Art. 27.</span> Constituem outras receitas da Seguridade Social:</p>
+	<p><span class="artigo">Art. 27.</span> Constituem outras receitas da Seguridade Social:</p>
 	
 	<p>I - as multas, a atualização monetária e os juros moratórios;</p>
 	
@@ -550,7 +572,7 @@ const L8212:ILei = {
 	<h2>CAPÍTULO IX <br>
 	 DO SALÁRIO-DE-CONTRIBUIÇÃO </span></h2>
 	
-	<p><span class=artigo>Art. 28.</span> Entende-se por salário-de-contribuição:</p>
+	<p><span class="artigo">Art. 28.</span> Entende-se por salário-de-contribuição:</p>
 	
 	<p>I - para o empregado e trabalhador avulso: a remuneração auferida em uma ou mais empresas, assim entendida a totalidade dos rendimentos pagos, devidos ou creditados a qualquer título, durante o mês, destinados a retribuir o trabalho, qualquer que seja a sua forma, inclusive as gorjetas, os ganhos habituais sob a forma de utilidades e os adiantamentos decorrentes de reajuste salarial, quer pelos serviços efetivamente prestados, quer pelo tempo à disposição do empregador ou tomador de serviços nos termos da lei ou do contrato ou, ainda, de convenção ou acordo coletivo de trabalho ou sentença normativa; <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97) </a></p>
 	
@@ -654,12 +676,12 @@ const L8212:ILei = {
 	
 	<p>§ 10. Considera-se salário-de-contribuição, para o segurado empregado e trabalhador avulso, na condição prevista no § 5º. do art. 12, a remuneração efetivamente auferida na entidade sindical ou empresa de origem.<a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1"> (Parágrafo acrescentado pela Lei nº. 9.528, de 10.12.97)</a></p>
 	
-	<p><span class=artigo>Art. 29.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9876.htm#art9">(Revogado pela Lei nº. 9.876, de 1999).</a></p>
+	<p><span class="artigo">Art. 29.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9876.htm#art9">(Revogado pela Lei nº. 9.876, de 1999).</a></p>
 	
 	<h2>CAPÍTULO X <br>
 	 DA ARRECADAÇÃO E RECOLHIMENTO DAS CONTRIBUIÇÕES </span></h2>
 	
-	<p><span class=artigo>Art. 30.</span> A arrecadação e o recolhimento das contribuições ou de outras importâncias devidas à Seguridade Social obedecem às seguintes normas: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8620.htm">(Redação dada pela Lei n° 8.620, de 5.1.93) </a></p>
+	<p><span class="artigo">Art. 30.</span> A arrecadação e o recolhimento das contribuições ou de outras importâncias devidas à Seguridade Social obedecem às seguintes normas: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8620.htm">(Redação dada pela Lei n° 8.620, de 5.1.93) </a></p>
 	
 	<p>I - a empresa é obrigada a:</p>
 	
@@ -729,7 +751,7 @@ const L8212:ILei = {
 	
 	<p>§ 9º. Quando o segurado especial tiver comercializado sua produção do ano anterior exclusivamente com empresa adquirente, consignatária ou cooperativa, tal fato deverá ser comunicado à Previdência Social pelo respectivo grupo familiar. </p>
 	
-	<p><span class=artigo>Art. 31.</span> A empresa contratante de serviços executados mediante cessão de mão de obra, inclusive em regime de trabalho temporário, deverá reter 11% (onze por cento) do valor bruto da nota fiscal ou fatura de prestação de serviços e recolher, em nome da empresa cedente da mão de obra, a importância retida até o dia 20 (vinte) do mês subsequente ao da emissão da respectiva nota fiscal ou fatura, ou até o dia útil imediatamente anterior se não houver expediente bancário naquele dia, observado o disposto no § 5º. do art. 33 desta Lei. </p>
+	<p><span class="artigo">Art. 31.</span> A empresa contratante de serviços executados mediante cessão de mão de obra, inclusive em regime de trabalho temporário, deverá reter 11% (onze por cento) do valor bruto da nota fiscal ou fatura de prestação de serviços e recolher, em nome da empresa cedente da mão de obra, a importância retida até o dia 20 (vinte) do mês subsequente ao da emissão da respectiva nota fiscal ou fatura, ou até o dia útil imediatamente anterior se não houver expediente bancário naquele dia, observado o disposto no § 5º. do art. 33 desta Lei. </p>
 	
 	<p>§ 1º. O valor retido de que trata o <i>caput</i> deste artigo, que deverá ser destacado na nota fiscal ou fatura de prestação de serviços, poderá ser compensado por qualquer estabelecimento da empresa cedente da mão de obra, por ocasião do recolhimento das contribuições destinadas à Seguridade Social devidas sobre a folha de pagamento dos seus segurados. </p>
 	
@@ -751,7 +773,7 @@ const L8212:ILei = {
 	
 	<p>§ 6º. Em se tratando de retenção e recolhimento realizados na forma do <i>caput</i> deste artigo, em nome de consórcio, de que tratam os arts. 278 e 279 da Lei no 6.404, de 15 de dezembro de 1976, aplica-se o disposto em todo este artigo, observada a participação de cada uma das empresas consorciadas, na forma do respectivo ato constitutivo. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 32.</span> A empresa é também obrigada a:</p>
+	<p><span class="artigo">Art. 32.</span> A empresa é também obrigada a:</p>
 	
 	<p>I - preparar folhas-de-pagamento das remunerações pagas ou creditadas a todos os segurados a seu serviço, de acordo com os padrões e normas estabelecidos pelo órgão competente da Seguridade Social;</p>
 	
@@ -789,7 +811,7 @@ const L8212:ILei = {
 	
 	<p>§ 12. <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2012/Msg/VEP-340.htm">(VETADO)</a>. <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2012/Lei/L12692.htm#art1">(Incluído pela Lei nº. 12.692, de 2012)</a></p>
 	
-	<p><span class=artigo>Art. 32-A.</span> O contribuinte que deixar de apresentar a declaração de que trata o inciso IV do <i>caput</i> do art. 32 desta Lei no prazo fixado ou que a apresentar com incorreções ou omissões será intimado a apresentá-la ou a prestar esclarecimentos e sujeitar-se-á às seguintes multas: <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 32-A.</span> O contribuinte que deixar de apresentar a declaração de que trata o inciso IV do <i>caput</i> do art. 32 desta Lei no prazo fixado ou que a apresentar com incorreções ou omissões será intimado a apresentá-la ou a prestar esclarecimentos e sujeitar-se-á às seguintes multas: <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>I – de R$ 20,00 (vinte reais) para cada grupo de 10 (dez) informações incorretas ou omitidas; e <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -809,7 +831,7 @@ const L8212:ILei = {
 	
 	<p>II – R$ 500,00 (quinhentos reais), nos demais casos. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 32-B.</span> Os órgãos da administração direta, as autarquias, as fundações e as empresas públicas da União, dos Estados, do Distrito Federal e dos Municípios, cujas Normas Gerais de Direito Financeiro para elaboração e controle dos orçamentos estão definidas pela Lei no 4.320, de 17 de março de 1964, e pela Lei Complementar no 101, de 4 de maio de 2000, ficam obrigados, na forma estabelecida pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, a apresentar: <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12810.htm#art10">(Incluído pela Lei nº. 12.810, de 2013)</a></p>
+	<p><span class="artigo">Art. 32-B.</span> Os órgãos da administração direta, as autarquias, as fundações e as empresas públicas da União, dos Estados, do Distrito Federal e dos Municípios, cujas Normas Gerais de Direito Financeiro para elaboração e controle dos orçamentos estão definidas pela Lei no 4.320, de 17 de março de 1964, e pela Lei Complementar no 101, de 4 de maio de 2000, ficam obrigados, na forma estabelecida pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, a apresentar: <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12810.htm#art10">(Incluído pela Lei nº. 12.810, de 2013)</a></p>
 	
 	<p>I - a contabilidade entregue ao Tribunal de Controle Externo; e <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8212cons.htm#art10">(Incluído pela Lei nº. 12.810, de 2013)</a></p>
 	
@@ -817,9 +839,9 @@ const L8212:ILei = {
 	
 	<p>Parágrafo único. As informações de que trata o <i>caput</i> deverão ser apresentadas até o dia 30 de abril do ano seguinte ao encerramento do exercício. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8212cons.htm#art10">(Incluído pela Lei nº. 12.810, de 2013)</a></p>
 	
-	<p><span class=artigo>Art. 32-C.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12873.htm#art4">(Vide Lei nº. 12.873, de 2013)</a><a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12873.htm#art63i">(Vigência)</a></p>
+	<p><span class="artigo">Art. 32-C.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12873.htm#art4">(Vide Lei nº. 12.873, de 2013)</a><a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12873.htm#art63i">(Vigência)</a></p>
 	
-	<p><span class=artigo>Art. 33.</span> À Secretaria da Receita Federal do Brasil compete planejar, executar, acompanhar e avaliar as atividades relativas à tributação, à fiscalização, à arrecadação, à cobrança e ao recolhimento das contribuições sociais previstas no parágrafo único do art. 11 desta Lei, das contribuições incidentes a título de substituição e das devidas a outras entidades e fundos. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 33.</span> À Secretaria da Receita Federal do Brasil compete planejar, executar, acompanhar e avaliar as atividades relativas à tributação, à fiscalização, à arrecadação, à cobrança e ao recolhimento das contribuições sociais previstas no parágrafo único do art. 11 desta Lei, das contribuições incidentes a título de substituição e das devidas a outras entidades e fundos. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>§ 1º. É prerrogativa da Secretaria da Receita Federal do Brasil, por intermédio dos Auditores-Fiscais da Receita Federal do Brasil, o exame da contabilidade das empresas, ficando obrigados a prestar todos os esclarecimentos e informações solicitados o segurado e os terceiros responsáveis pelo recolhimento das contribuições previdenciárias e das contribuições devidas a outras entidades e fundos. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -837,9 +859,9 @@ const L8212:ILei = {
 	
 	<p>§ 8º. Aplicam-se às contribuições sociais mencionadas neste artigo as presunções legais de omissão de receita previstas nos §§ 2º. e 3º. do art. 12 do Decreto-Lei no 1.598, de 26 de dezembro de 1977, e nos arts. 40, 41 e 42 da Lei no 9.430, de 27 de dezembro de 1996. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 34.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
+	<p><span class="artigo">Art. 34.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 35.</span> Os débitos com a União decorrentes das contribuições sociais previstas nas alíneas a, b e c do parágrafo único do art. 11 desta Lei, das contribuições instituídas a título de substituição e das contribuições devidas a terceiros, assim entendidas outras entidades e fundos, não pagos nos prazos previstos em legislação, serão acrescidos de multa de mora e juros de mora, nos termos do art. 61 da Lei no 9.430, de 27 de dezembro de 1996. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 35.</span> Os débitos com a União decorrentes das contribuições sociais previstas nas alíneas a, b e c do parágrafo único do art. 11 desta Lei, das contribuições instituídas a título de substituição e das contribuições devidas a terceiros, assim entendidas outras entidades e fundos, não pagos nos prazos previstos em legislação, serão acrescidos de multa de mora e juros de mora, nos termos do art. 61 da Lei no 9.430, de 27 de dezembro de 1996. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>I – (revogado): <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -877,19 +899,19 @@ const L8212:ILei = {
 	
 	<p>§ 4º. (Revogado). <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 35-A.</span> Nos casos de lançamento de ofício relativos às contribuições referidas no art. 35 desta Lei, aplica-se o disposto no art. 44 da Lei no 9.430, de 27 de dezembro de 1996. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 35-A.</span> Nos casos de lançamento de ofício relativos às contribuições referidas no art. 35 desta Lei, aplica-se o disposto no art. 44 da Lei no 9.430, de 27 de dezembro de 1996. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 36.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8218.htm#art39">(Revogado pela Lei n° 8.218, de 29.8.91). </a></p>
+	<p><span class="artigo">Art. 36.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8218.htm#art39">(Revogado pela Lei n° 8.218, de 29.8.91). </a></p>
 	
-	<p><span class=artigo>Art. 37.</span> Constatado o não-recolhimento total ou parcial das contribuições tratadas nesta Lei, não declaradas na forma do art. 32 desta Lei, a falta de pagamento de benefício reembolsado ou o descumprimento de obrigação acessória, será lavrado auto de infração ou notificação de lançamento. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 37.</span> Constatado o não-recolhimento total ou parcial das contribuições tratadas nesta Lei, não declaradas na forma do art. 32 desta Lei, a falta de pagamento de benefício reembolsado ou o descumprimento de obrigação acessória, será lavrado auto de infração ou notificação de lançamento. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>§ 1º. (Revogado). <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>§ 2º. (Revogado) <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 38.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
+	<p><span class="artigo">Art. 38.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 39.</span> O débito original e seus acréscimos legais, bem como outras multas previstas em lei, constituem dívida ativa da União, promovendo-se a inscrição em livro próprio daquela resultante das contribuições de que tratam as alíneas a, b e c do parágrafo único do art. 11 desta Lei. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11457.htm#art17">(Redação dada pela Lei nº. 11.457, de 2007).</a><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11457.htm#art51">(Vigência)</a></p>
+	<p><span class="artigo">Art. 39.</span> O débito original e seus acréscimos legais, bem como outras multas previstas em lei, constituem dívida ativa da União, promovendo-se a inscrição em livro próprio daquela resultante das contribuições de que tratam as alíneas a, b e c do parágrafo único do art. 11 desta Lei. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11457.htm#art17">(Redação dada pela Lei nº. 11.457, de 2007).</a><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11457.htm#art51">(Vigência)</a></p>
 	
 	<p>§ 1º. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11501.htm#art17">(Revogado pela Lei nº. 11.501, de 2007).</a></p>
 	
@@ -897,13 +919,13 @@ const L8212:ILei = {
 	
 	<p>§ 3º. Serão inscritas como dívida ativa da União as contribuições que não tenham sido recolhidas ou parceladas resultantes das informações prestadas no documento a que se refere o inciso IV do art. 32 desta Lei. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11457.htm#art17">(Redação dada pela Lei nº. 11.457, de 2007).</a><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11457.htm#art51">(Vigência)</a></p>
 	
-	<p><span class=artigo>Art. 40.</span> (<a href="https://www.planalto.gov.br/ccivil_03/LEIS//Mensagem_Veto/2000/Vep2114-00.pdf">VETADO</a>). </p>
+	<p><span class="artigo">Art. 40.</span> (<a href="https://www.planalto.gov.br/ccivil_03/LEIS//Mensagem_Veto/2000/Vep2114-00.pdf">VETADO</a>). </p>
 	
-	<p><span class=artigo>Art. 41.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
+	<p><span class="artigo">Art. 41.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 42.</span> Os administradores de autarquias e fundações públicas, criadas e mantidas pelo Poder Público, de empresas públicas e de sociedades de economia mista sujeitas ao controle da União, dos Estados, do Distrito Federal ou dos Municípios, que se encontrarem em mora, por mais de 30 (trinta) dias, no recolhimento das contribuições previstas nesta Lei, tornam-se solidariamente responsáveis pelo respectivo pagamento, ficando ainda sujeitos às proibições do art. 1º e às sanções dos arts. 4º. e 7º. do Decreto-lei nº. 368, de 19 de dezembro de 1968.</p>
+	<p><span class="artigo">Art. 42.</span> Os administradores de autarquias e fundações públicas, criadas e mantidas pelo Poder Público, de empresas públicas e de sociedades de economia mista sujeitas ao controle da União, dos Estados, do Distrito Federal ou dos Municípios, que se encontrarem em mora, por mais de 30 (trinta) dias, no recolhimento das contribuições previstas nesta Lei, tornam-se solidariamente responsáveis pelo respectivo pagamento, ficando ainda sujeitos às proibições do art. 1º e às sanções dos arts. 4º. e 7º. do Decreto-lei nº. 368, de 19 de dezembro de 1968.</p>
 	
-	<p><span class=artigo>Art. 43.</span> Nas ações trabalhistas de que resultar o pagamento de direitos sujeitos à incidência de contribuição previdenciária, o juiz, sob pena de responsabilidade, determinará o imediato recolhimento das importâncias devidas à Seguridade Social. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8620.htm">(Redação dada pela Lei n° 8.620, de 5.1.93) </a></p>
+	<p><span class="artigo">Art. 43.</span> Nas ações trabalhistas de que resultar o pagamento de direitos sujeitos à incidência de contribuição previdenciária, o juiz, sob pena de responsabilidade, determinará o imediato recolhimento das importâncias devidas à Seguridade Social. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8620.htm">(Redação dada pela Lei n° 8.620, de 5.1.93) </a></p>
 	
 	<p> § 1º. Nas sentenças judiciais ou nos acordos homologados em que não figurarem, discriminadamente, as parcelas legais relativas às contribuições sociais, estas incidirão sobre o valor total apurado em liquidação de sentença ou sobre o valor do acordo homologado. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -917,11 +939,11 @@ const L8212:ILei = {
 	
 	<p>§ 6º. Aplica-se o disposto neste artigo aos valores devidos ou pagos nas Comissões de Conciliação Prévia de que trata a Lei no 9.958, de 12 de janeiro de 2000. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 44.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11501.htm#art17">(Revogado pela Lei nº. 11.501, de 2007).</a></p>
+	<p><span class="artigo">Art. 44.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11501.htm#art17">(Revogado pela Lei nº. 11.501, de 2007).</a></p>
 	
-	<p><span class=artigo>Art. 45.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art13">(Revogado pela Lei Complementar nº. 128, de 2008)</a></p>
+	<p><span class="artigo">Art. 45.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art13">(Revogado pela Lei Complementar nº. 128, de 2008)</a></p>
 	
-	<p><span class=artigo>Art. 45-A.</span> O contribuinte individual que pretenda contar como tempo de contribuição, para fins de obtenção de benefício no Regime Geral de Previdência Social ou de contagem recíproca do tempo de contribuição, período de atividade remunerada alcançada pela decadência deverá indenizar o INSS. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art8">(Incluído pela Lei Complementar nº. 128, de 2008)</a></p>
+	<p><span class="artigo">Art. 45-A.</span> O contribuinte individual que pretenda contar como tempo de contribuição, para fins de obtenção de benefício no Regime Geral de Previdência Social ou de contagem recíproca do tempo de contribuição, período de atividade remunerada alcançada pela decadência deverá indenizar o INSS. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art8">(Incluído pela Lei Complementar nº. 128, de 2008)</a></p>
 	
 	<p>§ 1º. O valor da indenização a que se refere o <i>caput</i> deste artigo e o § 1º. do art. 55 da Lei no 8.213, de 24 de julho de 1991, corresponderá a 20% (vinte por cento)<span class=GramE>: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art8">(Incluído pela Lei Complementar nº. 128, de 2008)</a></span></p>
 	
@@ -933,12 +955,12 @@ const L8212:ILei = {
 	
 	<p>§ 3º. O disposto no § 1º. deste artigo não se aplica aos casos de contribuições em atraso não alcançadas pela decadência do direito de a Previdência constituir o respectivo crédito, obedecendo-se, em relação a elas, as disposições aplicadas às empresas em geral. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art8">(Incluído pela Lei Complementar nº. 128, de 2008)</a></p>
 	
-	<p><span class=artigo>Art. 46.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art13">(Revogado pela Lei Complementar nº. 128, de 2008)</a></p>
+	<p><span class="artigo">Art. 46.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//LCP/Lcp128.htm#art13">(Revogado pela Lei Complementar nº. 128, de 2008)</a></p>
 	
 	<h2>CAPÍTULO XI <br>
 	 DA PROVA DE INEXISTÊNCIA DE DÉBITO </span></h2>
 	
-	<p><span class=artigo>Art. 47.</span> É exigida Certidão Negativa de Débito-CND, fornecida pelo órgão competente, nos seguintes casos: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9032.htm#art2">(Redação dada pela Lei nº. 9.032, de 28.4.95). </a></p>
+	<p><span class="artigo">Art. 47.</span> É exigida Certidão Negativa de Débito-CND, fornecida pelo órgão competente, nos seguintes casos: <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9032.htm#art2">(Redação dada pela Lei nº. 9.032, de 28.4.95). </a></p>
 	
 	<p>I - da empresa:</p>
 	
@@ -978,7 +1000,7 @@ const L8212:ILei = {
 	
 	<p>§ 8º. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 48.</span> A prática de ato com inobservância do disposto no artigo anterior, ou o seu registro, acarretará a responsabilidade solidária dos contratantes e do oficial que lavrar ou registrar o instrumento, sendo o ato nulo para todos os efeitos.</p>
+	<p><span class="artigo">Art. 48.</span> A prática de ato com inobservância do disposto no artigo anterior, ou o seu registro, acarretará a responsabilidade solidária dos contratantes e do oficial que lavrar ou registrar o instrumento, sendo o ato nulo para todos os efeitos.</p>
 	
 	<p>§ 1º. Os órgãos competentes podem intervir em instrumento que depender de prova de inexistência de débito, a fim de autorizar sua lavratura, desde que o débito seja pago no ato ou o seu pagamento fique assegurado mediante confissão de dívida fiscal com o oferecimento de garantias reais suficientes, na forma estabelecida em regulamento.</p>
 	
@@ -989,7 +1011,7 @@ const L8212:ILei = {
 	<h1>TÍTULO VII <br>
 	 DAS DISPOSIÇÕES GERAIS </span></h1>
 	
-	<p><span class=artigo>Art. 49.</span> A matrícula da empresa será efetuada nos termos e condições estabelecidos pela Secretaria da Receita Federal do Brasil. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 49.</span> A matrícula da empresa será efetuada nos termos e condições estabelecidos pela Secretaria da Receita Federal do Brasil. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>I – (revogado); <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -1011,13 +1033,13 @@ const L8212:ILei = {
 	
 	<p>§ 6º. O disposto no § 5º. deste artigo não se aplica ao licenciamento sanitário de produtos sujeitos à incidência de Imposto sobre Produtos Industrializados ou ao contribuinte cuja inscrição no Cadastro Nacional de Pessoa Jurídica – CNPJ seja obrigatória. </p>
 	
-	<p><span class=artigo>Art. 50.</span> Para fins de fiscalização do INSS, o Município, por intermédio do órgão competente, fornecerá relação de alvarás para construção civil e documentos de &quot;habite-se&quot; concedidos. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9476.htm#art1">(Redação dada pela Lei nº. 9.476, de 1997) </a></p>
+	<p><span class="artigo">Art. 50.</span> Para fins de fiscalização do INSS, o Município, por intermédio do órgão competente, fornecerá relação de alvarás para construção civil e documentos de &quot;habite-se&quot; concedidos. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9476.htm#art1">(Redação dada pela Lei nº. 9.476, de 1997) </a></p>
 	
-	<p><span class=artigo>Art. 51.</span> O crédito relativo a contribuições, cotas e respectivos adicionais ou acréscimos de qualquer natureza arrecadados pelos órgãos competentes, bem como a atualização monetária e os juros de mora, estão sujeitos, nos processos de falência, concordata ou concurso de credores, às disposições atinentes aos créditos da União, aos quais são equiparados.</p>
+	<p><span class="artigo">Art. 51.</span> O crédito relativo a contribuições, cotas e respectivos adicionais ou acréscimos de qualquer natureza arrecadados pelos órgãos competentes, bem como a atualização monetária e os juros de mora, estão sujeitos, nos processos de falência, concordata ou concurso de credores, às disposições atinentes aos créditos da União, aos quais são equiparados.</p>
 	
 	<p>Parágrafo único. O Instituto Nacional do Seguro Social-INSS reivindicará os valores descontados pela empresa de seus empregados e ainda não recolhidos.</p>
 	
-	<p><span class=artigo>Art. 52.</span> Às empresas, enquanto estiverem em débito não garantido com a União, aplica-se o disposto no art. 32 da Lei no 4.357, de 16 de julho de 1964. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 52.</span> Às empresas, enquanto estiverem em débito não garantido com a União, aplica-se o disposto no art. 32 da Lei no 4.357, de 16 de julho de 1964. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>I – (revogado); <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -1025,7 +1047,7 @@ const L8212:ILei = {
 	
 	<p>Parágrafo único. (Revogado). <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 53.</span> Na execução judicial da dívida ativa da União, suas autarquias e fundações públicas, será facultado ao <span class=SpellE>exeqüente</span> indicar bens à penhora, a qual será efetivada concomitantemente com a citação inicial do devedor.</p>
+	<p><span class="artigo">Art. 53.</span> Na execução judicial da dívida ativa da União, suas autarquias e fundações públicas, será facultado ao <span class=SpellE>exeqüente</span> indicar bens à penhora, a qual será efetivada concomitantemente com a citação inicial do devedor.</p>
 	
 	<p>§ 1º. Os bens penhorados nos termos deste artigo ficam desde logo indisponíveis.</p>
 	
@@ -1035,35 +1057,35 @@ const L8212:ILei = {
 	
 	<p>§ 4º. Não sendo opostos embargos, no caso legal, ou sendo eles julgados improcedentes, os autos serão conclusos ao juiz do feito, para determinar o prosseguimento da execução.</p>
 	
-	<p><span class=artigo>Art. 54.</span> Os órgãos competentes estabelecerão critério para a dispensa de constituição ou exigência de crédito de valor inferior ao custo dessa medida.</p>
+	<p><span class="artigo">Art. 54.</span> Os órgãos competentes estabelecerão critério para a dispensa de constituição ou exigência de crédito de valor inferior ao custo dessa medida.</p>
 	
-	<p><span class=artigo>Art. 55.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L12101.htm#art44">(Revogado pela Lei nº. 12.101, de 2009)</a></p>
+	<p><span class="artigo">Art. 55.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L12101.htm#art44">(Revogado pela Lei nº. 12.101, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 56.</span> A inexistência de débitos em relação às contribuições devidas ao Instituto Nacional do Seguro Social-INSS, a partir da publicação desta Lei, é condição necessária para que os Estados, o Distrito Federal e os Municípios possam receber as transferências dos recursos do Fundo de Participação dos Estados e do Distrito Federal-FPE e do Fundo de Participação dos Municípios-FPM, celebrar acordos, contratos, convênios ou ajustes, bem como receber empréstimos, financiamentos, avais e subvenções em geral de órgãos ou entidades da administração direta e indireta da União.</p>
+	<p><span class="artigo">Art. 56.</span> A inexistência de débitos em relação às contribuições devidas ao Instituto Nacional do Seguro Social-INSS, a partir da publicação desta Lei, é condição necessária para que os Estados, o Distrito Federal e os Municípios possam receber as transferências dos recursos do Fundo de Participação dos Estados e do Distrito Federal-FPE e do Fundo de Participação dos Municípios-FPM, celebrar acordos, contratos, convênios ou ajustes, bem como receber empréstimos, financiamentos, avais e subvenções em geral de órgãos ou entidades da administração direta e indireta da União.</p>
 	
 	<p>§ 1º. (Revogado pela Medida Provisória no 2187-13, de 2001). <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12810.htm#art17">(Renumerado do parágrafo único e Incluído pela Lei nº. 12.810, de 2013)</a></p>
 	
 	<p>§ 2º. Os recursos do FPE e do FPM não transferidos em decorrência da aplicação do <i>caput</i> deste artigo poderão ser utilizados para quitação, total ou parcial, dos débitos relativos às contribuições de que tratam as alíneas a e c do parágrafo único do art. 11 desta Lei, a pedido do representante legal do Estado, Distrito Federal ou Município. <a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2013/Lei/L12810.htm#art17">(Incluído pela Lei nº. 12.810, de 2013)</a></p>
 	
-	<p><span class=artigo>Art. 57.</span> Os Estados, o Distrito Federal e os Municípios serão, igualmente, obrigados a apresentar, a partir de 1º. de junho de 1992, para os fins do disposto no artigo anterior, comprovação de pagamento da parcela mensal referente aos débitos com o Instituto Nacional do Seguro Social-INSS, existentes até 1º. de setembro de 1991, renegociados nos termos desta Lei.</p>
+	<p><span class="artigo">Art. 57.</span> Os Estados, o Distrito Federal e os Municípios serão, igualmente, obrigados a apresentar, a partir de 1º. de junho de 1992, para os fins do disposto no artigo anterior, comprovação de pagamento da parcela mensal referente aos débitos com o Instituto Nacional do Seguro Social-INSS, existentes até 1º. de setembro de 1991, renegociados nos termos desta Lei.</p>
 	
-	<p><span class=artigo>Art. 58.</span> Os débitos dos Estados, do Distrito Federal e dos Municípios para com o Instituto Nacional do Seguro Social-INSS, existentes até 1º. de setembro de 1991, poderão ser liquidados em até 240 (duzentos e quarenta) parcelas mensais.</p>
+	<p><span class="artigo">Art. 58.</span> Os débitos dos Estados, do Distrito Federal e dos Municípios para com o Instituto Nacional do Seguro Social-INSS, existentes até 1º. de setembro de 1991, poderão ser liquidados em até 240 (duzentos e quarenta) parcelas mensais.</p>
 	
 	<p>§ 1º. Para apuração dos débitos será considerado o valor original atualizado pelo índice oficial utilizado pela Seguridade Social para correção de seus créditos. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8444.htm#art2">(Renumerado pela Lei nº. 8.444, de 20.7.92)</a></p>
 	
 	<p>§ 2º. As contribuições descontadas até 30 de junho de 1992 dos segurados que tenham prestado serviços aos Estados, ao Distrito Federal e aos Municípios poderão ser objeto de acordo para parcelamento em até doze meses, não se lhes aplicando o disposto no § 1º. do artigo 38 desta Lei. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8444.htm#art2">(Parágrafo acrescentado pela Lei nº. 8.444, de 20.7.92). </a></p>
 	
-	<p><span class=artigo>Art. 59.</span> O Instituto Nacional do Seguro Social-INSS implantará, no prazo de 90 (noventa) dias a contar da data da publicação desta Lei, sistema próprio e informatizado de cadastro dos pagamentos e débitos dos Governos Estaduais, do Distrito Federal e das Prefeituras Municipais, que viabilize o permanente acompanhamento e fiscalização do disposto nos arts. 56, 57 e 58 e permita a divulgação periódica dos devedores da Previdência Social.</p>
+	<p><span class="artigo">Art. 59.</span> O Instituto Nacional do Seguro Social-INSS implantará, no prazo de 90 (noventa) dias a contar da data da publicação desta Lei, sistema próprio e informatizado de cadastro dos pagamentos e débitos dos Governos Estaduais, do Distrito Federal e das Prefeituras Municipais, que viabilize o permanente acompanhamento e fiscalização do disposto nos arts. 56, 57 e 58 e permita a divulgação periódica dos devedores da Previdência Social.</p>
 	
-	<p><span class=artigo>Art. 60.</span> O pagamento dos benefícios da Seguridade Social será realizado por intermédio da rede bancária ou por outras formas definidas pelo Ministério da Previdência Social. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 60.</span> O pagamento dos benefícios da Seguridade Social será realizado por intermédio da rede bancária ou por outras formas definidas pelo Ministério da Previdência Social. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>Parágrafo único. <a href="../Documentos/SkyDrive/Documentos/MPV/2170-36.htm#art8">(Revogado pela Medida Provisória nº. 2.170-36, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 61.</span> As receitas provenientes da cobrança de débitos dos Estados e Municípios e da alienação, arrendamento ou locação de bens móveis ou imóveis pertencentes ao patrimônio do Instituto Nacional do Seguro Social-INSS, deverão constituir reserva técnica, de longo prazo, que garantirá o seguro social estabelecido no Plano de Benefícios da Previdência Social.</p>
+	<p><span class="artigo">Art. 61.</span> As receitas provenientes da cobrança de débitos dos Estados e Municípios e da alienação, arrendamento ou locação de bens móveis ou imóveis pertencentes ao patrimônio do Instituto Nacional do Seguro Social-INSS, deverão constituir reserva técnica, de longo prazo, que garantirá o seguro social estabelecido no Plano de Benefícios da Previdência Social.</p>
 	
 	<p>Parágrafo único. É vedada a utilização dos recursos de que trata este artigo, para cobrir despesas de custeio em geral, inclusive as decorrentes de criação, majoração ou extensão dos benefícios ou serviços da Previdência Social, admitindo-se sua utilização, excepcionalmente, em despesas de capital, na forma da lei de orçamento.</p>
 	
-	<p><span class=artigo>Art. 62.</span> A contribuição estabelecida na Lei nº. 5.161, de 21 de outubro de 1966, em favor da Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho-FUNDACENTRO, será de 2% (dois por cento) da receita proveniente da contribuição a cargo da empresa, a título de financiamento da complementação das prestações por acidente do trabalho, estabelecida no inciso II do art. 22.</p>
+	<p><span class="artigo">Art. 62.</span> A contribuição estabelecida na Lei nº. 5.161, de 21 de outubro de 1966, em favor da Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho-FUNDACENTRO, será de 2% (dois por cento) da receita proveniente da contribuição a cargo da empresa, a título de financiamento da complementação das prestações por acidente do trabalho, estabelecida no inciso II do art. 22.</p>
 	
 	<p>Parágrafo único. Os recursos referidos neste artigo poderão contribuir para o financiamento das despesas com pessoal e administração geral da Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho-<span class=SpellE>Fundacentro</span>. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9639.htm#art9">(Parágrafo acrescentado pela Lei nº. 9.639, de 25.5.98)</a></p>
 	
@@ -1073,17 +1095,17 @@ const L8212:ILei = {
 	<h2>CAPÍTULO I <br>
 	 DA MODERNIZAÇÃO DA PREVIDÊNCIA SOCIAL </span></h2>
 	
-	<p><span class=artigo>Art. 63.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 63.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 64.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 64.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 65.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 65.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 66.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 66.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 67.</span> Até que seja implantado o Cadastro Nacional do Trabalhador-CNT, as instituições e órgãos federais, estaduais, do Distrito Federal e municipais, detentores de cadastros de empresas e de contribuintes em geral, deverão colocar à disposição do Instituto Nacional do Seguro Social-INSS, mediante a realização de convênios, todos os dados necessários à permanente atualização dos cadastros da Previdência Social.</p>
+	<p><span class="artigo">Art. 67.</span> Até que seja implantado o Cadastro Nacional do Trabalhador-CNT, as instituições e órgãos federais, estaduais, do Distrito Federal e municipais, detentores de cadastros de empresas e de contribuintes em geral, deverão colocar à disposição do Instituto Nacional do Seguro Social-INSS, mediante a realização de convênios, todos os dados necessários à permanente atualização dos cadastros da Previdência Social.</p>
 	
-	<p><span class=artigo>Art. 68.</span> O Titular do Cartório de Registro Civil de Pessoas Naturais fica obrigado a comunicar, ao INSS, até o dia 10 de cada mês, o registro dos óbitos ocorridos no mês imediatamente anterior, devendo da relação constar a filiação, a data e o local de nascimento da pessoa falecida. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8870.htm#art1">(Redação dada pela Lei nº. 8.870, de 15.4.94) </a></p>
+	<p><span class="artigo">Art. 68.</span> O Titular do Cartório de Registro Civil de Pessoas Naturais fica obrigado a comunicar, ao INSS, até o dia 10 de cada mês, o registro dos óbitos ocorridos no mês imediatamente anterior, devendo da relação constar a filiação, a data e o local de nascimento da pessoa falecida. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8870.htm#art1">(Redação dada pela Lei nº. 8.870, de 15.4.94) </a></p>
 	
 	<p>§ 1º. No caso de não haver sido registrado nenhum óbito, deverá o Titular do Cartório de Registro Civil de Pessoas Naturais comunicar este fato ao INSS no prazo estipulado no <i>caput</i> deste artigo. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L8870.htm#art1">(Parágrafo acrescentado pela Lei nº. 8.870, de 15.4.94). </a></p>
 	
@@ -1107,7 +1129,7 @@ const L8212:ILei = {
 	
 	<p class=alinea>g) número e série da Carteira de Trabalho. <a href="../Documentos/SkyDrive/Documentos/MPV/2187-13.htm#art3">(Incluído pela Medida Provisória nº. 2.187-13, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 69.</span> O Ministério da Previdência e Assistência Social e o Instituto Nacional do Seguro Social - INSS manterão programa permanente de revisão da concessão e da manutenção dos benefícios da Previdência Social, a fim de apurar irregularidades e falhas existentes. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97)</a></p>
+	<p><span class="artigo">Art. 69.</span> O Ministério da Previdência e Assistência Social e o Instituto Nacional do Seguro Social - INSS manterão programa permanente de revisão da concessão e da manutenção dos benefícios da Previdência Social, a fim de apurar irregularidades e falhas existentes. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97)</a></p>
 	
 	<p>§ 1º. Havendo indício de irregularidade na concessão ou na manutenção de benefício, a Previdência Social notificará o beneficiário para apresentar defesa, provas ou documentos de que dispuser, no prazo de trinta dias. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97)</a></p>
 	
@@ -1117,31 +1139,31 @@ const L8212:ILei = {
 	
 	<p>§ 4º. Para efeito do disposto no <i>caput</i> deste artigo, o Ministério da Previdência Social e o Instituto Nacional do Seguro Social - INSS procederão, no mínimo a cada 5 (cinco) anos, ao recenseamento previdenciário, abrangendo todos os aposentados e pensionistas do regime geral de previdência social. </p>
 	
-	<p><span class=artigo>Art. 70.</span> Os beneficiários da Previdência Social, aposentados por invalidez, ficam obrigados, sob pena de sustação do pagamento do benefício, a submeterem-se a exames médico-periciais, estabelecidos na forma do regulamento, que definirá sua periodicidade e os mecanismos de fiscalização e auditoria.</p>
+	<p><span class="artigo">Art. 70.</span> Os beneficiários da Previdência Social, aposentados por invalidez, ficam obrigados, sob pena de sustação do pagamento do benefício, a submeterem-se a exames médico-periciais, estabelecidos na forma do regulamento, que definirá sua periodicidade e os mecanismos de fiscalização e auditoria.</p>
 	
-	<p><span class=artigo>Art. 71.</span> O Instituto Nacional do Seguro Social-INSS deverá rever os benefícios, inclusive os concedidos por acidente do trabalho, ainda que concedidos judicialmente, para avaliar a persistência, atenuação ou agravamento da incapacidade para o trabalho alegada como causa para a sua concessão.</p>
+	<p><span class="artigo">Art. 71.</span> O Instituto Nacional do Seguro Social-INSS deverá rever os benefícios, inclusive os concedidos por acidente do trabalho, ainda que concedidos judicialmente, para avaliar a persistência, atenuação ou agravamento da incapacidade para o trabalho alegada como causa para a sua concessão.</p>
 	
 	<p>Parágrafo único. Será cabível a concessão de liminar nas ações rescisórias e revisional, para suspender a execução do julgado rescindendo ou revisando, em caso de fraude ou erro material comprovado.<a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9032.htm#art2"> (Parágrafo acrescentado pela Lei nº. 9.032, de 28 4.95). </a></p>
 	
-	<p><span class=artigo>Art. 72.</span> O Instituto Nacional do Seguro Social-INSS promoverá, no prazo de 180 (cento e oitenta) dias a contar da publicação desta Lei, a revisão das indenizações associadas a benefícios por acidentes do trabalho, cujos valores excedam a Cr$ 1.700.000,00 (um milhão e setecentos mil cruzeiros).</p>
+	<p><span class="artigo">Art. 72.</span> O Instituto Nacional do Seguro Social-INSS promoverá, no prazo de 180 (cento e oitenta) dias a contar da publicação desta Lei, a revisão das indenizações associadas a benefícios por acidentes do trabalho, cujos valores excedam a Cr$ 1.700.000,00 (um milhão e setecentos mil cruzeiros).</p>
 	
-	<p><span class=artigo>Art. 73.</span> O setor encarregado pela área de benefícios no âmbito do Instituto Nacional do Seguro Social-INSS deverá estabelecer indicadores qualitativos e quantitativos para acompanhamento e avaliação das concessões de benefícios realizadas pelos órgãos locais de atendimento.</p>
+	<p><span class="artigo">Art. 73.</span> O setor encarregado pela área de benefícios no âmbito do Instituto Nacional do Seguro Social-INSS deverá estabelecer indicadores qualitativos e quantitativos para acompanhamento e avaliação das concessões de benefícios realizadas pelos órgãos locais de atendimento.</p>
 	
-	<p><span class=artigo>Art. 74.</span> Os postos de benefícios deverão adotar como prática o cruzamento das informações declaradas pelos segurados com os dados de cadastros de empresas e de contribuintes em geral quando da concessão de benefícios.</p>
+	<p><span class="artigo">Art. 74.</span> Os postos de benefícios deverão adotar como prática o cruzamento das informações declaradas pelos segurados com os dados de cadastros de empresas e de contribuintes em geral quando da concessão de benefícios.</p>
 	
-	<p><span class=artigo>Art. 75.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9711.htm#art32">(Revogado pela Lei nº. 9.711, de 1998).</a></p>
+	<p><span class="artigo">Art. 75.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9711.htm#art32">(Revogado pela Lei nº. 9.711, de 1998).</a></p>
 	
-	<p><span class=artigo>Art. 76.</span> O Instituto Nacional do Seguro Social-INSS deverá proceder ao recadastramento de todos aqueles que, por intermédio de procuração, recebem benefícios da Previdência Social.</p>
+	<p><span class="artigo">Art. 76.</span> O Instituto Nacional do Seguro Social-INSS deverá proceder ao recadastramento de todos aqueles que, por intermédio de procuração, recebem benefícios da Previdência Social.</p>
 	
 	<p>Parágrafo único. O documento de procuração deverá, a cada semestre, ser revalidado pelos órgãos de atendimento locais.</p>
 	
-	<p><span class=artigo>Art. 77.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 77.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 78.</span> O Instituto Nacional do Seguro Social-INSS, na forma da legislação específica, fica autorizado a contratar auditorias externas, periodicamente, para analisar e emitir parecer sobre demonstrativos econômico-financeiros e contábeis, arrecadação, cobrança e fiscalização das contribuições, bem como pagamento dos benefícios, submetendo os resultados obtidos à apreciação do Conselho Nacional da Seguridade Social.</p>
+	<p><span class="artigo">Art. 78.</span> O Instituto Nacional do Seguro Social-INSS, na forma da legislação específica, fica autorizado a contratar auditorias externas, periodicamente, para analisar e emitir parecer sobre demonstrativos econômico-financeiros e contábeis, arrecadação, cobrança e fiscalização das contribuições, bem como pagamento dos benefícios, submetendo os resultados obtidos à apreciação do Conselho Nacional da Seguridade Social.</p>
 	
-	<p><span class=artigo>Art. 79.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9711.htm#art32">(Revogado pela Lei nº. 9.711, de 1998).</a></p>
+	<p><span class="artigo">Art. 79.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9711.htm#art32">(Revogado pela Lei nº. 9.711, de 1998).</a></p>
 	
-	<p><span class=artigo>Art. 80.</span> Fica o Instituto Nacional do Seguro Social-INSS obrigado a:</p>
+	<p><span class="artigo">Art. 80.</span> Fica o Instituto Nacional do Seguro Social-INSS obrigado a:</p>
 	
 	<p>I – enviar às empresas e aos seus segurados, quando solicitado, extrato relativo ao recolhimento das suas <span class=GramE>contribuições; </span><a href="../Documentos/SkyDrive/Documentos/_Ato2011-2014/2012/Lei/L12692.htm#art1">(Redação pela Lei nº. 12.692, de 2012)</a></p>
 	
@@ -1157,28 +1179,28 @@ const L8212:ILei = {
 	
 	<p>VII - disponibilizará ao público, inclusive por meio de rede pública de transmissão de dados, informações atualizadas sobre as receitas e despesas do regime geral de previdência social, bem como os critérios e parâmetros adotados para garantir o equilíbrio financeiro e atuarial do regime. </p>
 	
-	<p><span class=artigo>Art. 81.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
+	<p><span class="artigo">Art. 81.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 82.</span> A Auditoria e a Procuradoria do Instituto Nacional do Seguro Social-INSS deverão, a cada trimestre, elaborar relação das auditorias realizadas e dos trabalhos executados, bem como dos resultados obtidos, enviando-a a apreciação do Conselho Nacional da Seguridade Social.</p>
+	<p><span class="artigo">Art. 82.</span> A Auditoria e a Procuradoria do Instituto Nacional do Seguro Social-INSS deverão, a cada trimestre, elaborar relação das auditorias realizadas e dos trabalhos executados, bem como dos resultados obtidos, enviando-a a apreciação do Conselho Nacional da Seguridade Social.</p>
 	
-	<p><span class=artigo>Art. 83.</span> O Instituto Nacional do Seguro Social-INSS deverá implantar um programa de qualificação e treinamento sistemático de pessoal, bem como promover a reciclagem e redistribuição de funcionários conforme as demandas dos órgãos regionais e locais, visando a melhoria da qualidade do atendimento e o controle e a eficiência dos sistemas de arrecadação e fiscalização de contribuições, bem como de pagamento de benefícios.</p>
+	<p><span class="artigo">Art. 83.</span> O Instituto Nacional do Seguro Social-INSS deverá implantar um programa de qualificação e treinamento sistemático de pessoal, bem como promover a reciclagem e redistribuição de funcionários conforme as demandas dos órgãos regionais e locais, visando a melhoria da qualidade do atendimento e o controle e a eficiência dos sistemas de arrecadação e fiscalização de contribuições, bem como de pagamento de benefícios.</p>
 	
-	<p><span class=artigo>Art. 84.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
+	<p><span class="artigo">Art. 84.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2216-37.htm#art33">(Revogado pela Medida Provisória nº. 2.216-37, de 2001).</a></p>
 	
 	<h2>CAPÍTULO II <br>
 	 DAS DEMAIS DISPOSIÇÕES </span></h2>
 	
-	<p><span class=artigo>Art. 85.</span> O Conselho Nacional da Seguridade Social será instalado no prazo de 30 (trinta) dias após a promulgação desta Lei.</p>
+	<p><span class="artigo">Art. 85.</span> O Conselho Nacional da Seguridade Social será instalado no prazo de 30 (trinta) dias após a promulgação desta Lei.</p>
 	
-	<p><span class=artigo>Art. 85-A.</span> Os tratados, convenções e outros acordos internacionais de que Estado estrangeiro ou organismo internacional e o Brasil sejam partes, e que versem sobre matéria previdenciária, serão interpretados como lei especial. </p>
+	<p><span class="artigo">Art. 85-A.</span> Os tratados, convenções e outros acordos internacionais de que Estado estrangeiro ou organismo internacional e o Brasil sejam partes, e que versem sobre matéria previdenciária, serão interpretados como lei especial. </p>
 	
-	<p><span class=artigo>Art. 86.</span> (Revogado pela Medida Provisória nº. 2.216-37, de 2001).</p>
+	<p><span class="artigo">Art. 86.</span> (Revogado pela Medida Provisória nº. 2.216-37, de 2001).</p>
 	
-	<p><span class=artigo>Art. 87.</span> Os orçamentos das pessoas jurídicas de direito público e das entidades da administração pública indireta devem consignar as dotações necessárias ao pagamento das contribuições da Seguridade Social, de modo a assegurar a sua regular liquidação dentro do exercício.</p>
+	<p><span class="artigo">Art. 87.</span> Os orçamentos das pessoas jurídicas de direito público e das entidades da administração pública indireta devem consignar as dotações necessárias ao pagamento das contribuições da Seguridade Social, de modo a assegurar a sua regular liquidação dentro do exercício.</p>
 	
-	<p><span class=artigo>Art. 88.</span> Os prazos de prescrição de que goza a União aplicam-se à Seguridade Social, ressalvado o disposto no art. 46.</p>
+	<p><span class="artigo">Art. 88.</span> Os prazos de prescrição de que goza a União aplicam-se à Seguridade Social, ressalvado o disposto no art. 46.</p>
 	
-	<p><span class=artigo>Art. 89.</span> As contribuições sociais previstas nas alíneas a, b e c do parágrafo único do art. 11 desta Lei, as contribuições instituídas a título de substituição e as contribuições devidas a terceiros somente poderão ser restituídas ou compensadas nas hipóteses de pagamento ou recolhimento indevido ou maior que o devido, nos termos e condições estabelecidos pela Secretaria da Receita Federal do Brasil. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
+	<p><span class="artigo">Art. 89.</span> As contribuições sociais previstas nas alíneas a, b e c do parágrafo único do art. 11 desta Lei, as contribuições instituídas a título de substituição e as contribuições devidas a terceiros somente poderão ser restituídas ou compensadas nas hipóteses de pagamento ou recolhimento indevido ou maior que o devido, nos termos e condições estabelecidos pela Secretaria da Receita Federal do Brasil. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
 	<p>§ 1º. (Revogado). <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Redação dada pela Lei nº. 11.941, de 2009).</a></p>
 	
@@ -1202,19 +1224,19 @@ const L8212:ILei = {
 	
 	<p>§ 11. Aplica-se aos processos de restituição das contribuições de que trata este artigo e de reembolso de salário-família e salário-maternidade o rito previsto no Decreto no 70.235, de 6 de março de 1972. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 90.</span> O Conselho Nacional da Seguridade Social, dentro de 180 (cento e oitenta) dias da sua instalação, adotará as providências necessárias ao levantamento das dívidas da União para com a Seguridade Social.</p>
+	<p><span class="artigo">Art. 90.</span> O Conselho Nacional da Seguridade Social, dentro de 180 (cento e oitenta) dias da sua instalação, adotará as providências necessárias ao levantamento das dívidas da União para com a Seguridade Social.</p>
 	
-	<p><span class=artigo>Art. 91.</span> Mediante requisição da Seguridade Social, a empresa é obrigada a descontar, da remuneração paga aos segurados a seu serviço, a importância proveniente de dívida ou responsabilidade por eles contraída junto à Seguridade Social, relativa a benefícios pagos indevidamente.</p>
+	<p><span class="artigo">Art. 91.</span> Mediante requisição da Seguridade Social, a empresa é obrigada a descontar, da remuneração paga aos segurados a seu serviço, a importância proveniente de dívida ou responsabilidade por eles contraída junto à Seguridade Social, relativa a benefícios pagos indevidamente.</p>
 	
-	<p><span class=artigo>Art. 92.</span> A infração de qualquer dispositivo desta Lei para a qual não haja penalidade expressamente cominada sujeita o responsável, conforme a gravidade da infração, a multa variável de Cr$ 100.000,00 (cem mil cruzeiros) a Cr$ 10.000.000,00 (dez milhões de cruzeiros), conforme dispuser o regulamento. 24</p>
+	<p><span class="artigo">Art. 92.</span> A infração de qualquer dispositivo desta Lei para a qual não haja penalidade expressamente cominada sujeita o responsável, conforme a gravidade da infração, a multa variável de Cr$ 100.000,00 (cem mil cruzeiros) a Cr$ 10.000.000,00 (dez milhões de cruzeiros), conforme dispuser o regulamento. 24</p>
 	
-	<p><span class=artigo>Art. 93.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9639.htm#art13">(Revogado o <i>caput</i> pela Lei nº. 9.639, de 25.5.98.) </a></p>
+	<p><span class="artigo">Art. 93.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9639.htm#art13">(Revogado o <i>caput</i> pela Lei nº. 9.639, de 25.5.98.) </a></p>
 	
 	<p>Parágrafo único. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art79">(Revogado pela Lei nº. 11.941, de 2009)</a></p>
 	
-	<p><span class=artigo>Art. 94.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11501.htm#art17">(Revogado pela Lei nº. 11.501, de 2007).</a></p>
+	<p><span class="artigo">Art. 94.</span><a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2007/Lei/L11501.htm#art17">(Revogado pela Lei nº. 11.501, de 2007).</a></p>
 	
-	<p><span class=artigo>Art. 95.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9983.htm#art3">(Revogao pela Lei nº. 9.983, de 2000).</a></p>
+	<p><span class="artigo">Art. 95.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9983.htm#art3">(Revogao pela Lei nº. 9.983, de 2000).</a></p>
 	
 	<p>§ 2º. A empresa que transgredir as normas desta Lei, além das outras sanções previstas, sujeitar-se-á, nas condições em que dispuser o regulamento:</p>
 	
@@ -1236,15 +1258,15 @@ const L8212:ILei = {
 	
 	<p>§ 5º. Revogado. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9983.htm#art3">(Redação dada pela Lei nº. 9.983, de 2000).</a></p>
 	
-	<p><span class=artigo>Art. 96.</span> O Poder Executivo enviará ao Congresso Nacional, anualmente, acompanhando a Proposta Orçamentária da Seguridade Social, projeções atuariais relativas à Seguridade Social, abrangendo um horizonte temporal de, no mínimo, 20 (vinte) anos, considerando hipóteses alternativas quanto às variáveis demográficas, econômicas e institucionais relevantes.</p>
+	<p><span class="artigo">Art. 96.</span> O Poder Executivo enviará ao Congresso Nacional, anualmente, acompanhando a Proposta Orçamentária da Seguridade Social, projeções atuariais relativas à Seguridade Social, abrangendo um horizonte temporal de, no mínimo, 20 (vinte) anos, considerando hipóteses alternativas quanto às variáveis demográficas, econômicas e institucionais relevantes.</p>
 	
-	<p><span class=artigo>Art. 97.</span> Fica o Instituto Nacional do Seguro Social-INSS autorizado a proceder a alienação ou permuta, por ato da autoridade competente, de bens imóveis de sua propriedade considerados desnecessários ou não vinculados às suas atividades operacionais. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97). </a></p>
+	<p><span class="artigo">Art. 97.</span> Fica o Instituto Nacional do Seguro Social-INSS autorizado a proceder a alienação ou permuta, por ato da autoridade competente, de bens imóveis de sua propriedade considerados desnecessários ou não vinculados às suas atividades operacionais. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Redação dada pela Lei nº. 9.528, de 10.12.97). </a></p>
 	
 	<p>§ 1º. Na alienação a que se refere este artigo será observado o disposto no art. 18 e nos incisos I, II e III do art. 19, da Lei nº. 8.666, de 21 de junho de 1993, alterada pelas Leis nº. <span class=GramE>s</span> 8.883, de 8 de junho de 1994, e 9.032, de 28 de abril de 1995. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Parágrafo acrescentado pela Lei nº. 9.528, de 10.12.97). </a></p>
 	
 	<p>§ 2º. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(VETADO na Lei nº. 9.528, de 10.12.97). </a></p>
 	
-	<p><span class=artigo>Art. 98.</span> Nas execuções fiscais da dívida ativa do INSS, o leilão judicial dos bens penhorados realizar-se-á por leiloeiro oficial, indicado pelo credor, que procederá à hasta pública:<a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1"> (Artigo restabelecido, com nova redação e inclusão de incisos, parágrafos e alíneas, pela Lei nº. 9.528, de 10.12.1997).</a></p>
+	<p><span class="artigo">Art. 98.</span> Nas execuções fiscais da dívida ativa do INSS, o leilão judicial dos bens penhorados realizar-se-á por leiloeiro oficial, indicado pelo credor, que procederá à hasta pública:<a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1"> (Artigo restabelecido, com nova redação e inclusão de incisos, parágrafos e alíneas, pela Lei nº. 9.528, de 10.12.1997).</a></p>
 	
 	<p>I - no primeiro leilão, pelo valor do maior lance, que não poderá ser inferior ao da avaliação;</p>
 	
@@ -1280,25 +1302,25 @@ const L8212:ILei = {
 	
 	<p>§ 11. O disposto neste artigo aplica-se às execuções fiscais da Dívida Ativa da União. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//2002/L10522.htm#art34">(Incluído pela Lei nº. 10.522, de 2002).</a></p>
 	
-	<p><span class=artigo>Art. 99.</span> O Instituto Nacional do Seguro Social-INSS poderá contratar leiloeiros oficiais para promover a venda administrativa dos bens, adjudicados judicialmente ou que receber em dação de pagamento. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Artigo restabelecido, com nova redação e parágrafo único acrescentado pela Lei nº. 9.528, de 10.12.97). </a></p>
+	<p><span class="artigo">Art. 99.</span> O Instituto Nacional do Seguro Social-INSS poderá contratar leiloeiros oficiais para promover a venda administrativa dos bens, adjudicados judicialmente ou que receber em dação de pagamento. <a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Artigo restabelecido, com nova redação e parágrafo único acrescentado pela Lei nº. 9.528, de 10.12.97). </a></p>
 	
 	<p>Parágrafo único. O INSS, no prazo de sessenta dias, providenciará alienação do bem por intermédio do leiloeiro oficial.</p>
 	
-	<p><span class=artigo>Art. 100.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Revogado pela Lei nº. 9.528, de 10.12.97) </a></p>
+	<p><span class="artigo">Art. 100.</span><a href="https://www.planalto.gov.br/ccivil_03/LEIS//L9528.htm#art1">(Revogado pela Lei nº. 9.528, de 10.12.97) </a></p>
 	
-	<p><span class=artigo>Art. 101.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2187-13.htm#art16">(Revogado pela Medida Provisória nº. 2.187-13, de 2001).</a></p>
+	<p><span class="artigo">Art. 101.</span><a href="../Documentos/SkyDrive/Documentos/MPV/2187-13.htm#art16">(Revogado pela Medida Provisória nº. 2.187-13, de 2001).</a></p>
 	
-	<p><span class=artigo>Art. 102.</span> Os valores expressos em moeda corrente nesta Lei serão reajustados nas mesmas épocas e com os mesmos índices utilizados para o reajustamento dos benefícios de prestação continuada da Previdência Social. <a href="../Documentos/SkyDrive/Documentos/MPV/2187-13.htm#art3">(Redação dada pela Medida Provisória nº. 2.187-13, de 2001).</a></p>
+	<p><span class="artigo">Art. 102.</span> Os valores expressos em moeda corrente nesta Lei serão reajustados nas mesmas épocas e com os mesmos índices utilizados para o reajustamento dos benefícios de prestação continuada da Previdência Social. <a href="../Documentos/SkyDrive/Documentos/MPV/2187-13.htm#art3">(Redação dada pela Medida Provisória nº. 2.187-13, de 2001).</a></p>
 	
 	<p> § 1º. O disposto neste artigo não se aplica às penalidades previstas no art. 32-A desta Lei. </p>
 	
 	<p>§ 2º. O reajuste dos valores dos salários-de-contribuição em decorrência da alteração do salário-mínimo será descontado por ocasião da aplicação dos índices a que se refere o <i>caput</i> deste artigo. <a href="../Documentos/SkyDrive/Documentos/_Ato2007-2010/2009/Lei/L11941.htm#art26">(Incluído pela Lei nº. 11.941, de 2009).</a></p>
 	
-	<p><span class=artigo>Art. 103.</span> O Poder Executivo regulamentará esta Lei no prazo de 60 (sessenta) dias a partir da data de sua publicação.</p>
+	<p><span class="artigo">Art. 103.</span> O Poder Executivo regulamentará esta Lei no prazo de 60 (sessenta) dias a partir da data de sua publicação.</p>
 	
-	<p><span class=artigo>Art. 104.</span> Esta Lei entrará em vigor na data de sua publicação.</p>
+	<p><span class="artigo">Art. 104.</span> Esta Lei entrará em vigor na data de sua publicação.</p>
 	
-	<p><span class=artigo>Art. 105.</span> Revogam-se as disposições em contrário.</p>
+	<p><span class="artigo">Art. 105.</span> Revogam-se as disposições em contrário.</p>
 	
 	<p>Brasília, em 24 de julho de 1991; 170º. da Independência e 103º. da República.</p>
 	
