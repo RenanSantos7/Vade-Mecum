@@ -664,6 +664,12 @@ const cpc:ILei = {
         <p>§ 1º. Incumbe ao autor adiantar as despesas relativas a ato cuja realização o juiz determinar de ofício ou a requerimento do Ministério Público, quando sua intervenção ocorrer como fiscal da ordem jurídica.</p>
         
         <p>§ 2º. A sentença condenará o vencido a pagar ao vencedor as despesas que antecipou.</p>
+
+        <p>§ 3º Nas ações de cobrança por qualquer procedimento, comum ou especial, bem como nas execuções ou cumprimentos de sentença de honorários advocatícios, o advogado ficará dispensado de adiantar o pagamento de custas processuais, e caberá ao réu ou executado suprir, ao final do processo, o seu pagamento, se tiver dado causa ao processo.</p>
+
+        <ul class="dica">
+            <li>Parágrafo 3º adicionado pela  <a href="https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2025/Lei/L15109.htm" rel="noopener" target="_blank">Lei nº 15.109 de 13 de março de 2025</a></li>
+        </ul>
         
         <p><span class='artigo' id='83'>Art. 83.</span> O autor, brasileiro ou estrangeiro, que residir fora do Brasil ou deixar de residir no país ao longo da tramitação de processo prestará caução suficiente ao pagamento das custas e dos honorários de advogado da parte contrária nas ações que propuser, se não tiver no Brasil bens imóveis que lhes assegurem o pagamento.</p>
         
