@@ -2,12 +2,12 @@ import { BookmarkRemoveOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 
-import { useLeisContext } from '../../../../contexts/LeisContext.tsx';
-import { ILei } from '../../../../types/index.tsx';
+import { useDataContext } from '../../../../contexts/dataContext.tsx';
+import { ILaw } from '../../../../types/index.tsx';
 import styles from './styles.module.css';
 
 export default function Favoritos() {
-	const { favoritos, setFavoritos } = useLeisContext();
+	const { favorites: favoritos, setFavorites: setFavoritos } = useDataContext();
 
 	if (favoritos.length === 0) {
 		return (
@@ -22,15 +22,15 @@ export default function Favoritos() {
 		);
 	}
 
-	function removeFavorito(item: ILei) {
-		setFavoritos((prev: ILei[]) => prev.filter(lei => lei.id !== item.id));
+	function removeFavorito(item: ILaw) {
+		setFavoritos((prev: ILaw[]) => prev.filter(lei => lei.id !== item.id));
 	}
 
 	return (
 		<section className={styles.favoritos}>
 			<h2>Favoritos</h2>
 			<div className={styles.favoritos__wrapper}>
-				{favoritos.map((lei: ILei) => (
+				{favoritos.map((lei: ILaw) => (
 					<div key={lei.id} className={styles.favoritos__item}>
 						<Link to={`/leis/${lei.id}`}>{lei.alias}</Link>
 

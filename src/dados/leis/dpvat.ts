@@ -1,21 +1,21 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const dpvat: ILei = {
+const dpvat: ILaw = {
 	id: 'dpvat',
-	titulo: 'Lei do Seguro DPVAT',
+	title: 'Lei do Seguro DPVAT',
 	alias: 'Lei do Seguro DPVAT',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'cdc', name: 'Código de Defesa do Consumidor' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
     area: 'consumidor',
-    ementa: 'Dispõe sobre Seguro Obrigatório de Danos Pessoais causados por veículos automotores de via terrestre, ou por sua carga, a pessoas transportadas ou não.',
-    numLei: 'LEI Nº. 6.194, DE 19 DE DEZEMBRO DE 1974',
-    linkDaLei: '',
-	conteudo: `
+    abstract: 'Dispõe sobre Seguro Obrigatório de Danos Pessoais causados por veículos automotores de via terrestre, ou por sua carga, a pessoas transportadas ou não.',
+    lawNumber: 'LEI Nº. 6.194, DE 19 DE DEZEMBRO DE 1974',
+    orgLink: '',
+	content: `
         <p>O <b>PRESIDENTE DA REPÚBLICA</b>, faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei: </p>
         
         <p><span class=artigo>Art. 1º.</span> A <a href="http://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del0073.htm#art20b">alínea b do artigo 20, do Decreto-lei nº. 73, de 21 de novembro de 1966</a>, passa a ter a seguinte redação: </p>

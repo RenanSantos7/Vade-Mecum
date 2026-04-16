@@ -1,17 +1,17 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cetoab:ILei = {
+const cetoab:ILaw = {
 	id: 'cetoab',
-	titulo: 'Código de Ética e Disciplina da OAB',
+	title: 'Código de Ética e Disciplina da OAB',
 	alias: 'Código de Ética e Disciplina da OAB',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'eoab', nome: 'Estatuto da Advocacia' },
-		{ id: 'regoab', nome: 'Regulamento Geral' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'eoab', name: 'Estatuto da Advocacia' },
+		{ id: 'regoab', name: 'Regulamento Geral' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'etica',
-	conteudo: `
+	content: `
         <p>O <strong>CONSELHO FEDERAL DA ORDEM DOS ADVOGADOS DO BRASIL</strong>, ao instituir o Código de Ética e Disciplina, norteou-se por princípios que formam a consciência profissional do advogado e representam imperativos de sua conduta, tais como: os de lutar sem receio pelo primado da Justiça; pugnar pelo cumprimento da Constituição e pelo respeito à Lei, fazendo com que esta seja interpretada com retidão, em perfeita sintonia com os fins sociais a que se dirige e as exigências do bem comum; ser fiel à verdade para poder servir à Justiça como um de seus elementos essenciais; proceder com lealdade e boa-fé em suas relações profissionais e em todos os atos do seu ofício; empenhar-se na defesa das causas confiadas ao seu patrocínio, dando ao constituinte o amparo do Direito, e proporcionando-lhe a realização prática de seus legítimos interesses; comportar-se, nesse mister, com independência e altivez, defendendo com o mesmo denodo humildes e poderosos; exercer a advocacia com o indispensável senso profissional, mas também com desprendimento, jamais permitindo que o anseio de ganho material sobreleve à finalidade social do seu trabalho; aprimorar- se no culto dos princípios éticos e no domínio da ciência jurídica, de modo a tornar-se merecedor da confiança do cliente e da sociedade como um todo, pelos atributos intelectuais e pela probidade pessoal; agir, em suma, com a dignidade das pessoas de bem e a correção dos profissionais que honram e engrandecem a sua classe.</p>
 
         <p>Inspirado nesses postulados é que o Conselho Federal da Ordem dos Advogados do Brasil, no uso das atribuições que lhe são conferidas pelos arts. 33 e 54, V, da Lei nº. 8.906, de 04 de julho de 1994, aprova e edita este Código, exortando os advogados brasileiros à sua fiel observância.</p>

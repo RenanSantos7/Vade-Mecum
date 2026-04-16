@@ -1,17 +1,17 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const eca:ILei = {
+const eca:ILaw = {
 	id: 'eca',
-	titulo: 'Estatuto da Criança e do Adolescente',
+	title: 'Estatuto da Criança e do Adolescente',
 	alias: 'Estat da Crianç e do Adolescente',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-    conteudo: `
+    content: `
         <p id="subtit">Lei nº 8.069, de 13 de Julho de 1990.</p>
 
         <p id="ementa">Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências.</p>

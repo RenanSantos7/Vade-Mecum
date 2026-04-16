@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const crimraciais:ILei = {
+const crimraciais:ILaw = {
     id: "crimraciais",
-    titulo: "Lei dos Crimes Raciais",
+    title: "Lei dos Crimes Raciais",
     alias: "Lei dos Crimes Raciais",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-        {id: "cpp", nome: "Código de Processo Penal"},
-        {id: "cpm", nome: "Código Penal Militar"},
-        {id: "cppm", nome: "Código de Processo Penal Militar"},
-        {id: "drogas", nome: "Lei de Drogas"},
-        {id: "crimhed", nome: "Lei dos Crimes Hediondos"},
-        {id: "crimtrib", nome: "Lei dos Crimes Tributários"},
-        {id: "eca", nome: "Estatuto da Criança e do Adolescente"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+        {id: "cpp", name: "Código de Processo Penal"},
+        {id: "cpm", name: "Código Penal Militar"},
+        {id: "cppm", name: "Código de Processo Penal Militar"},
+        {id: "drogas", name: "Lei de Drogas"},
+        {id: "crimhed", name: "Lei dos Crimes Hediondos"},
+        {id: "crimtrib", name: "Lei dos Crimes Tributários"},
+        {id: "eca", name: "Estatuto da Criança e do Adolescente"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id="subtit">LEI Nº 7.716, DE 5 DE JANEIRO DE 1989</p>
 
     <p id="ementa">Define os crimes resultantes de preconceito de raça ou de cor.</p>

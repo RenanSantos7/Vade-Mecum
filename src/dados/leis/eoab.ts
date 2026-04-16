@@ -1,18 +1,18 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const eoab:ILei = {
+const eoab:ILaw = {
 	id: 'eoab',
-	titulo: 'Estatuto da Advocacia e da OAB',
+	title: 'Estatuto da Advocacia e da OAB',
 	alias: 'Estatuto da Advocacia e da OAB',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cetoab', nome: 'Código de Ética da Advocacia' },
-		{ id: 'regoab', nome: 'Regulamento do Estatuto da OAB' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cetoab', name: 'Código de Ética da Advocacia' },
+		{ id: 'regoab', name: 'Regulamento do Estatuto da OAB' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'etica',
-	conteudo: `
+	content: `
   <p id="subtit">LEI Nº. 8.906, DE 4 DE JULHO DE 1994.</p>
 
   <p id="ementa">Dispõe sobre o Estatuto da Advocacia   e a Ordem dos Advogados do Brasil (OAB).</p>

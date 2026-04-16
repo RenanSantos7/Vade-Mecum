@@ -1,21 +1,21 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const alienPar:ILei = {
+const alienPar:ILaw = {
 	id: 'alienpar',
-	titulo: 'Lei da Alienação Parental',
+	title: 'Lei da Alienação Parental',
 	alias: 'Lei da Alienação Parental',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolesc' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolesc' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
     area: 'civil',
-    numLei: 'LEI Nº. 12.318, DE 26 DE AGOSTO DE 2010',
-    linkDaLei: 'http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/lei%2012.318-2010?OpenDocument',
-    ementa: 'Dispõe sobre a alienação parental e altera o art. 236 da Lei nº. 8.069, de 13 de julho de 1990.',
-	conteudo: `
+    lawNumber: 'LEI Nº. 12.318, DE 26 DE AGOSTO DE 2010',
+    orgLink: 'http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/lei%2012.318-2010?OpenDocument',
+    abstract: 'Dispõe sobre a alienação parental e altera o art. 236 da Lei nº. 8.069, de 13 de julho de 1990.',
+	content: `
         <p>O <strong>PRESIDENTE DA REPÚBLICA</strong> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei: </p>
         
         <p><span class="artigo">Art. 1º.</span> Esta Lei dispõe sobre a alienação parental. </p>

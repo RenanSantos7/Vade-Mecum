@@ -1,17 +1,17 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const lindb:ILei = {
+const lindb:ILaw = {
 	id: 'lindb',
-	titulo: 'Lei de Introdução às Normas do Direito Brasileiro',
+	title: 'Lei de Introdução às Normas do Direito Brasileiro',
 	alias: 'Lei de Introdução às Normas do Direito Brasileiro',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição Federal' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição Federal' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-    conteudo: `
+    content: `
         <p id="subtit"><a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657.htm">Decreto-Lei nº 4.657, de 4 de Setembro de 1942.</a></p>
 
         <p id="ementa">Lei de Introdução às normas do Direito Brasileiro.</p>

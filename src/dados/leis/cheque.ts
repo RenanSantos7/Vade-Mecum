@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cheque:ILei = {
+const cheque:ILaw = {
 	id: 'cheque',
-	titulo: 'Lei do Cheque',
+	title: 'Lei do Cheque',
 	alias: 'Lei do Cheque',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'jecc', nome: 'Lei dos Juizados Especiais Cíveis e Criminais' },
-		{ id: 'emepp', nome: 'Estatuto das Micro e Pequenas Empresas' },
-		{ id: 'falencia', nome: 'Lei de Falências' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'jecc', name: 'Lei dos Juizados Especiais Cíveis e Criminais' },
+		{ id: 'emepp', name: 'Estatuto das Micro e Pequenas Empresas' },
+		{ id: 'falencia', name: 'Lei de Falências' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'empresarial',
-	conteudo: `
+	content: `
         <p id="subtit">LEI Nº. 7.357, DE 2 DE SETEMBRO DE 1985.</p>
 
         <p id="ementa">Dispõe sobre o cheque e dá outras providências.</p>

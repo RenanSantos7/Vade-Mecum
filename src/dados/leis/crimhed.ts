@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const crimhed:ILei = {
+const crimhed:ILaw = {
     id: "crimhed",
-    titulo: "Lei dos Crimes Hediondos",
+    title: "Lei dos Crimes Hediondos",
     alias: "Lei dos Crimes Hediondos",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-        {id: "cpp", nome: "Código de Processo Penal"},
-        {id: "cpm", nome: "Código Penal Militar"},
-        {id: "cppm", nome: "Código de Processo Penal Militar"},
-        {id: "drogas", nome: "Lei de Drogas"},
-        {id: "crimhed", nome: "Lei dos Crimes Hediondos"},
-        {id: "crimtrib", nome: "Lei dos Crimes Tributários"},
-        {id: "eca", nome: "Estatuto da Criança e do Adolescente"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+        {id: "cpp", name: "Código de Processo Penal"},
+        {id: "cpm", name: "Código Penal Militar"},
+        {id: "cppm", name: "Código de Processo Penal Militar"},
+        {id: "drogas", name: "Lei de Drogas"},
+        {id: "crimhed", name: "Lei dos Crimes Hediondos"},
+        {id: "crimtrib", name: "Lei dos Crimes Tributários"},
+        {id: "eca", name: "Estatuto da Criança e do Adolescente"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id="subtit">LEI Nº 8.072, DE 25 DE JULHO DE 1990.</p>
 
     <p id="ementa">Dispõe sobre os crimes hediondos, nos termos do art. 5º,

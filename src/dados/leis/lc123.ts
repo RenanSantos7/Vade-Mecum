@@ -1,18 +1,18 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lc123:ILei = {
+const lc123:ILaw = {
     id: 'lc123',
-    titulo: 'Estatuto das Micro e Pequenas Empresas',
+    title: 'Estatuto das Micro e Pequenas Empresas',
     alias: 'Est Micro e Pequenas Empresas',
-    linksRelacionados: [
-        {nome: 'Constituição Federal', id: 'cf'}
+    relatedLinks: [
+        {name: 'Constituição Federal', id: 'cf'}
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'empresarial',
-    numLei: 'LEI COMPLEMENTAR Nº 123, DE 14 DE DEZEMBRO DE 2006',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/LEIS/LCP/Lcp123.htm',
-    ementa: 'Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte; altera dispositivos das Leis no 8.212 e 8.213, ambas de 24 de julho de 1991, da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-Lei no 5.452, de 1º de maio de 1943, da Lei no 10.189, de 14 de fevereiro de 2001, da Lei Complementar no 63, de 11 de janeiro de 1990; e revoga as Leis no 9.317, de 5 de dezembro de 1996, e 9.841, de 5 de outubro de 1999.',
-    conteudo: `
+    lawNumber: 'LEI COMPLEMENTAR Nº 123, DE 14 DE DEZEMBRO DE 2006',
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/LEIS/LCP/Lcp123.htm',
+    abstract: 'Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte; altera dispositivos das Leis no 8.212 e 8.213, ambas de 24 de julho de 1991, da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-Lei no 5.452, de 1º de maio de 1943, da Lei no 10.189, de 14 de fevereiro de 2001, da Lei Complementar no 63, de 11 de janeiro de 1990; e revoga as Leis no 9.317, de 5 de dezembro de 1996, e 9.841, de 5 de outubro de 1999.',
+    content: `
     <p>O <strong>PRESIDENTE DA REPÚBLICA</strong> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei Complementar: </p>
 
     <h2>CAPÍTULO I<br/>

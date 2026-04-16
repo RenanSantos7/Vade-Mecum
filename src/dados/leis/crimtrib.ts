@@ -1,15 +1,15 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const crimtrib:ILei = {
+const crimtrib:ILaw = {
     id: "crimtrib",
-    titulo: "Lei dos Crimes contra a Ordem Tributária",
+    title: "Lei dos Crimes contra a Ordem Tributária",
     alias: "Lei dos Crimes Tributários",
     /* linksRelacionados: [
         {id: "", nome: ""}
     ], */
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id=subtit>Lei nº 8.137, de 27 de dezembro de 1990.</p>
 
     <p id=ementa>Define crimes contra a ordem tributária, econômica e contra

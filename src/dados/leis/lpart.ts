@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lpart:ILei = {
+const lpart:ILaw = {
     id: 'lopart',
-    titulo: 'Lei dos Partidos Políticos',
+    title: 'Lei dos Partidos Políticos',
     alias: 'Lei dos Partidos Políticos',
-    linksRelacionados: [
-        {id: 'cf', nome: 'Constituição Federal'},
-        {id: 'ce', nome: 'Código Eleitoral'},
-        {id: 'lelec', nome: 'Lei das Eleições'},
+    relatedLinks: [
+        {id: 'cf', name: 'Constituição Federal'},
+        {id: 'ce', name: 'Código Eleitoral'},
+        {id: 'lelec', name: 'Lei das Eleições'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'eleitoral',
-    numLei: 'LEI Nº. 9.096, DE 19 DE SETEMBRO DE 1995.',
-    linkDaLei: 'http://www.planalto.gov.br/ccivil_03/leis/L9096.htm',
-    ementa: 'Dispõe sobre partidos políticos, regulamenta os arts. 17 e 14, § 3º, inciso V, da Constituição Federal.',
-    conteudo: `
+    lawNumber: 'LEI Nº. 9.096, DE 19 DE SETEMBRO DE 1995.',
+    orgLink: 'http://www.planalto.gov.br/ccivil_03/leis/L9096.htm',
+    abstract: 'Dispõe sobre partidos políticos, regulamenta os arts. 17 e 14, § 3º, inciso V, da Constituição Federal.',
+    content: `
     <p>O <b>VICE-PRESIDENTE DA REPÚBLICA</b> no exercício do cargo de <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>TÍTULO I<br>

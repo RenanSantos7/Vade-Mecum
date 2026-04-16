@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lexf:ILei = {
+const lexf:ILaw = {
     id: 'lexf',
-    titulo: 'Lei das Execuções Fiscais',
+    title: 'Lei das Execuções Fiscais',
     alias: 'Lei das Execuções Fiscais',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição Federal' },
-        { id: 'cpc', nome: 'Código de Processo Civil' },
-        {id: 'ctn', nome: 'Código Tributário Nacional'}
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição Federal' },
+        { id: 'cpc', name: 'Código de Processo Civil' },
+        {id: 'ctn', name: 'Código Tributário Nacional'}
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'tributario',
-    numLei: 'LEI Nº 6.830, DE 22 DE SETEMBRO DE 1980',
-    linkDaLei: '',
-    ementa: 'Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda    Pública, e dá outras providências.',
-    conteudo: `
+    lawNumber: 'LEI Nº 6.830, DE 22 DE SETEMBRO DE 1980',
+    orgLink: '',
+    abstract: 'Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda    Pública, e dá outras providências.',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <p><span class="artigo">Art. 1º.</span> A execução judicial para cobrança da Dívida Ativa da União, dos Estados, do Distrito Federal, dos Municípios e respectivas autarquias será regida por esta Lei e, subsidiariamente, pelo Código de Processo Civil.</p>

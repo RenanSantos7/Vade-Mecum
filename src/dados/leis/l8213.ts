@@ -1,21 +1,21 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const l8213: ILei = {
+const l8213: ILaw = {
 	id: 'l8213',
-	titulo: 'Lei dos Benefícios da Previdência Social',
+	title: 'Lei dos Benefícios da Previdência Social',
 	alias: 'Benefícios da Previdência Social',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
-		{ id: 'l8212', nome: 'Lei Orgânica da Seguridade Social' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
+		{ id: 'l8212', name: 'Lei Orgânica da Seguridade Social' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'previdenciario',
-	numLei: 'LEI Nº 8.213, DE 24 DE JULHO DE 1991',
-	linkDaLei: 'http://www.planalto.gov.br/ccivil_03/leis/L8213compilado.htm',
-	ementa: 'Dispõe sobre os Planos de Benefícios da Previdência Social e dá outras providências.',
-	conteudo: `
+	lawNumber: 'LEI Nº 8.213, DE 24 DE JULHO DE 1991',
+	orgLink: 'http://www.planalto.gov.br/ccivil_03/leis/L8213compilado.htm',
+	abstract: 'Dispõe sobre os Planos de Benefícios da Previdência Social e dá outras providências.',
+	content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
     
     <h1>TÍTULO I<br>

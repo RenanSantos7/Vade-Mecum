@@ -1,21 +1,21 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const ce:ILei = {
+const ce:ILaw = {
 	id: 'ce',
-	titulo: 'Código Eleitoral',
+	title: 'Código Eleitoral',
 	alias: 'Código Eleitoral',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'cp', nome: 'Código Penal' },
-		{ id: 'LOPartPol', nome: 'Lei Orgânica dos Partidos Políticos' },
-		{ id: 'LELÇ', nome: 'Lei das Eleições' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'cp', name: 'Código Penal' },
+		{ id: 'LOPartPol', name: 'Lei Orgânica dos Partidos Políticos' },
+		{ id: 'LELÇ', name: 'Lei das Eleições' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
     area: 'eleitoral',
-    ementa: 'Institui o Código Eleitoral',
-    numLei: 'LEI Nº. 4.737, DE 15 DE JULHO DE 1965',
-	conteudo: `        
+    abstract: 'Institui o Código Eleitoral',
+    lawNumber: 'LEI Nº. 4.737, DE 15 DE JULHO DE 1965',
+	content: `        
         <p>O <b>PRESIDENTE DA REPÚBLICA</b>, faço saber que sanciono a seguinte Lei, aprovada pelo Congresso Nacional, nos termos do art. 4º, <i>caput</i>, do Ato Institucional, de 9 de abril de 1964.</p>
         
         <h1>Parte Primeira<br>

@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lug:ILei = {
+const lug:ILaw = {
     id: 'lug',
-    titulo: 'Lei Uniforme de Genebra',
+    title: 'Lei Uniforme de Genebra',
     alias: 'Lei Uniforme de Genebra',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'empresarial',
-    numLei: 'DECRETO Nº 57.663, DE 24 DE JANEIRO DE 1966',
-    linkDaLei: '',
-    ementa: 'Promulga as Convenções para adoção de uma lei uniforme em matéria de letras de câmbio e notas promissórias.',
-    conteudo: `
+    lawNumber: 'DECRETO Nº 57.663, DE 24 DE JANEIRO DE 1966',
+    orgLink: '',
+    abstract: 'Promulga as Convenções para adoção de uma lei uniforme em matéria de letras de câmbio e notas promissórias.',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b>,</p>
 
     <p>HAVENDO o Governo brasileiro, por nota da Legação em Berna, datada de 26 de agosto de 1942, ao Secretário Geral da Liga das Nações, aderido às seguintes Convenções assinadas em Genebra, a 7 de junho de 1930: </p>

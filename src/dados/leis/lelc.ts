@@ -1,21 +1,21 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lelc: ILei = {
+const lelc: ILaw = {
 	id: 'lelec',
-	titulo: 'Lei das Eleições',
+	title: 'Lei das Eleições',
 	alias: 'Lei das Eleições',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'ce', nome: 'Código Eleitoral' },
-		{ id: 'lopartpol', nome: 'Lei Orgânica dos Partidos Políticos' },
-		{ id: 'lc64', nome: 'Lei das Inelegibilidades' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'ce', name: 'Código Eleitoral' },
+		{ id: 'lopartpol', name: 'Lei Orgânica dos Partidos Políticos' },
+		{ id: 'lc64', name: 'Lei das Inelegibilidades' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'eleitoral',
-	numLei: 'Lei nº. 9.504, de 30 de setembro de 1997',
-	linkDaLei: 'https://www.planalto.gov.br/ccivil_03/leis/L9504compilado.htm',
-	ementa: 'Estabelece normas para as eleições.',
-	conteudo: `
+	lawNumber: 'Lei nº. 9.504, de 30 de setembro de 1997',
+	orgLink: 'https://www.planalto.gov.br/ccivil_03/leis/L9504compilado.htm',
+	abstract: 'Estabelece normas para as eleições.',
+	content: `
     <p>O <b>VICE-PRESIDENTE DA REPÚBLICA</b> no exercício do cargo de PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>Disposições Gerais</h1>

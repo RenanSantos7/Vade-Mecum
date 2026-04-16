@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lc150:ILei = {
+const lc150:ILaw = {
     id: 'lcp150',
-    titulo: 'Lei do Trabalho Doméstico',
+    title: 'Lei do Trabalho Doméstico',
     alias: 'Lei do Trabalho Doméstico',
-    linksRelacionados: [
-        {id: 'cf', nome: 'Constituição Federal'},
-        {id: 'clt', nome: 'Consolidação das Leis do Trabalho'},
-        {id: 'cpc', nome: 'Código de Processo Civil'},
+    relatedLinks: [
+        {id: 'cf', name: 'Constituição Federal'},
+        {id: 'clt', name: 'Consolidação das Leis do Trabalho'},
+        {id: 'cpc', name: 'Código de Processo Civil'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'trabalho',
-    numLei: 'Lei Complementar nº 150',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp150.htm',
-    ementa: 'Dispõe sobre o contrato de trabalho doméstico; altera as Leis no 8.212, de 24 de julho de 1991, no 8.213, de 24 de julho de 1991, e no 11.196, de 21 de novembro de 2005; revoga o inciso I do art. 3º. da Lei no 8.009, de 29 de março de 1990, o art. 36 da Lei no 8.213, de 24 de julho de 1991, a Lei no 5.859, de 11 de dezembro de 1972, e o inciso VII do art. 12 da Lei no 9.250, de 26 de dezembro 1995; e dá outras providências.',
-    conteudo: `
+    lawNumber: 'Lei Complementar nº 150',
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp150.htm',
+    abstract: 'Dispõe sobre o contrato de trabalho doméstico; altera as Leis no 8.212, de 24 de julho de 1991, no 8.213, de 24 de julho de 1991, e no 11.196, de 21 de novembro de 2005; revoga o inciso I do art. 3º. da Lei no 8.009, de 29 de março de 1990, o art. 36 da Lei no 8.213, de 24 de julho de 1991, a Lei no 5.859, de 11 de dezembro de 1972, e o inciso VII do art. 12 da Lei no 9.250, de 26 de dezembro 1995; e dá outras providências.',
+    content: `
         <p>A PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei Complementar:</p>
 
         <h1>CAPÍTULO I<br /> DO CONTRATO DE TRABALHO DOMÉSTICO</h1>

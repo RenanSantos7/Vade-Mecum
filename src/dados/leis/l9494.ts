@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const l9494:ILei = {
+const l9494:ILaw = {
     id: 'l9494',
-    titulo: 'Tutela Antecipada contra a Fazenda Pública',
+    title: 'Tutela Antecipada contra a Fazenda Pública',
     alias: 'Tutela Antecipada contra a Fazenda Pública',
-    linksRelacionados: [
-        {id: 'cf', nome: 'Constituição Federal'},
-        {id: 'cpc', nome: 'Código de Processo Civil'},
-		{id: 'lms', nome: 'Lei do Mandado de Segurança'},
+    relatedLinks: [
+        {id: 'cf', name: 'Constituição Federal'},
+        {id: 'cpc', name: 'Código de Processo Civil'},
+		{id: 'lms', name: 'Lei do Mandado de Segurança'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'administrativo',
-    ementa: 'Disciplina a aplicação da tutela antecipada contra a Fazenda Pública, altera a Lei nº 7.347, de 24 de julho de 1985, e dá outras providências.',
-    numLei: 'LEI Nº 9.494, DE 10 DE SETEMBRO DE 1997.',
-    linkDaLei: '',
-    conteudo: `
+    abstract: 'Disciplina a aplicação da tutela antecipada contra a Fazenda Pública, altera a Lei nº 7.347, de 24 de julho de 1985, e dá outras providências.',
+    lawNumber: 'LEI Nº 9.494, DE 10 DE SETEMBRO DE 1997.',
+    orgLink: '',
+    content: `
     <p>Faço saber que o PRESIDENTE DA REPÚBLICA adotou a Medida Provisória nº 1.570-5, de 1997, que o Congresso Nacional aprovou, e eu, Antonio Carlos Magalhães, Presidente, para os efeitos do disposto no parágrafo único do art. 62 da Constituição Federal, promulgo a seguinte Lei:</p>
 
     <p><span class="artigo">Art. 1º.</span> Aplica-se à tutela antecipada prevista nos arts. 273 e 461 do Código de Processo Civil o disposto nos arts. 5º e seu parágrafo único e 7º da Lei nº 4.348, de 26 de junho de 1964, no art. 1º e seu § 4º da Lei nº 5.021, de 9 de junho de 1966, e nos arts. 1º, 3º e 4º da Lei nº 8.437, de 30 de junho de 1992.</p>

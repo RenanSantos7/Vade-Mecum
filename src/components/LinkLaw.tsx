@@ -1,16 +1,16 @@
 import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
-import { useLeisContext } from '../contexts/LeisContext.tsx';
+import { useDataContext } from '../contexts/dataContext.tsx';
 
-interface LinkLeiProps {
+interface LinkLawProps {
 	destino: string;
 	children: ReactNode;
 	className?: any;
 }
 
-export default function LinkLei(props: LinkLeiProps) {
-	const { menuAberto, setMenuAberto } = useLeisContext();
+export default function LinkLaw(props: LinkLawProps) {
+	const { menuOpen: menuAberto, setMenuOpen: setMenuAberto } = useDataContext();
 
 	return (
 		<Link

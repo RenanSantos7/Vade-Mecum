@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const inquilinato:ILei = {
+const inquilinato:ILaw = {
 	id: 'inquilinato',
-	titulo: 'Lei do Inquilinato',
+	title: 'Lei do Inquilinato',
 	alias: 'Lei do Inquilinato',
-	linksRelacionados: [
-		{ id: 'CPC73', nome: 'Código de Processo Civil/73' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
+	relatedLinks: [
+		{ id: 'CPC73', name: 'Código de Processo Civil/73' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cdc', name: 'Código de Defesa do Consumidor' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolescente' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-	conteudo: `
+	content: `
         <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/L8245compilado.htm">LEI Nº. 8.245, DE 18 DE OUTUBRO DE 1991.</a></p>
 
         <p id="ementa">Dispõe sobre as locações dos imóveis urbanos e os procedimentos a elas pertinentes.</p>

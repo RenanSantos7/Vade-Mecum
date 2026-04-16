@@ -1,20 +1,20 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cons:ILei = {
+const cons:ILaw = {
 	id: 'concs',
-	titulo: 'Lei das Concessões Públicas',
+	title: 'Lei das Concessões Públicas',
 	alias: 'Lei das Concessões Públicas',
-	linksRelacionados: [
-		{ nome: 'Constituição Federal', id: 'cf' },
-		{ nome: 'Lei das Licitações e Contratos Púbicos', id: 'licit' },
-		{ nome: 'Lei de Improbidade Administrativa', id: 'lia' },
-		{ id: 'lanticor', nome: 'Lei Anti-corrupção' },
-		{ id: 'emppub', nome: 'Estatuto das Empresas Públicas e Sociedades de Economia Mista' },
+	relatedLinks: [
+		{ name: 'Constituição Federal', id: 'cf' },
+		{ name: 'Lei das Licitações e Contratos Púbicos', id: 'licit' },
+		{ name: 'Lei de Improbidade Administrativa', id: 'lia' },
+		{ id: 'lanticor', name: 'Lei Anti-corrupção' },
+		{ id: 'emppub', name: 'Estatuto das Empresas Públicas e Sociedades de Economia Mista' },
 		//{ link: 'http://www.agu.gov.br/sumulas', nome: 'Súmulas AGU' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'administrativo',
-	conteudo: `
+	content: `
         <p id="subtit">LEI Nº 9.074, DE 7 DE JULHO DE 1995.</p>
         
         <p id="ementa">Estabelece normas para outorga e prorrogações das concessões e permissões de serviços públicos e dá outras providências.</p>

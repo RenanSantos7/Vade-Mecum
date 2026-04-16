@@ -1,21 +1,21 @@
 import { useContext } from 'react';
 
-import { ILei } from '../../../../../types/index.tsx';
-import { useLeisContext } from '../../../../../contexts/LeisContext.tsx';
+import { ILaw } from '../../../../../types/index.tsx';
+import { useDataContext } from '../../../../../contexts/dataContext.tsx';
 import IndicadorFavorito from '../../IndicadorFavorito/index.tsx';
 import styles from './styles.module.css';
-import LinkLei from '../../../../../components/LinkLei.tsx';
+import LinkLaw from '../../../../../components/LinkLaw.tsx';
 
 interface ItemLeiProps {
-	lei: ILei;
+	lei: ILaw;
 }
 
 export default function ItemLei({ lei }: ItemLeiProps) {
-	const { favoritos, setFavoritos } = useLeisContext();
+	const { favorites: favoritos, setFavorites: setFavoritos } = useDataContext();
 
 	function aoClicarFavorito() {
 		if (favoritos.includes(lei)) {
-			const favoritosSem = favoritos.filter((item: ILei) => item.id !== lei.id);
+			const favoritosSem = favoritos.filter((item: ILaw) => item.id !== lei.id);
 
 			setFavoritos(favoritosSem);
 			console.log('favorito removido');
@@ -38,7 +38,7 @@ export default function ItemLei({ lei }: ItemLeiProps) {
                 {/* {favoritos.includes(lei) ? <StarFill /> : <StartOutlined />} */}
                 <IndicadorFavorito ehFavorito={favoritos.includes(lei)} />
 			</button>
-			<LinkLei destino={lei.id}>{lei.titulo}</LinkLei>
+			<LinkLaw destino={lei.id}>{lei.title}</LinkLaw>
 		</li>
 	);
 }

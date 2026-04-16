@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const l6766:ILei = {
+const l6766:ILaw = {
     id: 'l6766',
-    titulo: 'Lei do Parcalmento do Solo Urbano',
+    title: 'Lei do Parcalmento do Solo Urbano',
     alias: 'Lei do Parcalmento do Solo Urbano',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: '',
-    numLei: 'LEI Nº 6.766, DE 19 DE DEZEMBRO DE 1979',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/leis/L6766compilado.htm',
-    ementa: 'Dispõe sobre o Parcelamento do Solo Urbano e dá outras Providências.',
-    conteudo: `
+    lawNumber: 'LEI Nº 6.766, DE 19 DE DEZEMBRO DE 1979',
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/leis/L6766compilado.htm',
+    abstract: 'Dispõe sobre o Parcelamento do Solo Urbano e dá outras Providências.',
+    content: `
     <p>O PRESIDENTE DA REPÚBLICA, faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei:</p>
 
     <p><span class="artigo">Art. 1º.</span> O parcelamento do solo para fins urbanos será regido por esta Lei.</p>

@@ -1,23 +1,23 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const tea: ILei = {
+const tea: ILaw = {
 	id: 'tea',
-	titulo: 'Política Nacional dos Autistas',
+	title: 'Política Nacional dos Autistas',
 	alias: 'Política Nacional dos Autistas',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'epd', nome: 'Estatuto da Pessoa com Deficiência' },
-		{ id: 'jecc', nome: 'Lei dos Juizados Especiais Cíveis' },
-		{ id: 'jef', nome: 'Lei dos Juizados Especiais Federais' },
-		{ id: 'l8213', nome: 'Lei Orgânica da Assistência Social' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'epd', name: 'Estatuto da Pessoa com Deficiência' },
+		{ id: 'jecc', name: 'Lei dos Juizados Especiais Cíveis' },
+		{ id: 'jef', name: 'Lei dos Juizados Especiais Federais' },
+		{ id: 'l8213', name: 'Lei Orgânica da Assistência Social' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'previdenciario',
-	numLei: 'Lei nº 12.764, de 27 de dezembro de 2012.',
-	linkDaLei: '',
-	ementa: 'Institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista; e altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990.',
-	conteudo: `
+	lawNumber: 'Lei nº 12.764, de 27 de dezembro de 2012.',
+	orgLink: '',
+	abstract: 'Institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista; e altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990.',
+	content: `
     <nav id="links">
         <ul>
             <li><a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Msg/VEP-606.htm">Mensagem de veto</a></li>

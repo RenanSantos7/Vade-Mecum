@@ -1,21 +1,21 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const psaude:ILei = {
+const psaude:ILaw = {
 	id: 'planos-saude',
-	titulo: 'Lei dos Planos de Saúde',
+	title: 'Lei dos Planos de Saúde',
 	alias: 'Lei dos Planos de Saúde',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'lindb', nome: 'Lei de Introdução às Normas do Direito Brasileiro' },
-		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
-		{ id: 'linqlt', nome: 'Lei do Inquilinato' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
-		{ id: 'epd', nome: 'Estatuto da Pessoa com Deficiência' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'lindb', name: 'Lei de Introdução às Normas do Direito Brasileiro' },
+		{ id: 'cdc', name: 'Código de Defesa do Consumidor' },
+		{ id: 'linqlt', name: 'Lei do Inquilinato' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolescente' },
+		{ id: 'epd', name: 'Estatuto da Pessoa com Deficiência' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'consumidor',
-	conteudo: `
+	content: `
         <p id="subtit">Lei nº. 9.656, de 3 de junho de 1998</p>
 
         <p id="ementa">Dispõe sobre os planos e seguros privados de assistência à saúde.</p>

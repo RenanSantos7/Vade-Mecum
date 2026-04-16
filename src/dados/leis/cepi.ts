@@ -1,18 +1,18 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cepi:ILei = {
+const cepi:ILaw = {
 	id: 'cepi',
-	titulo: 'Constituição do Estado do Piauí de 1989',
+	title: 'Constituição do Estado do Piauí de 1989',
 	alias: 'Constituição do Estado do Piauí',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição Federal' },
-		{ id: 'EstSPPI', nome: 'Estatuto dos Servidores Públicos Civis do Piauí' },
-		{ id: 'LAPop', nome: 'Lei da Ação Popular' },
-		{ id: 'LAcsInf', nome: 'Lei de Acesso à Informação' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição Federal' },
+		{ id: 'EstSPPI', name: 'Estatuto dos Servidores Públicos Civis do Piauí' },
+		{ id: 'LAPop', name: 'Lei da Ação Popular' },
+		{ id: 'LAcsInf', name: 'Lei de Acesso à Informação' },
 	],
-	jurisdicao: 'estadual',
+	jurisdiction: 'estadual',
 	area: 'constitucional',
-	conteudo: `
+	content: `
         <h1>PREÂMBULO</h1>
 
         <p>Nós, representantes do povo, em Assembleia Constituinte, sob a proteção de Deus, continuadores das tradições de combatividade, firmeza, heroísmo e abnegação dos nossos antepassados, decididos a organizar uma sociedade aberta às formas superiores de convivência, fundada nos valores da liberdade, da igualdade e do trabalho, apta a preservar a sua identidade no contexto geral da nação brasileira, promulgamos a seguinte CONSTITUIÇÃO DO ESTADO DO PIAUÍ.</p>

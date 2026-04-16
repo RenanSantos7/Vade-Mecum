@@ -1,19 +1,19 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const emppub:ILei = {
+const emppub:ILaw = {
     id: 'emppub',
-    titulo: 'Estatuto das Empresa Públicas e Sociedades de Economia Mista',
+    title: 'Estatuto das Empresa Públicas e Sociedades de Economia Mista',
     alias: 'Estatuto das Empresa Públicas e Sociedades de Economia Mista',
-    linksRelacionados: [
-        {id: 'cf', nome: 'Constituição Federal'},
-        {id: 'cpc', nome: 'Código de Processo Civil'},
+    relatedLinks: [
+        {id: 'cf', name: 'Constituição Federal'},
+        {id: 'cpc', name: 'Código de Processo Civil'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'administrativo',
-    numLei: 'LEI Nº 13.303, DE 30 DE JUNHO DE 2016.',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm',
-    ementa: 'Dispõe sobre o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias, no âmbito da União, dos Estados, do Distrito Federal e dos Municípios.',
-    conteudo: `
+    lawNumber: 'LEI Nº 13.303, DE 30 DE JUNHO DE 2016.',
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm',
+    abstract: 'Dispõe sobre o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias, no âmbito da União, dos Estados, do Distrito Federal e dos Municípios.',
+    content: `
     <ul class="links">
     	<li><a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/Msg/VEP-359.htm">Mensagem de veto</a></li>
     </ul>

@@ -1,22 +1,22 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const ctb:ILei = {
+const ctb:ILaw = {
     id: 'ctb',
-    titulo: 'Código de Trânsito Brasileiro',
+    title: 'Código de Trânsito Brasileiro',
     alias: 'Código de Trânsito Brasileiro',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'jecc', nome: 'Lei dos Juizados Especiais Cíveis e Criminais' },
-		{ id: 'lprocel', nome: 'Lei do Processo Eletrônico' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'jecc', name: 'Lei dos Juizados Especiais Cíveis e Criminais' },
+		{ id: 'lprocel', name: 'Lei do Processo Eletrônico' },
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: '',
-    numLei: 'LEI Nº. 9.503, DE 23 DE SETEMBRO DE 1997',
-    linkDaLei: 'http://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm',
-    ementa: 'Institui o Código de Trânsito Brasileiro',
-    conteudo: `
+    lawNumber: 'LEI Nº. 9.503, DE 23 DE SETEMBRO DE 1997',
+    orgLink: 'http://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm',
+    abstract: 'Institui o Código de Trânsito Brasileiro',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>CAPÍTULO I<br>

@@ -1,19 +1,19 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const l4898:ILei = {
+const l4898:ILaw = {
     id: 'l4898',
-    titulo: 'Lei do Abuso de Autoridade',
+    title: 'Lei do Abuso de Autoridade',
     alias: 'Lei do Abuso de Autoridade',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição Federal' },
-        { id: 'cpc', nome: 'Código de Processo Civil' }
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição Federal' },
+        { id: 'cpc', name: 'Código de Processo Civil' }
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'administrativo',
-    numLei: 'LEI Nº 4.898, DE 9 DE DEZEMBRO DE 1965',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/leis/L4898impressao.htm',
-    ementa: 'Regula o Direito de Representação e o processo de Responsabilidade Administrativa Civil e Penal, nos casos de abuso de autoridade.',
-    conteudo: `
+    lawNumber: 'LEI Nº 4.898, DE 9 DE DEZEMBRO DE 1965',
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/leis/L4898impressao.htm',
+    abstract: 'Regula o Direito de Representação e o processo de Responsabilidade Administrativa Civil e Penal, nos casos de abuso de autoridade.',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <p><span class="artigo">Art. 1º.</span> O direito de representação e o processo de responsabilidade administrativa civil e penal, contra as autoridades que, no exercício de suas funções, cometerem abusos, são regulados pela presente lei.</p>

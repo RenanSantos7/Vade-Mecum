@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const crimamb:ILei = {
+const crimamb:ILaw = {
     id: "crimamb",
-    titulo: "Lei dos Crimes Ambientais",
+    title: "Lei dos Crimes Ambientais",
     alias: "Lei dos Crimes Ambientais",
-    linksRelacionados: [
-        {id:"cf", nome: "Constituição"},
-		{id:"cpp", nome: "Código de Processo Penal"},
-		{id:"cpm", nome: "Código Penal Militar</"},
-		{id:"jecc", nome: "Lei dos Juizados Especiais Cíveis e Criminais"},
-		{id:"drogas", nome: "Lei de Drogas"},
-		{id:"crimhed", nome: "Lei dos Crimes Hediondos"},
-		{id:"crimtrib", nome: "Lei dos Crimes Tributários"},
-		{id:"eca", nome: "Estatuto da Criança e do Adolescente"},
+    relatedLinks: [
+        {id:"cf", name: "Constituição"},
+		{id:"cpp", name: "Código de Processo Penal"},
+		{id:"cpm", name: "Código Penal Militar</"},
+		{id:"jecc", name: "Lei dos Juizados Especiais Cíveis e Criminais"},
+		{id:"drogas", name: "Lei de Drogas"},
+		{id:"crimhed", name: "Lei dos Crimes Hediondos"},
+		{id:"crimtrib", name: "Lei dos Crimes Tributários"},
+		{id:"eca", name: "Estatuto da Criança e do Adolescente"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/L9605.htm">LEI Nº. 9.605, DE 12 DE FEVEREIRO DE 1998.</a></p>
 
     <p id="ementa">Dispõe sobre as sanções penais e administrativas derivadas de condutas e atividades lesivas ao meio ambiente, e dá outras providências.</p>

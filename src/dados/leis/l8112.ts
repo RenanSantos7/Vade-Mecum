@@ -1,23 +1,23 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const l8112:ILei = {
+const l8112:ILaw = {
     id: "l8112",
-    titulo: "Estatuto dos Servidores Públicos Federais",
+    title: "Estatuto dos Servidores Públicos Federais",
     alias: "Estatuto dos Servidores Públicos Federais",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-		{id: "cc", nome: "Código Civil"},
-		{id: "cpc", nome: "Código de Processo Civil"},
-		{id: "estsppi", nome: "Estatuto dos Servidores do Estado do Piauí"},
-		{id: "l8745", nome: "Lei dos Servidores Temporários"},
-		{id: "lprocadm", nome: "Lei do Processo Administrativo Federal"},
-		{id: "l9494", nome: "Tutela Antecipada contra a Fazenda Pública"},
-		{id: "estmil", nome: "Estatuto dos Militares"},
-		{id: "lia", nome: "Lei de Improbidade Administrativa"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+		{id: "cc", name: "Código Civil"},
+		{id: "cpc", name: "Código de Processo Civil"},
+		{id: "estsppi", name: "Estatuto dos Servidores do Estado do Piauí"},
+		{id: "l8745", name: "Lei dos Servidores Temporários"},
+		{id: "lprocadm", name: "Lei do Processo Administrativo Federal"},
+		{id: "l9494", name: "Tutela Antecipada contra a Fazenda Pública"},
+		{id: "estmil", name: "Estatuto dos Militares"},
+		{id: "lia", name: "Lei de Improbidade Administrativa"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "administrativo",
-    conteudo: `
+    content: `
     <p id="subtit">Lei nº. 8.112, de 11 de Dezembro de 1990</p>
 
     <p id="ementa">Dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais.</p>

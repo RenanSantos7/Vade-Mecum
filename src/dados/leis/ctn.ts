@@ -1,21 +1,21 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const ctn:ILei = {
+const ctn:ILaw = {
     id: 'ctn',
-    titulo: 'Código Tributário Nacional',
+    title: 'Código Tributário Nacional',
     alias: 'Código Tributário Nacional',
-    linksRelacionados: [
-        {id: "cf", nome: 'Constituição Federal'},
- 		{id: "cpc", nome: 'Código de Processo Civil'},
-		{id: "csll", nome: 'Lei da CSLL'},
-		{id: "lexf", nome: 'Lei de Execução Fiscal'},
+    relatedLinks: [
+        {id: "cf", name: 'Constituição Federal'},
+ 		{id: "cpc", name: 'Código de Processo Civil'},
+		{id: "csll", name: 'Lei da CSLL'},
+		{id: "lexf", name: 'Lei de Execução Fiscal'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'tributario',
-    numLei: 'LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.',
-    linkDaLei: '',
-    ementa: 'Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios.',
-    conteudo: `
+    lawNumber: 'LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966.',
+    orgLink: '',
+    abstract: 'Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios.',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:</p>
 
     <h1>DISPOSIÇÃO PRELIMINAR</h1>

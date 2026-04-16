@@ -1,16 +1,16 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const l9860:ILei = {
+const l9860:ILaw = {
 	id: 'l9860',
-	titulo: 'Lei sobre Mensalides Escolares',
+	title: 'Lei sobre Mensalides Escolares',
 	alias: 'Lei sobre Mensalides Escolares',
-	linksRelacionados: [
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
+	relatedLinks: [
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cdc', name: 'Código de Defesa do Consumidor' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'consumidor',
-    conteudo: `
+    content: `
         <p id="subtit">Lei nº. 9.870, de 23 de novembro de 1999</p>
 
         <p id="ementa">Dispõe sobre o valor total das anuidades escolares e dá outras providências. </p>

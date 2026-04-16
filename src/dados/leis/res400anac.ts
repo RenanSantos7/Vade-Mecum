@@ -1,13 +1,13 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const res400anac:ILei = {
+const res400anac:ILaw = {
 	id: 'res400anac',
-	titulo: 'Resolução nº 400 da ANAC',
+	title: 'Resolução nº 400 da ANAC',
 	alias: 'Resolução nº 400, de 13 de dezembro de 2016',
-    linksRelacionados: [],
-	jurisdicao: 'nacional',
+    relatedLinks: [],
+	jurisdiction: 'nacional',
 	area: 'consumidor',
-    conteudo: `
+    content: `
         <p id="ementa">Dispõe sobre as Condições Gerais de Transporte Aéreo.</p>
 
         <p>A DIRETORIA DA AGÊNCIA NACIONAL DE AVIAÇÃO CIVIL - ANAC, no exercício da competência que lhe foi outorgada pelo art. 11, inciso V, da Lei nº 11.182, de 27 de setembro de 2005, tendo em vista o disposto nos arts. 8º, incisos I e X, da mencionada Lei, 222 a 260 e 302 da Lei nº 7.565, de 19 de dezembro de 1986, nas Leis nºs 10.406, de 10 de janeiro de 2002, 8.078, de 11 de setembro de 1990, e nos Decretos nºs 5.910, de 27 de setembro de 2006, e 6.780, de 18 de fevereiro de 2009, e considerando o que consta do processo nº 00058.054992/2014-33, deliberado e aprovado na 26ª Reunião Deliberativa da Diretoria, realizada em 13 de dezembro de 2016,</p>

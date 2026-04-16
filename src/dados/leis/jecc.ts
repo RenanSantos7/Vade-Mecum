@@ -1,23 +1,23 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const jecc:ILei = {
+const jecc:ILaw = {
 	id: 'jecc',
-	titulo: 'Lei dos Juizados Especiais Cíveis e Criminais',
+	title: 'Lei dos Juizados Especiais Cíveis e Criminais',
 	alias: 'Lei dos Juizados Especiais Cíveis e Criminais',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cdc', nome: 'Cód. Defesa do Consumidor' },
-		{ id: 'cp', nome: 'Código Penal' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'cpp', nome: 'Código de Processo Penal' },
-		{ id: 'jef', nome: 'Juizados Especiais Federais' },
-		{ id: 'jefp', nome: 'Juizados Especiais da Fazenda Pública' },
-		{ id: 'arbitragem', nome: 'Lei da Arbitragem' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cdc', name: 'Cód. Defesa do Consumidor' },
+		{ id: 'cp', name: 'Código Penal' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'cpp', name: 'Código de Processo Penal' },
+		{ id: 'jef', name: 'Juizados Especiais Federais' },
+		{ id: 'jefp', name: 'Juizados Especiais da Fazenda Pública' },
+		{ id: 'arbitragem', name: 'Lei da Arbitragem' },
 	],
-  jurisdicao: 'nacional',
+  jurisdiction: 'nacional',
 	area: 'juizados',
-	conteudo: `
+	content: `
       <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/LEIS/L9099.htm" target="_blank">Lei nº. 9.099, de 26 de setembro de 1995.</a></p>
 
       <p id="ementa">Dispõe sobre os Juizados Especiais Cíveis e Criminais e dá outras providências.</p>

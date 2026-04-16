@@ -1,25 +1,25 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lia: ILei = {
+const lia: ILaw = {
 	id: 'lia',
-	titulo: 'Lei de Improbidade Administrativa',
+	title: 'Lei de Improbidade Administrativa',
 	alias: 'Lei de Improbidade Administrativa',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cp', nome: 'Código Penal' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'l8112', nome: 'Estatuto dos Servidores Públicos Federais<' },
-		{ id: 'estsppi', nome: 'Estatuto dos Servidores Públicos do Estado do Piauí' },
-		{ id: 'lanticor', nome: 'Lei Anti-corrupção' },
-		{ id: 'estemppub', nome: 'Estatuto das Empresas Públicas e  Sociedades de Economia Mista' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cp', name: 'Código Penal' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'l8112', name: 'Estatuto dos Servidores Públicos Federais<' },
+		{ id: 'estsppi', name: 'Estatuto dos Servidores Públicos do Estado do Piauí' },
+		{ id: 'lanticor', name: 'Lei Anti-corrupção' },
+		{ id: 'estemppub', name: 'Estatuto das Empresas Públicas e  Sociedades de Economia Mista' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'administrativo',
-	numLei: 'LEI Nº. 8.429, DE 2 DE JUNHO DE 1992.',
-	linkDaLei: 'https://www.planalto.gov.br/ccivil_03/Leis/L8429.htm',
-	ementa: 'Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa, de que trata o § 4º do art. 37 da Constituição Federal; e dá outras providências. (Redação dada pela Lei nº. 14.230, de 2021)',
-	conteudo: `
+	lawNumber: 'LEI Nº. 8.429, DE 2 DE JUNHO DE 1992.',
+	orgLink: 'https://www.planalto.gov.br/ccivil_03/Leis/L8429.htm',
+	abstract: 'Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa, de que trata o § 4º do art. 37 da Constituição Federal; e dá outras providências. (Redação dada pela Lei nº. 14.230, de 2021)',
+	content: `
     <p>O PRESIDENTE DA REPÚBLICA, Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:</p>
 
     <h1>CAPÍTULO I<br>

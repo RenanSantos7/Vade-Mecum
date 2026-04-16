@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import classNames from 'classnames';
 
-import { ILinkRelacionado } from '../../../../types/index.tsx';
-import { useLeisContext } from '../../../../contexts/LeisContext.tsx';
-import LinkLei from '../../../../components/LinkLei.tsx';
+import { IRelatedLink } from '../../../../types/index.tsx';
+import { useDataContext } from '../../../../contexts/dataContext.tsx';
+import LinkLaw from '../../../../components/LinkLaw.tsx';
 import styles from './styles.module.css';
 
 interface MenuLateralProps {
-	links: ILinkRelacionado[];
+	links: IRelatedLink[];
 }
 
 export default function MenuLateral(props: MenuLateralProps) {
-	const { menuAberto, setMenuAberto } = useLeisContext();
+	const { menuOpen: menuAberto, setMenuOpen: setMenuAberto } = useDataContext();
 
 	return (
 		<nav
@@ -36,7 +36,7 @@ export default function MenuLateral(props: MenuLateralProps) {
 			<ul className={styles.linksContainer}>
 				{props.links.map(item => (
 					<li key={item.id}>
-						<LinkLei destino={item.id}>{item.nome}</LinkLei>
+						<LinkLaw destino={item.id}>{item.name}</LinkLaw>
 					</li>
 				))}
 			</ul>

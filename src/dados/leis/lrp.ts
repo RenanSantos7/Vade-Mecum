@@ -1,17 +1,17 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const lrp:ILei = {
+const lrp:ILaw = {
 	id: 'lrp',
-	titulo: 'Lei dos Registros Públicos',
+	title: 'Lei dos Registros Públicos',
 	alias: 'Lei dos Registros Públicos',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-	conteudo: `
+	content: `
         <p id=subtit><a href="http://www.planalto.gov.br/ccivil_03/leis/L6015compilada.htm">LEI Nº. 6.015, DE 31 DE DEZEMBRO DE 1973.</a></p>
 
         <p id="ementa">Dispõe sobre os registros públicos, e dá outras providências.</p>

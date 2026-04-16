@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const jef:ILei = {
+const jef:ILaw = {
 	id: 'jef',
-	titulo: 'Lei dos Juizados Especiais Federais',
+	title: 'Lei dos Juizados Especiais Federais',
 	alias: 'Lei dos Juizados Especiais Federais',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
-		{ id: 'jecc', nome: 'Juizados Especiais Cíveis e Criminais' },
-		{ id: 'jefp', nome: 'Juizados Especiais da Fazenda Pública' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
+		{ id: 'jecc', name: 'Juizados Especiais Cíveis e Criminais' },
+		{ id: 'jefp', name: 'Juizados Especiais da Fazenda Pública' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'juizados',
-	conteudo: `
+	content: `
         <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10259.htm" target="_blank">Lei nº 10.259, de 12 de Julho de 2001.</a></p>
 
         <p id="ementa">Dispõe sobre a instituição dos Juizados Especiais Cíveis e Criminais no âmbito da Justiça Federal.</p>

@@ -1,25 +1,25 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cp:ILei = {
+const cp:ILaw = {
     id: 'cp',
-    titulo: 'Código Penal',
+    title: 'Código Penal',
     alias: 'Código Penal',
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-		{id: "cpp", nome: "Código de Processo Penal"},
-		{id: "cpm", nome: "Código Penal Militar"},		
-		{id: "cppm", nome: "Código de Processo Penal Militar"},
-		{id: "drogas", nome: "Lei de Drogas"},
-		{id: "crimhed", nome: "Lei dos Crimes Hediondos"},
-		{id: "crimtrib", nome: "Lei dos Crimes Tributários"},
-		{id: "eca", nome: "Estatuto da Criança e do Adolescente"}
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+		{id: "cpp", name: "Código de Processo Penal"},
+		{id: "cpm", name: "Código Penal Militar"},		
+		{id: "cppm", name: "Código de Processo Penal Militar"},
+		{id: "drogas", name: "Lei de Drogas"},
+		{id: "crimhed", name: "Lei dos Crimes Hediondos"},
+		{id: "crimtrib", name: "Lei dos Crimes Tributários"},
+		{id: "eca", name: "Estatuto da Criança e do Adolescente"}
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'penal',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/decreto-lei/Del2848compilado.htm',
-    numLei: 'Decreto-Lei nº. 2.848, de 7 de Dezembro de 1940.',
-    ementa: 'Código Penal',
-    conteudo: `
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/decreto-lei/Del2848compilado.htm',
+    lawNumber: 'Decreto-Lei nº. 2.848, de 7 de Dezembro de 1940.',
+    abstract: 'Código Penal',
+    content: `
         <p>O <b>PRESIDENTE DA REPÚBLICA</b>, usando da atribuição que lhe confere o art. 180 da Constituição, decreta a seguinte Lei:</p>
         
         <h1>PARTE GERAL</h1>

@@ -1,11 +1,12 @@
-import { RouterProvider } from 'react-router-dom'
-import router from './router.tsx'
-import { LeisProvider } from './contexts/LeisContext.tsx'
+import { RouterProvider } from 'react-router-dom';
+
+import { DataProvider } from './contexts/dataContext.tsx';
+import router from './router.tsx';
 
 export default function App() {
-    return (
-        <LeisProvider>
-            <RouterProvider router={router} />
-        </LeisProvider>
-    )
+	return (
+		<DataProvider>
+			<RouterProvider router={router} />
+		</DataProvider>
+	);
 }

@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cf:ILei = {
+const cf:ILaw = {
 	id: 'cf',
-	titulo: 'Constituição da República Federativa do Brasil',
+	title: 'Constituição da República Federativa do Brasil',
 	alias: 'Constituição Federal',
-	linksRelacionados: [
-		{ id: 'cepi', nome: 'Constituição do Estado do Piauí' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cdc', nome: 'Cód. Defesa do Consumidor' },
-		{ id: 'clt', nome: 'Consolidação das Leis do Trabalho' },
-		{ id: 'lms', nome: 'Lei do Mandado de Segurança' },
-		{ id: 'minj', nome: 'Lei do Mandado de Injunção' },
-		{ id: 'cp', nome: 'Código Penal' },
-		{ id: 'ctn', nome: 'Código Tributário Nacional' },
+	relatedLinks: [
+		{ id: 'cepi', name: 'Constituição do Estado do Piauí' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cdc', name: 'Cód. Defesa do Consumidor' },
+		{ id: 'clt', name: 'Consolidação das Leis do Trabalho' },
+		{ id: 'lms', name: 'Lei do Mandado de Segurança' },
+		{ id: 'minj', name: 'Lei do Mandado de Injunção' },
+		{ id: 'cp', name: 'Código Penal' },
+		{ id: 'ctn', name: 'Código Tributário Nacional' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'constitucional',
-	conteudo: `
+	content: `
 	<nav class="links">
 		<ul>
 			<li><a href="http://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/quadro_emc.htm">Emendas Constitucionais</a></li>

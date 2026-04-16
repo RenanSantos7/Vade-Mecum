@@ -1,18 +1,18 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const epd:ILei = {
+const epd:ILaw = {
     id: "epd",
-    titulo: "Estatuto da Pessoa com Deficiência",
+    title: "Estatuto da Pessoa com Deficiência",
     alias: "Estatuto da Pessoa com Deficiência",
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolescente' },
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "civil",
-    conteudo: `
+    content: `
         <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/Lei/L13146.htm">LEI Nº 13.146, DE 6 DE JULHO DE 2015</a></p>
 
         <p id="ementa">Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência).</p>

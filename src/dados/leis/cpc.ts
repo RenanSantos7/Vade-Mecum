@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cpc:ILei = {
+const cpc:ILaw = {
     id: 'cpc',
-    titulo: 'Código de Processo Civil',
+    title: 'Código de Processo Civil',
     alias: 'Código de Processo Civil',
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'civil',
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-        {id: "cc", nome: "Código Civil"},
-        {id: "cdc", nome: "Cód. Defesa do Consumidor"},
-        {id: "jecc", nome: "Lei dos Juizados Especiais Cíveis"},
-        {id: "procEl", nome: "Lei do Processo Eletrônico"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+        {id: "cc", name: "Código Civil"},
+        {id: "cdc", name: "Cód. Defesa do Consumidor"},
+        {id: "jecc", name: "Lei dos Juizados Especiais Cíveis"},
+        {id: "procEl", name: "Lei do Processo Eletrônico"},
     ],
-    conteudo: `
+    content: `
         <p id='subtit'>
             <a href='http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm'>
                 Lei nº 13.105, de 16 de março de 2015

@@ -1,18 +1,18 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const ldas:ILei = {
+const ldas:ILaw = {
     id: "ldas",
-    titulo: "Lei dos Direitos Autorais sobre Programas de Computador",
+    title: "Lei dos Direitos Autorais sobre Programas de Computador",
     alias: "Direitos Autorais sobre Software",
-    linksRelacionados: [
-        {id: "cf", nome:"Constituição"},
-        {id: 'cc', nome: 'Código Civil'},
-        {id: "cpc", nome:"Código de Processo Civil"},
-        { id: "lda", nome: "Lei dos Direitos Autorais" },
+    relatedLinks: [
+        {id: "cf", name:"Constituição"},
+        {id: 'cc', name: 'Código Civil'},
+        {id: "cpc", name:"Código de Processo Civil"},
+        { id: "lda", name: "Lei dos Direitos Autorais" },
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "civil",
-    conteudo: `
+    content: `
     <p id="subtit">
      <a href="https://www.planalto.gov.br/ccivil_03/LEIS/L9609.htm">LEI Nº. 9.609, DE 19 DE FEVEREIRO DE 1998.</a>
     </p>

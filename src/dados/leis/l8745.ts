@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const l8745:ILei = {
+const l8745:ILaw = {
     id: 'l8745',
-    titulo: 'Lei dos Servidores Temporários',
+    title: 'Lei dos Servidores Temporários',
     alias: 'Lei dos Servidores Temporários',
-    linksRelacionados: [
-        {id: 'cc', nome: 'Código Civil'},
-		{id: 'cpc', nome: 'Código de Processo Civil/15'},
-		{id: 'l8112', nome: 'Estatuto dos Servidores Federais'},
+    relatedLinks: [
+        {id: 'cc', name: 'Código Civil'},
+		{id: 'cpc', name: 'Código de Processo Civil/15'},
+		{id: 'l8112', name: 'Estatuto dos Servidores Federais'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'administrativo',
-    ementa: 'Dispõe sobre a contratação por tempo determinado para atender a necessidade temporária de excepcional interesse público, nos termos do inciso IX do art. 37 da Constituição Federal, e dá outras providências.',
-    numLei: 'LEI Nº. 8.745, DE 9 DE DEZEMBRO DE 1993.',
-    linkDaLei: '',
-    conteudo: `
+    abstract: 'Dispõe sobre a contratação por tempo determinado para atender a necessidade temporária de excepcional interesse público, nos termos do inciso IX do art. 37 da Constituição Federal, e dá outras providências.',
+    lawNumber: 'LEI Nº. 8.745, DE 9 DE DEZEMBRO DE 1993.',
+    orgLink: '',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <p><span class="artigo">Art. 1º.</span> Para atender a necessidade temporária de excepcional interesse público, os órgãos da Administração Federal direta, as autarquias e as fundações públicas poderão efetuar contratação de pessoal por tempo determinado, nas condições e prazos previstos nesta Lei.</p>

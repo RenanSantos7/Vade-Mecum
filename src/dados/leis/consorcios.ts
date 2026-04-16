@@ -1,20 +1,20 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const consorcos:ILei = {
+const consorcos:ILaw = {
 	id: 'consorcios',
-	titulo: 'Lei Geral dos Consórcios',
+	title: 'Lei Geral dos Consórcios',
 	alias: 'Lei Geral dos Consórcios',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
-		{ id: 'cdc', nome: 'Cód. Defesa do Consumidor' },
-		{ id: 'jecc', nome: 'Lei dos Juizados Especiais Cíveis' },
-		{ id: 'lprocel', nome: 'Lei do Processo Eletrônico' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
+		{ id: 'cdc', name: 'Cód. Defesa do Consumidor' },
+		{ id: 'jecc', name: 'Lei dos Juizados Especiais Cíveis' },
+		{ id: 'lprocel', name: 'Lei do Processo Eletrônico' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-	conteudo: `
+	content: `
         <p id="titulo">Lei Geral dos Consórcios</p>
 
         <p id="subtit">LEI Nº 11.795, DE 8 DE OUTUBRO DE 2008.</p>

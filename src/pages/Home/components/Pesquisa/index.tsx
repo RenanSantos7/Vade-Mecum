@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 
-import { ILei } from '../../../../types/index.tsx';
+import { ILaw } from '../../../../types/index.tsx';
 import styles from './styles.module.css';
-import LinkLei from '../../../../components/LinkLei.tsx';
+import LinkLaw from '../../../../components/LinkLaw.tsx';
 
 interface PesquisaProps {
 	termoPesquisa: string;
 	setTermoPesquisa: (arg: string) => void;
-	leis: ILei[];
+	leis: ILaw[];
 }
 
 export default function Pesquisa({
@@ -28,7 +28,7 @@ export default function Pesquisa({
 				leis.filter(
 					lei =>
 						lei.alias.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
-						lei.titulo.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
+						lei.title.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
 						// lei.ementa.toLowerCase().includes(termoPesquisa.toLowerCase()) ||
 						lei.id.includes(termoPesquisa.toLowerCase()),
 				),
@@ -54,13 +54,13 @@ export default function Pesquisa({
 
 			<div className={estResultados}>
 				{resultados.map(lei => (
-					<LinkLei
+					<LinkLaw
 						key={lei.id}
 						destino={`/leis/${lei.id}`}
 						className={styles.resultados__item}
 					>
 						{lei.alias}
-					</LinkLei>
+					</LinkLaw>
 				))}
 			</div>
 		</>

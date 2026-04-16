@@ -1,21 +1,21 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cc:ILei = {
+const cc:ILaw = {
 	id: 'cc',
-	titulo: 'Código Civil',
+	title: 'Código Civil',
 	alias: 'Código Civil',
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'lindb', nome: 'Lei de Introdução às Normas do Brasileiro' },
-		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
-		{ id: 'linqlt', nome: 'Lei do Inquilinato' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
-		{ id: 'epd', nome: 'Estatuto da Pessoa com Deficiência' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'lindb', name: 'Lei de Introdução às Normas do Brasileiro' },
+		{ id: 'cdc', name: 'Código de Defesa do Consumidor' },
+		{ id: 'linqlt', name: 'Lei do Inquilinato' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolescente' },
+		{ id: 'epd', name: 'Estatuto da Pessoa com Deficiência' },
 	],
-	conteudo: `
+	content: `
     <p id="ementa">Institui o Código Civil</p>
     
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>

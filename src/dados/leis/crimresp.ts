@@ -1,15 +1,15 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const crimresp:ILei = {
+const crimresp:ILaw = {
     id: "crimresp",
-    titulo: "Lei dos Crimes de Responsabilidade",
+    title: "Lei dos Crimes de Responsabilidade",
     alias: "Lei dos Crimes de Responsabilidade",
     /* linksRelacionados: [
         {id: "", nome: ""}
     ], */
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "constitucional",
-    conteudo: `
+    content: `
     <p id=subtit>LEI Nº. 1.079, DE 10 DE ABRIL DE 1950.</p>
 
     <p id=ementa>Define os crimes de responsabilidade e regula o respectivo processo

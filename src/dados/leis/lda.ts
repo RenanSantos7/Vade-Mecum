@@ -1,17 +1,17 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const lda:ILei = {
+const lda:ILaw = {
     id: "lda",
-    titulo: "Lei dos Direitos Autorais",
+    title: "Lei dos Direitos Autorais",
     alias: "Lei dos Direitos Autorais",
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "civil",
-    conteudo: `
+    content: `
         <p id="subtit">LEI Nº. 9.610, DE 19 DE FEVEREIRO DE 1998.</p>
 
         <p id="ementa">Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências.</p>

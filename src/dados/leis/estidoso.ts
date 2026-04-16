@@ -1,20 +1,20 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const estidoso:ILei = {
+const estidoso:ILaw = {
 	id: 'EstatutoIdodo',
-	titulo: 'Estatuto do Idoso',
+	title: 'Estatuto do Idoso',
 	alias: 'Estatuto do Idoso',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'CPC73', nome: 'Código de Processo Civil/73' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cdc', nome: 'Código de Defesa do Consumidor' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'CPC73', name: 'Código de Processo Civil/73' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cdc', name: 'Código de Defesa do Consumidor' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolescente' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'civil',
-	conteudo: `
+	content: `
         <p id="subtit">LEI Nº. 10.741, DE 1º DE OUTUBRO DE 2003.</p>
 
         <p id="ementa">Dispõe sobre o Estatuto do Idoso e dá outras providências</p>

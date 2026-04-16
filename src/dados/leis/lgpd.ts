@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lgpd:ILei = {
+const lgpd:ILaw = {
     id: 'lgpd',
-    titulo: 'Lei Geral de Proteção de Dados',
+    title: 'Lei Geral de Proteção de Dados',
     alias: 'Lei Geral de Proteção de Dados',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'digital',
-    linkDaLei: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm',
-    numLei: 'Lei nº. 13.709, de 14 de agosto de 2018',
-    ementa: 'Lei Geral de Proteção de Dados Pessoais (LGPD).',
-    conteudo: `
+    orgLink: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm',
+    lawNumber: 'Lei nº. 13.709, de 14 de agosto de 2018',
+    abstract: 'Lei Geral de Proteção de Dados Pessoais (LGPD).',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>CAPÍTULO I<br>

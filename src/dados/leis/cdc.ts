@@ -1,21 +1,21 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cdc:ILei = {
+const cdc:ILaw = {
 	id: 'cdc',
-	titulo: 'Código de Defesa do Consumidor',
+	title: 'Código de Defesa do Consumidor',
 	alias: 'Cód. Defesa do Consumidor',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil/15' },
-		{ id: 'jecc', nome: 'Lei dos Juizados Especiais Cíveis e Criminais' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil/15' },
+		{ id: 'jecc', name: 'Lei dos Juizados Especiais Cíveis e Criminais' },
 	],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'consumidor',
-    numLei: 'LEI Nº 8.078, DE 11 DE SETEMBRO DE 1990',
-    linkDaLei: 'http://www.planalto.gov.br/ccivil_03/leis/L8078compilado.htm',
-    ementa: 'Dispõe sobre a proteção do consumidor e dá outras providências.',
-	conteudo: `
+    lawNumber: 'LEI Nº 8.078, DE 11 DE SETEMBRO DE 1990',
+    orgLink: 'http://www.planalto.gov.br/ccivil_03/leis/L8078compilado.htm',
+    abstract: 'Dispõe sobre a proteção do consumidor e dá outras providências.',
+	content: `
         <p>O <b>PRESIDENTE DA REPÚBLICA</b>, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:</p>
         
         <h1>TÍTULO I<br>

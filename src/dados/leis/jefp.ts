@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const jefp:ILei = {
+const jefp:ILaw = {
 	id: 'jefp',
-	titulo: 'Lei dos Juizados Especiais da Fazenda Pública',
+	title: 'Lei dos Juizados Especiais da Fazenda Pública',
 	alias: 'Lei dos Juizados Especiais da Fazenda Pública',
-  linksRelacionados: [
-    {id: "cf", nome: "Constituição"},
-		{id: "cc", nome: "Código Civil"},
-		{id: "cpc", nome: "Novo Código de Processo Civil"},
-		{id: "jecc", nome: "Juizados Especiais Cíveis e Criminais"},
-		{id: "jef", nome: "Juizados Especiais Federais"},
+  relatedLinks: [
+    {id: "cf", name: "Constituição"},
+		{id: "cc", name: "Código Civil"},
+		{id: "cpc", name: "Novo Código de Processo Civil"},
+		{id: "jecc", name: "Juizados Especiais Cíveis e Criminais"},
+		{id: "jef", name: "Juizados Especiais Federais"},
   ],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'juizados',
-  conteudo: `
+  content: `
     <p id="subtit">LEI Nº 12.153, DE 22 DE DEZEMBRO DE 2009.</p>
 
     <p id="ementa">Dispõe sobre os Juizados Especiais da Fazenda Pública no âmbito dos Estados, do Distrito Federal, dos Territórios e dos Municípios</p>

@@ -1,19 +1,19 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lprocel:ILei = {
+const lprocel:ILaw = {
     id: 'lprocel',
-    titulo: 'Lei do Processo Eletrônico',
+    title: 'Lei do Processo Eletrônico',
     alias: 'Lei do Processo Eletrônico',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição Federal' },
-        {id: 'cpc', nome: 'Código de Processo Civil'}
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição Federal' },
+        {id: 'cpc', name: 'Código de Processo Civil'}
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'digital',
-    numLei: 'LEI Nº. 11.419, DE 19 DE DEZEMBRO DE 2006',
-    linkDaLei: '',
-    ementa: 'Dispõe sobre a informatização do processo judicial; altera a Lei nº. 5.869, de 11 de janeiro de 1973 – Código de Processo Civil; e dá outras providências.',
-    conteudo: `
+    lawNumber: 'LEI Nº. 11.419, DE 19 DE DEZEMBRO DE 2006',
+    orgLink: '',
+    abstract: 'Dispõe sobre a informatização do processo judicial; altera a Lei nº. 5.869, de 11 de janeiro de 1973 – Código de Processo Civil; e dá outras providências.',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>CAPÍTULO I<br />

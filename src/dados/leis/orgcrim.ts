@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const orgcrim:ILei = {
+const orgcrim:ILaw = {
     id: "orgcrim",
-    titulo: "Lei das Organizações Criminosas",
+    title: "Lei das Organizações Criminosas",
     alias: "Lei das Organizações Criminosas",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-        {id: "cpp", nome: "Código de Processo Penal"},
-        {id: "cpm", nome: "Código Penal Militar"},
-        {id: "cppm", nome: "Código de Processo Penal Militar"},
-        {id: "drogas", nome: "Lei de Drogas"},
-        {id: "crimhed", nome: "Lei dos Crimes Hediondos"},
-        {id: "crimtrib", nome: "Lei dos Crimes Tributários"},
-        {id: "eca", nome: "Estatuto da Criança e do Adolescente"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+        {id: "cpp", name: "Código de Processo Penal"},
+        {id: "cpm", name: "Código Penal Militar"},
+        {id: "cppm", name: "Código de Processo Penal Militar"},
+        {id: "drogas", name: "Lei de Drogas"},
+        {id: "crimhed", name: "Lei dos Crimes Hediondos"},
+        {id: "crimtrib", name: "Lei dos Crimes Tributários"},
+        {id: "eca", name: "Estatuto da Criança e do Adolescente"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id=subtit><a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm" target="_blank">LEI Nº. 12.850, DE 2 DE AGOSTO DE 2013.</a></p>
 
     <p id=ementa>Define organização criminosa e dispõe sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal; altera o Decreto-Lei nº. 2.848, de 7 de dezembro de 1940 (Código Penal); revoga a Lei nº. 9.034, de 3 de maio de 1995; e dá outras providências.</p>

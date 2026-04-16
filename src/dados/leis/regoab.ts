@@ -1,18 +1,18 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const regoab:ILei = {
+const regoab:ILaw = {
     id: "regoab",
-    titulo: "Regulamento do Estatuto da OAB",
+    title: "Regulamento do Estatuto da OAB",
     alias: "Regulamento do Estatuto da OAB",
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'eoab', nome: 'Estatuto da Advocacia e da  OAB' },
-		{ id: 'cetoab', nome: 'Código de Ética da Advocacia' },
-		{ id: 'cpc', nome: 'Novo Código de Processo Civil' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'eoab', name: 'Estatuto da Advocacia e da  OAB' },
+		{ id: 'cetoab', name: 'Código de Ética da Advocacia' },
+		{ id: 'cpc', name: 'Novo Código de Processo Civil' },
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "etica",
-    conteudo: `
+    content: `
     <p>Regulamento Geral do Estatuto da Advocacia e da OAB</p>
 
     <p>Dispõe sobre o Regulamento Geral previsto na Lei nº. 8.906, de 04 de julho de 1994.</p>

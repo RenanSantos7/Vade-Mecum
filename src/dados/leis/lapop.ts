@@ -1,13 +1,13 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const lapop:ILei = {
+const lapop:ILaw = {
 	id: 'LAPop',
-	titulo: 'Lei da Ação Popular',
+	title: 'Lei da Ação Popular',
 	alias: 'Lei da Ação Popular',
 	//linksRelacionados: [],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
   area: 'constitucional',
-  conteudo: `
+  content: `
     <p id="subtit">LEI Nº 4.717, DE 29 DE JUNHO DE 1965.</p>
 
     <p id="ementa">Regula a ação popular</p>

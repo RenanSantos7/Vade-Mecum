@@ -1,20 +1,20 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const licit:ILei = {
+const licit:ILaw = {
     id: "licit",
-    titulo: "Lei das Licitações e Contratos Administrativos",
+    title: "Lei das Licitações e Contratos Administrativos",
     alias: "Lei das Licitações e Contratos Administrativos",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição Federal"},
-		{id: "cpc", nome: "Novo Código de Processo Civil"},
-		{id: "lanticor", nome: "Lei Anti-corrupção"},
-		{id: "lprocadm", nome: "Lei do Processo Administrativo Federal"},
-		{id: "pregao", nome: "Lei do Pregão"},
-		{id: "l9494" , nome: "Tutela Antecipada contra a Fazenda Pública"}
+    relatedLinks: [
+        {id: "cf", name: "Constituição Federal"},
+		{id: "cpc", name: "Novo Código de Processo Civil"},
+		{id: "lanticor", name: "Lei Anti-corrupção"},
+		{id: "lprocadm", name: "Lei do Processo Administrativo Federal"},
+		{id: "pregao", name: "Lei do Pregão"},
+		{id: "l9494" , name: "Tutela Antecipada contra a Fazenda Pública"}
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "administrativo",
-    conteudo: `
+    content: `
     <p id=subtit><a href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm">Lei nº 14.133, de 1º de abril de 2021</a></p>
 
     <p id=ementa>Lei de Licitações e Contratos Administrativos.</p>

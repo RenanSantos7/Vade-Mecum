@@ -1,21 +1,21 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const falencia:ILei = {
+const falencia:ILaw = {
     id: 'falencia',
-    titulo: 'Lei de Falências',
+    title: 'Lei de Falências',
     alias: 'Lei de Falências',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'cpc', nome: 'Código Penal' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'cpc', name: 'Código Penal' },
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'empresarial',
-    numLei: 'LEI Nº. 11.101, DE 9 DE FEVEREIRO DE 2005',
-    linkDaLei: '',
-    ementa: 'Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária',
-    conteudo: `
+    lawNumber: 'LEI Nº. 11.101, DE 9 DE FEVEREIRO DE 2005',
+    orgLink: '',
+    abstract: 'Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária',
+    content: `
     <p>O <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>CAPÍTULO I<br>

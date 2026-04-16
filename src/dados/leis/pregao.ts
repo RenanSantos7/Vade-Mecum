@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const pregao:ILei = {
+const pregao:ILaw = {
     id: "pregao",
-    titulo: "Lei do Pregão",
+    title: "Lei do Pregão",
     alias: "Lei do Pregão",
-    linksRelacionados: [
-        {id:"cf", nome: "Constituição Federal"},
-		{id:"cpc", nome: "Novo Código de Processo Civil"},
-		{id:"lprocadm", nome: "Lei do Processo Administrativo Federal"},
-		{id:"licit", nome: "Lei das Licitações e Contratos Administrativos"},
-		{id:"l9494" , nome: "Tutela Antecipada contra a Fazenda Pública"},
+    relatedLinks: [
+        {id:"cf", name: "Constituição Federal"},
+		{id:"cpc", name: "Novo Código de Processo Civil"},
+		{id:"lprocadm", name: "Lei do Processo Administrativo Federal"},
+		{id:"licit", name: "Lei das Licitações e Contratos Administrativos"},
+		{id:"l9494" , name: "Tutela Antecipada contra a Fazenda Pública"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "administrativo",
-    conteudo: `
+    content: `
     <p id=subtit>LEI Nº 10.520, DE 17 DE JULHO DE 2002.</p>
 
     <p id=ementa>Institui, no âmbito da União, Estados, Distrito Federal e Municípios, nos termos do art. 37, inciso XXI, da Constituição Federal, modalidade de licitação denominada pregão, para aquisição de bens e serviços comuns, e dá outras providências.</p>

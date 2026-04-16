@@ -1,11 +1,11 @@
-import { ILei } from '../../../../types/index.tsx';
+import { ILaw } from '../../../../types/index.tsx';
 import ItemLei from './ItemLei/index.tsx';
 import styles from './styles.module.css';
 
 interface CardProps {
 	titulo: string;
 	id: string;
-	array: ILei[];
+	array: ILaw[];
 }
 
 export default function Card({ titulo, id, array }: CardProps) {

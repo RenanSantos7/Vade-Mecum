@@ -1,21 +1,21 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const alim:ILei = {
+const alim:ILaw = {
 	id: 'alim',
-	titulo: 'Lei de Alimentos',
+	title: 'Lei de Alimentos',
 	alias: 'Lei de Alimentos',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'eca', nome: 'Estatuto da Criança e do Adolescente' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'eca', name: 'Estatuto da Criança e do Adolescente' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
     area: 'civil',
-    numLei: 'LEI Nº 5.478, DE 25 DE JULHO DE 1968',
-    linkDaLei: "https://www.planalto.gov.br/ccivil_03/LEIS/L5478.htm",
-    ementa: 'Dispõe sobre ação de alimentos e dá outras providências.',
-	conteudo: `
+    lawNumber: 'LEI Nº 5.478, DE 25 DE JULHO DE 1968',
+    orgLink: "https://www.planalto.gov.br/ccivil_03/LEIS/L5478.htm",
+    abstract: 'Dispõe sobre ação de alimentos e dá outras providências.',
+	content: `
         <p><b>O PRESIDENTE DA REPÚBLICA. </b>Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
         
         <p><span class="artigo">Art. 1º.</span> A ação de alimentos é de rito especial, independente de prévia distribuição e de anterior concessão do benefício de gratuidade.</p>

@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const L8212:ILei = {
+const L8212:ILaw = {
 	id: "L8212",
-	titulo: "Lei Orgânica da Seguridade Social",
+	title: "Lei Orgânica da Seguridade Social",
 	alias: "Lei Orgânica da Seguridade Social",
-	linksRelacionados: [
-		{id:"cf", nome: "Constituição"},
-		{id:"cc", nome: "Código Civil"},
-		{id:"cpc73", nome: "Código de Processo Civil/73"},
-		{id:"cpc", nome: "Novo Código de Processo Civil"},
-		{id:"l8213", nome: "Lei Orgânica da Previdência Social"},
+	relatedLinks: [
+		{id:"cf", name: "Constituição"},
+		{id:"cc", name: "Código Civil"},
+		{id:"cpc73", name: "Código de Processo Civil/73"},
+		{id:"cpc", name: "Novo Código de Processo Civil"},
+		{id:"l8213", name: "Lei Orgânica da Previdência Social"},
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'previdenciario',
-	conteudo: `
+	content: `
 	<p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/L8212compilado.htm" target="_blank">LEI Nº. 8.212, DE 24 DE JULHO DE 1991.</a></p>
 
 	<p id="ementa">Dispõe sobre a organização da Seguridade Social, institui Plano de Custeio, e dá outras providências.</p>

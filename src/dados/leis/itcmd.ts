@@ -1,18 +1,18 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const itcmd:ILei = {
+const itcmd:ILaw = {
     id: 'itcmd',
-    titulo: 'Lei do ITCMD',
+    title: 'Lei do ITCMD',
     alias: 'Lei do ITCMD',
-    linksRelacionados: [
-        {id: '', nome: ''}
+    relatedLinks: [
+        {id: '', name: ''}
     ],
-    jurisdicao: 'estadual',
+    jurisdiction: 'estadual',
     area: 'tributario',
-    numLei: 'Lei nº 4.261 de 01/02/1989',
-    linkDaLei: '',
-    ementa: 'Disciplina o Imposto sobre Transmissão "Causa Mortis" e Doação de quaisquer Bens ou Direitos, previstos na alínea a, do inciso I, do artigo 155, da Constituição Federal.',
-    conteudo: `
+    lawNumber: 'Lei nº 4.261 de 01/02/1989',
+    orgLink: '',
+    abstract: 'Disciplina o Imposto sobre Transmissão "Causa Mortis" e Doação de quaisquer Bens ou Direitos, previstos na alínea a, do inciso I, do artigo 155, da Constituição Federal.',
+    content: `
     <p>O GOVERNADOR DO ESTADO DO PIAUÍ,</p>
 
     <p>FAÇO saber que o Poder Legislativo decreta e eu sanciono a seguinte Lei:</p>

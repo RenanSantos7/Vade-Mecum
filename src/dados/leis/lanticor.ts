@@ -1,23 +1,23 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lanticor: ILei = {
+const lanticor: ILaw = {
 	id: 'lanticor',
-	titulo: 'Lei Anti-Corrupção',
+	title: 'Lei Anti-Corrupção',
 	alias: 'Lei Anti-Corrupção',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição Federal' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'l8666', nome: 'Lei das Licitações e Contratos Administrativos' },
-		{ id: 'lprocadm', nome: 'Lei do Processo Administrativo Federal' },
-		{ id: 'pregao', nome: 'Lei do Pregão' },
-		{ id: 'l9494', nome: 'ntecipada contra a Fazenda Pública' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição Federal' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'l8666', name: 'Lei das Licitações e Contratos Administrativos' },
+		{ id: 'lprocadm', name: 'Lei do Processo Administrativo Federal' },
+		{ id: 'pregao', name: 'Lei do Pregão' },
+		{ id: 'l9494', name: 'ntecipada contra a Fazenda Pública' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'administrativo',
-	numLei: 'LEI Nº 12.846, DE 1º DE AGOSTO DE 2013.',
-	linkDaLei: 'http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm"',
-	ementa: 'Dispõe sobre a responsabilização administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, nacional ou estrangeira, e dá outras providências.',
-	conteudo: `
+	lawNumber: 'LEI Nº 12.846, DE 1º DE AGOSTO DE 2013.',
+	orgLink: 'http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm"',
+	abstract: 'Dispõe sobre a responsabilização administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, nacional ou estrangeira, e dá outras providências.',
+	content: `
     <p>A <strong>PRESIDENTE DA REPÚBLICA</strong> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>CAPÍTULO I<br>

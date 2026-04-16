@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const clt:ILei = {
+const clt:ILaw = {
 	id: 'clt',
-	titulo: 'Consolidação das Leis do Trabalho',
+	title: 'Consolidação das Leis do Trabalho',
 	alias: 'Cons. das Leis do Trabalho',
-	linksRelacionados: [
-		{ id: 'cf', nome: 'Constituição Federal' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
-		{ id: 'fgts', nome: 'Lei do FGTS' },
-		{ id: 'L9610', nome: 'Lei do Trabalho Temporário' },
+	relatedLinks: [
+		{ id: 'cf', name: 'Constituição Federal' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
+		{ id: 'fgts', name: 'Lei do FGTS' },
+		{ id: 'L9610', name: 'Lei do Trabalho Temporário' },
 		//{ link: 'http://www.tst.jus.br/sumulas', nome: 'Súmulas do TST' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
 	area: 'trabalho',
-	conteudo: `
+	content: `
         <p id="subtit"><a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452compilado.htm">DECRETO-LEI Nº 5.452, DE 1º. DE MAIO DE 1943</a></p>
 
         <p id="ementa">Aprova a Consolidação das Leis do Trabalho.</p>

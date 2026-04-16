@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cpp:ILei = {
+const cpp:ILaw = {
     id: "cpp",
-    titulo: "Código de Processo Penal",
+    title: "Código de Processo Penal",
     alias: "Código de Processo Penal",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-		{id: "cp", nome: "Código Penal"},
-		{id: "cpm", nome: "Código Penal Militar</"},
-		{id: "cppm", nome: "Código de Processo Penal Militar"},
-		{id: "drogas", nome: "Lei de Drogas"},
-		{id: "crimhed", nome: "Lei dos Crimes Hediondos"},
-		{id: "crimtrib", nome: "Lei dos Crimes Tributários"},
-		{id: "eca", nome: "Estatuto da Criança e do Adolescente"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+		{id: "cp", name: "Código Penal"},
+		{id: "cpm", name: "Código Penal Militar</"},
+		{id: "cppm", name: "Código de Processo Penal Militar"},
+		{id: "drogas", name: "Lei de Drogas"},
+		{id: "crimhed", name: "Lei dos Crimes Hediondos"},
+		{id: "crimtrib", name: "Lei dos Crimes Tributários"},
+		{id: "eca", name: "Estatuto da Criança e do Adolescente"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id="titulo">Código de Processo Penal</p>
 
     <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del3689Compilado.htm">DECRETO-LEI Nº 3.689, DE 3 DE OUTUBRO DE 1941.</a></p>

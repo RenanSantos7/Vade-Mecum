@@ -1,22 +1,22 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const estsppi:ILei = {
+const estsppi:ILaw = {
     id: 'estsppi',
-    titulo: 'Estatuto dos Servidores Públicos do Estado do Piauí',
+    title: 'Estatuto dos Servidores Públicos do Estado do Piauí',
     alias: 'Estatuto dos Servidores Públicos do Estado do Piauí',
-    linksRelacionados: [
-        {id: 'cf', nome: 'Constituição'},
-		{id: 'cepi', nome: 'Constituição Estadual'},
-		{id: 'cc', nome: 'Código Civil'},
-		{id: 'l8112', nome: 'Estatuto dos Servidores Públicos Federais'},
-		{id: 'l8745', nome: 'Lei dos Servidores Temporários'},
+    relatedLinks: [
+        {id: 'cf', name: 'Constituição'},
+		{id: 'cepi', name: 'Constituição Estadual'},
+		{id: 'cc', name: 'Código Civil'},
+		{id: 'l8112', name: 'Estatuto dos Servidores Públicos Federais'},
+		{id: 'l8745', name: 'Lei dos Servidores Temporários'},
     ],
-    jurisdicao: 'estadual',
+    jurisdiction: 'estadual',
     area: 'administrativo',
-    numLei: 'Lei Complementar nº 13 de 03/01/1994',
-    linkDaLei: '',
-    ementa: 'Dispõe sobre o Estatuto dos Servidores Públicos Civis do Estado do Piauí, das autarquias e das Fundações públicas estaduais e dá outras providências.',
-    conteudo: `
+    lawNumber: 'Lei Complementar nº 13 de 03/01/1994',
+    orgLink: '',
+    abstract: 'Dispõe sobre o Estatuto dos Servidores Públicos Civis do Estado do Piauí, das autarquias e das Fundações públicas estaduais e dá outras providências.',
+    content: `
     <p>O <b>Governador do Estado do Piauí</b>, Faço saber que o Poder Legislativo decreta e eu sanciono a seguinte Lei Complementar:</span></p>
 
     <h1>Título I </h1>

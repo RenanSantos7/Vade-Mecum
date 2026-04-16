@@ -1,18 +1,18 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const cpm:ILei = {
+const cpm:ILaw = {
     id: "cpm",
-    titulo: "Código Penal Militar",
+    title: "Código Penal Militar",
     alias: "Código Penal Militar",
-    linksRelacionados: [
-        { id: "cf", nome: "Constituição Federal" },
-        { id: 'cp', nome: 'Código Penal' },
-        { id: 'cpp', nome: 'Código de Processo Penal' },
-        { id: 'cppm', nome: 'Código de Procesos Penal Militar' },
+    relatedLinks: [
+        { id: "cf", name: "Constituição Federal" },
+        { id: 'cp', name: 'Código Penal' },
+        { id: 'cpp', name: 'Código de Processo Penal' },
+        { id: 'cppm', name: 'Código de Procesos Penal Militar' },
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id="titulo">Código Penal Militar</p>
 	
 	<p id="subtit"><a href="https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del1001Compilado.htm">DECRETO-LEI Nº 1.001, DE 21 DE OUTUBRO DE 1969.</a></p>

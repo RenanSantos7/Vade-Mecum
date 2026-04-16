@@ -1,22 +1,22 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const mariapenha:ILei = {
+const mariapenha:ILaw = {
     id: "mariapenha",
-    titulo: "Lei Maria da Penha",
+    title: "Lei Maria da Penha",
     alias: "Lei Maria da Penha",
-    linksRelacionados: [
-        {id: "cf", nome: "Constituição"},
-        {id: "cpp", nome: "Código de Processo Penal"},
-        {id: "cpm", nome: "Código Penal Militar"},
-        {id: "cppm", nome: "Código de Processo Penal Militar"},
-        {id: "drogas", nome: "Lei de Drogas"},
-        {id: "crimhed", nome: "Lei dos Crimes Hediondos"},
-        {id: "crimtrib", nome: "Lei dos Crimes Tributários"},
-        {id: "eca", nome: "Estatuto da Criança e do Adolescente"},
+    relatedLinks: [
+        {id: "cf", name: "Constituição"},
+        {id: "cpp", name: "Código de Processo Penal"},
+        {id: "cpm", name: "Código Penal Militar"},
+        {id: "cppm", name: "Código de Processo Penal Militar"},
+        {id: "drogas", name: "Lei de Drogas"},
+        {id: "crimhed", name: "Lei dos Crimes Hediondos"},
+        {id: "crimtrib", name: "Lei dos Crimes Tributários"},
+        {id: "eca", name: "Estatuto da Criança e do Adolescente"},
     ],
-    jurisdicao: "nacional",
+    jurisdiction: "nacional",
     area: "penal",
-    conteudo: `
+    content: `
     <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm" target="_blank">LEI Nº 11.340, DE 7 DE AGOSTO DE 200</a>6</p>
 
     <p id="ementa">Cria mecanismos para coibir a violência doméstica e familiar contra a mulher, nos termos do § 8º. do art. 226 da Constituição Federal, da Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres e da Convenção Interamericana para Prevenir, Punir e Erradicar a Violência contra a Mulher; dispõe sobre a criação dos Juizados de Violência Doméstica e Familiar contra a Mulher; altera o Código de Processo Penal, o Código Penal e a Lei de Execução Penal; e dá outras providências.</p>

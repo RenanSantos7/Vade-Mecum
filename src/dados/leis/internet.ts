@@ -1,20 +1,20 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const internet:ILei = {
+const internet:ILaw = {
     id: 'internet',
-    titulo: 'Marco Civil da Internet',
+    title: 'Marco Civil da Internet',
     alias: 'Marco Civil da Internet',
-    linksRelacionados: [
-        { id: 'cf', nome: 'Constituição' },
-		{ id: 'cc', nome: 'Código Civil' },
-		{ id: 'cpc', nome: 'Código de Processo Civil' },
+    relatedLinks: [
+        { id: 'cf', name: 'Constituição' },
+		{ id: 'cc', name: 'Código Civil' },
+		{ id: 'cpc', name: 'Código de Processo Civil' },
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'digital',
-    numLei: 'LEI Nº 12.965, DE 23 DE ABRIL DE 2014',
-    linkDaLei: '',
-    ementa: 'Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil',
-    conteudo: `
+    lawNumber: 'LEI Nº 12.965, DE 23 DE ABRIL DE 2014',
+    orgLink: '',
+    abstract: 'Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil',
+    content: `
     <p>A <b>PRESIDENTE DA REPÚBLICA</b> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
     <h1>CAPÍTULO I<br />

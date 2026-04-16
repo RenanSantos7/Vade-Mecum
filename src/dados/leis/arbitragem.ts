@@ -1,17 +1,17 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const arbitragem:ILei = {
+const arbitragem:ILaw = {
 	id: "arbitragem",
-	titulo: "Lei da Arbitragem",
+	title: "Lei da Arbitragem",
 	alias: "Lei da Arbitragem",
-	linksRelacionados: [
-		{id: "CF", nome: "Constituição"},
-		{id: "CPC", nome: "Código de Processo Civil"},
-		{id: "JECC", nome: "Lei dos Juizados Especiais Cíveis e Criminais"}
+	relatedLinks: [
+		{id: "CF", name: "Constituição"},
+		{id: "CPC", name: "Código de Processo Civil"},
+		{id: "JECC", name: "Lei dos Juizados Especiais Cíveis e Criminais"}
 	],
-	jurisdicao: "nacional",
+	jurisdiction: "nacional",
 	area: "civil",
-	conteudo: `
+	content: `
 		<p><a href="https://www.planalto.gov.br/ccivil_03/LEIS/L9307.htm">LEI Nº 9.307, DE 23 DE SETEMBRO DE 1996.</a></p>
 
 		<p id="ementa">Dispõe sobre a arbitragem.</p>

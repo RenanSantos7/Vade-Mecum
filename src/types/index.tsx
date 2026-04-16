@@ -1,17 +1,17 @@
-export interface ILinkRelacionado {
+export interface IRelatedLink {
     id: string,
-    nome: string
+    name: string
 }
 
-export interface ILei {
+export interface ILaw {
     id: string
-    titulo: string
+    title: string
     alias: string
-    linksRelacionados?: ILinkRelacionado[],
-    jurisdicao: 'nacional' | 'estadual',
+    relatedLinks?: IRelatedLink[],
+    jurisdiction: 'nacional' | 'estadual',
     area: '' | 'administrativo' | 'ambiental' | 'civil' | 'constitucional' | 'consumidor' | 'digital' | 'eleitoral' | 'empresarial' | 'etica' | 'juizados' | 'militar' | 'penal' | 'previdenciario' | 'trabalho' | 'tributario',
-    ementa?: string
-    numLei?: string
-    linkDaLei?: string
-    conteudo: string
+    abstract?: string
+    lawNumber?: string
+    orgLink?: string
+    content: string
 }

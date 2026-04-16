@@ -74,7 +74,7 @@ import internet from './leis/internet.ts'
 import ctb from './leis/ctb.ts'
 import l6766 from './leis/l6766.ts'
 
-const listaLeis = [
+export const listaLeis = [
     adin,
     alim,
     alpar,
@@ -151,5 +151,3 @@ const listaLeis = [
     sus,
     tea
 ]
-
-export default listaLeis

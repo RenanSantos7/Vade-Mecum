@@ -1,19 +1,19 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const adin:ILei = {
+const adin:ILaw = {
 	id: 'adin',
-	titulo: 'Lei da Ação Direta de Inconstitucionalidade',
+	title: 'Lei da Ação Direta de Inconstitucionalidade',
 	alias: 'Lei da ADIN',
-	linksRelacionados: [
-		{ nome: 'Constituição Federal', id: 'cf' },
-		{ nome: 'Código de Processo Civil', id: 'cpc' },
+	relatedLinks: [
+		{ name: 'Constituição Federal', id: 'cf' },
+		{ name: 'Código de Processo Civil', id: 'cpc' },
 	],
-	jurisdicao: 'nacional',
+	jurisdiction: 'nacional',
     area: 'constitucional',
-    numLei: 'LEI Nº 9.868, DE 10 DE NOVEMBRO DE 1999',
-    linkDaLei: '',
-    ementa: 'Dispõe sobre o processo e julgamento da ação direta de inconstitucionalidade e da ação declaratória de constitucionalidade perante o Supremo Tribunal Federal',
-	conteudo: `
+    lawNumber: 'LEI Nº 9.868, DE 10 DE NOVEMBRO DE 1999',
+    orgLink: '',
+    abstract: 'Dispõe sobre o processo e julgamento da ação direta de inconstitucionalidade e da ação declaratória de constitucionalidade perante o Supremo Tribunal Federal',
+	content: `
         <p>O <strong>PRESIDENTE DA REPÚBLICA</strong> Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:</p>
 
         <h2>CAPÍTULO I<br/>

@@ -1,21 +1,21 @@
-import { ILei } from '../../types/index.tsx'
+import { ILaw } from '../../types/index.tsx'
 
-const lc64:ILei = {
+const lc64:ILaw = {
     id: 'lc64',
-    titulo: 'Lei das Inelegibilidades',
+    title: 'Lei das Inelegibilidades',
     alias: 'Lei das Inelegibilidades',
-    linksRelacionados: [
-        {id: "cf", nome: 'Constituição'},
-		{id: "ce", nome: 'Código Eleitoral'},
-		{id: "lpart", nome: 'Lei dos Partidos Políticos'},
-		{id: "lelc", nome: 'Lei das Eleições'},
+    relatedLinks: [
+        {id: "cf", name: 'Constituição'},
+		{id: "ce", name: 'Código Eleitoral'},
+		{id: "lpart", name: 'Lei dos Partidos Políticos'},
+		{id: "lelc", name: 'Lei das Eleições'},
     ],
-    jurisdicao: 'nacional',
+    jurisdiction: 'nacional',
     area: 'eleitoral',
-    numLei: 'LEI COMPLEMENTAR Nº. 64, DE 18 DE MAIO DE 1990',
-    linkDaLei: '',
-    ementa: 'Estabelece, de acordo com o art. 14, § 9º. da Constituição Federal, casos de inelegibilidade, prazos de cessação, e determina outras providências.',
-    conteudo: `
+    lawNumber: 'LEI COMPLEMENTAR Nº. 64, DE 18 DE MAIO DE 1990',
+    orgLink: '',
+    abstract: 'Estabelece, de acordo com o art. 14, § 9º. da Constituição Federal, casos de inelegibilidade, prazos de cessação, e determina outras providências.',
+    content: `
     <p>O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:</p>
 	
     <p><span class="artigo">Art. 1º.</span>. São inelegíveis:</p>

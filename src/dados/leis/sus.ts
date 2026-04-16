@@ -1,13 +1,13 @@
-import { ILei } from "../../types/index.tsx"
+import { ILaw } from "../../types/index.tsx"
 
-const sus:ILei = {
+const sus:ILaw = {
 	id: 'sus',
-	titulo: 'Lei do Sistema Único de Saúde',
+	title: 'Lei do Sistema Único de Saúde',
 	alias: 'Lei do Sistema Único de Saúde',
-	linksRelacionados: [],
-	jurisdicao: 'nacional',
+	relatedLinks: [],
+	jurisdiction: 'nacional',
 	area: 'constitucional',
-  conteudo: `
+  content: `
     <p id="subtit"><a href="http://www.planalto.gov.br/ccivil_03/leis/L8080.htm">LEI Nº. 8.080, DE 19 DE SETEMBRO DE 1990.</a></p>
 
     <p id="ementa">Dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências.</p>

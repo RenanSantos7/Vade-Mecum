@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 
-import { ILei } from '../../types/index.tsx';
-import { useLeisContext } from '../../contexts/LeisContext.tsx';
+import { ILaw } from '../../types/index.tsx';
+import { useDataContext } from '../../contexts/dataContext.tsx';
 import Card from './components/Card/index.tsx';
 import Favoritos from './components/Favoritos/index.tsx';
 import Pesquisa from './components/Pesquisa/index.tsx';
@@ -9,7 +9,7 @@ import Rodape from './components/Rodape/index.tsx';
 import styles from './styles.module.css';
 
 export default function Home() {
-	const { leis } = useLeisContext();
+	const { laws: leis } = useDataContext();
 	const [termoPesquisa, setTermoPesquisa] = useState('');
 
 	const ramos = [
@@ -48,7 +48,7 @@ export default function Home() {
 				<section className={styles.corpo}>
 					{ramos.map(ramo => {
 						const leisDesseRamo = leis.filter(
-							(lei: ILei) => lei.area === ramo.id,
+							(lei: ILaw) => lei.area === ramo.id,
 						);
 						if (!!leisDesseRamo.length) {
 							return (
@@ -65,7 +65,7 @@ export default function Home() {
 					<Card
 						key={'piaui'}
 						id="piaui"
-						array={leis.filter((lei: ILei) => lei.jurisdicao === 'estadual')}
+						array={leis.filter((lei: ILaw) => lei.jurisdiction === 'estadual')}
 						titulo="Legistalação Estadual"
 					/>
 
@@ -74,8 +74,8 @@ export default function Home() {
 						id="outros"
 						titulo="Outros"
 						array={leis.filter(
-							(lei: ILei) =>
-								lei.jurisdicao !== 'estadual' &&
+							(lei: ILaw) =>
+								lei.jurisdiction !== 'estadual' &&
 								lei.area !== 'constitucional' &&
 								lei.area !== 'civil' &&
 								lei.area !== 'penal' &&
