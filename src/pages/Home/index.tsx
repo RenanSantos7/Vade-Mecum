@@ -1,22 +1,22 @@
-import { useContext, useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import { ILaw } from '../../types/index.tsx';
 import { useDataContext } from '../../contexts/dataContext.tsx';
 import Card from './components/Card/index.tsx';
-import Favoritos from './components/Favoritos/index.tsx';
-import Pesquisa from './components/Pesquisa/index.tsx';
-import Rodape from './components/Rodape/index.tsx';
+import Favorites from './components/Favorites/index.tsx';
+import Search from './components/Search/index.tsx';
+import Footer from './components/Footer/index.tsx';
 import styles from './styles.module.css';
 
 export default function Home() {
-	const { laws: leis } = useDataContext();
-	const [termoPesquisa, setTermoPesquisa] = useState('');
+	const { laws } = useDataContext();
+	const [searchQuery, setSearchQuery] = useState('');
 
-	const ramos = [
+	const branches = [
 		{ id: 'constitucional', titulo: 'Direito Constitucional' },
 		{ id: 'administrativo', titulo: 'Direito Administrativo' },
 		{ id: 'previdenciario', titulo: 'Direito Previdenciário' },
-		{ id: 'eleitoral', titulo: 'Direito Eleitoral' },
+		{ id: 'elawtoral', titulo: 'Direito Elawtoral' },
 		{ id: 'ambiental', titulo: 'Direito Ambiental' },
 		{ id: 'civil', titulo: 'Direito Civil' },
 		{ id: 'penal', titulo: 'Direito Penal' },
@@ -32,31 +32,31 @@ export default function Home() {
 
 	return (
 		<div className={styles.home}>
-			<header className={styles.cabecalho}>
+			<header className={styles.header}>
 				<h1>Vade Mecum</h1>
 			</header>
 
 			<main>
-				<Favoritos />
+				<Favorites />
 
-				<Pesquisa
-					termoPesquisa={termoPesquisa}
-					setTermoPesquisa={setTermoPesquisa}
-					leis={leis}
+				<Search
+					searchQuery={searchQuery}
+					setSearchQuery={setSearchQuery}
+					laws={laws}
 				/>
 
-				<section className={styles.corpo}>
-					{ramos.map(ramo => {
-						const leisDesseRamo = leis.filter(
-							(lei: ILaw) => lei.area === ramo.id,
+				<section className={styles.body}>
+					{branches.map(branch => {
+						const thisBranchLaws = laws.filter(
+							(law: ILaw) => law.area === branch.id,
 						);
-						if (!!leisDesseRamo.length) {
+						if (!!thisBranchLaws.length) {
 							return (
 								<Card
-									key={ramo.id}
-									id={ramo.id}
-									titulo={ramo.titulo}
-									array={leisDesseRamo}
+									key={branch.id}
+									id={branch.id}
+									title={branch.titulo}
+									array={thisBranchLaws}
 								/>
 							);
 						}
@@ -65,37 +65,37 @@ export default function Home() {
 					<Card
 						key={'piaui'}
 						id="piaui"
-						array={leis.filter((lei: ILaw) => lei.jurisdiction === 'estadual')}
-						titulo="Legistalação Estadual"
+						array={laws.filter((law: ILaw) => law.jurisdiction === 'estadual')}
+						title="Legistalação Estadual"
 					/>
 
 					<Card
 						key={'outros'}
 						id="outros"
-						titulo="Outros"
-						array={leis.filter(
-							(lei: ILaw) =>
-								lei.jurisdiction !== 'estadual' &&
-								lei.area !== 'constitucional' &&
-								lei.area !== 'civil' &&
-								lei.area !== 'penal' &&
-								lei.area !== 'empresarial' &&
-								lei.area !== 'digital' &&
-								lei.area !== 'administrativo' &&
-								lei.area !== 'trabalho' &&
-								lei.area !== 'previdenciario' &&
-								lei.area !== 'tributario' &&
-								lei.area !== 'etica' &&
-								lei.area !== 'eleitoral' &&
-								lei.area !== 'consumidor' &&
-								lei.area !== 'juizados' &&
-								lei.area !== 'ambiental',
+						title="Outros"
+						array={laws.filter(
+							(law: ILaw) =>
+								law.jurisdiction !== 'estadual' &&
+								law.area !== 'constitucional' &&
+								law.area !== 'civil' &&
+								law.area !== 'penal' &&
+								law.area !== 'empresarial' &&
+								law.area !== 'digital' &&
+								law.area !== 'administrativo' &&
+								law.area !== 'trabalho' &&
+								law.area !== 'previdenciario' &&
+								law.area !== 'tributario' &&
+								law.area !== 'etica' &&
+								law.area !== 'eleitoral' &&
+								law.area !== 'consumidor' &&
+								law.area !== 'juizados' &&
+								law.area !== 'ambiental',
 						)}
 					/>
 				</section>
 			</main>
 
-			<Rodape />
+			<Footer />
 		</div>
 	);
 }

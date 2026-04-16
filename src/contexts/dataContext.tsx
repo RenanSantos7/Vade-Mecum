@@ -7,7 +7,7 @@ import {
 	useEffect,
 	useState,
 } from 'react';
-import { listaLeis } from '../dados/index.tsx';
+import { lawList } from '../dados/index.tsx';
 import { ILaw } from '../types/index.tsx';
 
 interface IDataContext {
@@ -30,15 +30,15 @@ export const DataProvider = ({ children }: { children: ReactNode }) => {
 	const [searchMenuOpen, setSearchMenuOpen] = useState(false);
 
 	useEffect(() => {
-		const favoritosLocalSt = localStorage.getItem('favoritos');
-		const favoritosParse = JSON.parse(favoritosLocalSt);
-		if (favoritosLocalSt) setFavoritos(favoritosParse);
+		const favoritesLocalSt = localStorage.getItem('favoritos');
+		const favoritesParse = JSON.parse(favoritesLocalSt);
+		if (favoritesLocalSt) setFavoritos(favoritesParse);
 	}, []);
 
 	return (
 		<DataContext.Provider
 			value={{
-				laws: listaLeis as ILaw[],
+				laws: lawList as ILaw[],
 				favorites: favoritos,
 				setFavorites: setFavoritos,
 				menuOpen,

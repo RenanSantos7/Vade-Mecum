@@ -1,26 +1,27 @@
 import { ILaw } from '../../../../types/index.tsx';
-import ItemLei from './ItemLei/index.tsx';
+import ItemLaw from './ItemLei/index.tsx';
 import styles from './styles.module.css';
 
 interface CardProps {
-	titulo: string;
 	id: string;
+	title: string;
 	array: ILaw[];
 }
 
-export default function Card({ titulo, id, array }: CardProps) {
-	const arrayOrganizado = array.sort((a, b) => {
+export default function Card({ title, id, array }: CardProps) {
+	const sortedArray = array.sort((a, b) => {
 		return a.alias < b.alias ? -1 : a.alias > b.alias ? 1 : 0;
 	});
 
 	return (
 		<article className={styles.card} id={id}>
-			<h3 className={styles.titulo}>{titulo}</h3>
+			<h3 className={styles.title}>{title}</h3>
 			<ul>
-				{array.map(lei => (
-					<ItemLei key={lei.id} lei={lei} />
+				{sortedArray.map(lei => (
+					<ItemLaw key={lei.id} law={lei} />
 				))}
 			</ul>
 		</article>
 	);
 }
+

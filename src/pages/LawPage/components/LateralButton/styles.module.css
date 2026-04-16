@@ -1,0 +1,8 @@
+.btLateral {
+	font-size: 2.5rem;
+	color: var(--gray);
+}
+
+@media (width >= 700px) {
+	.btLateral {font-size: 3rem;}
+}

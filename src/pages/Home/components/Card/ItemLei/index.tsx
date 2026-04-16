@@ -1,44 +1,39 @@
-import { useContext } from 'react';
-
 import { ILaw } from '../../../../../types/index.tsx';
 import { useDataContext } from '../../../../../contexts/dataContext.tsx';
-import IndicadorFavorito from '../../IndicadorFavorito/index.tsx';
-import styles from './styles.module.css';
+import IndicadorFavorito from '../../FavIndicator/index.tsx';
 import LinkLaw from '../../../../../components/LinkLaw.tsx';
+import styles from './styles.module.css';
 
 interface ItemLeiProps {
-	lei: ILaw;
+	law: ILaw;
 }
 
-export default function ItemLei({ lei }: ItemLeiProps) {
-	const { favorites: favoritos, setFavorites: setFavoritos } = useDataContext();
+export default function ItemLaw({ law: law }: ItemLeiProps) {
+	const { favorites, setFavorites } = useDataContext();
 
-	function aoClicarFavorito() {
-		if (favoritos.includes(lei)) {
-			const favoritosSem = favoritos.filter((item: ILaw) => item.id !== lei.id);
-
-			setFavoritos(favoritosSem);
+	function onClickFavorite() {
+		if (favorites.includes(law)) {
+			const filteredFav = favorites.filter((item: ILaw) => item.id !== law.id);
+			setFavorites(filteredFav);
 			console.log('favorito removido');
 		} else {
-			setFavoritos((prev: any) => [...prev, lei]);
+			setFavorites((prev: any) => [...prev, law]);
 			console.log('favorito adicionado');
 		}
-
-		const favoritosJSON = JSON.stringify(favoritos);
-		localStorage.setItem('favoritos', favoritosJSON);
+		const favoritesJSON = JSON.stringify(favorites);
+		localStorage.setItem('favoritos', favoritesJSON);
 	}
 
 	return (
 		<li className={styles.item}>
 			<button
 				type="button"
-				className={styles.btFavorito}
-				onClick={aoClicarFavorito}
+				className={styles.btnFavorite}
+				onClick={onClickFavorite}
 			>
-                {/* {favoritos.includes(lei) ? <StarFill /> : <StartOutlined />} */}
-                <IndicadorFavorito ehFavorito={favoritos.includes(lei)} />
+                <IndicadorFavorito isFavorite={favorites.includes(law)} />
 			</button>
-			<LinkLaw destino={lei.id}>{lei.title}</LinkLaw>
+			<LinkLaw destino={law.id}>{law.title}</LinkLaw>
 		</li>
 	);
 }

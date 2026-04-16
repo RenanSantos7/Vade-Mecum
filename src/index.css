@@ -2,62 +2,62 @@
 
 :root{
 	/* cores */
-	--fundo1: #f2f2f2;
-	--fundo2: white;
-	--fundo3: #f6f6f6;
-	--fundo3t: #f6f6f6cc;
+	--bg1: #f2f2f2;
+	--bg2: white;
+	--bg3: #f6f6f6;
+	--bg3t: #f6f6f6cc;
 	--input: #ffffff35;
-	--azul1: #0063B1;
-	--azul2: #EDF7FF;
-	--laranja: #F7630C;
-	--cinza: #777;
-	--cinza1: #eee;
-	--cinza2: #aaa;
-	--texto: inherit;
+	--primary1: #0063B1;
+	--primary2: #EDF7FF;
+	--secondary	: #F7630C;
+	--gray: #777;
+	--gray1: #eee;
+	--gray2: #aaa;
+	--text: inherit;
 	--shadow: rgba(0, 0, 0, 0.15);
 
 	/* medidas */
 	--indent: 1.2rem;
 	--gap: 10px;
-	--botao-left: 25px;
+	--btn-left: 25px;
 	--menu-width: min(100vw, 490px);
 	--home-width: min(90vw, 1000px);
 
 	/* fontes */
-	--fonte: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--text-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media screen and (prefers-color-scheme: dark) {
 	:root{
-		--fundo1: #252525;
-		--fundo2: #474749;
-		--fundo3: #38383d;
-		--fundo3t: #38383dcc;
+		--bg1: #252525;
+		--bg2: #474749;
+		--bg3: #38383d;
+		--bg3t: #38383dcc;
 		--input: #10101035;
-		--azul1: #2F99EC;
-		--azul2: #2F353A;
-		--laranja: #FF9759;
-		--cinza: #aaa;
-		--cinza1: #575757;
-		--cinza2: #424242;
-		--texto: #e6e6e6;
+		--primary1: #2F99EC;
+		--primary2: #2F353A;
+		--secondary: #FF9759;
+		--gray: #aaa;
+		--gray1: #575757;
+		--gray2: #424242;
+		--text: #e6e6e6;
 		--shadow: rgba(47, 47, 47, 0.65);
 	}
 }
 
 body {
-    font-family: var(--fonte);
-    background: var(--fundo1);
+    font-family: var(--text-font);
+    background: var(--bg1);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: var(--texto);
+	color: var(--text);
 }
 
 del {
 	font-style: italic;
 	display: none;
-    color: var(--cinza);
+    color: var(--gray);
 }
 
 button {
@@ -67,13 +67,13 @@ button {
 /* pc */
 @media only screen and (width >= 1200px) {
 	:root {
-		--botao-left: min(4vw, 120px);
+		--btn-left: min(4vw, 120px);
 	}
 }
 
 /* tablet */
 @media (width >= 700px) {
 	:root {
-		--botao-left: 1vw;
+		--btn-left: 1vw;
 	}
 }

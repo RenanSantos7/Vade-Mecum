@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Base from "./pages/Base.tsx";
 import Home from "./pages/Home/index.tsx";
-import PageLei from "./pages/Lei/index.tsx";
+import LawPage from "./pages/LawPage/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
       },
       {
           path: "/leis/:leiID",
-          element: <PageLei />
+          element: <LawPage />
       }
     ]
   }

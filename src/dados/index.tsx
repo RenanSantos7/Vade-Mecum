@@ -74,7 +74,7 @@ import internet from './leis/internet.ts'
 import ctb from './leis/ctb.ts'
 import l6766 from './leis/l6766.ts'
 
-export const listaLeis = [
+export const lawList = [
     adin,
     alim,
     alpar,
