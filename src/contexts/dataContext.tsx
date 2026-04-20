@@ -7,7 +7,7 @@ import {
 	useEffect,
 	useState,
 } from 'react';
-import { lawList } from '../dados/index.tsx';
+import { lawList } from '../data/index.tsx';
 import { ILaw } from '../types/index.tsx';
 
 interface IDataContext {
